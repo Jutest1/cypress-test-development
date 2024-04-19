@@ -1,0 +1,34 @@
+
+{
+    "CONTAINERS": {
+      "BOQ_STRUCTURE": {
+        "QUANTITY": ["50.000","40.000","30.000"],
+        "UNIT_RATE": ["20","30","40"],
+        "UOM": ["Days"],
+        "AGN": "100",
+        "DEFAULT_VALUE":"0.00",
+        "ITEM_TYPE_BASE": [
+        "Base","Base postponed","Alternative","Alternative awarded"
+         ],
+        "AAN": [
+        "0.00","2","4"
+        ]
+      }
+  },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "basitemtype2fk":"Item Type Base/Alt",
+            "aan":"AAN",
+            "agn":"AGN",
+            "itemtotal":"Item Total (EUR)"
+        }
+    }
+}

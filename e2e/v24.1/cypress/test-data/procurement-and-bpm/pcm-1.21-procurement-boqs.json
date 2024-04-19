@@ -1,0 +1,54 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "BOQ_STR_QUANTITY": "500.000",
+            "UOM": "10M3",
+            "UNIT_RATE": "20"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "PACKAGE": {
+            "QUANTITY": "200",
+            "UNIT_RATE": "100",
+            "UOM": "BAGS"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "REQUISITION": {
+            "STRUCTURE_CODE": "D",
+            "CONFIGURATION": "Service REQ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PACKAGE": {
+            "valuenet": "Net Total",
+            "description": "Description"
+        },
+        "PROCUREMENT_BOQ": {
+            "briefinfo": "Outline Specification",
+            "reference": "Reference No."
+        },
+        "PACKAGE_BOQ": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "price": "Unit Rate (EUR)",
+            "finalprice": "Final Price (EUR)"
+        },
+        "REQUISITION_STRUCTURE": {
+            "description": "Requisition Name",
+            "projectfk": "Project No.",
+            "clerkprcfk": "Responsible",
+            "controllingunitfk": "Controlling Unit Code"
+        },
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "configuration": "Configuration"
+        }
+    }
+}

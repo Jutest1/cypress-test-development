@@ -1,0 +1,26 @@
+{
+    "CONTAINERS": {
+        "PROCUREMENT_CONFIG_HEADER": {
+            "PRCTYPE_SERVICE":"Service",
+            "PRCTYPE_MATERIAL":"Material"            
+        }    
+    },
+
+    "CONTAINER_COLUMNS": {
+        "PROCUREMENTSTRUCTURE":{
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "costcodefk":"Cost Code"
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description",
+            "structurefk":"Procurement structure",
+            "configurationfk":"Configuration",
+            "mdccontrollingunitfk":"Controlling Units"
+        }
+    }
+
+}

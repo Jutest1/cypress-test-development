@@ -1,0 +1,70 @@
+{
+    "CONTAINERS": {
+        "MATERIAL_CATALOG": {
+            "FRAMEWORK_AGREEMENTS": "framework agreements",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "MATERIAL_GROUP": {
+            "STRUCTURE": [
+                "M"
+            ]
+        },
+        "MATERIAL_RECORD": {
+            "LIST_PRICE": [
+                "140"
+            ],
+            "RETAILPRICE": [
+                "140"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "REQUISITION": {
+            "STRUCTURE": [
+                "D"
+            ],
+            "CONFIGURATION": [
+                "Material Req"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "conheaderfk": "Contract",
+            "materialcatalogtypefk": "Type"
+        },
+        "MATERIAL_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "MATERIAL_RECORD": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "descriptioninfo2": "Further Description",
+            "mdctaxcodefk": "Tax Code",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "discount": "Discount %",
+            "basuompriceunitfk": "Price Unit UoM",
+            "priceextra": "Price Extras",
+            "estimateprice": "Estimate Price",
+            "charges": "Charges"
+        },
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "ITEMS": {
+            "basuomfk": "UoM",
+            "quantity": "Quantity",
+            "price": "Price",
+            "mdcmaterialfk": "Material No.",
+            "itemno": "Item Number"
+        }
+    }
+}

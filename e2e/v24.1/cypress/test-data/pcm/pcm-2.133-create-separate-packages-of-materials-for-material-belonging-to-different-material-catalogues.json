@@ -1,0 +1,78 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "20"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "MG3FM",
+            "QUANTITY": ["10.000","20.000"],
+            "MATERIAL_COST_CODE":"Material & Cost Code"         
+        },
+        "MATERIAL_CATALOG":{
+            "BP":"Adolf Koch"
+        },
+        "MATERIAL_GROUP":{
+            "STRUCTURE":"M"
+        },
+        "MATERIAL":{
+            "UOM":["BAG","M"],
+            "PRICE":["140","10"],
+            "LIST_PRICE":["140","20"]
+           
+        }
+        
+    },    
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "budget":"Budget"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity",
+            "co2project":"CO2/kg (Project)"
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        },        
+        "MATERIAL_CATALOG":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "conheaderfk":"Contract",
+            "materialcatalogtypefk":"Type"
+        },
+        "MATERIAL_GROUP":{
+            "code":"Code",
+            "descriptioninfo":"Description"
+        },
+        "MATERIAL":{
+            "code":"Code",            
+            "descriptioninfo1":"Description",
+            "descriptioninfo2":"Further Description",
+            "mdctaxcodefk":"Tax Code",
+            "uomfk":"UoM",
+            "retailprice":"Retail Price",
+            "listprice":"List Price"
+        }
+       
+    } 
+    
+}

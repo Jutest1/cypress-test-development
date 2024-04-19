@@ -1,0 +1,175 @@
+{
+    "CONTAINERS": {
+        "VARIANT": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "CURRENCY": {
+            "HOME_CURRENCY": "EUR",
+            "CURRENCY": "USD",
+            "RATE": "1.245"
+        },
+        "REQUISITION": {
+            "CONFIGURATION": "Material Req",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "REQUISITION_ITEMS": {
+            "MATERIAL_NO": [
+                "DÜB06PVC",
+                "DÜB08PVC"
+            ],
+            "QUANTITY": [
+                "120",
+                "125"
+            ],
+            "PRICE": [
+                "30",
+                "35"
+            ],
+            "TOTAL": "Total"
+        },
+        "CATALOG": {
+            "BUSINESS_PARTNER": "Anton Waliser",
+            "PAYMENT_TERM_FI": "BGB5J",
+            "PAYMENT_TERM_AD": "NET07",
+            "MATERIAL_TYPE": "Neutral Material",
+            "STRUCTURE_CODE": "M"
+        },
+        "MATERIAL_RECORD": {
+            "UOM": "BAGS",
+            "RETAIL_PRICE": "20",
+            "LIST_PRICE": "30",
+            "CURRENCY": "USD"
+        },
+        "PRICE_CONDITION": {
+            "VALUE": "80",
+            "TYPE": "Surcharge"
+        },
+        "SCOPE_OF_SUPPLY": {
+            "STRUCTURE": "M",
+            "TYPE": "Included",
+            "PRICE": "40",
+            "QUANTITY": "12",
+            "PRICE_UNIT": "2"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "%",
+            "QUANTITY": "13"
+        },
+        "PROJECT_STOCK_MATERIALS": {
+            "QUANTITY": "1",
+            "PROVISION_PERCENT": "10"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "businesspartnerfk": "Business Partner",
+            "code": "Code",
+            "projectfk":"Project No."
+        },
+        "REQUISITION_ITEMS": {
+            "basuomfk": "UoM",
+            "quantity": "Quantity",
+            "price": "Price",
+            "mdcmaterialfk": "Material No.",
+            "itemno": "Item Number",
+            "prcstructurefk": "Structure",
+            "total": "Total",
+            "description1": "Description 1",
+            "aan": "AAN",
+            "agn": "AGN",
+            "basitemtypefk": "Item Type",
+            "basitemtype2fk": "Item Type2",
+            "hastext": "Has Text",
+            "hasdeliveryschedule": "Has Delivery Schedule",
+            "hasscope": "Has Scope",
+            "priceextra": "Extras",
+            "prjstockfk": "Stock",
+            "mdccontrollingunitfk": "Controlling Unit Code"
+        },
+        "REQUISITION_TOTALS": {
+            "valuenet": "Net Value",
+            "valuetax": "VAT",
+            "gross": "Gross"
+        },
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "validfrom": "Valid From",
+            "validto": "Valid To",
+            "materialcatalogtypefk": "Type",
+            "paymenttermfifk": "Payment Term (FI)",
+            "paymenttermadfk": "Payment Term (AD)"
+        },
+        "MATERIAL_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_GROUP_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_RECORD": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code",
+            "bascurrencyfk": "Currency"
+        },
+        "PRICE_CONDITION": {
+            "value": "Value",
+            "prcpriceconditiontypefk": "Type",
+            "conditionTotal": "Total"
+        },
+        "VARIANT": {
+            "matscope": "Material Scope",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner"
+        },
+        "SCOPE_OF_SUPPLY": {
+            "scopeofsupplytypefk": "Scope Of Supply Type",
+            "prcstructurefk": "Structure",
+            "price": "Price",
+            "priceunit": "Price Unit",
+            "quantity": "Quantity",
+            "total": "Total"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isstockmanagement": "Stock Management"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "isstockexcluded": "Is Stock Excluded"
+        },
+        "STOCK_LOCATIONS": {
+            "code": "Code",
+            "description": "Description",
+            "controllingunitfk": "Controlling Unit"
+        },
+        "STORAGE_LOCATIONS": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "PROJECT_STOCK_MATERIALS": {
+            "materialfk": "Material",
+            "stocklocationfk": "Storage Location",
+            "minquantity": "Min Quantity",
+            "provisionpercent": "Provision Percent"
+        }
+    }
+}

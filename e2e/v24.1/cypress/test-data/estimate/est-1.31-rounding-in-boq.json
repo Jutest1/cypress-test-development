@@ -1,0 +1,97 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": ["100", "102.66667","101.6666","100.6666"],
+            "UNIT_RATE": ["25","27.6666","26.6666","25.6666"],
+            "UOM": "CM3"
+        },
+        "DATA_TYPE": {
+            "TYPE": "BoQ Rounding Configuration Type"
+        },
+        "DATA_RECORD": {
+            "LINE_ITEM_CONTEXT": "RIB_DEMO_Kalk"
+        }
+    },
+    "MODAL": {
+        "ROUNDING_CONFIGURATION": {
+            "WITH_ROUNDING": [
+                {
+                    "ColumnID": "Quantity",
+                    "UIDisplayTo": "4",
+                    "WithoutRounding": "yes",
+                    "RoundTo": "2"
+                },
+                {
+                    "ColumnID": "Unit Rate",
+                    "UIDisplayTo": "4",
+                    "WithoutRounding": "yes",
+                    "RoundTo": "2"
+                },
+                {
+                    "ColumnID": "Amounts",
+                    "UIDisplayTo": "4",
+                    "WithoutRounding": "yes",
+                    "RoundTo": "2"
+                }
+            ],
+            "WITHOUT_ROUNDING": [
+                {
+                    "ColumnID": "Quantity",
+                    "UIDisplayTo": "4",
+                    "WithoutRounding": "no",
+                    "RoundTo": "2"
+                },
+                {
+                    "ColumnID": "Unit Rate",
+                    "UIDisplayTo": "4",
+                    "WithoutRounding": "no",
+                    "RoundTo": "2"
+                },
+                {
+                    "ColumnID": "Amounts",
+                    "UIDisplayTo": "4",
+                    "WithoutRounding": "no",
+                    "RoundTo": "2"
+                }
+            ],
+            "ROUNDING": [
+                {
+                    "ColumnID": "Quantity",
+                    "UIDisplayTo": "5",
+                    "WithoutRounding": "no",
+                    "RoundTo": "3"
+                },
+                {
+                    "ColumnID": "Unit Rate",
+                    "UIDisplayTo": "4",
+                    "WithoutRounding": "no",
+                    "RoundTo": "2"
+                },
+                {
+                    "ColumnID": "Amounts",
+                    "UIDisplayTo": "6",
+                    "WithoutRounding": "no",
+                    "RoundTo": "3"
+                }
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "DATA_TYPE": {
+            "name": "Data Type",
+            "type": "Type",
+            "modulename": "Module",
+            "dbtablename": "DB Table Name"
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "MG3FM"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "1",
+            "UOM": "10M3"
+        },
+        "ESTIMATETOTALS": {
+            "DESCRIPTION_1": "Direkte Kosten (EKT)",
+            "DESCRIPTION_2": "Herstellkosten (HK)",
+            "DESCRIPTION_3": "Angebotssumme",
+            "TOTAL_TYPE": "T10"
+        },
+        "ITEMS": {
+            "QUANTITY": "40",
+            "PRICE": "12"
+        },
+        "CURRENCY_CONVERSION": {
+            "HOME_CURRENCY": "EUR",
+            "CURRENCY": "USD",
+            "RATE": "1.245"
+        },
+        "PROCUREMENTCONTRACT": {
+            "BUISNESS_PARTNER": "Adolf Koch",
+            "businessPartner": "Adolf Koch",
+            "itemNumber": "10",
+            "VAT_GROUP": "DL"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "CRITERIA_SELECTION": "Material & Cost Code",
+            "configurationInput": "Material",
+            "QUANTITY": "40",
+            "PRICE": "12"
+        },
+        "GENERATE_BUDGET": {
+            "SCOPE": "Selected Line Item",
+            "COST_TOTAL": "Cost Total",
+            "XFACTOR": "1",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 3
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_RECORDS": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "budget": "Budget"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "ITEM_GRID": {
+            "itemno": "Item Number",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Price",
+            "total": "Total"
+        },
+        "ESTIMATETOTALS": {
+            "aqbudget": "Budget(AQ)",
+            "quantity": "Quantity",
+            "total": "Total",
+            "description": "Description"
+        },
+        "CONTRACT_TOTALS": {
+            "valuenet": "Net Value",
+            "totaltypefk": "Type"
+        },
+        "CURRENCY_CONVERSION": {
+            "currencyforeignfk": "Foreign Currency",
+            "currencyforeignfkdescription": "Foreign Currency-Description"
+        },
+        "PROCUREMENTCONTRACT": {
+            "constatusfk": "Contract Status",
+            "code": "Code",
+            "bascurrencyfk": "Currency",
+            "exchangerate": "Rate",
+            "bpdvatgroupfk": "VAT Group",
+            "vat": "VAT"
+        }
+    }
+}

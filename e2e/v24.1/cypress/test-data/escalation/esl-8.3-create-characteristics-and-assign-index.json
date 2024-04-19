@@ -1,0 +1,49 @@
+{
+    "CONTAINERS": {
+        "INDEX_DETAIL": {
+            "DATE1": ["01/02/2024","01/03/2024","01/04/2024"],
+            "VALUE1": ["1.2","1.4","1.6"],
+            "DATE2": ["01/02/2024","01/03/2024","01/04/2024"],
+            "VALUE2": ["1.1","1.2","1.3"]
+        },
+        "CHARACTERISTICS":{
+            "TYPE":"Percent",
+            "CEMENT_PERCENT":"70",
+            "SAND_PERCENT":"30"
+        },
+        "CHARACTERISTICS_SECTIONS": {
+            "Cost Codes": "check",
+            "Estimate Characteristics": "check",
+            "Estimate Resources": "check"
+        },
+        "COMPANY":{
+            "CODE": "1000005"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "INDEX_HEADER": {
+            "descriptioninfo": "Description",
+            "code": "Code"
+        },
+        "INDEX_DETAIL": {
+            "date": "Date",
+            "quantity": "Value"
+        },
+        "CHARACTERISTICS_GROUP": {
+            "descriptioninfo": "Description"
+        },
+        "CHARACTERISTICS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "characteristictypefk": "Type",
+            "indexheaderfk": "IndexHeader",
+            "indexheaderfkcode": "IndexHeader-Code"
+        },
+        "CHARACTERISTICS_SECTIONS": {
+            "descriptioninfo": "Description",
+            "checked": "Checked"
+        }
+    }
+
+
+}

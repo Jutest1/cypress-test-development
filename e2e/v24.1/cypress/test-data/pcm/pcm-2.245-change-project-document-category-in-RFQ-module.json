@@ -1,0 +1,31 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "PROJECT_DOCUMENT_STATUS": "Project Document Status",
+            "PROJECT_DOCUMENT_CATEGORY": "Project Document Category",
+            "PROJECT_DOCUMENT_CATEGORY_DOCUMENT_TYPE": "Project Document Category 2 Document Type"
+        },
+        "DATA_RECORDS": {
+            "RUBRIC_CATEGORY": "Correspondence",
+            "DOCUMENT_CATEGORY": "Bauplan",
+            "DOCUMENT_TYPE": "Drawing"
+        },
+        "BIDDERS": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "RFQ": {
+            "description": "RfQ Description",
+            "code": "Rfq Code"
+        },
+        "BIDDERS": {
+            "businesspartnerfk": "Business Partner",
+            "rfqbusinesspartnerstatusfk": "Status"
+        },
+        "PROJECT_DOCUMENT": {
+            "description": "Description",
+            "prjdocumentstatusfk": "Status"
+        }
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB06PVC"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "PES_ITEM":{
+            "QUANTITY": "50"
+        },
+        "INVOICE_HEADER": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE":"M",
+            "CONFIGURATION":"Material",
+            "BUSINESS_PARTNER":"Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "INVOICE_HEADER": {
+            "taxcodefk": "Tax Code",
+            "reference": "Invoice No.",
+            "businesspartnerfk": "Business Partner",
+            "prcstructurefk": "Structure Code",
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible",
+            "invstatusfk": "Status",
+            "code": "Entry No.",
+            "conheaderfk": "Contract",
+            "pesheaderfk": "PES",
+            "projectfk": "Project No.",
+            "amountnet": "Amount (Net)",
+            "amountNetPes": "PES (Net)"
+        },
+        "PACKAGE":{
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "PACKAGE_ITEM":{
+            "itemno": "Item Number",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Price",
+            "total": "Total"
+        },
+        "CONTRACT":{
+            "constatusfk": "Contract Status",
+            "code": "Code",
+            "businesspartnerfk": "Business Partner",
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkreqfk": "Requisition Owner"
+        },
+        "PES":{
+            "pesstatusfk": "PES Status",
+            "code": "Code",
+            "description": "Description",
+            "pesvalue": "Total"
+        },
+        "PES_ITEM":{
+            "prcitemfk": "Contract Item",
+            "mdcmaterialfk": "Material No.",
+            "uomfk": "UoM",
+            "quantity": "Quantity",
+            "total": "Total"
+        },
+        "PES_HEADER": {
+            "pesvalue": "Value",
+            "pesvat": "VAT",
+            "pesheaderfk": "PES",
+            "PesHeaderFkDescription": "Description",
+            "PesHeaderFkControllingUnitCode": "Controlling Unit Code"
+        }
+    }
+}

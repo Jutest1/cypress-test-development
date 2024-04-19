@@ -1,0 +1,93 @@
+ 
+
+
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "20"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "221001",
+            "UPDATED_QUANTITY": "50.000",
+            "CO2_QUANTITY":"20.000",
+            "TOTALTYPE":"T10"
+        },
+        "PACKAGE_ITEM": {
+            "QUANTITY": "100.000",
+            "MATERIAL_NO": "221005"
+        },
+        "PACKAGE":{
+            "SCOPE" : "Entire Estimate",
+            "COST_TOTAL":"Grand Total",
+            "XFACTOR":"1",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 0
+        },
+        "CONTRACT":{
+            "BP": "AGO Baumaschinen GmbH",
+           "CONTROLLING_UNIT":"Erdarbeiten",
+            "RESPONSIBLE":"HS"
+        },
+        "PES":{
+            "qty":"0",
+            "qty1": "3000",
+            "qty2": "3000"
+        }
+    },
+    
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "budget":"Budget"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity",
+            "co2project":"CO2/kg (Project)"
+        },
+        "PACKAGE_ITEM":{
+            "description1":"Description 1", 
+                "quantity": "Quantity",
+                 "prcstructurefk":"Structure",
+                  "basuomfk":"UoM",
+                  "mdcmaterialfk":"Material No.",
+                  "totalprice":"Total Price",
+                  "total":"Total"
+        },
+        "PACKAGE_TOTALS": {
+            "TotalTypeFkDescriptionInfo":"Type Description", 
+            "valuenet": "Net Value",
+            "valuetax":"VAT"
+        },
+        "CONTRACT":{
+            "controllingunitfk":"Controlling Unit Code",
+            "net":"Net"
+        },
+        "PES":{
+            "pesvalue":"Total",
+            "businesspartnerfk":"Business Partner",
+            "controllingunitfk":"Controlling Unit Code",
+            "clerkprcfk":"Responsible"
+        },
+        "PES_ITEM":{
+            "quantityremaining":"Remaining Quantity",
+            "quantity":"Quantity"
+        }
+    }
+  }
+

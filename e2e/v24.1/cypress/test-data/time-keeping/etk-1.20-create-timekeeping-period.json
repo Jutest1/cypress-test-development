@@ -1,0 +1,33 @@
+{
+    "CONTAINERS": {
+       
+        "COMPANY": {
+            "RIB":"999"
+       },
+
+        "PERIODS": {
+            "START_DATE":"current",
+            "END_DATE":"incremented",
+            "PAY_YEAR":"2024",
+            "TIMEKEEPING":"TKG_SUR"
+       }
+      
+    },
+
+    "CONTAINER_COLUMNS": {
+        
+        "TIMEKEEPING_GROUPS": {
+            "code":"Code",
+            "descriptioninfo":"Description"
+        },
+        
+        "PERIODS": {
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "startdate":"Start",
+            "enddate":"End",
+            "payrollyear":"Payroll Year",
+            "timekeepinggroupfk":"Timekeeping Group"
+        }
+    }
+}

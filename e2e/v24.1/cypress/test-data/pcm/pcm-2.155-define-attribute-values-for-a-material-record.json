@@ -1,0 +1,102 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "DATA_TYPES": {
+            "MATERIAL_CATALOG_TYPE": "Material Catalog Type"
+        },
+        "DATA_RECORDS": {
+            "NEUTRAL_MATERIAL": "Neutral Material",
+            "FRAMEWORK_AGREEMENTS": "framework agreements"
+        },
+        "MATERIAL_CATALOGS": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "MATERIAL_RECORDS": {
+            "UOM": [
+                "10M3"
+            ],
+            "RETAIL_PRICE": [
+                "100"
+            ],
+            "LIST_PRICE": [
+                "100"
+            ],
+            "DISCOUNT": [
+                "0",
+                "20"
+            ],
+            "CHARGES": [
+                "10",
+                "0"
+            ],
+            "PRICE_EXTRA": [
+                "0"
+            ]
+        },
+        "ATTRIBUTE_VALUES": {
+            "ATTRIBUTE_VALUE": [
+                "50",
+                "70"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOGS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "basrubriccategoryfk": "Rubric Category",
+            "validfrom": "Valid From",
+            "validto": "Valid To"
+        },
+        "MATERIAL_GROUPS": {
+            "tree": "Structure",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "IsChecked": "Filter"
+        },
+        "MATERIAL_RECORDS": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "charges": "Charges",
+            "discount": "Discount %",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "estimateprice": "Estimate Price",
+            "CostPriceGross": "Cost Price (Gross)",
+            "cost": "Cost Price",
+            "priceextra": "Price Extras"
+        },
+        "CONTRACT": {
+            "materialcatalogfk": "Framework Material Catalog",
+            "code": "Code"
+        },
+        "ITEMS": {
+            "mdcmaterialfk": "Material No."
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "ATTRIBUTES": {
+            "hasfixedvalues": "Fixed Values",
+            "propertyinfo": "Attribute"
+        },
+        "ATTRIBUTE_VALUES": {
+            "characteristicinfo": "Value"
+        },
+        "MATERIAL_ATTRIBUTES": {
+            "propertydescription": "Attribute Value",
+            "characteristicdescription": "Values"
+        }
+    }
+}

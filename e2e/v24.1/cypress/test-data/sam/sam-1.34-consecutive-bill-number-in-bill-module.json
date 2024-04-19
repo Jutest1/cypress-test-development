@@ -1,0 +1,17 @@
+{
+    "CONTAINERS": {
+        "COMPANIES": {
+            "CODE": "999"
+        },
+        "BILLS": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "25",
+            "UOM": "10M3"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BILLS": {
+            "consecutivebillno": "Consecutive Bill No."
+        }
+    }
+}

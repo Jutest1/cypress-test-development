@@ -1,0 +1,26 @@
+{
+    "CONTAINERS": {
+        "MATERIAL_CATALOG": {
+             "searchValue2":"001"
+        },
+        "DISCOUNT_GROUP":{
+            "discountType":"Cash Back",
+            "discountType1":"Annual Turnover",
+            "discount":"4.25",
+            "discount1":"10.99"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+
+        },
+        "DISCOUNT_GROUP":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "discounttype":"Discount Type",
+            "discount":"Discount"
+        }
+    }
+}

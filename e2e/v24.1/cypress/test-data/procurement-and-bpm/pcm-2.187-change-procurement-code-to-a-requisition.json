@@ -1,0 +1,41 @@
+{
+    "CONTAINERS": {
+        "PROCUREMENT_STRUCTURE": {
+            "MATERIAL": "Material"
+        },
+        "CERTIFICATES": {
+            "MATERIAL": "Material",
+            "TYPE": "CIS Certificate (en)",
+            "isRequired": "check",
+            "isMandatory": "check",
+            "amount": "30.00",
+            "guaranteecost": "50.00"
+        },
+        "CONTRACTS": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "CONFIGURATION": "Material PO"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description"
+        },
+        "CONTRACTS": {
+            "code": "Code",
+            "businesspartnerfk": "Business Partner",
+            "structureCode": "Procurement structure",
+            "constatusfk": "Contract Status",
+            "configurationfk": "Configuration"
+        },
+        "CERTIFICATES": {
+            "prcconfigheaderfk": "Configuration Header",
+            "bpdcertificatetypefk": "Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory",
+            "guaranteecost": "Guarantee Cost",
+            "amount": "Amount"
+        }
+    }
+}

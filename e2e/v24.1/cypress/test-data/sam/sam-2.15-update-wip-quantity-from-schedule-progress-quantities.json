@@ -1,0 +1,101 @@
+{
+  "CONTAINERS": {
+    "ACTIVITY_STRUCTURE": {
+      "CODE": "R-01",
+      "UOM": "10M3",
+      "QUANTITY": "500.000",
+      "PLANNED_START": "current",
+      "PLANNED_FINISH": "incremented",
+      "PLANNED_DURATION": "extraDayBetweenDates",
+      "DAYS_BETWEEN": "DayBetweenDates"
+    },
+    "SCHEDULE": {
+      "CODE": "R-01",
+      "DESCRIPTION": "R_Act",
+      "QUANTITY": "500.000",
+      "UNIT_RATE": "20",
+      "UOM": "10M3",
+      "START_DATE": "03/01/2025",
+      "FINISH_DATE": "03/15/2025"
+    },
+    "UNIT": {
+      "TYPE": "Week",
+      "TYPE1": "Year"
+    },
+    "PROGRESS": {
+      "DESCRIPTION": "R_Prog-01",
+      "QUANTITY": "300.000"
+    },
+    "ESTIMATE": {
+      "CODE": "R_EST",
+      "DESCRIPTION": "R_EST-01",
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate",
+      "ACT_RELATION": "From Structure"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": "C",
+      "CODE": "1",
+      "UOM": "BAGS"
+    },
+    "CONTRACT": {
+      "CONTRACT_TYPE": "Main Order",
+      "DESCRIPTION": "RNM_CONT-01",
+      "CUSTOMER": "D00028"
+    },
+    "WIPCreation": {
+      "DESCRIPTION": "RNM_WIP-01",
+      "CUSTOMER": "D00028"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "SCHEDULES": {
+      "descriptioninfo": "Description"
+    },
+    "GANTT_TREE_GRID": {
+      "code": "Code",
+      "description": "Description",
+      "quantityuomfk": "UoM",
+      "plannedstart": "Planned Start",
+      "plannedfinish": "Planned Finish",
+      "quantity": "Quantity"
+    },
+    "ACTIVITY_STRUCTURE": {
+      "description": "Description",
+      "locationfk": "Location",
+      "plannedstart": "Planned Start",
+      "plannedfinish": "Planned Finish",
+      "plannedduration": "Planned Duration",
+      "quantityuomfk": "UoM",
+      "performancefactor": "Productivity"
+    },
+    "PROGRESS": {
+      "description": "Description",
+      "quantity": "Quantity"
+    },
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.rubriccategoryfk": "Rubric Category",
+      "estheader.esttypefk": "Estimate Type"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "estqtytelaotfk": "AOT. Qty Relation",
+      "psdactivityfk": "Activity",
+      "boqitemfk": "BoQ Item Ref. No."
+    },
+    "RELATION": {
+      "actRelation": "From Structure"
+    }
+  },
+  "MODAL": {
+    "BID": {
+      "BUSINESS_PARTNER": "Adolf Koch",
+      "SOURCE_LEAD": "Activity",
+      "BY_ACTIVITY": "ByActivity"
+    }
+  }
+}

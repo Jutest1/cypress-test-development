@@ -1,0 +1,57 @@
+
+{
+    "CONTAINERS": {
+        "MATERIAL_CATALOG": {
+            
+            "BP": "Anton Waliser",
+            "FROM": "31/05/2023",
+            "TO": "14/07/2023",
+            "PAYMENT_TERM_FI": "BGB5J",
+            "PAYMENT_TERM_AD": "NET07",
+            "CODE": "681001"
+        },
+        "MATERIAL_GROUP":{
+            "PROCUREMENT_STRUCTURE_1":"21" ,
+            "PROCUREMENT_STRUCTURE_2":"24"
+        },
+        "MATERIAL_RECORD":{
+            "UOM": "BAGS",
+            "RETAIL_PRICE": "0.20",
+            "LIST_PRICE": "10.10",
+            "DISCOUNT1": "10.00",
+            "DISCOUNT2": "20.00",
+            "CHARGE1": "200.00",
+            "CHARGE2": "150.000"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "validfrom": "Valid From",
+            "validto": "Valid To",
+            "materialcatalogtypefk": "Type",
+            "paymenttermfifk": "Payment Term (FI)",
+            "paymenttermadfk": "Payment Term (AD)"
+
+        },
+        "MATERIAL_GROUP": {
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code",
+            "code": "Code"
+        },
+        "MATERIAL":{
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "discount": "Discount %",
+            "estimateprice": "Estimate Price",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "cost":"Cost Price",
+            "charges":"Charges",
+            "code": "Code",
+            "CostPriceGross":"Cost Price (Gross)"
+        }
+    }
+}

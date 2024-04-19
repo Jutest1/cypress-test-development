@@ -1,0 +1,67 @@
+{
+  "CONTAINERS": {
+    "CONTROLLING_UNITS":{
+      "QUANTITY": "0",
+      "UOM": "10M3"
+    },
+    "BOQ_STRUCTURE": {
+      "UNIT_RATE": "30",
+      "QUANTITY": "20",
+      "UOM":"10M3"
+    },
+    "SCHEDULING_ACTIVITY":{
+      "QUANTITY": "20",
+      "UOM":"10M3"
+    },
+    "ESTIMATE": {
+      "RUBIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "CONFIDENCE_CHECK": {
+    "NOT_ASSIGNED_TO_BOQ":"Not assigned to BoQ",
+    "NOT_ASSIGNED_TO_CONTROLLING_UNIT":"Not assigned to Controlling Unit",
+    "NOT_ASSIGNED_TO_ACTIVITIES":"Not assigned to Activities"
+    }
+},
+  "CONTAINER_COLUMNS": {
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification"
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM"
+    },
+    "CONTROLLING_UNITS": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "uomfk": "UoM",
+      "quantity": "Quantity"
+    },
+    "SCHEDULING": {
+      "code":"Code",
+      "descriptioninfo":"Description"
+    },
+    "SCHEDULING_ACTIVITY": {
+      "description":"Description",
+      "quantity":"Quantity",
+      "quantityuomfk":"UoM"
+    },
+    "ESTIMATE": {
+      "estheader.code": "Code", 
+      "estheader.descriptioninfo": "Description", 
+      "estheader.esttypefk": "Estimate Type", 
+      "estheader.rubriccategoryfk": "Rubric Category"
+    },
+    "ESTIMATE_BOQ": {
+      "briefinfo":"Outline Specification"
+    },
+    "ESTIMATE_ACTIVITIES": {
+      "description":"Description"
+    },
+    "ESTIMATE_CONTROLLING_UNITS":{
+      "descriptioninfo":"Description"
+    }
+
+  }
+}

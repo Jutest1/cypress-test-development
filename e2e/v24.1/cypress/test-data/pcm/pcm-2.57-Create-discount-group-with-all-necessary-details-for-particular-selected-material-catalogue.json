@@ -1,0 +1,46 @@
+
+{
+    "CONTAINERS": {
+        "MATERIAL_CATALOG": {
+            "BP_NAME": "Adolf Koch",
+            "CATALOG":"001"
+        },
+        "MATERIAL_GROUP":{
+            "PROCUREMENT_STRUCTURE_1":"21" ,
+            "PROCUREMENT_STRUCTURE_2":"24"
+        },
+        "MATERIAL_RECORD":{
+            "UOM": "BAGS",
+            "LIST_PRICE":"20",
+            "RETAIL_PRICE":"30" 
+        },
+        "DISCOUNT_GROUP":{
+            "DISCOUNT_TYPE":"Cash Back",
+            "DISCOUNT_TYPE1":"Annual Turnover",
+            "DISCOUNT":"4.25",
+            "DISCOUNT1":"10.15"
+        },
+        "TRANSLATION":{
+            "LANGUAGE":["English (US)","Deutsch","Français","Español","Italiano"],
+            "DESCRIPTION":["Desc-English (US)","Desc-Deutsch","Desc-Français","Desc-Español","Desc-Italiano"]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+
+        },
+        "MATERIAL_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk":"Structure Code"
+        },
+        "DISCOUNT_GROUP":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "discounttype":"Discount Type",
+            "discount":"Discount"
+        }
+    }
+}

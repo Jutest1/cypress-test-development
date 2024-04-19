@@ -1,0 +1,81 @@
+{
+    "CONTAINERS": {
+        "PROJECT":{
+            "PROJECT_NUMBER": "M_TRAINING_HB"
+        },
+        "BOQ": {
+            "description":"Test",
+            "Uom":"BAG",
+            "Quantity1":"200.000",
+            "Quantity2":"300.000",
+            "Costgroup":"PRJCG1"
+        },
+        "PACKAGE":{
+            "CONFIGURATION":"Service",
+            "DESCRIPTION":"Service Package"
+        },
+        "CUSTOMIZING":{
+            "entityType":"Package Status",
+            "dataType":"Contracted",
+            "check":"check",
+            "uncheck":"uncheck"
+        },
+        "COSTGROUP":{
+            "Cost_Group_Catalogs":"PRJCG1",
+            "Code":"1001",
+            "Description":"Cost Groups Description",
+            "Uom":"BAG",
+            "Quantity":"200.000"
+        },
+        "CONTRACT":{
+            "BusinessPartner":"Adolf Koch",
+            "Status":"Approved",
+            "Orders":"Change Order"
+        },
+        "COSTGROUPCONFIG": {
+            "Catalog_Assignment":"BOQ Catalog Assignments",
+            "isgc": "General Cost",
+            "check": "check",
+            "create":"create",
+            "CatalogType":"cost group DIN 276-81",
+            "Catalog":"Cost Group (Project)",
+            "CostGroup":"PRJCG1"
+          },
+          "ORDERCHANGE":{
+            "ProjectName":"M_TRAINING_HB",
+            "Contract": "Contract",
+            "RubricCategory": "Standard",
+            "ChangeType": "Design Change",
+            "ChangeReason": "Change BoQ",
+            "Recorded":"Recorded"
+          }
+    },
+
+
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "briefinfo":"Outline Specification",
+            "basuomfk":"UoM",
+            "quantity":"Quantity",
+            "costgroup_prj_prjcg1":"PRJCG1(Cost Group 1)"
+        },
+        "CONTRACT":{
+            "constatusfk":"Contract Status",
+            "code":"Code",
+            "projectfk":"Project No.",
+            "ProjectFkProjectName":"Project Name"
+        },
+        "PROCUREMENT_BOQ":{
+            "boqstatusfk":"BoQ Status",
+            "briefinfo":"Outline Specification",
+            "reference":"Reference No."
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description",
+            "structurefk":"Procurement structure",
+            "configurationfk":"Configuration"
+        }
+    }
+}

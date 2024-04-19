@@ -1,0 +1,82 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "QUANTITY_1": "40",
+            "AQ_QUANTITY": "30"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "25",
+            "UOM": "CM3",
+            "AQ_QUANTITY":"150",
+            "CORRECTED_UR_GROSS":"250"
+        }
+    },
+    "MODAL": {
+        "UPDATE_ESTIMATE_WIZARD": [
+            {
+                "LABEL_NAME": "Update Estimate Cost Codes",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Update Estimate Materials",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Update Estimate Assemblies",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Calculate Rule/Parameter",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Update from BoQ",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Update to BoQ",
+                "INDEX": "0",
+                "VALUE": "check"
+            }
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "estqtyrelboqfk": "Boq Qty Relation",
+            "quantitytarget": "AQ Quantity Item"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "quantityadj": "AQ Quantity",
+            "pricegross":"Corrected UR (Gross)"
+        }
+    }
+}

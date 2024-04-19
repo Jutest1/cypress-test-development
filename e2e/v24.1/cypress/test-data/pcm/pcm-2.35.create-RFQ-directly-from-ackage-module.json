@@ -1,0 +1,42 @@
+{
+  "CONTAINERS": {
+      "ESTIMATE": {
+          "RUBRIC_CATEGORY": "Planning",
+          "ESTIMATE_TYPE": "Bid Estimate"
+      },
+      "LINE_ITEMS": {
+          "QUANTITY": "10",
+          "QUANTITY1": "20"
+      },
+      "RESOURCE": {
+          "SHORTKEY": "M",
+          "CODE": "MG2FM"
+      },
+      "RFQ": {
+        "BP": "Adolf Koch"
+      }
+  },
+  "CONTAINER_COLUMNS": {
+      "ESTIMATE": {
+          "estheader.code": "Code",
+          "estheader.descriptioninfo": "Description",
+          "estheader.esttypefk": "Estimate Type",
+          "estheader.rubriccategoryfk": "Category"
+      },
+      "LINE_ITEMS": {
+          "descriptioninfo": "Description",
+          "quantity": "Quantity",
+          "basuomfk": "UoM"
+      },
+      "RESOURCE": {
+          "estresourcetypeshortkey": "Short Key",
+          "descriptioninfo": "Description",
+          "code": "Code",
+          "quantity": "Quantity"
+      },
+      "TOTALS": {
+        "valuenet": "Net Value",
+        "TotalTypeFkDescriptionInfo.Translated": "Type Description"
+      }
+  }
+}

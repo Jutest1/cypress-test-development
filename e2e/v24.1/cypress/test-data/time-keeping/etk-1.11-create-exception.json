@@ -1,0 +1,37 @@
+{
+    "CONTAINERS": {
+        "TIME_SYMBOLS": {
+            "TIME_SYMBOL_TYPE": "Type not specified",
+            "TIME_SYMBOL_GROUP": "6. Controlling: Allocated Times",
+            "VALUATION_PERCENT": "100",
+            "VALUATION_RATE": "1"
+        },
+        "SHIFT_MODELS": {
+            "CALENDAR": "DE"
+        },
+        "EXCEPTIONS": {
+            "EXCEPT_DATE": "11/02/2024",
+            "EXCEPT_DATE_1": "11/03/2024"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "TIME_SYMBOLS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "isoffday": "Is Off Day",
+            "isvacation": "Is Vacation",
+            "valuationpercent": "Valuation Percent",
+            "valuationrate": "Valuation Rate",
+            "istimeallocation": "Is TimeAllocation"
+        },
+        "SHIFT_MODELS": {
+            "descriptioninfo": "Description",
+            "calendarfk": "Calendar"
+        },
+        "EXCEPTIONS": {
+            "descriptioninfo": "Description",
+            "exceptdate": "Except Date",
+            "timesymbolfk": "Time Symbol"
+        }
+    }
+}

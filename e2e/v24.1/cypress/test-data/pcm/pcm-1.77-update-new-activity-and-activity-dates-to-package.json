@@ -1,0 +1,62 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "QUANTITY": "1"
+        },
+        "ACTIVITY_STRUCTURE": {
+            "DESCRIPTION_1": "Activity A",
+            "QUANTITY": "100.000",
+            "UOM": "10M3",
+            "UPDATE_QUANTITY": "20"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "ACTIVITY_STRUCTURE": {
+            "code": "Code",
+            "description": "Description",
+            "quantity": "Quantity",
+            "plannedduration": "Planned Duration",
+            "plannedstart": "Planned Start",
+            "plannedfinish": "Planned Finish"
+        },
+        "SCHEDULE": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "scheduletypefk": "Schedule Type"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure",
+            "activityfk": "Activity",
+            "plannedstart": "Planned Start",
+            "plannedend": "Planned End"
+        }
+    }
+}

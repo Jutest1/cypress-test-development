@@ -1,0 +1,53 @@
+{
+    "CONTAINERS": {
+        "BILLING_SCHEMA_DETAILS": {
+            "TYPE_1": "Invoice Progress Application",
+            "TYPE_2": "Final Invoice",
+            "TYPE_3": "Rechnungskorrektur",
+            "TYPE_4": "Invoices",
+            "NET_TOTAL": "Net Total",
+            "SUB_TOTAL": "Sub Total",
+            "TAX_CODE": "05",
+            "GENERAL_TYPE": "Nachlass %",
+            "CRED_FACTOR": "2"
+        },
+        "INVOICE": {
+            "BILLING_SCHEMA": "Standard Singel",
+            "PROCUREMENT_CONFIGURATION": "Material FI",
+            "REFERENCE": "I23",
+            "REFERENCE_1": "I22",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "PROCUREMENT_CONFIGURATION": {
+            "VALUE": "Service"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BILLING_SCHEMA": {
+            "descriptioninfo": "Description",
+            "validfrom": "Valid From",
+            "validto": "Valid To"
+        },
+        "BILLING_SCHEMA_DETAILS": {
+            "descriptioninfo": "Description",
+            "billinglinetypefk": "Type",
+            "taxcodefk": "Tax Code",
+            "generalstypefk": "General Type",
+            "credfactor": "Cred Factor"
+        },
+        "INVOICE": {
+            "prcconfigurationfk": "Configuration",
+            "billingschemafk": "Billing Schema",
+            "invtypefk": "Type",
+            "reference": "Invoice No.",
+            "businesspartnerfk": "Business Partner"
+        },
+        "PROCUREMENT_CONFIGURATION": {
+            "descriptioninfo": "Description"
+        },
+        "INVOICE_BILLING_SCHEMA": {
+            "billinglinetypefk": "Type",
+            "description": "Item Description"
+        }
+    }
+}

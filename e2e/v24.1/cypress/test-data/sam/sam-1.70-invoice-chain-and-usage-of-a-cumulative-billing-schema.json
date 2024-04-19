@@ -1,0 +1,87 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "200",
+                "300",
+                "400"
+            ],
+            "UNIT_RATE": [
+                "10",
+                "20",
+                "30"
+            ],
+            "UOM": [
+                "CM3",
+                "BAG",
+                "%"
+            ],
+            "PREV_QUANTITY": [
+                "200",
+                "150",
+                "-50",
+                "50",
+                "400"
+            ]
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        },
+        "BID": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STANDARD_CUMULATIVE": "Standard Cumulative"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "CONTRACT": {
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount"
+        },
+        "BID": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "billingschemafk": "Billing Schema",
+            "amountnet": "Net Amount"
+        },
+        "WIP": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "amountnet": "Net Amount"
+        },
+        "WIP_BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "WIP_BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type",
+            "prevquantity": "Previous Quantity"
+        },
+        "BILL": {
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount"
+        },
+        "BILL_BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification",
+            "boqrootitem.finalprice": "Final Price"
+        },
+        "BILL_BILLING_SCHEMA": {
+            "description": "Description",
+            "result": "Result"
+        }
+    }
+}

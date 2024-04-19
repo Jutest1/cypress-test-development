@@ -1,0 +1,71 @@
+{
+    "CONTAINERS": {
+        "MATERIAL_CATALOG_RECORD": {
+            "ASSEMBLY_CATEGORY": "Assembly-4",
+            "ASSEMBLY_RECORD": "Betonstahl S IV (500/550)",
+            "MATERIAL_CATALOG": "Artikelkatalog",
+            "MATERIAL_RESOURCE": "Betonstahl BST500 S",
+            "COST_RESOURCE": "Bewehrungs-Stunden"
+        },
+        "MATERIAL_RECORD": {
+            "RETAIL_PRICE": "100.00",
+            "LIST_PRICE": "100.00",
+            "COST_TYPE": "Cost type B"
+        },
+        "ASSEMBLY_CATEGORY": {
+            "DESCRIPTION": "GRUNDLAGENARBEIT",
+            "ASSEMBLY_TYPE": "YP"
+        },
+        "ASSEMBLY_RESOURCE": {
+            "CODE_1": "A0",
+            "CODE_2": "S1",
+            "QUANTITY": "50.000",
+            "QUANTITY_1": "40.000"
+        },
+        "COST_CODE": {
+            "COST_CODE_RATE": "Market Rate",
+            "MARKET_RATE": "30.00",
+            "FIXED_UNIT_RATE": "Fixed Unit Rate",
+            "CHECKBOX": "checkbox"
+        }
+    },
+    "MODAL": {
+        "RECALCULATE_ASSEMBLIES": {
+            "SELECT_UPDATE_SCOPE": "Current Result Set"
+        },
+        "UPDATE_SETTING": {
+            "Update Cost Codes": "check",
+            "Update Materials": "check",
+            "Update Assembly Resources": "check",
+            "Update Cost Types":"check"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG_RECORD": {
+            "estcosttypefk": "Cost Type",
+            "retailprice": "Retail Price",
+            "listprice": "List Price"
+        },
+        "MATERIAL": {
+            "estcosttypefk": "Cost Type",
+            "retailprice": "Retail Price",
+            "listprice": "List Price"
+        },
+        "ASSEMBLY_CATEGORY": {
+            "marker": "Filter",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "estassemblytypefk": "Assembly Type"
+        },
+        "ASSEMBLIES": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "estassemblycatfk": "Assembly Category"
+        },
+        "ASSEMBLY_RESOURCE": {
+            "costunit": "Cost/Unit",
+            "code": "Code",
+            "estcosttypefk": "Cost Type"
+        }
+    }
+}

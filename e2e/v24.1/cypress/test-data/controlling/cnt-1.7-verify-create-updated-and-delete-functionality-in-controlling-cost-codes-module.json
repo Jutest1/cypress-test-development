@@ -1,0 +1,32 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_COST_CODE": {
+            "UoM": "ACRE"
+        },
+        "DATA_TYPES": {
+            "DB_TABLE_NAME": "BAS_ACCOUNT"
+        },
+        "DATA_RECORDS" : {
+           "LEDGER_CONTEXT" : "RIB_DEMO_Kontenrahmen"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_COST_CODE": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM"
+        },
+        "ACCOUNT": {
+            "basaccountfk": "Account"
+        },
+        "DATA_TYPES": {
+            "dbtablename": "DB Table Name"
+           
+        },
+        "DATA_RECORDS" : {
+            "ledgercontextfk" : "Ledger Context",
+            "code": "Code",
+            "description2info": "Description 2"
+        }
+    }
+}

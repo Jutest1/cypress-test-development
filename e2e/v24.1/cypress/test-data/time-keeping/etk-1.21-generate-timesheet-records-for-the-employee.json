@@ -1,0 +1,202 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "MusM"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": ["0"],
+            "UOM": ["10M3"]
+        },
+      
+        "PAYMENT_GROUP_RATES":{
+            "RATE":"31.00"
+        },
+        "PAYMENT_GROUP_SURCHARGE":{
+            "RATE":"23.00"
+        },
+
+        "ACTIONS": {
+            "CHECKBOX": "check"
+        },
+        "DATA_TYPES": {
+            "ACTION_TYPE": "Action Type",
+            "CONTEXT":"RIB_DEMO_PROJEKT",
+            "TIMEKEEPING_SURCHARGE":"Timekeeping Surcharge Type",
+            "CHECKBOX":["check","uncheck"]
+        },
+        "TIME_SYMBOLS":{
+            "CHECKBOX":"check",
+            "TIME_SYMBOL_TYPE":"Type not specified",
+            "TIME_SYMBOL_GROUP":"6. Controlling: Allocated Times",
+            "VAL_PERCENTAGE":"100",
+            "VAL_RATE":"1"
+        },
+        "SHIFT_MODELS": {
+            "CALENDAR": "DE"
+        },
+        "WORKING_TIMES": {
+            "ACRONYM": [
+                "MON",
+                "TUE",
+                "WED",
+                "THU",
+                "FRI"
+            ],
+            "WEEKDAY": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri"
+            ],
+            "FROMTIME": [
+                "09:00"
+            ],
+            "TOTIME": [
+                "18:00"
+            ],
+            "DURATION": [
+                "8"
+            ],
+            "BREAKFROM": [
+                "13:00"
+            ],
+            "BREAKTO": [
+                "14:00"
+            ]
+        },
+        "WORKING_TIME_MODELS":{
+            "CHECKBOX":"check"   
+       },
+       "WORKING_TIME_MODEL_DAYS":{
+           "TARGET_HRS":"8",
+           "WEEKDAY":["Monday","Tuesday","Wednesday","Thursday","Friday"]
+      },
+      "COMPANY": {
+       "RIB":"999"
+      },
+      "EMPLOYEES": {
+       "START_DATE":"current",
+       "CHECKBOX":"check",
+       "TIMEKEEPING":"TKG_BASE"
+      },
+      "PERIODS": {
+       "START_DATE":"current",
+       "END_DATE":"incremented",
+       "PAY_YEAR":"2024",
+       "TIMEKEEPING":"TKG_SUR"
+      },
+      "EMPLOYEE_REPORTS": {
+       "DURATION":"8",
+       "DUE_DATE":"incremented"
+      }
+      
+    },
+
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "ACTIONS": {
+            "code": "Code",
+            "description": "Description",
+            "controllingunitfk": "Controlling Unit",
+            "logisticjobfk":"Job",
+            "actiontypefk": "Action Type"
+        },
+        "DATA_RECORDS": {
+            "contextfk": "Context",
+            "descriptioninfo":"Description",
+            "isstandardrate":"Evaluationlevel"
+        },
+        "PAYMENT_GROUP_SURCHARGE":{
+            "controllingunitfk":"Controlling Unit",
+            "surchargetypefk":"Surcharge Type",
+            "rate":"Rate"        
+        },
+       
+        "PAYMENT_GROUPS_LIST":{
+            "descriptioninfo":"Description",
+            "code": "Code"
+        },
+        "PAYMENT_GROUP_RATES":{
+            "controllingunitfk":"Controlling Unit",
+            "surchargetypefk":"Surcharge Type",
+            "commenttext":"Comment Text",
+            "rate":"Rate"          
+        },
+        "TIME_SYMBOLS":{
+            "code": "Code",
+            "descriptioninfo":"Description",
+            "isproductive":"Is Productive",
+            "ispresence":"Is Presence",
+            "iswtmrelevant": "Is WTM Relevant",
+            "valuationpercent":"Valuation Percent",
+            "valuationrate":"Valuation Rate",
+            "timesymboltypefk":"Time Symbol Type",
+            "timesymbolgroupfk":"Time Symbol Group"
+        },
+        "SHIFT_MODELS": {
+            "descriptioninfo": "Description",
+            "calendarfk": "Calendar"
+        },
+        "WORKING_TIMES": {
+            "acronym": "Acronym",
+            "descriptioninfo": "Description",
+            "timesymbolfk": "Time Symbol",
+            "weekdayfk": "Weekday",
+            "duration": "Duration",
+            "fromtime": "From Time",
+            "totime": "To Time",
+            "breakfrom": "Break From",
+            "breakto": "Break To"
+        },
+        "WORKING_TIME_MODELS": {
+            "isdefault":"Is Default",
+            "descriptioninfo":"Description"
+        },
+        "WORKING_TIME_MODEL_DAYS": {
+            "weekdayindex":"Weekday",
+            "targethours":"Target Hours"
+        },
+        "TIMEKEEPING_GROUPS": {
+            "code":"Code",
+            "descriptioninfo":"Description"
+        },
+        "EMPLOYEES": {
+            "code":"Code",
+            "startdate":"Start",
+            "shiftfk":"Shift",
+            "timekeepinggroupfk":"Timekeeping Group",
+            "paymentgroupfk":"Payment Group",
+            "descriptioninfo":"Description",
+            "generaterecording":"Generate Recording",
+            "iscrewleader":"Is Crew Leader"
+        },
+        "PERIODS": {
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "startdate":"Start",
+            "enddate":"End",
+            "payrollyear":"Payroll Year",
+            "timekeepinggroupfk":"Timekeeping Group"
+        },
+        "EMPLOYEE_REPORTS": {
+            "duedate":"Booking Date",
+            "timesymbolfk":"Time Symbol",
+            "duration":"Duration",
+            "controllingunitfk":"Controlling Unit",
+            "jobfk":"Job",
+            "projectactionfk":"Project Action"
+        }
+        
+       
+    }
+}

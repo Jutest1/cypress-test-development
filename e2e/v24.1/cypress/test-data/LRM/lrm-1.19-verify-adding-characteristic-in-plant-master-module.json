@@ -1,0 +1,24 @@
+{
+    "CONTAINERS": {
+        "PLANT": {
+            "PLANT_GROUP": "Concreting",
+            "PLANT_KIND": "External Rental",
+            "CLERK_RESPONSIBLE":"FI",
+            "STRUCTURE": "Equipment"
+        },
+        "PLANT_CHARACTERISTICS":{
+            "CODE": "01",
+            "VALUE": "Producer A"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PLANT": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "plantgroupfk": "Plant Group",
+            "plantkindfk": "Plant Kind",
+            "clerkresponsiblefk": "Clerk Responsible",
+            "procurementstructurefk": "Procurement Structure"
+        }
+    }
+}

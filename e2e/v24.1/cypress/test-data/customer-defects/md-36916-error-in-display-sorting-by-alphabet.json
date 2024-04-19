@@ -1,0 +1,18 @@
+{
+    "CONTAINERS": {
+        "BUSINESSPARTNER": {
+            "STREET_NAME": "Nashik Road",
+            "CITY_NAME": "Nashik",
+            "COUNTRY_NAME": "India",
+            "ZIP_CODE": "422009"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESSPARTNER": {
+            "code": "Code",
+            "businesspartnername1": "Business Partner Name",
+            "clerkfk": "Responsible",
+            "address": "Address"
+        }
+    }
+}

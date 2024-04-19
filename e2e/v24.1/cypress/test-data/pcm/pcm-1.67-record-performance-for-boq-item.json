@@ -1,0 +1,108 @@
+{   
+    
+    "CONTAINERS": {
+        "CONTROLLING_UNIT":{
+            "QUANTITY":"100.00",
+            "UOM":"BAGS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "BOQ_STRUCTURE":{
+            "QUANTITY":"500.000",
+            "UNIT_RATE":"50.00",
+            "UOM":"BAGS",
+            "BOQLINETYPE":"Position"
+        },
+        "CONTRACT":{
+            "BUSINESS_PARTNER":"Adolf Koch"
+        },
+        "PES":{
+            "QUANTITY":"0.000",
+            "QUANTITY1":"200.00"
+        }   
+
+    },
+    "MODALS":{
+        "CREATE_BOQ_PACKAGE":{
+            "PROCUREMENT_STRUCTURE": "D",            
+                "WICBOQ": "Project BoQ",
+                "ESTIMATESCOPE": "Highlighted Line Item",
+                "ESTIMATESCOPEINDEX": 2,
+                "BASEDON": "Project BoQ",
+                "QTYTYPE": "BoQ Quantity (WQ/AQ)",
+                "TOTAL": "Total",
+                "CREATEPACKAGECHECKBOX": "check",            
+                "BUSINESS_PARTNER":"Adolf Koch"
+        }
+
+    },    
+
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT":{
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "BOQ":{
+            "boqrootitem.briefinfo": "briefinfo"
+        },
+        "BOQ_STRUCTURE":{
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "finalprice":"Final Price (EUR)",
+            "boqlinetypefk":"BoQ Line Type"
+        },
+        "RESOURCE":{
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "PES_BOQSTRUCTURE":{
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type",
+            "remquantity":"Remaining Quantity",
+            "ordquantity":"Contract Quantity"
+        },
+        "CONTRACT":{
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible",
+            "description": "Reference Name",
+            "code":"Code",
+            "projectfk":"Project No.",
+            "clerkreqfk":"Requisition Owner",
+            "packagefk":"Package Code",
+            "bpdvatgroupfk":"VAT Group",
+            "businesspartnerfk":"Business Partner",
+            "bascurrencyfk":"Currency"
+        },
+        "CONTRACT_BOQSTRUCTURE":{
+            "quantity":"Quantity",
+            "boqlinetypefk":"BoQ Line Type"
+        },
+        "PACKAGE":{
+            "code": "Code"
+        },
+        "PACKAGE_BOQSTRUCTURE":{
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity"
+        },
+        "REQUISITION":{
+            "code":"Code",
+            "description":"Requisition Name",
+            "clerkprcfk":"Responsible"
+        }
+    }     
+    
+    
+}

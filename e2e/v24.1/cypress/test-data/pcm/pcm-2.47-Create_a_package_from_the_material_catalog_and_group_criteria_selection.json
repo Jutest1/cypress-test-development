@@ -1,0 +1,83 @@
+
+
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "20"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "Silo- Portlandzement",
+            "CODE1":"1202",
+            "QUANTITY": "200.000",
+            "QUANTITY1": "100.000",
+            "TOTALTYPE":"T10"
+        },
+        "RFQ": {
+          "BP": "Adolf Koch"
+        },
+        "PACKAGE":{
+            "SCOPE" : "Selected Line Item",
+            "COST_TOTAL":"Cost Total",
+            "XFACTOR":"1",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 3,
+            "CODE2":"Tankstelle",
+            "CODE3":"Artikelkatalog"
+        },
+        "MATERIAL":{
+            "UOM": "BAGS",
+            "LIST_PRICE":"20",
+            "RETAIL_PRICE":"30",
+            "BP":"Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity"
+        },
+        "PACKAGE":{
+            "valuenet": "Net Total",
+            "description": "Description"
+        },
+        "PACKAGE_ITEM":{
+            "description1":"Description 1", 
+                "quantity": "Quantity",
+                 "prcstructurefk":"Structure",
+                  "basuomfk":"UoM",
+                  "mdcmaterialfk":"Material No.",
+                  "totalprice":"Total Price"
+        },
+        "PACKAGE_TOTALS": {
+            "TotalTypeFkDescriptionInfo":"Type Description", 
+            "valuenet": "Net Value",
+            "valuetax":"VAT"
+        },
+        "PACKAGE_ITEMS": {
+            "total":"Total"
+        },
+        "MATERIAL_CATALOG":{
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk":"Structure Code"
+        }
+    }
+  }

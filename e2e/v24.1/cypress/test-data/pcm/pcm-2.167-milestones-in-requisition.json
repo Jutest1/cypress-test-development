@@ -1,0 +1,48 @@
+{
+    "CONTAINERS": {
+        "REQUISITION":{
+            "STRUCTRECODE": "D",
+            "CONFIGURATION": "Service REQ",
+            "REMARK":"Status Changed"
+        },
+        "REQUISITION_ITEMS": {
+            "MATERIAL_CODE":"DÜB08PVC",
+            "ASSIGN_BP":"Assign Business Partner",
+            "BUSINESS_PARTNER_NAME":"Adolf Koch",
+            "QUANTITY":"120.000"
+        },
+        "REQUISITION_MILESTONE": {
+            "TYPE": "Progress Meeting",
+            "TAX_CODE": "05",
+            "AMOUNT": "999",
+            "DATE": "30/06/2023",
+            "TYPE1": "Contract Milestones",
+            "TAX_CODE1": "07",
+            "AMOUNT1": "888",
+            "DATE1": "20/06/2023",
+            "LABEL_NAME": "Type",
+            "TYPE_2":"Progress Payment"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION":{
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk":"Business Partner"
+        },
+        "REQUISITION_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "itemno": "Item Number"
+        },
+        "REQUISITION_MILESTONE": {
+            "mdctaxcodefk": "Tax Code",
+            "amount": "Amount",
+            "milestone": "Date",
+            "prcmilestonetypefk": "Type"
+        }
+    }
+}

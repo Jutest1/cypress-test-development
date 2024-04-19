@@ -1,0 +1,26 @@
+{
+  "CONTAINERS": {
+   "EVENT": {
+      "CHECKBOX":"CheckboxisNotselected"
+  },
+  "ACTIVITY_STRUCTURE": {
+    "QUANTITY": "100.000",
+    "PLANNED_START":"current",
+    "PLANNED_FINISH":"incremented"
+    }
+},
+  "CONTAINER_COLUMNS": {
+    "SCHEDULES": {
+      "code":"Code",
+      "descriptioninfo":"Description",
+      "performancesheetfk":"Performance Sheet"
+    },
+    "ACTIVITY_STRUCTURE": {
+      "description":"Description",
+      "locationfk":"Location",
+      "plannedstart":"Planned Start",
+      "plannedfinish":"Planned Finish",
+      "projectfk":"Project"
+    }
+  }
+}

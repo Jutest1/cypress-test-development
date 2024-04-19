@@ -1,0 +1,27 @@
+{
+    "CONTAINERS": {
+        "BUSINESS_PARTNER": {
+            "STREET_NAME": "Model Colony",
+            "CITY_NAME": "Nashik",
+            "COUNTRY_NAME": "India",
+            "ZIP_CODE": "422009"
+        },
+        "BP_CHARACTERISTICS": {
+            "CODE": "FREQUENZ",
+            "CHARACTER_GROUP": "Beurteilungen (D)"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESS_PARTNER": {
+            "code": "Code",
+            "businesspartnername1": "Business Partner Name",
+            "clerkfk": "Responsible",
+            "address": "Address"
+        },
+        "BP_CHARACTERISTICS": {
+            "characteristicfk": "Code",
+            "description": "Description",
+            "valuetext": "Value"
+        }
+    }
+}

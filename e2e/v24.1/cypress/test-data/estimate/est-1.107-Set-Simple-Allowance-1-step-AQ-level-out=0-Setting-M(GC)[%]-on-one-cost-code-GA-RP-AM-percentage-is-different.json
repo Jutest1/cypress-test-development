@@ -1,0 +1,162 @@
+{
+  "CONTAINERS": {
+    "PROJECT": {
+      "CLERK": "HS"
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY_1": "100.000",
+      "UNIT_RATE_1": "25",
+      "UOM": "BAG"
+    },
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "100",
+      "UOM": "10M3",
+      "ADV_ALLOWANCE_PER_UNIT_ITEMM": "12.00",
+      "GRAND_COST_PER_UNIT_ITEM": "34.00"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": [
+        "C",
+        "M",
+        "A"
+      ],
+      "CODE": [
+        "A0",
+        "S2"
+      ],
+      "MATERIAL": [
+        "MG2FM"
+      ],
+      "ASSEMBLY": [
+        "000020.000020"
+      ]
+    },
+    "STANDARD_ALLOWANCE": {
+      "QUANTITY_TYPE": "AQ",
+      "CODE": "1",
+      "ALLOWANCE_TYPE": "Simple Estimate-by-Markup"
+    },
+    "ALLOWANCE_MARKUP": {
+      "COST_CODE": [
+        "Lohn",
+        "Stoffe",
+        "Concrete",
+        "S-R-V"
+      ],
+      "GA": [
+        "20.50",
+        "12.50",
+        "13.00"
+      ],
+      "RP": [
+        "5.00",
+        "8.00",
+        "5.00"
+      ],
+      "AM": [
+        "3.00",
+        "0.00",
+        "3.00"
+      ],
+      "DEF_M_GC": [
+        "20.00"
+      ]
+    }
+  },
+  "MODAL": {
+    "ESTIMATE_CONFIG_DIALOG_PARAMETER": {
+      "CONFIGURATION": [
+        "Estimate Configuration",
+        "Totals Configuration"
+      ],
+      "LINE_TYPE": [
+        "GC",
+        "FM",
+        "R&P",
+        "G&A",
+        "MM",
+        "AA"
+      ],
+      "DESCRIPTION": [
+        "GC",
+        "FM",
+        "R&P",
+        "G&A",
+        "MM",
+        "AA"
+      ]
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification",
+      "boqheader.isgcboq": "GC BoQ"
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate",
+      "quantityadj": "AQ Quantity",
+      "mdccontrollingunitfk": "Controlling Units",
+      "boqlinetypefk": "BoQ Line Type",
+      "prcstructurefk": "Procurement Structure",
+      "finalprice": "Final Price"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "code": "Code",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total",
+      "isgc": "General Cost",
+      "am": "AM",
+      "gc": "GC",
+      "fm": "FM",
+      "rp": "R&P",
+      "ga": "G&A",
+      "urd": "URD",
+      "grandcostunittarget": "Grand Cost/Unit Item",
+      "isfixedprice": "Fixed Price",
+      "advancedallunititem": "Adv. Allowance/Unit Item",
+      "advancedall": "Adv. Allowance Total"
+    },
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.rubriccategoryfk": "Rubric Category",
+      "estheader.esttypefk": "Estimate Type"
+    },
+    "TOTALS": {
+      "description": "Description",
+      "total": "Total"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "quantity": "Quantity",
+      "descriptioninfo": "Description"
+    },
+    "STANDARD_ALLOWANCE": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "isactive": "Is Active",
+      "mdcallowancetypefk": "Allowance Type",
+      "markupga": "G&A[%]",
+      "markuprp": "R&P[%]",
+      "markupam": "AM[%]",
+      "quantitytypefk": "Quantity Type"
+    },
+    "ALLOWANCE_MARKUP": {
+      "mdccostcodeDescription": "Description",
+      "defmgcperc": "Def.M(GC)[%]",
+      "amperc": "AM[%]",
+      "rpperc": "R&P[%]",
+      "gaperc": "G&A[%]"
+    }
+  }
+}

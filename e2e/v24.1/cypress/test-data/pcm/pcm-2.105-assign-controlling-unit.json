@@ -1,0 +1,39 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "MATERIAL": {
+            "CODE": "I110",
+            "QUANTITY": "2"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ",
+            "CODE": "999",
+            "COMPANY_NAME": "RIB Demo"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "COMPANIES": {
+            "companyname": "Company Name"
+        },
+        "CLERKS": {
+            "code": "Code",
+            "userfk": "User"
+        },
+        "REQUISITION": {
+            "code": "Code",
+            "description": "Requisition Name",
+            "ControllingUnitFkDescriptionInfo.Translated": "Controlling Unit Description",
+            "projectfk": "Project No."
+        }
+    }
+}

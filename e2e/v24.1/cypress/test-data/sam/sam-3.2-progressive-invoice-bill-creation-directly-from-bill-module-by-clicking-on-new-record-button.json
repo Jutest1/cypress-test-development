@@ -1,0 +1,92 @@
+{
+    "CONTAINERS": {
+        "BILLING_SCHEMA": {
+            "STANDARD_SINGEL": "Standard Singel",
+            "DESCRIPTION": "Bill Progress Application"
+        },
+        "PROJECT":{
+            "CLERK_NAME":"HS"
+        },
+        "BOQ_STRUCTURE": {
+            "BOQLINETYPE":"Position",
+            "QUANTITY": "500.000",           
+            "UOM": "BAGS",
+            "UNITRATE":"50.000"         
+            
+        },
+        "BID":{
+            "BUSINESS_PARTNER":"Adolf Koch"            
+        },
+        "CONTRACT_SALES":{
+            "ENV_CONTRACT_DESC":"contractDesc"
+        },
+        "WIP":{
+            "BOQ_SOURCE": "Project BoQ",
+            "WIP_QUANTITY": "100.000"
+        },
+        "BILL":{
+            "BILL_TYPE": "Progress Invoice",
+            "BOQ_SOURCE": "WIP BoQ",
+            "BILL_BOQ_QTY": "300.000"
+        } 
+        
+
+    },    
+    "CONTAINER_COLUMNS": {
+        "BOQ":{
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross":"Final Price (Gross)",
+            "price":"Unit Rate (EUR)"
+            
+        },
+        "BID":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet" 
+        },        
+        "CONTRACT_SALES":{           
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_SALES_BOQ_STRUCTURE":{
+            "boqlinetypefk": "BoQ Line Type", 
+            "briefinfo": "Outline Specification", 
+            "quantity": "Quantity", 
+            "basuomfk": "UoM",
+            "price":"Unit Rate (EUR)"
+        },
+        "WIP_BOQ_STRUCTURE":{
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity"
+        },
+        "BILL_BOQ_STRUCTURE":{
+            "boqlinetypefk": "BoQ Line Type",
+            "installedquantity": "IQ Quantity"
+        },
+        "BILLING_SCHEMA":{
+            "value": "Value"
+        }
+        
+
+    }
+}
+    
+    
+
+    
+    
+   
+    
+    
+    
+        
+        
+    

@@ -1,0 +1,73 @@
+
+{
+    "CONTAINERS": {
+        "CUSTOMIZING": {
+            "EntityType": "General Type",
+            "LEDGERCONTEXTName":"RIB_DEMO_Kontenrahmen"
+            
+        },
+        
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "2109010",
+            "QUANTITY": "1.000",
+            "MATERIAL_GROUP_CODE":"221",
+            "MATERIAL_CODE":"221001",
+            "PRICE":"50.000"
+        },
+        "CONTRACT": {
+            "BP": "AGO Baumaschinen GmbH",
+            "CLERK":"SmiJ"
+        },
+        "GENERALS":{
+            "VALUE1":"10",
+            "VALUE2":"20",
+            "COSTVALUETYPE":"Amount",
+            "TAX_CODE":"00"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+       
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity"
+        },
+    
+        "REQUISITION_ITEMS":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "total":"Total",
+            "basuomfk":"UoM",
+            "price":"Price"
+        },
+        
+        "CONTRACT":{
+            "businesspartnerfk": "Business Partner",
+            "description":"Reference Name",
+            "reqheaderfk":"Requisition",
+            "code":"Code",
+            "paymenttermfifk":"Payment Term (FI)"
+        },
+        "CONTRACT_ITEM":{
+            "quantityremaining":"Remaining Quantity",
+            "quantity":"Quantity"
+        },
+        "REQUISITION":{
+            "code":"Code",
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk":"Business Partner",
+            "description":"Requisition Name"
+        },
+        "GENERALS":{
+            "prcgeneralstypefk":"Type",
+            "valuetype":"Value Type",
+            "value":"Value",
+            "mdccontrollingunitfk":"Controlling Unit Code",
+            "mdctaxcodefk":"Tax Code"
+        }
+    }
+  }
+

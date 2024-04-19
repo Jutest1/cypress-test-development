@@ -1,0 +1,25 @@
+{
+    "CONTAINERS": {
+        "BUSINESS_PARTNERS": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESS_PARTNERS": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "CUSTOMER":{
+            "code":"Debtor No.",
+            "description":"Description"
+        },
+        "PROJECTS":{
+            "businesspartnerfk":"Business Partner",
+            "customerfk":"Customer"
+        }
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    }
+}

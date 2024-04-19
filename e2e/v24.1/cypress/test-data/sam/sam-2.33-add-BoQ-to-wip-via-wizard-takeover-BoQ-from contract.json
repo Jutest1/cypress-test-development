@@ -1,0 +1,31 @@
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "CONTRACT_BOQ": "Contract BoQ"
+        },
+        "BOQSTRUCTURE": {
+            "QUANTITY": "500.000",
+            "UNIT_RATE": "20",
+            "UOM": "10M3"
+        },
+        "BID": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross": "Final Price (Gross)"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BID": {
+            "amountnet": "Net Amount"
+        }
+    }
+}

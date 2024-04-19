@@ -1,0 +1,62 @@
+{
+    "CONTAINERS": {
+        "PROJECT":{
+            "CLERK_NAME":"HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100.000",
+            "QUANTITY1": "200.000",
+            "UOM": "BAGS",
+            "UNITRATE":"50.000",
+            "UNITRATE1":"30.000",
+            "FINAL_PRICE":"finalPrice",
+            "FINAL_PRICE1":"finalPrice1",
+            "BOQ_LINE_TYPE":"Root"
+        },
+        "BID":{
+            "BUSINESS_PARTNER":"Adolf Koch"            
+        },
+        "WIP":{
+            "PERCENTAGE_QTY":"50",
+            "CUMMULATIVE_PERCENTAGE":"25"
+        }
+            
+
+    },    
+    "CONTAINER_COLUMNS": {
+        "BOQ":{
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross":"Final Price (Gross)",
+            "price":"Unit Rate (EUR)"
+            
+        },
+        "BID":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet" 
+        },        
+        "CONTRACT_SALES":{           
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "WIP_BOQ_STRUCTURE":{
+            "boqlinetypefk":"BoQ Line Type",
+            "briefinfo":"Outline Specification",
+            "ordquantity":"Contract Quantity",
+            "percentagequantity":"Percentage Quantity",
+            "quantity":"Quantity",
+            "cumulativepercentage":"Cumulative Percentage"
+        }
+
+    }  
+    
+    
+   
+}

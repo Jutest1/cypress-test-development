@@ -1,0 +1,12 @@
+{
+    "CONTAINER_COLUMNS": {
+        "CONSTRUCTION_SYSTEM_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "CONSTRUCTION_SYSTEM_LIBRARY": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        }
+    }
+}

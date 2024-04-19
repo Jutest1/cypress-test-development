@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+        "UNIT": {
+            "TYPE":"Week",
+            "TYPE1":"Year"
+  
+        },
+        "CALENDAR": {
+          "TYPE":"Day",
+          "TYPE1":"Week",
+          "TYPE2":"Year",
+          "DAY":"8",
+          "WEEK":"40",
+          "MONTH":"180",
+          "DAY_HOUR":"8.000000",
+          "WEEK_HOUR":"40.000000",
+          "MONTH_HOUR":"180.000000"
+      }
+    },
+    "CONTAINER_COLUMNS": {
+        "UNIT": {
+          "descriptioninfo":"Description",
+          "unitinfo":"Unit of Measurement",
+          "uomtypefk":"Type"
+        },
+        "CALENDAR": {
+          "code":"Code",
+          "descriptioninfo":"Description",
+          "basuomdayfk":"UoM of Day",
+          "basuomweekfk":"UoM of Week",
+          "basuommonthfk":"UoM of Month"
+        }
+     }
+  }

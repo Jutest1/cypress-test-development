@@ -1,0 +1,65 @@
+{
+  "CONTAINERS": {
+      "ESTIMATE": {
+        "RUBRIC_CATEGORY": "Planning",
+        "ESTIMATE_TYPE": "Bid Estimate"
+      },
+      "BID":{
+        "BPNAME":"AGO Baumaschinen GmbH",
+        "STRUCTRETYPE":"BoQ"   
+      },
+      "BOQ_STRUCTURE":{
+       
+        "QUANTITY": "100.000",
+        "UNIT_RATE": "25",
+        "UOM": "BAG",
+        "QUANTITY1": "40.000",
+        "QUANTITY2": "60.000"
+      }
+
+  },
+  "MODAL": {
+    "PROJECTS": {
+      "CLERK": "SmiJ"
+    },
+    "ADDITIONAL_SETTING": {
+      "Generate Line item by Split Quantity": "check",
+      "BoQ Final Price": "check"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+      "ESTIMATE": {
+        "estheader.code":"Code",
+        "estheader.descriptioninfo":"Description",
+        "estheader.rubriccategoryfk":"Rubric Category",
+        "estheader.esttypefk":"Estimate Type"
+      },
+      "ESTIMATE_LINE_ITEM":{
+        "descriptioninfo": "Description",
+        "code":"Code",
+        "quantity":"Quantity",
+        "basuomfk":"UoM",
+        "estassemblyfk":"Assembly Template",
+        "mdccontrollingunitfk": "Controlling Units",
+        "prcstructurefk":"Procurement Structure",
+        "costtotal":"Cost Total"
+      },
+      "BOQ":{
+        "boqrootitem.briefinfo": "Outline Specification" 
+      },
+      "BOQ_STRUCTURE":{
+        "briefinfo": "Outline Specification",
+        "quantity": "Quantity", 
+        "basuomfk": "UoM",
+        "price": "Unit Rate", 
+        "quantityadj": "AQ Quantity", 
+        "mdccontrollingunitfk": "Controlling Units",
+        "boqlinetypefk":"BoQ Line Type",
+        "prcstructurefk":"Procurement Structure",
+        "finalprice":"Final Price"
+      },
+      "SPLIT_QUANTITY":{
+        "quantity":"Quantity"
+      }
+  }
+  }

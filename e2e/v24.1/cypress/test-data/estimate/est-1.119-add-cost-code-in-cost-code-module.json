@@ -1,0 +1,26 @@
+{
+    "CONTAINERS": {
+        "COST_CODES": {
+            "CO2_PROJECT_VALUE": "200.000",
+            "COST_CODE": "Lohn",
+            "MARKET_RATE": "660",
+            "DAY_RATE": "650",
+            "CURRENCY": "EUR"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "tree": "Structure",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "currencyfk": "Currency",
+            "isbudget": "Budget",
+            "iscost": "Cost",
+            "israte": "Fixed Unit Rate",
+            "islabour": "Labour Cost Code",
+            "rate": "Market Rate",
+            "dayworkrate": "DW/T",
+            "co2project": "CO2/kg (Project)"
+        }
+    }
+}

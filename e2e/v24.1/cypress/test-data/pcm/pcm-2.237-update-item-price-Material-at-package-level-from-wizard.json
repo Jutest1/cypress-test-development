@@ -1,0 +1,117 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "50",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "QUANTITY": "10"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "OTHER_SERVICES": {
+            "AMOUNT_UNIT": "350",
+            "QUANTITY": "25"
+        },
+        "ITEM_PRICE": {
+            "PRICE": [
+                "30",
+                "40"
+            ],
+            "QUANTITY": "45"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material"
+        },
+        "REQUEST_FOR_QUOTE": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"            ]
+        },
+        "UPDATE_ITEM_PRICE":{
+            "LABEL":"Selected item(s)",
+            "MATERIAL_NO":["DÜB08PVC","DÜB06PVC"],
+            "CHECKBOX":["Material Catalog Price Version","Quotation","Contract","Include Neutral Material"],
+            "LATEST_PRICE_VERSION":"Latest Price version",
+            "CENTIMETER":"Centimeter",
+            "METER":"Meter",
+            "ZERO_DISCOUNT":"0"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "QUOTE": {
+            "code": "Code",
+            "rfqheaderfk": "RfQ Header"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "REQUISITION": {
+            "code": "Code"
+        },
+        "RFQ": {
+            "code": "Rfq Code"
+        },
+        "CONTRACT": {
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible",
+            "description": "Reference Name",
+            "code": "Code",
+            "clerkreqfk": "Requisition Owner"
+        },
+        "CONTRACT_ITEM":{
+            "quantity":"Quantity",
+            "price":"Price",
+            "mdcmaterialfk":"Material No."
+        },
+        "PACKAGE_ITEM":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "price":"Price"
+        },
+        "QUOTE_ITEMS": {
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "pricegross":"Price (Gross)",
+            "total":"Total"
+        }
+    }
+}

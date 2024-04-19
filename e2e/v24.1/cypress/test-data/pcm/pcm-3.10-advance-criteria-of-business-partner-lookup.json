@@ -1,0 +1,225 @@
+    {
+        "CONTAINERS": {
+            "DATA_TYPES": {
+                "RADIUS": "Radius"
+            },
+            "DATA_RECORDS": {
+                "DISTANCE_IN_KM": [
+                    "20 miles"
+                ],
+                "DISTANCE_IN_M": [
+                    "20,000.000"
+                ]
+            },
+            "BUSINESS_PARTNER": {
+                "STREET": [
+                    "Vahrenwalder Straße 222",
+                    "ABC"
+                ],
+                "CITY": [
+                    "Hannover",
+                    "Berlin"
+                ],
+                "ZIP_CODE": [
+                    "30167",
+                    "411045"
+                ],
+                "COUNTRY": [
+                    "Germany",
+                    "British Indian Ocean Territory"
+                ]
+            },
+            "PROJECT": {
+                "CLERK_NAME": "HS"
+            },
+            "ITEMS": {
+                "MATERIAL": [
+                    "MG2FM"
+                ],
+                "QUANTITY": [
+                    "20"
+                ]
+            }
+        },
+        "MODAL": {
+            "ENHANCED_BIDDER_SEARCH": {
+                "DISTANCE_IN_KM": [
+                    "20 miles"
+                ],
+                "TYPE": [
+                    "Location",
+                    "Procurement structure",
+                    "Evaluation Mark",
+                    "Businesspartner Status"
+                ],
+                "RADIO": [
+                    "Distance",
+                    "Regional"
+                ],
+                "REGION": [
+                    "Germany"
+                ],
+                "PROCUREMENT_STRUCTURE": [
+                    "D"
+                ],
+                "BUSINESS_PARTNER": [
+                    "Adolf Koch",
+                    "AGO Baumaschinen GmbH",
+                    "Anton Waliser"
+                ],
+                "BRANCH": [
+                    "Filderstadt",
+                    "Brandenburg",
+                    "Stuttgart"
+                ],
+                "CONTACTS": [
+                    "Hans",
+                    "Klaus",
+                    "Anton"
+                ],
+                "CONTRACTOR": [
+                    "Contractor"
+                ]
+            },
+            "STATUS": {
+                "Recorded": "uncheck",
+                "Identified": "uncheck",
+                "Approved": "check",
+                "Partner": "uncheck",
+                "Critical": "uncheck",
+                "Blocked": "uncheck"
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            "BUSINESS_PARTNER": {
+                "businesspartnername1": "Business Partner Name",
+                "zipCode": "Zip Code",
+                "city": "City",
+                "address": "Address"
+            },
+            "BRANCHES": {
+                "ismainaddress": "Is Main Address",
+                "description": "Description",
+                "addresstypefk": "Address Type",
+                "addressdto": "Address"
+            },
+            "PROJECT": {
+                "projectno": "Project Number",
+                "projectname": "Name",
+                "addressfk": "Address"
+            },
+            "PACKAGE": {
+                "code": "Code",
+                "description": "Description"
+            },
+            "REQUISITION": {
+                "id": "Id",
+                "reqstatusfk": "Status",
+                "code": "Code"
+            },
+            "ITEMS": {
+                "mdcmaterialfk": "Material No.",
+                "quantity": "Quantity"
+            }
+        },
+        "Prerequisites": {
+            "SidebarInputs": {
+                "searchType": "standard",
+                "Wizard": "wizard",
+                "search": "Search",
+                "searchValue1": "Requisition"
+            }
+        },
+        "sidebarInputs": {
+            "sidebar": {
+                "wizard": "Wizard",
+                "wizard1": "wizard",
+                "quickStart": "Quick Start",
+                "quickStart1": "quickstart",
+                "BusinessPartner": "Business Partner",
+                "package": "Package",
+                "customizing": "Customizing",
+                "clerk": "FI",
+                "project": "Project",
+                "material": "Material",
+                "createRequisition": "Create Requisition",
+                "changeRequisitionStatus": "Change Requisition Status",
+                "status": "Approved"
+            }
+        },
+        "businessPartnerInput": {
+            "BPInput": {
+                "street": "Vahrenwalder Straße 222",
+                "city": "Hannover",
+                "zipCode": "30167",
+                "country": "Germany",
+                "street1": "ABC",
+                "city1": "Pune",
+                "zipCode1": "411045",
+                "country1": "British Indian Ocean Territory",
+                "Branch": "Branch",
+                "list": "list",
+                "selectRadioButton": "selectRadioButton"
+            },
+            "BPColumn": {
+                "businesspartnerstatusfk": "Status",
+                "code": "Code",
+                "businesspartnername1": "Business Partner Name"
+            }
+        },
+        "customizingInput": {
+            "radius": "Radius",
+            "distance": "20 miles",
+            "distanceInMeter": "20,000.000"
+        },
+        "LookupInputs": {
+            "type": "Location",
+            "type1": "Procurement structure",
+            "type2": "Evaluation Mark",
+            "type3": "Businesspartner Status",
+            "radio1": "Distance",
+            "radio2": "Regional",
+            "distance": "20 miles",
+            "check": "check",
+            "uncheck": "uncheck",
+            "createRfQ": "Create Request For Quote",
+            "region": "Germany",
+            "BPName1": "Adolf Koch",
+            "branch": "Filderstadt",
+            "contact": "Hans",
+            "code": "D",
+            "BPName2": "AGO Baumaschinen GmbH",
+            "branch1": "Brandenburg",
+            "contact1": "Klaus",
+            "BPName3": "Anton Waliser",
+            "branch2": "Stuttgart",
+            "contact2": "Anton",
+            "contractor": "Contractor"
+        },
+        "BP_STATUS": {
+            "Recorded": "uncheck",
+            "Identified": "uncheck",
+            "Approved": "check",
+            "Partner": "uncheck",
+            "Critical": "uncheck",
+            "Blocked": "uncheck"
+        },
+        "PKG_COLUMN": {
+            "packagestatusfk": "Status",
+            "code": "Code"
+        },
+        "PKGITEM": {
+            "inputs": {
+                "materialNo": "MG2FM",
+                "quantity": "20"
+            },
+            "column": {
+                "mdcmaterialfk": "Material No.",
+                "quantity": "Quantity"
+            }
+        },
+        "RequisitionColumn": {
+            "reqstatusfk": "Status",
+            "code": "Code"
+        }
+    }

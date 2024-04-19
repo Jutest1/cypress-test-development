@@ -1,0 +1,69 @@
+{   
+    "CONTAINERS": {
+        "PROJECT":{
+            "CLERK_NAME":"HS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "UOM": "BAGS"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "DÜB08PVC",
+            "QUANTITY": "100.000",
+            "MATERIAL_COST_CODE": "Material & Cost Code"           
+        },        
+        "RFQ":{
+            "BP1":"Adolf Koch",
+            "BP2":"AGO Baumaschinen GmbH",
+            "RADIO":"User Frequence",
+            "TOTAL_OC":"T10",
+            "ITEMSPRICE1":"100.00",
+            "ITEMSPRICE2":"200.00"
+        }
+    },    
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "budget":"Budget"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity",
+            "co2project":"CO2/kg (Project)"
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        },
+        "PACKAGE_ITEM":{
+            "price":"Price",
+            "quantity": "Quantity",
+            "prcstructurefk":"Structure",
+            "basuomfk":"UoM",
+            "mdcmaterialfk":"Material No.",
+            "totalprice":"Total Price"
+        },
+        "REQUISITION":{
+            "packagefk":"Package"
+        },
+        "QUOTE":{
+            "price":"Price"
+        }
+    }  
+
+}

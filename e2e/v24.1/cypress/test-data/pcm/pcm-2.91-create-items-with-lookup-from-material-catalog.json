@@ -1,0 +1,238 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "MATERIAL_TYPE": "Material Catalog Type",
+            "PRICE_LISTS": "Price List",
+            "MASTERDATA": "Masterdata"
+        },
+        "DATA_RECORDS": {
+            "FREAMWORK_AGREEMENTS": "framework agreements",
+            "Check": "check",
+            "RIB_DEMO_Stamm": "RIB_DEMO_Stamm",
+            "EURO": "Euro"
+        },
+        "MATERIAL_CATALOG": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "MATERIAL_GROUP_STRUCTURE": "M",
+            "Description": "new Description",
+            "catalog_Type": "Neutral Material",
+            "rubicCategory": "Neutral Material",
+            "validForm": "01/06/2023",
+            "validTo": "30/06/2024",
+            "PaymentTermFI": "NET30",
+            "PaymentTermAD": "NET90",
+            "PaymentTermPA": "NET14",
+            "Incoterm": "EXW",
+            "Responsible": "SmiJ",
+            "UOM": "BAG"
+        },
+        "MATERIAL_RECORDS": {
+            "description": "test12",
+            "UOM": "BAG",
+            "PRICE": "140",
+            "RETAIL_PRICE": "0.20",
+            "LIST_PRICE": "0.100.10",
+            "EUR": "EUR",
+            "USD": "USD",
+            "retailprice": "0.20",
+            "uom": "BAGS",
+            "listprice": "0.100.10",
+            "specification": "Test111",
+            "factor": "1.000000",
+            "sell": "1.000",
+            "Priceunit": "1.000",
+            "min_quanttiy": "100.000",
+            "stock_material": "",
+            "price_condition": "No Extras",
+            "tax_code": "00"
+        },
+        "PRICE_LISTS": {
+            "PRICE": [
+                "100",
+                "120.00"
+            ],
+            "materialSearch": "Material Search",
+            "refresh": "Refresh",
+            "LIST_PRICE": "100.000",
+            "RETAIL_PRICE": "200.000",
+            "specification": "Test123"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB08PVC",
+            "QUANTITY": "20"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "300",
+            "UOM": "10M3"
+        },
+        "REQUISITIONS": {
+            "STRUCTURE": "M"
+        },
+        "REQUISITION_ITEMS": {
+            "MaterialCatalog": "Material Catalog",
+            "ProcurementStructure": "Procurement structure",
+            "FLEXBOX": [
+                "001 Artikelkatalog",
+                "M Material"
+            ],
+            "MATERIAL_NO": [
+                "2331101",
+                "MG2FM"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "CRITERIA_SELECTION": "Material & Cost Code",
+            "configurationInput": "Material",
+            "QUANTITY": "40",
+            "PRICE": "12"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "conheaderfk": "Contract",
+            "materialcatalogtypefk": "Type",
+            "businesspartnerfk": "Business Partner"
+        },
+        "MATERIAL_GROUP": {
+            "tree": "Structure",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isplantmanagement": "Is Plantmanagement",
+            "isassetmanagement": "Asset Management"
+        },
+        "MATERIAL_RECORD": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "descriptioninfo2": "Further Description",
+            "mdctaxcodefk": "Tax Code",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "discount": "Discount %",
+            "basuompriceunitfk": "Price Unit UoM",
+            "priceextra": "Price Extras",
+            "estimateprice": "Estimate Price",
+            "charges": "Charges",
+            "bascurrencyfk": "Currency"
+        },
+        "CONTRACT": {
+            "code": "Code",
+            "materialcatalogfk": "Framework Material Catalog"
+        },
+        "REQUISITIONS": {
+            "code": "Code",
+            "projectfk": "Project No.",
+            "controllingunitfk": "Controlling Unit Code",
+            "structure": "Structure Code",
+            "materialcatalogfk": "Framework Material Catalog",
+            "MaterialCatalogFkDescriptionInfo.Translated": "Framework Contract Description"
+        },
+        "MATERIAL_CATALOGS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "conheaderfk": "Contract",
+            "materialcatalogtypefk": "Type",
+            "businesspartnerfk": "Business Partner",
+            "isticketsystem": "Is Ticket System"
+        },
+        "DATA_TYPES": {
+            "name": "Data Type",
+            "modulename": "Module"
+        },
+        "DATA_RECORDS": {
+            "issupplier": "Is Supplier",
+            "isframework": "Is Framework"
+        },
+        "REQUISITION_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "totalprice": "Total Price",
+            "price": "Price"
+        },
+        "ATTRIBUTE": {
+            "propertyinfo": "Attribute",
+            "hasfixedvalues": "Fixed Values"
+        },
+        "ATTRIBUTE_VALUES": {
+            "characteristicinfo": "Value"
+        },
+        "MATERIAL_RECORDS": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "basuompriceunitfk": "Price Unit UoM",
+            "specificationinfo": "Specification",
+            "factorpriceunit": "Factor",
+            "sellunit": "Sell Unit",
+            "priceunit": "Price Unit",
+            "mdcmaterialstockfk": "Stock Material",
+            "prcpriceconditionfk": "Price Condition",
+            "cost": "Cost Price",
+            "mdctaxcodefk": "Tax Code",
+            "minquantity": "Min Quantity",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code"
+        },
+        "PRICE_LISTS": {
+            "materialpriceversionfk": "Price Version",
+            "materialpriceversionPriceList": "Price List"
+        },
+        "PROCUREMENTCONTRACT": {
+            "businesspartnerfk": "Business Partner",
+            "prccopymodefk": "Copy Mode"
+        },
+        "ITEMS_CONTRACT": {
+            "basuomfk": "UoM",
+            "mdcmaterialfk": "Material No.",
+            "description1": "Description 1",
+            "prcstructurefk": "Structure",
+            "specification": "Specification",
+            "priceunit": "Price Unit",
+            "mdctaxcodefk": "Tax Code",
+            "price": "Price",
+            "minquantity": "Min Quantity"
+        },
+        "CONTRACT_ATTACHMENTS": {
+            "copytype": "Copy Type"
+        }
+    }
+}

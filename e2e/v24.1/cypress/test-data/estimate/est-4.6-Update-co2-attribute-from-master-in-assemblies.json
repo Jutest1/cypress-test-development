@@ -1,0 +1,103 @@
+{
+    "CONTAINERS": {
+        "COST_CODES": {
+            "CODE": "S1",
+            "CO2_PROJECT": "300.000",
+            "UPDATED_CO2_PROJECT": "100.000"
+        },
+        "MATERIAL_CATALOGS": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "MATERIAL_TYPE": "Neutral Material"
+        },
+        "MATERIAL_RECORDS": {
+            "UOM": "BAGS",
+            "RETAIL_PRICE": "11",
+            "LIST_PRICE": "130",
+            "CO2_PROJECT": "32",
+            "UPDATE_CO2_PROJECT": "42"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "QUANTITY": "12",
+            "COST_CODE": "S1",
+            "SHORT_KEY": [
+                "C",
+                "M"
+            ]
+        }
+    },
+    "MODAL": {
+        "RECALCULATE_ASSEMBLIES": {
+            "SELECT_UPDATE_SCOPE": "Current Result Set"
+        },
+        "UPDATE_SETTING": {
+            "Update Cost Codes": "check",
+            "Update Materials": "check",
+            "Update Assembly Resources": "uncheck",
+            "Update Cost Types": "uncheck"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "code": "Code",
+            "co2project": "CO2/kg (Project)"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "costcodefk": "Cost Code"
+        },
+        "MATERIAL_CATALOGS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "validfrom": "Valid From",
+            "validto": "Valid To",
+            "materialcatalogtypefk": "Type",
+            "isticketsystem": "Is Ticket System",
+            "isneutral": "Neutral Material"
+        },
+        "MATERIAL_GROUPS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_GROUP_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_RECORDS": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "estassemblytypefk": "Assembly Type",
+            "marker": "Filter"
+        },
+        "ASSEMBLIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "estassemblycatfk": "Assembly Category",
+            "mdccostcodefk": "Cost Code",
+            "mdcmaterialfk": "Material"
+        },
+        "ASSEMBLY_RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total"
+        }
+    }
+}

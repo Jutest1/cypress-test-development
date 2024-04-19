@@ -1,0 +1,14 @@
+{
+  "CONTAINERS": {
+      "UNIT": {
+          "TYPE":"Year"
+      }
+  },
+  "CONTAINER_COLUMNS": {
+      "UNIT": {
+        "unitinfo":"Unit of Measurement",
+        "uomtypefk":"Type"
+      }
+   }
+}
+  

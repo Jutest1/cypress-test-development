@@ -1,0 +1,27 @@
+{
+    "CONTAINERS": {
+        "CHARACTERISTIC_SECTIONS": {
+            "Requisition": "check"
+        },
+        "ITEMS": {
+            "MATERIAL_NO": "2109010"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CHARATERISTIC_GROUP": {
+            "descriptioninfo": "Description"
+        },
+        "CHARACTERISTIC": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "CHARACTERISTIC_SECTIONS": {
+            "descriptioninfo": "Description",
+            "checked": "Checked"
+        },
+        "REQUISITION_CHARACTERISTIC": {
+            "characteristicfk": "Code",
+            "description": "Description"
+        }
+    }
+}

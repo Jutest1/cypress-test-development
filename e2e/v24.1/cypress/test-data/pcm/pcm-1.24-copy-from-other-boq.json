@@ -1,0 +1,36 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "50",
+            "UOM": "BAGS"
+        },
+        "SOURCE_WIC_BOQ": {
+            "WIC_BOQ":"WIC BoQ",
+            "PROCUREMENT_CONTRACT_BOQ": "Procurement Contract BoQ",
+            "PACKAGE_BOQ": "Package BOQ",
+            "ProjectBoQ": "Project BoQ",
+            "PROJECT": "iTWO Solution Center DACH",
+            "WIC_GROUP": "002",
+            "BOQ_SELECTION": "1",
+            "BOQ_STRUCTURE_FOLDER": "Abschnitt",
+            "boqstructureLineItemType": "Level 1",
+            "boqstructureLineItemType2": "Level 2"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate"
+        },
+        "SOURCE_BOQ": {
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price (EUR)"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    }
+}

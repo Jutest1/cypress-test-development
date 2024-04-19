@@ -1,0 +1,50 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "INVOICE_HEADER": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch",
+                "AGO Baumaschinen GmbH"
+            ],
+            "PROCUREMENT_STRUCTURE": [
+                "M",
+                "D"
+            ],
+            "TAX_CODE": [
+                "05",
+                "19"
+            ],
+            "RESPONSIBLE": [
+                "FI",
+                "SmiJ"
+            ]
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "INVOICE_HEADER": {
+            "taxcodefk": "Tax Code",
+            "reference": "Invoice No.",
+            "businesspartnerfk": "Business Partner",
+            "prcstructurefk": "Structure Code",
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible"
+        }
+    }
+}

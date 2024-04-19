@@ -1,0 +1,19 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES":{
+        "CALENDER":"DE",
+        "PERFORMANCESHEET":"Germany",
+        "CODEFORMATE":"Running Serial Numbering"
+
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            "SCHEDULES": {
+              "code":"Code",
+              "descriptioninfo":"Description"
+    
+            }
+      
+}
+
+}

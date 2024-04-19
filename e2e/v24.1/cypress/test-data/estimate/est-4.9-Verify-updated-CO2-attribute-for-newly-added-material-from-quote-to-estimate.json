@@ -1,0 +1,103 @@
+{
+    "CONTAINERS": {
+        "MATERIAL_CATALOGS": {
+            "MATERIAL_CATALOG_DESCRIPTION": "Artikelkatalog",
+            "MATERIAL_GROUP_DESCRIPTION": "Binde-, Zusatzmittel"
+        },
+        "MATERIAL_RECORDS": {
+            "CO2_PROJECT": "32",
+            "MATERIAL_RECORD_DESCRIPTION": [
+                "Silo- Portlandzement",
+                "Bitumenemulsion"
+            ],
+            "QUANTITY": "10",
+            "SHORT_KEY": [
+                "C",
+                "M",
+                "A"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "4",
+            "UOM": "10M3"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "UPDATE_ESTIMATE_WIZARD": [
+            {
+                "LABEL_NAME": "Linked Material Item",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Overwrite original Resources",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Create new Line Item for new Material Item",
+                "INDEX": "0",
+                "VALUE": "check"
+            }
+        ],
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_GROUP_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_RECORDS": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total",
+            "co2totalvariance": "CO2 Total Variance",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "co2projecttotal": "CO2 (Project) Total"
+        },
+        "QUOTE_ITEMS": {
+            "co2project": "CO2/kg (Project)",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "co2projecttotal": "CO2/kg (Project Total)"
+        }
+    }
+}

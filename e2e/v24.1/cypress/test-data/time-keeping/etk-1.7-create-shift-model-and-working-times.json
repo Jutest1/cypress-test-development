@@ -1,0 +1,68 @@
+{
+    "CONTAINERS": {
+        "TIME_SYMBOLS": {
+            "CHECKBOX": "check",
+            "TIME_SYMBOL_TYPE": "Type not specified",
+            "TIME_SYMBOL_GROUP": "6. Controlling: Allocated Times"
+        },
+        "SHIFT_MODELS": {
+            "CALENDAR": "DE"
+        },
+        "WORKING_TIMES": {
+            "ACRONYM": [
+                "MON",
+                "TUE",
+                "WED",
+                "THU",
+                "FRI"
+            ],
+            "WEEKDAY": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri"
+            ],
+            "FROMTIME": [
+                "09:00"
+            ],
+            "TOTIME": [
+                "18:00"
+            ],
+            "DURATION": [
+                "8"
+            ],
+            "BREAKFROM": [
+                "13:00"
+            ],
+            "BREAKTO": [
+                "14:00"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "TIME_SYMBOLS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "isproductive": "Is Productive",
+            "ispresence": "Is Presence",
+            "timesymboltypefk": "Time Symbol Type",
+            "timesymbolgroupfk": "Time Symbol Group"
+        },
+        "SHIFT_MODELS": {
+            "descriptioninfo": "Description",
+            "calendarfk": "Calendar"
+        },
+        "WORKING_TIMES": {
+            "acronym": "Acronym",
+            "descriptioninfo": "Description",
+            "timesymbolfk": "Time Symbol",
+            "weekdayfk": "Weekday",
+            "duration": "Duration",
+            "fromtime": "From Time",
+            "totime": "To Time",
+            "breakfrom": "Break From",
+            "breakto": "Break To"
+        }
+    }
+}

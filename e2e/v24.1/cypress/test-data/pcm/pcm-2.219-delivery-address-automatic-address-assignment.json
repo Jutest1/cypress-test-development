@@ -1,0 +1,42 @@
+{
+    "CONTAINERS": {
+        "COMPANIES": {
+            "CODE": "999",
+            "COMPANY_NAME": "RIB Demo"
+        },
+        "CLERK": {
+            "CODE": "HS"
+        },
+        "PROJECT_ADDRESS": {
+            "CLERK": "Smith, John",
+            "CITY": "Mumbai",
+            "STREET": "India Gate",
+            "ZIPCODE": "400011",
+            "COUNTRY": "British Indian Ocean Territory",
+            "MANUAL_ADRESS": "FC Road, Pune-540011"
+        },
+        "MATERIAL": {
+            "MATERIAL_CODE": "I110",
+            "MATERIAL_QUANTITY": "2"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "code": "Code",
+            "description": "Requisition Name",
+            "ControllingUnitFkDescriptionInfo.Translated": "Controlling Unit Description",
+            "projectfk": "Project No.",
+            "addressentity": "Delivery Address"
+        },
+        "PROJECT_ADDRESS": {
+            "addressfk": "Address"
+        },
+        "COMPANIES": {
+            "companyname": "Company Name"
+        },
+        "CLERK": {
+            "code": "Code",
+            "userfk": "User"
+        }
+    }
+}

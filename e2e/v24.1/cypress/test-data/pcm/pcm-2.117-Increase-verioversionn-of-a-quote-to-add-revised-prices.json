@@ -1,0 +1,55 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "STRUCTRECODE": "D",
+            "CONFIGURATION": "Service REQ",
+            "REMARK": "Status Changed",
+            "BUSINESS_PARTNER_NAME": "Adolf Koch"
+        },
+        "REQUISITION_ITEMS": {
+            "MATERIAL_CODE": "DÜB08PVC",
+            "BUSINESS_PARTNER_NAME": "Adolf Koch",
+            "QUANTITY": "100.000"
+        },
+        "MODAL_VERSION": {
+            "VERSION_1": "1",
+            "VERSION_2": "2"
+        },
+        "QUOTES_ITEMS": {
+            "PRICE_1": "10.00",
+            "PRICE_2": "20.00",
+            "PRICE_CONDITION": "Surcharge"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk": "Business Partner"
+        },
+        "REQUISITION_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "itemno": "Item Number"
+        },
+        "REQUISITION_TOTALS": {
+            "valuenet": "Net Value"
+        },
+        "BIDDERS": {
+            "businesspartnerfk": "Business Partner"
+        },
+        "QUOTES": {
+            "businesspartnerfk": "Business Partner",
+            "quoteversion": "Version"
+        },
+        "QUOTES_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "prcpriceconditionfk": "Price Condition",
+            "price": "Price",
+            "quantity": "Quantity"
+        }
+    }
+}

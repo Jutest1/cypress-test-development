@@ -1,0 +1,82 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "MG2FM",
+            "QUANTITY": "200.00",
+            "REPLACE_RECORD": "MG3DM"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "1",
+            "UOM": "BAG"
+        },
+        "PACKAGE": {
+            "VALUE": "MG2FM",
+            "QUANTITY": "1.000",
+            "RADIO_INPUT": "For current package"
+        },
+        "MATERIAL_RECORD": {
+            "MIN_QUANTITY": "20",
+            "SELL_UNIT": "10"
+        },
+        "DELIVERY_SHEDULE": {
+            "DATE": [
+                "29/01/2024",
+                "30/01/2024"
+            ],
+            "TIME": [
+                "10:00",
+                "12:00"
+            ],
+            "QUANTITY": [
+                "130",
+                "70"
+            ],
+            "LABEL": [
+                "Total Quantity",
+                "Quantity Schedule",
+                "Open Quantity"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "MATERIAL_RECORD": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "minquantity": "Min Quantity",
+            "sellunit": "Sell Unit"
+        },
+        "PACKAGE_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "price": "Price"
+        }
+    }
+}

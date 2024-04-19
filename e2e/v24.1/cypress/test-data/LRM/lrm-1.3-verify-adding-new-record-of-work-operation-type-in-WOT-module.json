@@ -1,0 +1,59 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "BOQ_CONFIG_TYPE":"Boq Rounding Configuration Type"
+        },
+        "DATA_RECORD": {
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted"
+        },
+        "PLANT_TYPES":{
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted" 
+        },
+        "OPERATION_TYPES":{
+            "CHECK":"check",
+            "DAY":"Day",
+            "KM":"Km",
+            "ST":"ST",
+            "HOUR":"Hour" 
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "DATA_TYPES": {
+            "name":"Data Type",
+            "type":"Type",
+            "modulename":"Module",
+            "dbtablename":"DB Table Name"
+        },
+        "DATA_RECORD": {
+            "BoqRoundingConfiguration":"Check Config",
+            "boqroundingconfigfk":"Boq Rounding Configuration",
+            "descriptioninfo":"Description",
+            "lineitemcontextfk":"Line Item Context",
+            "islive":"Live"
+        },
+        "PLANT_TYPES":{
+            "planttypefk":"Plant Type",
+            "istimekeepingdefault":"Is Timekeeping Default" 
+        },
+        "OPERATION_TYPES":{
+            "isminorequipment":"Is Minor Equipment",
+            "ishire":"Is Hire",
+            "isdefault":"Is Default",
+            "uomfk":"UoM",
+            "descriptioninfo":"Description",
+            "code":"Code",
+            "islive":"Active" 
+        }
+    }
+
+}

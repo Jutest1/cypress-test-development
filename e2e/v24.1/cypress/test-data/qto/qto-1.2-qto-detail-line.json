@@ -1,0 +1,80 @@
+{
+  "CONTAINERS": {
+    "BOQ_STRUCTURE": {
+      "QUANTITY": "100",
+      "UNIT_RATE": "25",
+      "UOM": "%"
+    },
+
+    "QTO_HEADER": {
+      "QTO_PURPOSE_SALE_WQ_AQ":"Sales WQ/AQ",
+      "QTO_PURPOSE__PROCUREMENT_PES":"Procurement / PES",
+      "QTO_PURPOSE__SALE_WIP_BILL":"Sales / WIP&Bill",
+      "QTO_PURPOSE__PROCUREMENT_WQ_AQ":"Procurement WQ/AQ",
+      "QTO_HEADER_QTO_TYPE":"REB 23.003"
+    },
+    "QTO_DETAIL_LINE": {
+      "QTO_DETAIL_LINE_BOQ":"10.10.  10.",
+      "QTO_DETAIL_LINE_TYPE_CODE": "3",
+      "QTO_DETAIL_LINE_FACTOR": "12",
+      "QTO_DETAIL_LINE_FORMULA": "99",
+      "QTO_DETAIL_LINE_VALUE":"10=",
+      "QTO_DETAIL_LINE_VALUE2":"20="
+
+  },
+  "RENUMBER_QTO_LINES": {
+    "SHEET": "2",
+    "LINE": "C",
+    "INDEX": "1",
+    "INCREMENT": "10",
+    "SELECTION": "Starting from Selected Line"
+}
+
+  },
+  "MODAL": {
+   
+  },
+  "CONTAINER_COLUMNS": {
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification",
+      "boqrootitem.reference": "Reference No."
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "finalgross": "Final Price (Gross)"
+    },
+    "QTO_HEADER":{
+      "code": "Code",
+      "projectfk": "Project",
+      "ProjectFkProjectName": "Project Name",     
+      "qtotypefk" :"QTO Type",
+      "basrubriccategoryfk" :"Rubric Category",
+      "qtotargettype":"QTO Purpose",
+      "boqheaderfk":"BoQ Reference No."      
+
+    },
+    "QTO_DETAIL_LINE": {
+      "boqitemcode": "BoQ Item",
+      "qtolinetypecode": "Type",
+      "factor": "Factor",     
+      "qtoformulafk" :"QTO Formula",
+      "value1detail" :"value 1",
+      "prjlocationfk":"Location",
+      "pagenumber":"Sheet",
+      "linereference":"Line",
+      "lineindex":"Index",
+      "result":"Result"
+
+
+
+  }
+
+  
+
+
+  }
+}

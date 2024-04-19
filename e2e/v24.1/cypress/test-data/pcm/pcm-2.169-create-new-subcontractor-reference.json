@@ -1,0 +1,65 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "CONFIGURATION": "Material Req",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE": "M"
+        },
+        "BRANCHES": {
+            "STREET": "4 Bockelsdorf",
+            "ZIP_CODE": "48727",
+            "COUNTRY": "Germany",
+            "BRANCH": "Branch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "businesspartnerfk": "Business Partner",
+            "code": "Code"
+        },
+        "BUSINESS_PARTNER": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "BRANCHES": {
+            "ismainaddress": "Is Main Address",
+            "description": "Description",
+            "addresstypefk": "Address Type",
+            "addressdto": "Address",
+            "taxno": "Tax No."
+        },
+        "SUPPLIERS": {
+            "code": "Creditor No.",
+            "subsidiaryfk": "Branch Description",
+            "paymenttermpafk": "Payment Term (PA)",
+            "paymenttermfifk": "Payment Term (FI)",
+            "vatgroupfk": "VAT Group"
+        },
+        "CONTACT": {
+            "contactrolefk": "Role",
+            "firstname": "First Name",
+            "familyname": "Last Name",
+            "isdefault": "Is Default"
+        },
+        "SUB_CONTRACTOR": {
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "bpdcontactfk": "Contact",
+            "bpdsubsidiaryfk": "Branch",
+            "bpdsupplierfk": "Supplier"
+        },
+        "CONTRACT": {
+            "code": "Code",
+            "reqheaderfk": "Requisition",
+            "projectfk": "Project No.",
+            "structureCode": "Procurement structure",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_SUB_CONTRACTOR": {
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "bpdcontactfk": "Contact",
+            "bpdsupplierfk": "Supplier",
+            "bpdsubsidiaryfk": "Branch"
+        }
+    }
+}

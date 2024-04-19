@@ -1,0 +1,27 @@
+{
+    "CONTAINERS": {
+      "BOQ_STRUCTURE": {
+        "QUANTITY": "600.000",
+        "UNIT_RATE": "30",
+        "UOM": "10M3",
+        "DISCOUNT_AMOUNT":"10",
+        "BOQ_TYPE":"Level 2"
+      }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "discountpercent":"Discount % UR",
+            "discountedprice":"Discounted Price (EUR)",
+            "itemtotal":"Item Total (EUR)"
+          
+        }
+    }
+}

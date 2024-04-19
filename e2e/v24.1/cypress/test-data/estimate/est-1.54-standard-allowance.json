@@ -1,0 +1,178 @@
+{
+    "CONTAINERS": {
+        "DATA_RECORDS": {
+            "RIB_DEMO_DATA_CONTEXT": "RIB_DEMO_Stamm",
+            "GA": [
+                "8"
+            ],
+            "AM": [
+                "2"
+            ],
+            "RP": [
+                "3"
+            ]
+        },
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "UOM": [
+                "10M3"
+            ],
+            "QUANTITY": [
+                "1"
+            ],
+            "GRAND_COST_UNIT_ITEM": [
+                "199"
+            ],
+            "ADVANCE_ALLOWANCE": [
+                "100"
+            ]
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "C"
+            ],
+            "COST_CODE": [
+                "1",
+                "2"
+            ]
+        },
+        "STANDARD_ALLOWANCE": {
+            "QUANTITY_TYPE": "WQ",
+            "ALLOWANCE_TYPE": "Simple Estimate-by-Markup",
+            "GA": [
+                "8"
+            ],
+            "RP": [
+                "2"
+            ],
+            "AM": [
+                "3"
+            ]
+        },
+        "ALLOWANCE_MARKUP": {
+            "COST_CODE": [
+                "Lohn",
+                "Stoffe"
+            ],
+            "GA": [
+                "8"
+            ],
+            "RP": [
+                "2"
+            ],
+            "AM": [
+                "3"
+            ]
+        },
+        "TOTALS": {
+            "TOTALS_TYPE": [
+                "G&A",
+                "R&P",
+                "GC",
+                "AM",
+                "FM"
+            ]
+        }
+    },
+    "MODAL": {
+        "ESTIMATE_CONFIG_DIALOG_PARAMETER": {
+            "CONFIGURATION": [
+                "Estimate Configuration",
+                "Totals Configuration"
+            ],
+            "LINE_TYPE": [
+                "GC",
+                "FM",
+                "R&P",
+                "G&A",
+                "MM",
+                "AA",
+                "AM"
+            ],
+            "DESCRIPTION": [
+                "GC",
+                "FM",
+                "R&P",
+                "G&A",
+                "MM",
+                "AA",
+                "AM"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "isgc": "General Cost",
+            "isoptionalit": "Optional IT",
+            "isoptional": "Optional",
+            "grandcostunit": "Grand Cost/Unit",
+            "grandcostunittarget": "Grand Cost/Unit Item",
+            "advancedall": "Adv. Allowance Total",
+            "manualmarkup": "Manual Markup",
+            "isfixedprice": "Fixed Price",
+            "rp": "R&P",
+            "ga": "G&A",
+            "am": "AM",
+            "costtotal": "Cost Total",
+            "gc": "GC",
+            "fm": "FM",
+            "urd": "URD",
+            "advancedallunititem": "Adv. Allowance/Unit Item"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "rp": "R&P",
+            "ga": "G&A",
+            "am": "AM",
+            "gc": "GC"
+        },
+        "STANDARD_ALLOWANCE": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "isactive": "Is Active",
+            "mdcallowancetypefk": "Allowance Type",
+            "markupga": "G&A[%]",
+            "markuprp": "R&P[%]",
+            "markupam": "AM[%]",
+            "quantitytypefk": "Quantity Type"
+        },
+        "ALLOWANCE_MARKUP": {
+            "mdccostcodeDescription": "Description",
+            "defmgcperc": "Def.M(GC)[%]",
+            "amperc": "AM[%]",
+            "rpperc": "R&P[%]",
+            "gaperc": "G&A[%]"
+        },
+        "TOTALS": {
+            "description": "Description",
+            "total": "Total"
+        },
+    
+        "TOTAL_GRID":{
+         "GA_PERCENTAGE":"8.00",
+         "RP_PERCENTAGE":"2.00",
+         "AM_PERCENTAGE":"3.00"
+ 
+     }
+    
+}
+}

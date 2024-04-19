@@ -1,0 +1,31 @@
+{
+        "CONTAINERS": {
+            "PAYMENT_TERM":{
+                "NETDAY": "1",
+                "DISCOUNTDAYS": "2",
+                "DISCOUONTPERCENT": "7",
+                "DAYMONTH": "10",
+                "CALTYPE": "Day of month",
+                "BPNAME":"Adolf Koch"
+                
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            "PAYMENT_TERM": {
+                "code": "Code",
+                "codefinance": "Code (Finance)",
+                "descriptioninfo": "Description",
+                "netdays": "Net Days",
+                "discountdays": "Discount Days",
+                "discountpercent": "Discount Percent",
+                "dayofmonth": "Day of month",
+                "calculationtypefk": "Calculation Type"
+            },
+            "INVOICE_HEADER":{
+                "paymenttermfk": "Payment Term",
+                "percentdiscount":"Percent Discount"
+            }
+        }
+    
+
+}

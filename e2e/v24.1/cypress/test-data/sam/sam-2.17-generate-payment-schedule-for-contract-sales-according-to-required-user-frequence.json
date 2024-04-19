@@ -1,0 +1,92 @@
+{
+        "CONTAINERS": {        
+            "BOQ_STRUCTURE": {           
+                "QUANTITY": "200.000",
+                "UOM": "BAGS",
+                "UNITRATE":"50.000",            
+                "RECORDING_LEVEL": "LI"
+            },
+            "ESTIMATE":{
+                "RUBRIC_CATEGORY":"Planning",
+                "ESTIMATE_TYPE":"Bid Estimate"
+                
+            },
+            "RESOURCES":{
+                "SHORT_KEY":"C",
+                "CODE":"1",
+                "UOM": "BAGS",
+                "COST_TOTAL":"costTotal"
+            },
+            
+            "BID":{
+                "RUBRIC_CATEGORY1": "Main Quote",
+                "RUBRIC_CATEGORY": "Main Bid",                
+                "BUSINESS_PARTNER": "Adolf Koch",
+                "SOURCE_LEAD": "BoQ",
+                "QUANTITY": "200.000"  
+                
+                
+            },
+            "CONTRACTS":{
+                "GROSS_PRICE":"70.00",
+                "SCOPE":"Corrected UR (Gross)"
+            },
+            "GENERATE_PAYMENT":{
+               
+                "SCHEDULE_TARGATE":"Update payment schedule target",
+                "RADIO_BUTTON":"User Frequence",
+                "CODE":"01"
+            } 
+    
+        }, 
+       
+        "CONTAINER_COLUMNS": {
+            "BOQ":{
+                "boqrootitem.briefinfo": "Outline Specification"
+            },
+            "BOQ_STRUCTURE": {
+                "briefinfo": "Outline Specification",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "price": "Unit Rate (EUR)",
+                "boqlinetypefk": "BoQ Line Type"
+                    
+            },
+            "ESTIMATE":{           
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Category"
+            },
+            "LINE_ITEMS":{
+                "descriptioninfo": "Description",
+                "basuomfk": "UoM",
+                "quantitytarget": "AQ Quantity Item",
+                "quantity": "Quantity"
+            },
+            "RESOURCES":{
+                "estresourcetypeshortkey":"Short Key",
+                "code":"Code",
+                "descriptioninfo":"Description",
+                "costunit":"Cost/Unit"        
+            },
+            "BID":{
+                "bidstatusfk":"Bid Status",
+                "code":"Code",
+                "descriptioninfo":"Description",
+                "projectfk":"Project No.",
+                "businesspartnerfk":"Businesspartner"
+             },
+            "CONTRACT_SALES":{           
+                "code":"Code",
+                "descriptioninfo":"Description",
+                "amountnet":"Net Amount",
+                "businesspartnerfk":"Businesspartner"
+            },
+            "GENERATE_PAYMENT":{
+                "code":"Code",
+                "amountnet":"Net Amount"
+            }    
+        
+        }    
+}

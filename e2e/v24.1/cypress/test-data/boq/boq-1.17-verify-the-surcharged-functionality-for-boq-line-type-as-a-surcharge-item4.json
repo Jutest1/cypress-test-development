@@ -1,0 +1,35 @@
+
+{
+    "CONTAINERS": {
+      "BOQ_STRUCTURE": {
+        "QUANTITY": "500.000",
+        "UNIT_RATE": ["200","20"],
+        "UOM": "Days",
+        "CHECKBOX":"check",
+        "BOQ_LINE_TYPE":"Surcharge Item 4"
+      },
+      "SURCHANGE_ON": {
+        "CHECKBOX": "check"
+      }
+  },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "issurcharged":"Surcharged",
+            "itemtotal":"Item Total (EUR)"
+        },
+        "SURCHANGE_ON": {
+            "selectmarkup": "Select",
+            "quantitysplittotal":"Total",
+            "quantity":"Quantity"
+           
+        }
+    }
+}

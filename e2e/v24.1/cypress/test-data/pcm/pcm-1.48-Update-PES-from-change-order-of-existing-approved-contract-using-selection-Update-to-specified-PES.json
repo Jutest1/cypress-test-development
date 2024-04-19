@@ -1,0 +1,122 @@
+    {
+        "CONTAINERS": {
+            "BOQ_STRUCTURE": {
+                "QUANTITY": [
+                    "20",
+                    "80"
+                ],
+                "UOM": [
+                    "10M3"
+                ],
+                "UNIT_RATE": [
+                    "25"
+                ],
+                "PES_QUANTITY": [
+                    "50"
+                ]
+            },
+            "ESTIMATE": {
+                "RUBRIC_CATEGORY": "Planning",
+                "ESTIMATE_TYPE": "Bid Estimate"
+            },
+            "LINE_ITEMS": {
+                "QUANTITY": [
+                    "300"
+                ],
+                "UOM": [
+                    "BAGS"
+                ]
+            },
+            "RESOURCE": {
+                "SHORT_KEY": [
+                    "C"
+                ],
+                "CODE": [
+                    "1"
+                ]
+            },
+            "CONTRACT": {
+                "CLERK_NAME": "HS"
+            },
+            "PES_BOQ": {
+                "UPDATED_CONTROLLING_UNIT": "Ausbau"
+            }
+        },
+        "MODAL": {
+            "CREATE_UPDATE_BOQ_PACKAGE": {
+                "PROCUREMENT_STRUCTURE": [
+                    "1"
+                ],
+                "CREATE_UPDATE_PACKAGE_CASE": [
+                    "BoQ",
+                    "Update Package with only grouping structure"
+                ],
+                "UPDATE_EXISTED_PACKAGE": "Update to Existed Package"
+            },
+            "CREATE_CONTRACT": {
+                "BUSINESS_PARTNER": "Adolf Koch"
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            "BOQ": {
+                "boqrootitem.briefinfo": "briefinfo"
+            },
+            "BOQ_STRUCTURE": {
+                "briefinfo": "Outline Specification",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "boqlinetypefk": "BoQ Line Type",
+                "price": "Unit Rate (EUR)",
+                "finalprice": "Final Price (EUR)"
+            },
+            "ESTIMATE": {
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.rubriccategoryfk": "Rubric Category",
+                "estheader.esttypefk": "Estimate Type "
+            },
+            "LINE_ITEMS": {
+                "descriptioninfo": "Description",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "prjchangefk": "Project Change",
+                "boqitemfk": "BoQ Item Ref. No.",
+                "estqtyrelboqfk": "Boq Qty Relation",
+                "estqtytelaotfk": "AOT. Qty Relation"
+            },
+            "RESOURCE": {
+                "estresourcetypeshortkey": "Short Key",
+                "code": "Code"
+            },
+            "PACKAGE": {
+                "packagestatusfk": "Status",
+                "code": "Code",
+                "description": "Description",
+                "structurefk": "Procurement structure"
+            },
+            "REQUISITION": {
+                "packagefk": "Package"
+            },
+            "CONTRACT": {
+                "code": "Code",
+                "projectfk": "Project No.",
+                "clerkprcfk": "Responsible"
+            },
+            "PES": {
+                "code": "Code",
+                "description": "Description",
+                "pesstatusfk": "PES Status"
+            },
+            "PES_BOQ": {
+                "conheaderfk": "Contract",
+                "prcboqfk": "Code"
+            },
+            "PES_BOQ_STRUCTURE": {
+                "mdccontrollingunitfk": "Controlling Units",
+                "finalprice": "Final Price",
+                "quantity": "Quantity",
+                "price": "Unit Rate",
+                "briefinfo": "Outline Specification"
+            }
+        }
+    }

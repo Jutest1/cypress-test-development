@@ -1,0 +1,313 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCES": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "CODE": [
+                "MG2FM"
+            ]
+        },
+        "ITEMS": {
+            "UPDATED_MATERIAL_PRICE": [
+                "95",
+                "116"
+            ],
+            "UPDATED_MATERIAL_QUANTITY": [
+                "20",
+                "10"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "UPDATE_ITEM_PRICE": {
+            "SCOPE": [
+                "All item under current selected lead record",
+                "Selected item(s)"
+            ],
+            "CHECK_BOXES_TO_CHECK":[
+                "Material Catalog Price Version",
+                "Quotation",
+                "Contract",
+                "Include Neutral Material"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "businesspartnerfk": "Business Partner"
+        },
+        "ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "price": "Price",
+            "basuomfk": "UoM",
+            "pricegross": "Price (Gross)",
+            "total": "Total"
+        },
+        "REQUISITION": {
+            "id": "Id",
+            "reqstatusfk": "Status",
+            "code": "Code"
+        },
+        "RFQ": {
+            "rfqstatusfk": "Status",
+            "code": "Rfq Code",
+            "description": "Description",
+            "clerkprcfk": "Responsible"
+        },
+        "QUOTES": {
+            "code": "Code",
+            "statusfk": "Status"
+        },
+        "MATERIAL_RECORDS": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "listprice": "List Price"
+        }
+    },
+    "TC1": {
+        "SidebarInputes": {
+            "searchType": "standard"
+        },
+        "EstimatePageInputes": {
+            "CreateEstimate": {
+                "newCode": "02",
+                "rubicCategory": "Planning",
+                "estimateType": "Bid Estimate"
+            },
+            "Column_header": {
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Rubric Category"
+            }
+        }
+    },
+    "LineItem": {
+        "Inputs": {
+            "description": "test line item",
+            "quantity": "1",
+            "uom": "BAG"
+        },
+        "LIColumn_header": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "ResourceInput": {
+        "Inputs": {
+            "shortKey": "M",
+            "code": "MG2FM",
+            "quantity": "200"
+        },
+        "resource_header": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "packageInput": {
+        "sidebarInputs": {
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "searchValue": "Create/Update Material Package",
+            "Criteria": "Material & Cost Code",
+            "value": "MG2FM",
+            "quantity": "200.000",
+            "UpdateItemPrice": "Update Item Price"
+        },
+        "Column_header": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "businesspartnerfk": "Business Partner"
+        },
+        "ItemColumn_header": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "price": "Price"
+        }
+    },
+    "Sidebar": {
+        "sidebarInputs": {
+            "quickstart": "Quick Start",
+            "quickstart1": "quickstart",
+            "searchValue": "Estimate"
+        }
+    },
+    "pkgInput": {
+        "Inputs": {
+            "shortKey": "M",
+            "code": "MG3FM",
+            "quantity": "100"
+        },
+        "sidebarInputs": {
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "searchValue": "Create/Update Material Package",
+            "Criteria": "Material & Cost Code",
+            "value": "MG3FM",
+            "quantity": "100.000"
+        }
+    },
+    "sidebarInputs": {
+        "sidebar": {
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "searchValue": "Create Requisition",
+            "searchValue1": "Change Requisition Status",
+            "status": "Approved",
+            "goTo": "Go To Requisition"
+        },
+        "reqColumn_header": {
+            "id": "Id",
+            "reqstatusfk": "Status",
+            "code": "Code"
+        }
+    },
+    "CreateRequestForQuote": {
+        "SidebarInputes": {
+            "Wizard": "Wizard",
+            "Wizard1": "wizard",
+            "CreateRRequestForQuote": "Create Request For Quote",
+            "gotorfq": "Go To RfQ",
+            "changeRfqStatus": "Change RfQ Status",
+            "status": "Published"
+        },
+        "CreateQuoteInputes": {
+            "Module": "Procument Structure",
+            "ProcumentStructure": "23",
+            "BusinessPartner": "Adolf Koch"
+        }
+    },
+    "BidderInputs": {
+        "Bidder": {
+            "bidder1": "Adolf Koch",
+            "bidder2": "AGO Baumaschinen"
+        }
+    },
+    "Quote": {
+        "BusinessPartner": {
+            "BusinessPartner1": "Adolf Koch",
+            "BusinessPartner2": "AGO Baumaschinen"
+        },
+        "Price": {
+            "materialsup1": "25",
+            "materialsup2": "65"
+        },
+        "SidebarInputes": {
+            "Wizard": "Wizard",
+            "Wizard1": "wizard",
+            "changeQuoteStatus": "Change Quote Status",
+            "status": "Checked",
+            "createQuote": "Create Quote",
+            "goToQuote": "Go To Quote",
+            "updateMaterial": "Update Material",
+            "goToMaterial": "Go To Material",
+            "quickstart": "Quick Start",
+            "quickstart1": "quickstart",
+            "Quote": "Quote",
+            "uom": "BAG",
+            "updateItemPrice": "Update Item Price",
+            "itemNo": "20",
+            "requisition": "Requisition"
+        },
+        "Column_QuotesLineItems": {
+            "Column_QuotesItems": {
+                "price": "Price",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "pricegross": "Price (Gross)",
+                "total": "Total"
+            }
+        }
+    },
+    "Contract": {
+        "contractInputs": {
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "createContract": "Create Contract",
+            "scope": "Bypass evaluated item",
+            "button": "OK",
+            "goToContract": "Go To Contract",
+            "changeContractStatus": "Change Contract Status",
+            "status": "Approved"
+        },
+        "sidebar": {
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "updateEstimate": "Update Estimate",
+            "quickstart": "Quick Start",
+            "quickstart1": "quickstart",
+            "searchValue": "Estimate"
+        },
+        "Column_header": {
+            "quantity": "Quantity",
+            "price": "Price",
+            "mdcmaterialfk": "Material No."
+        }
+    },
+    "rfqColumn": {
+        "rfqstatusfk": "Status",
+        "code": "Rfq Code",
+        "description": "Description",
+        "clerkprcfk": "Responsible"
+    },
+    "updateItemPrice": {
+        "label": "All item under current selected lead record",
+        "label1": "Selected item(s)",
+        "materialNo": [
+            "DÜB08PVC",
+            "DÜB06PVC"
+        ],
+        "checkBox": [
+            "Material Catalog Price Version",
+            "Quotation",
+            "Contract",
+            "Include Neutral Material"
+        ],
+        "latestPriceVersion": "Latest Price version",
+        "MaterialRecordUoMAfter": "Centimeter",
+        "MaterialRecordUoM": "Meter",
+        "zeroDiscount": "0",
+        "radio": "radio"
+    }
+}

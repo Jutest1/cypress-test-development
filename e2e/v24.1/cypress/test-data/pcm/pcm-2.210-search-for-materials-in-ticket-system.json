@@ -1,0 +1,152 @@
+{
+    "CONTAINERS": {
+        "CUSTOMIZING": {
+            "CONTEXT": "RIB_DEMO_Stamm",
+            "CURRENCY": "Euro"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "MATERIAL_RECORD": {
+            "UOM": [
+                "BAGS",
+                "%"
+            ],
+            "RETAIL_PRICE": [
+                "11",
+                "10",
+                "100.00"
+            ],
+            "LIST_PRICE": [
+                "130",
+                "120",
+                "32"
+            ],
+            "MIN_QTY": [
+                "3",
+                "4"
+            ],
+            "CO2_PROJECT": "360",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "ONLY_FRAMEWORK_CATALOG": {
+            "Only Framework Catalog": "check"
+        },
+        "ATTRIBUTE": {
+            "BAGS": "check"
+        },
+        "MATERIAL_TYPE": {
+            "Procurement": "check"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ",
+            "CODE": "999",
+            "COMPANY_NAME": "RIB Demo"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "businesspartnerfk": "Business Partner",
+            "code": "Code",
+            "description": "Requisition Name",
+            "materialcatalogfk": "Framework Material Catalog",
+            "structure": "Structure Code",
+            "controllingunitfk": "Controlling Unit Code"
+        },
+        "REQUISITION_ITEMS": {
+            "quantity": "Quantity",
+            "price": "Price",
+            "total": "Total"
+        },
+        "REQUISITION_TOTALS": {
+            "valuenet": "Net Value",
+            "valuetax": "VAT",
+            "gross": "Gross"
+        },
+        "COMPANIES": {
+            "companyname": "Company Name"
+        },
+        "CLERKS": {
+            "code": "Code",
+            "userfk": "User"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "validfrom": "Valid From",
+            "validto": "Valid To",
+            "materialcatalogtypefk": "Type",
+            "isticketsystem": "Is Ticket System",
+            "isneutral": "Neutral Material"
+        },
+        "MATERIAL_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_GROUP_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_RECORDS": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code",
+            "estimateprice": "Estimate Price",
+            "minquantity": "Min Quantity",
+            "materialtypefk": "Material Type",
+            "mdcmaterialfk": "Neutral Material",
+            "neutralmaterialcatalogfk": "Neutral Material Catalog",
+            "co2project": "CO2/kg (Project)"
+        },
+        "DATA_TYPES": {
+            "name": "Data Type"
+        },
+        "DATA_RECORDS": {
+            "descriptioninfo": "Description",
+            "isdefault": "Is Default",
+            "isframework": "Is Framework",
+            "isforprocurement": "Is For Procurement",
+            "contextfk": "Context",
+            "currencyfk": "Currency"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description"
+        },
+        "PRICE_VERSIONS": {
+            "descriptioninfo": "Description",
+            "pricelistfk": "Price List"
+        },
+        "PRICE_LIST": {
+            "materialpriceversionfk": "Price Version",
+            "retailprice": "Retail Price",
+            "listprice": "List Price"
+        },
+        "ATTRIBUTE": {
+            "propertyinfo": "Attribute",
+            "hasfixedvalues": "Fixed Values"
+        },
+        "ATTRIBUTE_VALUES": {
+            "characteristicinfo": "Value"
+        },
+        "ATTRIBUTE_RECORD_VALUES": {
+            "propertydescription": "Attribute Value",
+            "characteristicdescription": "Values"
+        }
+    }
+}

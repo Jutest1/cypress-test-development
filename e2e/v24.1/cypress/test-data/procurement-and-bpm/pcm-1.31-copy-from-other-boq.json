@@ -1,0 +1,35 @@
+{
+    "CONTAINERS": {
+        "CONFIGURATION": {
+            "SERVICE": "Service",
+            "CONTRACT": "Contract",
+            "UNIT_RATE_CONTRACT": "Unit Rate Contract",
+            "PACKAGE": "Package"
+        },
+        "PROCUREMENT_CONTRACT": {
+            "CONFIGURATION": "Service",
+            "BUSINESS_PARTNER_1": "Adolf Koch",
+            "BUSINESS_PARTNER_2": "Anton Waliser"
+        },
+        "PROCUREMENT_BOQ": {
+            "PROCUREMENT_STRUCTURE": "Service",
+            "CREATE_NEW_BOQ": "Create new BoQ",
+            "POSITION": "Position",
+            "COPY_FROM": "WIC BoQ",
+            "WIC_GROUP": "002",
+            "PROJECT_NAME": "TEST14",
+            "BOQ_SELECTION": "1",
+            "ADDED_OUT_SPEC": "Wurzelstock roden d 15-30cm"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROCUREMENT_CONTRACT_BOQ": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "price": "Unit Rate (EUR)",
+            "finalprice": "Final Price (EUR)"
+        }
+    }
+}

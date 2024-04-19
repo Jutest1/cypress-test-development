@@ -1,0 +1,116 @@
+{
+    "CONTAINERS": {
+        "MATERIAL_CATALOG": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "MATERIAL_GROUP": {
+            "PROCUREMENT_STRUCTURE": "M"
+        },
+        "MATERIAL_RECORD": {
+            "QUANTITY": "1",
+            "UOM": [
+                "BAG",
+                "M3"
+            ],
+            "RETAIL_PRICE": [
+                "100",
+                "200",
+                "300",
+                "400"
+            ],
+            "LIST_PRICE": [
+                "110",
+                "210",
+                "310",
+                "410"
+            ]
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "I110"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "10",
+            "UOM": "10M3",
+            "WIC_ITEM": "Anarbeiten Bodenbelag"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "REMOVE_REPLACE_CRITERIA": {
+            "By neutral material assignment": "check",
+            "By identical material code": "uncheck",
+            "By procurement structure": "uncheck"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "basrubriccategoryfk": "Category",
+            "isticketsystem": "Is Ticket System",
+            "isneutral": "Neutral Material"
+        },
+        "MATERIAL_GROUP": {
+            "tree": "Structure",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "MATERIAL_RECORD": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "neutralmaterialcatalogfk": "Neutral Material Catalog",
+            "mdcmaterialfk": "Neutral Material"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "CONTRACTS": {
+            "constatusfk": "Contract Status",
+            "code": "Code",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACTS_ITEMS": {
+            "itemno": "Item Number",
+            "prcitemstatusfk": "Status",
+            "prcpackagefk": "Package",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Price",
+            "total": "Total"
+        }
+    }
+}

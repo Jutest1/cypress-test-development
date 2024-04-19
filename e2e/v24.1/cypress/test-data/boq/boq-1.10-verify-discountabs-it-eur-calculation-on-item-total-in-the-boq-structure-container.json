@@ -1,0 +1,40 @@
+{
+    "CONTAINERS": {
+      "BOQ_STRUCTURE": {
+        "QUANTITY": "100.000",
+        "UNIT_RATE": "20",
+        "UOM": "Days",
+        "DISCOUNT_AMOUNT":"200",
+        "BOQ_TYPE":"Level 2"
+      },
+      "BOQ_STRUCTURE2": {
+        "QUANTITY": "200.000",
+        "UNIT_RATE": "30",
+        "UOM": "10M3"
+      },
+      "BOQ_STRUCTURE3": {
+        "QUANTITY": "300.000",
+        "UNIT_RATE": "40",
+        "UOM": "10M3"
+      },
+    "GET_QUANTITY":{
+        "QUANTITY":"800"
+    }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "discount":"Discount ABS IT (EUR)",
+            "itemtotal":"Item Total (EUR)",
+            "finalprice":"Final Price (EUR)"
+          
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    }
+}

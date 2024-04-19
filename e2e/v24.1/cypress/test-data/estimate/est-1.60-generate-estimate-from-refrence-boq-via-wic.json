@@ -1,0 +1,66 @@
+{
+    "CONTAINERS": {
+        "WIC_GROUP": {
+            "WIC_GROUP_CODE": "RWIC-",
+            "WIC_GROUP_DESC": "NEW-RWIC-"
+        },
+        "WIC_CATALOG": {
+            "WIC_CATALOG_SPECIFIACTION": "R_CATLOG-"
+        },
+        "WIC_BOQ": {
+            "WIC_SPEC": "NLine-Item-01",
+            "WIC_BOQ_QUANTITY": "100",
+            "WIC_BOQ_UOM": "10M3",
+            "WIC_BOQ_UNIT_RATE": "50"
+        },
+        "WIC_BOQ_GENERATION": {
+            "CASE_TYPE": "WIC-Overwrite",
+            "COPY_FROM_BOQ_TYPE": "WIC BoQ",
+            "TARGET_FIELD": "Root"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+          },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "WIC_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "WIC_CATALOG": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "WIC_BOQ": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate"
+        },
+        "BOQ": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        }
+    }
+}

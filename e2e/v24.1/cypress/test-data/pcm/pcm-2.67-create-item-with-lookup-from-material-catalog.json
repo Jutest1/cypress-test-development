@@ -1,0 +1,132 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "MATERIAL_TYPE": "Material Catalog Type",
+            "PRICE_LISTS": "Price List",
+            "MASTERDATA": "Masterdata"
+        },
+        "DATA_RECORDS": {
+            "FREAMWORK_AGREEMENTS": "framework agreements",
+            "Check": "check",
+            "RIB_DEMO_Stamm": "RIB_DEMO_Stamm",
+            "EURO": "Euro"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "HOME_CURRENCY": {
+            "EUR": "EUR",
+            "USD": "USD",
+            "RATE": "1.09890"
+        },
+        "MATERIAL_CATALOG": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "MATERIAL_GROUP_STRUCTURE": "401"
+        },
+        "MATERIAL_RECORDS": {
+            "description": "test12",
+            "UOM": "BAG",
+            "PRICE": "140",
+            "CheckboxisNotselected": "CheckboxisNotselected",
+            "uom1": "m",
+            "discount": "10",
+            "charge": "35",
+            "EUR": "EUR",
+            "USD": "USD"
+        },
+        "PRICE_LISTS": {
+            "PRICE": [
+                "100",
+                "120.00"
+            ],
+            "materialSearch": "Material Search",
+            "refresh": "Refresh"
+        },
+        "REQUISITIONS": {
+            "STRUCTURE": "M"
+        },
+        "REQUISITION_ITEMS": {
+            "MaterialCatalog": "Material Catalog",
+            "ProcurementStructure": "Procurement structure",
+            "FLEXBOX": [
+                "001 Artikelkatalog",
+                "M Material"
+            ],
+            "MATERIAL_NO": [
+                "2331101",
+                "MG2FM"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "conheaderfk": "Contract",
+            "materialcatalogtypefk": "Type",
+            "businesspartnerfk": "Business Partner"
+        },
+        "MATERIAL_GROUP": {
+            "tree": "Structure",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isplantmanagement": "Is Plantmanagement",
+            "isassetmanagement": "Asset Management"
+        },
+        "MATERIAL_RECORD": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "descriptioninfo2": "Further Description",
+            "mdctaxcodefk": "Tax Code",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "discount": "Discount %",
+            "basuompriceunitfk": "Price Unit UoM",
+            "priceextra": "Price Extras",
+            "estimateprice": "Estimate Price",
+            "charges": "Charges",
+            "bascurrencyfk": "Currency"
+        },
+        "CONTRACT": {
+            "code": "Code",
+            "materialcatalogfk": "Framework Material Catalog"
+        },
+        "REQUISITIONS": {
+            "code": "Code",
+            "projectfk": "Project No.",
+            "controllingunitfk": "Controlling Unit Code",
+            "structure": "Structure Code",
+            "materialcatalogfk": "Framework Material Catalog",
+            "MaterialCatalogFkDescriptionInfo.Translated": "Framework Contract Description"
+        },
+        "MATERIAL_CATALOGS": {
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "conheaderfk":"Contract",
+            "materialcatalogtypefk":"Type",
+            "businesspartnerfk":"Business Partner",
+            "isticketsystem":"Is Ticket System"
+        },
+        "DATA_TYPES": {
+            "name": "Data Type",
+            "modulename": "Module"
+        },
+        "DATA_RECORDS": {
+            "issupplier": "Is Supplier",
+            "isframework": "Is Framework"
+       },
+        "REQUISITION_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "totalprice": "Total Price",
+            "price": "Price"
+        }
+    }
+}

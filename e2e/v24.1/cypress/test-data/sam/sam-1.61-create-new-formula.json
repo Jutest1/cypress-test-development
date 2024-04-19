@@ -1,0 +1,23 @@
+
+{
+    "CONTAINERS": {
+        "FORMULA": {
+            "Predefine":"Predefine",
+            "operator1":"*",
+              "operator2": "="
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "FORMULA": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "operator1":"operator",
+            "value2isactive":"value",
+            "operator2":"operator",
+            "value1isactive":"value",
+            "icon":"icon",
+            "qtoformulatypefk":"formulaType"
+        }
+    }
+}
+

@@ -1,0 +1,84 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "BOQ_STR_QUANTITY": "100",
+            "UOM": "%",
+            "UNIT_RATE": "50"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "PACKAGE_BOQ": {
+            "QUANTITY": "200",
+            "UNIT_RATE": "100",
+            "UOM": "BAGS",
+            "CONTROLLING_UNIT": "000010",
+            "PROCUREMENT_STRUCTURE": "D"
+        },
+        "PACKAGE": {
+            "BOQ": "BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "PROCUREMENT_STRUCTURE": "D"
+        },
+        "RESOURCE": {
+            "shortKey1": "C",
+            "code1": "1"
+        }
+    },
+    "MODAL": {
+        "UPDATE_BOQ_PACKAGE": [
+            {
+                "name": "SyncBaseQuantity",
+                "nameCheckboxVal": "check"
+            }
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type",
+            "mdccontrollingunitfk":"Controlling Units",
+            "prcstructurefk":"Procurement Structure",
+            "mdctaxcodefk":"Tax Code",
+            "finalprice":"Final Price"
+
+        },
+        "BOQS": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "REQUISITION": {
+            "packagefk": "Package"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "PACKAGE_BOQ": {
+            "quantity": "Quantity",
+            "price": "Unit Rate",
+            "finalprice": "Final Price",
+            "briefinfo": "Outline Specification",
+            "mdccontrollingunitfk":"Controlling Units",
+            "prcstructurefk":"Procurement Structure",
+            "mdctaxcodefk":"Tax Code"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        }
+    }
+}

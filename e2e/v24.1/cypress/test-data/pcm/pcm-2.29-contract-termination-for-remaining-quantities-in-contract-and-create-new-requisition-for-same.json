@@ -1,0 +1,309 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": [
+                "0"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": [
+                "200"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "RESOURCES": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "MATERIAL": [
+                "DÜB06PVC"
+            ]
+        },
+        "ITEMS": {
+            "UPDATED_MATERIAL_PRICE": [
+                "120.00"
+            ],
+            "PES_ITEM_QUANTITY": [
+                "35"
+            ]
+        },
+        "CONTRACT": {
+            "RESPONSIBLE": [
+                "SmiJ"
+            ]
+        },
+        "PACKAGE": {
+            "BUDGET": [
+                "100"
+            ]
+        },
+        "INVOICE": {
+            "AMOUNT_NET": [
+                "1000"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CREATE_CONTRACT": {
+            "LABLE": [
+                "Bypass evaluated item"
+            ],
+            "INDEX": [
+                "0"
+            ],
+            "RESPONSIBLE": [
+                "HS"
+            ]
+        },
+        "CONTRACT_TERMINATION": {
+            "TRANSFER_TO": "New Requisition",
+            "TransferIndex": 0,
+            "Project": "PCM-TEST",
+            "RUBRIC_CATEGORY": "Standard",
+            "ChangeType": "Design Change",
+            "ChangeReason": "Change Request",
+            "SpecifyProjectChange": "TRUE"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "code": "Code",
+            "description": "Description",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "REQUISITION": {},
+        "RFQ": {},
+        "QUOTE": {},
+        "ITEMS": {
+            "quantity": "Quantity",
+            "price": "Price"
+        },
+        "CONTRACT": {
+            "code": "Code",
+            "projectfk": "Project No.",
+            "clerkprcfk": "Responsible",
+            "controllingunitfk": "Controlling Unit Code",
+            "net": "Net"
+        },
+        "PES": {
+            "pesstatusfk": "PES Status",
+            "code": "Code",
+            "description": "Description",
+            "projectfk": "Project No.",
+            "pesvalue": "Total"
+        },
+        "PES_ITEMS": {
+            "quantity": "Quantity",
+            "price": "Price",
+            "quantityremaining": "Remaining Quantity"
+        },
+        "INVOICE": {
+            "invstatusfk": "Status",
+            "reference": "Invoice No.",
+            "projectfk": "Project No.",
+            "amountnet": "Amount (Net)"
+        }
+    },
+    "Prerequisites": {
+        "SidebarInputs": {
+            "ProjectName": "PCM-TEST",
+            "searchType": "standard",
+            "searchTypeQuick": "quickstart",
+            "modulename": "Project",
+            "Search": "Search",
+            "Package": "Package",
+            "ControllingUnit": "Controlling Units"
+        }
+    },
+    "CreateResource": {
+        "CreateResourceInput": {
+            "shorttKey": "M",
+            "code": "DÜB06PVC"
+        }
+    },
+    "Estimate": {
+        "EstimateHeaderInputs": {
+            "rubricCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        }
+    },
+    "SidebarOptions": {
+        "SidebarInputs": {
+            "Quickstart": "Quick Start",
+            "Qckstrttype": "quickstart",
+            "Search": "Search",
+            "project": "Project",
+            "wizard1": "Wizard",
+            "wizard2": "wizard",
+            "estimate": "Estimate"
+        },
+        "wizardInputs": {
+            "ChangePackageStatus": "Change Package Status",
+            "CreateUpdateMaterialPackage": "Create/Update Material Package",
+            "CreateRequisition": "Create Requisition",
+            "ChangeRequisitionStatus": "Change Requisition Status",
+            "CreateRequestForQuote": "Create Request For Quote",
+            "ChangeRfQStatus": "Change RfQ Status",
+            "CreateQuote": "Create Quote",
+            "ChangeQuoteStatus": "Change Quote Status",
+            "CreateContract": "Create Contract",
+            "ChangeContractStatus": "Change Contract Status",
+            "CreatePES": "Create PES",
+            "ContractTermination": "Contract Termination"
+        }
+    },
+    "LineItem": {
+        "quantity": "200",
+        "uom": "10M3"
+    },
+    "Requisition": {
+        "Status": "Approved"
+    },
+    "CreateRequestForQuote": {
+        "BusinessPartner": "AGO Baumaschinen GmbH",
+        "Status": "Published"
+    },
+    "Headers": {
+        "Column_EstimateLineItem": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "Column_Estimate": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "Column_Resource": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "Column_Package": {
+            "code": "Code"
+        },
+        "Column_PackageItems": {
+            "quantity": "Quantity",
+            "price": "Price"
+        },
+        "Column_RequisitionItems": {
+            "quantity": "Quantity",
+            "price": "Price",
+            "mdcmaterialfk": "Material No."
+        },
+        "Column_QuotesItems": {
+            "quantity": "Quantity",
+            "price": "Price"
+        },
+        "Column_ContractsItems": {
+            "quantity": "Quantity",
+            "price": "Price"
+        },
+        "Column_Contracts": {
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible"
+        },
+        "Column_ControllingUnit": {
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "Column_PESItems": {
+            "quantity": "Quantity",
+            "price": "Price",
+            "quantityremaining": "Remaining Quantity"
+        }
+    },
+    "Package": {
+        "PackageInputs": {
+            "Status": "In-Progress"
+        }
+    },
+    "CreateUpdateMaterialCostCode": {
+        "CriteriaSelection": "Material & Cost Code",
+        "storePackageCode": "YES",
+        "Material": "Material"
+    },
+    "CreateQuote": {
+        "UpdateWithQuoteData": "check",
+        "Price": "120.00",
+        "Status": "Checked"
+    },
+    "CreateContract": {
+        "Label": "Bypass evaluated item",
+        "Index": "0",
+        "Status": "Approved",
+        "Responsible": "SmiJ"
+    },
+    "CreateControlingunit": {
+        "description": "test controlling",
+        "uom": "%",
+        "quantity": "200"
+    },
+    "PESItems": {
+        "Quantity": "35",
+        "Contract": "Contract"
+    },
+    "ContractTermination": {
+        "Transfer": "New Requisition",
+        "TransferIndex": 0,
+        "Project": "PCM-TEST",
+        "RubricCategory": "Standard",
+        "ChangeType": "Design Change",
+        "ChangeReason": "Change Request",
+        "SpecifyProjectChange": "TRUE"
+    }
+}

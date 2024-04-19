@@ -1,0 +1,98 @@
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3",
+            "UNIT_RATE": "9",
+            "UPDATE_QUANTITY":"200"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.000",
+            "LINE_ITEM_QUANTITY": "40",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "Stoffe"
+        },
+        "BID": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SOURCE": "BoQ",
+            "QUANTITY": "200.000"
+        },
+        "CONTRACT": {
+            "CUSTOMER": "D00028",
+            "QUANTITY": "200.000"
+        },
+        "BILL": {
+            "QUANTITY": "120",
+            "DESCRIPTION_2": "Update Line Item Quantities"
+        }
+    },
+    "MODAL": {
+        "UPDATE_LINE_ITEM_QUANTITIES": {
+            "SELECT_ESTIMATE_SCOPE": "Entire Estimate",
+            "UPDATE_BILLING_QUANTITY": "From Bill"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "PROCUREMENT_STRUCTURES": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "costcodefk": "Cost Code"
+        },
+        "CONTRACT": {
+            "boqrootitem.finalprice": "Final Price"
+        },
+        "LINE_ITEM_QUANTITY":{
+            "quantity": "Quantity"
+        }
+    }
+}

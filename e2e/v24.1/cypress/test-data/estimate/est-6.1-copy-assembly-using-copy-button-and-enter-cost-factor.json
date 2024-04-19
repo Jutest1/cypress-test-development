@@ -1,0 +1,32 @@
+{
+    "CONTAINERS": {
+        "ASSEMBLY_CATEGORIES": {
+            "ASSEMBLY_CATEGORY_DESCRIPTION": "BETONARBEITEN"
+        },
+        "ASSEMBLIES": {
+            "ASSEMBLIES_DESCRIPTION": "Betonstahl S IV (500/550)",
+            "COST_FACTOR_VALUE": "2"
+        },
+        "ASSEMBLY_RESOURCES": {
+            "QUANTITY": "50"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ASSEMBLY_CATEGORIES": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ASSEMBLIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "costtotal": "Cost Total",
+            "costfactor1": "Cost Factor 1"
+        },
+        "ASSEMBLY_RESOURCES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "costtotal": "Cost Total"
+        }
+    }
+}

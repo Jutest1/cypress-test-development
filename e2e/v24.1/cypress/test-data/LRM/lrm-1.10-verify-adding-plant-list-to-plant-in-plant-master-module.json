@@ -1,0 +1,94 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "BOQ_CONFIG_TYPE":"Boq Rounding Configuration Type"
+        },
+        "DATA_RECORD": {
+            "LINE_ITEM_CONTEXT": "RIB_DEMO_Kalk",
+            "PLANT_LIST_TYPE":"Plant List Type",
+            "PLANT_PRICE_LIST":"Plant Price List",
+            "RIB_EQUIPMENT_CONTEXT":"RIB_DEMO ISC Plant Context",
+            "CURRENCY":"Euro",
+            "UOM":"Day",
+            "AVERAGE_CATALOG_VALUE":"Average Catalog Value",
+            "PERCENT":"100.00"
+        },
+        "PLANT_TYPES":{
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted" 
+        },
+        "CONTROLLING_UNIT": {
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "PLANT": {
+            "PLANT_TYPE": "Bulk",
+            "PLANT": "ETM_0004",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "Leasing",
+            "STRUCTURE": "Equipment",
+            "INDEX_PLANT": 1
+        },
+        "PLANT_GROUP": {
+            "DESCRIPTION1": "A",
+            "DESCRIPTION2": "B",
+            "DESCRIPTION3": "C",
+            "RUBARIC_CATAGORY":"Equipment"
+        },
+        "PLANT_PRICE_LISTS": {
+            "PORTION_VALUE_1": "10.00",
+            "PORTION_VALUE_2": "20.00",
+            "PORTION_VALUE_3": "30.00"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "DATA_TYPES": {
+            "name":"Data Type",
+            "type":"Type",
+            "modulename":"Module",
+            "dbtablename":"DB Table Name"
+        },
+        "DATA_RECORD": {
+            "BoqRoundingConfiguration":"Check Config",
+            "boqroundingconfigfk":"Boq Rounding Configuration",
+            "descriptioninfo":"Description",
+            "lineitemcontextfk":"Line Item Context",
+            "islive":"Live"
+        },
+        "PLANT_TYPES":{
+            "planttypefk":"Plant Type",
+            "istimekeepingdefault":"Is Timekeeping Default" 
+        },
+        "PLANT": {
+            "planttypefk": "Plant Type",
+            "descriptioninfo": "Description",
+            "plantkindfk": "Plant Kind"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isplantmanagement": "Is Plantmanagement",
+            "isassetmanagement": "Asset Management"
+        },
+        "PLANT_GROUP": {
+            "rubriccategoryfk": "Rubric Category",
+            "descriptioninfo": "Description",
+            "islive": "Active",
+            "code":"Code"
+        },
+        "PLANT_CONTROLLING":{
+            "controllingunitfk":"Controlling Unit",
+            "controllingunitdescription":"Controlling Unit Description"
+    }   
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    }
+}

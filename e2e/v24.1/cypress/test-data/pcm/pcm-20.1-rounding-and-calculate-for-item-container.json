@@ -1,0 +1,114 @@
+{
+    "Prerequisites": {
+        "SidebarInputs": {
+            "ProjectName": "APRIL10",
+            "searchType": "standard",
+            "inQuickstart":"Quick Start",
+            "searchTypeQuick": "quickstart",
+            "modulename": "Project",
+            "contractSales": "Contract Sales",
+            "OkButton": "OK",
+            "Search": "Search",
+            "customizingModule":"Customizing"
+        }
+    },
+    "DataTypes": {
+        "Data_RecordInputs": {
+            "itemConfigType": "Material Rounding Config Type"
+        },
+
+        "Column_Headers": {
+            "name": "Data Type",
+            "type": "Type",
+            "modulename": "Module",
+            "dbtablename": "DB Table Name"
+        }
+    },
+    "DataRecords":{
+        "DataRecordsInput":{
+            "contextfk": "RIB_DEMO_Stamm"
+        },
+        "Column_Headers":{
+            "itemRoundingConfiguration":"Check Config",
+            "itemRoundingconfigfk":"Material Rounding Config",
+            "descriptioninfo":"Description",
+            "lineitemcontextfk":"Line Item Context",
+            "isdefault": "Default",
+            "islive":"Live"
+        }
+    },
+    "packageHeader": {
+        "ColumnHeaders": {
+            "code": "Code",
+            "description": "Description"
+        }
+    },
+    "packageItemsM": {
+        "ColumnHeaders": {
+            "description1": "Description 1",
+            "quantity": "Quantity",
+            "prcstructurefk": "Structure",
+            "basuomfk": "UoM",
+            "mdcmaterialfk": "Material No."
+        }
+    },
+    "Column_tems": {
+        "Column_items": {
+            "itemNo": "Item Number",
+            "materialfk": "Material No.",
+            "quantity": "Quantity",
+            "alternativeQantity": "Alternative Quantity",
+            "price": "Price",
+            "pricegross": "Price (Gross)",
+            "extra": "Extras",
+            "discoutasbsolute":"Discount Absolute",
+            "discoutasbsolutegross":"Discount Absolute Gross",
+            "totalprice": "Total Price",
+            "totalpricegross":"Total Price (Gross)",
+            "discountslit": "Discount Split",
+            "total": "Total",
+            "totalgross":"Total (Gross)",
+            "totalnodiscount": "Total (No Discount)"
+
+
+        }
+    },
+	"packageHeaderValueInput": {
+		"inputValue": {
+			"strucutrefk": "M",
+			 "projectnofk": "10000",
+			"configurationfk": "Material",
+			"description": "rounding test"
+
+		}
+	},
+    "itemsValueInput": {
+        "inputValue": {
+            "materialfk": "MG3FM",
+            "quantity": 10.1,
+            "itemnumber": 10,
+            "alternativeQantity": 10.22,
+            "price": 10.123,
+            "pricegross": 10.12,
+            "extra": 1,
+            "discountasbsolute":10.123,
+            "discountasbsolutegross":10.123,
+            "totalprice": 10,
+            "totalpricegross":10,
+            "discountslit": 10,
+            "total": 10,
+            "totalgross":10,
+            "vatpercent": 19,
+            "totalnodiscount": 10
+        }
+    },
+
+
+    "roundConfig": {
+        "roundConfig": {
+            "quantity": 2,
+            "unitrate": 3,
+            "amount": 5
+        }
+    }
+}

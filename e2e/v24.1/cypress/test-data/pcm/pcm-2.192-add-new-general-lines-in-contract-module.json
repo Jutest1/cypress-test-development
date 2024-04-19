@@ -1,0 +1,59 @@
+{
+    
+   
+     
+    
+        "CONTAINERS": {
+            "GENERALS":{
+                "VALUE1":"10",
+                "VALUE2":"20",
+                "COSTVALUETYPE":"Amount",
+                "COSTVALUETYPEPERCENT":"Percent",
+                "TAXCODE":"00"
+            },
+            "CONTRACT":{
+                "UOM": "BAG",
+                "MATERIALCODE":"MG3FM",
+                "DESC":"DÜB08PVC / PVC Spreizdübel 8",
+                "QUANTITY":"100.000"
+            },
+            "BUSINESSPARTNER": {
+                "CONFIGURATION":"Material PO",
+                "PARTNERNAME": "AGO Baumaschinen GmbH",
+                "CU": "Ausbau"
+            },
+            "ENTITY_TYPE":{
+                "TYPE": "General Type",
+                "LEDGERCONTEXTNAME":"RIB_DEMO_Kontenrahmen",
+                "Selectcheckbox":"CheckboxisNotselected"
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            
+            "GENERALS":{
+                "prcgeneralstypefk":"Type",
+                "value":"Value",
+                "mdccontrollingunitfk":"Controlling Unit Code"
+    
+            },
+            "CONTRACT":{
+                "businesspartnerfk": "Business Partner",
+                "description":"Reference Name",
+                "code":"Code",
+                "controllingunitfk":"Controlling Unit Code"
+            },
+            "CONTRACT_ITEMS":{
+                    "mdcmaterialfk":"Material No.",
+                    "quantity":"Quantity",
+                    "basuomfk":"UoM"
+            },
+            "GENERALS_CONTRACT":{
+                "prcgeneralstypefk":"Type",
+                "valuetype":"Value Type",
+                "value":"Value",
+                "mdccontrollingunitfk":"Controlling Unit Code",
+                "mdctaxcodefk":"Tax Code"
+            }
+        }
+    
+    }

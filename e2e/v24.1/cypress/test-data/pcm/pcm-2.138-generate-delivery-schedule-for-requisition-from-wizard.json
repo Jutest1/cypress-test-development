@@ -1,0 +1,72 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "QUANTITY": "1",
+            "UOM": "10M3"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB08PVC",
+            "QUANTITY": "20"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "300",
+            "UOM": "10M3"
+        },
+        "ITEMS": {
+            "QUANTITY": "40",
+            "PRICE": "12"
+        },
+        "DELIVERY_SCHEDULE": {
+            "QUANTITY": "500.000",
+            "EDITED_QUANTITY": "500.657",
+            "TOTAL_QUANTITY": "Total Quantity",
+            "WEEKLY": "Weekly",
+            "MONTHLY": "Monthly",
+            "QUATERLY": "Quarterly",
+            "USER_SPECIFIED": "User Specified"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "CRITERIA_SELECTION": "Material & Cost Code",
+            "configurationInput": "Material",
+            "QUANTITY": "40",
+            "PRICE": "12"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "ITEMS": {
+            "quantity": "Quantity"
+        }
+    }
+}

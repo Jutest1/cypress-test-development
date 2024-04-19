@@ -1,0 +1,105 @@
+{
+    "CONTAINERS": {
+        "BRANCHES": {
+            "STREET": "4 Bockelsdorf",
+            "ZIP_CODE": "48727",
+            "COUNTRY": "Germany",
+            "BRANCH": "Branch",
+            "CITY": "Michigan"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "270",
+            "UOM": "BAGS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB06PVC"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "REQUEST_FOR_QUOTE": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BRANCHES": {
+            "ismainaddress": "Is Main Address",
+            "description": "Description",
+            "addresstypefk": "Address Type",
+            "addressdto": "Address",
+            "taxno": "Tax No."
+        },
+        "BUSINESS_PARTNER": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "SUPPLIERS": {
+            "code": "Creditor No.",
+            "subsidiaryfk": "Branch Description",
+            "paymenttermpafk": "Payment Term (PA)",
+            "paymenttermfifk": "Payment Term (FI)",
+            "vatgroupfk": "VAT Group"
+        },
+        "CONTACT": {
+            "contactrolefk": "Role",
+            "firstname": "First Name",
+            "familyname": "Last Name",
+            "isdefault": "Is Default"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "QUOTE": {
+            "code": "Code"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description"
+        },
+        "BIDDER": {
+            "businesspartnerfk": "Business Partner",
+            "ContactFirstName": "Contact First Name",
+            "subsidiaryfk": "Branch",
+            "supplierfk": "Supplier No."
+        },
+        "REQUISITION": {
+            "code": "Code"
+        },
+        "RFQ": {
+            "code": "Rfq Code"
+        }
+    }
+}

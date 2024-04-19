@@ -1,0 +1,43 @@
+{
+  "CONTAINERS": {
+    "BOQ_STRUCTURE": {
+      "QUANTITY": "500.000",
+      "UNIT_RATE": "20",
+      "UOM": "BAGS",
+      "EXTERNAL_CODE": "567"
+    },
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "externalcode": "External Code",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "finalprice": "Final Price (EUR)",
+      "itemtotal": "Item Total (EUR)"
+    },
+
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification"
+    },
+
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Rubric Category"
+    },
+
+    "LINE_ITEM": {
+      "externalcode": "External Code",
+      "quantitytarget": "AQ Quantity Item",
+      "wqquantitytarget": "WQ Quantity Item"
+    }
+  }
+}

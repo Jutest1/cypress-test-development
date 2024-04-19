@@ -1,0 +1,138 @@
+
+
+
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "20"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "2109010",
+            "QUANTITY": "1.000",
+            "MATERIAL_GROUP_CODE":"221",
+            "MATERIAL_CODE":"221001",
+            "PRICE":"50.000"
+        },
+        "CONTRACT": {
+            "BP": "AGO Baumaschinen GmbH",
+            "CLERK":"SmiJ"
+        },
+        "PACKAGE":{
+            "SCOPE" : "Selected Line Item",
+            "COST_TOTAL":"Cost Total",
+            "XFACTOR":"1",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 3
+        },
+        "PES_ITEM":{
+            "QUANTITY":"100",
+            "QUANTITY1":"0.000",
+            "QUANTITY2":"50.000",
+            "STRUCTURE":"M",
+            "MATERIAL_NO":"2109001"
+        },
+        "QUOTE_ITEM":{
+            "PRICE1": "25",
+            "PRICE2": "35"
+        }
+    },
+
+"MODAL":{
+    "UPDATE_ITEM_PRICE":[
+        {
+                "labelName": "Material Catalog Price Version",
+                "VALUE": "checked"
+            
+        },
+        {
+            "labelName": "Include Neutral Material",
+            "VALUE": "checked"
+        
+        },
+        {
+            "LABEL_labelNameNAME": "Quotation",
+            "VALUE": "checked"
+                
+        },
+        {
+            "labelName": "Contract",
+            "VALUE": "checked"
+
+        }
+    ],
+    "CHANGE_ORDER_CONTRACT":{
+        "rubricCategory":"Standard",
+        "changeType":"Design Change",
+        "changeReason":"Change Request",
+        "status":"Recorded"
+    }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity"
+        },
+        "PACKAGE_ITEM":{
+            "description1":"Description 1", 
+                "quantity": "Quantity",
+                 "prcstructurefk":"Structure",
+                  "basuomfk":"UoM",
+                  "mdcmaterialfk":"Material No.",
+                  "totalprice":"Total Price"
+        },
+        "PACKAGE_TOTALS": {
+            "TotalTypeFkDescriptionInfo":"Type Description", 
+            "valuenet": "Net Value",
+            "valuetax":"VAT"
+        },
+        "QUOTES":{
+            "businesspartnerfk": "Business Partner"
+        },
+        "QUOTE_ITEMS":{
+            "mdcmaterialfk": "Material No."
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "CONTRACT":{
+            "controllingunitfk":"Controlling Unit Code",
+            "description":"Reference Name",
+            "net":"Net",
+            "clerkprcfk":"Responsible"
+        },
+        "CONTRACT_ITEM":{
+            "quantityremaining":"Remaining Quantity",
+            "quantity":"Quantity"
+        },
+        "PES_ITEMS":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "description1":"Description 1",
+            "price":"Price"
+        }
+    }
+  }

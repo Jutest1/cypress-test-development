@@ -1,0 +1,29 @@
+{
+    "CONTAINERS": {
+      "BOQ_STRUCTURE": {
+        "QUANTITY": "500.000",
+        "UNIT_RATE": "20",
+        "UOM": "Days"
+      },
+      "BOQ_STRUCTURE2": {
+        "QUANTITY": "600.000",
+        "UNIT_RATE": "30",
+        "UOM": "10M3",
+        "COST_CODE":"S-R-V"
+      }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "mdccostcodefk":"Cost Code"
+          
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    }
+}

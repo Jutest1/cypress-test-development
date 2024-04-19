@@ -1,0 +1,98 @@
+{
+    
+    "CONTAINERS": {
+            "PROJECT":{
+                "CLERK_NAME":"HS"
+            },
+            "BOQ_STRUCTURE": {
+                "QUANTITY": "100.000",
+                "QUANTITY1": "200.000",
+                "UOM": "BAGS",
+                "UNITRATE":"50.000",
+                "UNITRATE1":"30.000",
+                "RECORDING_LEVEL": "LI"
+            },
+            "ESTIMATE":{
+                "RUBRIC_CATEGORY":"Planning",
+                "ESTIMATE_TYPE":"Bid Estimate"
+                
+            },
+            "RESOURCES":{
+                "SHORT_KEY":"C",
+                "CODE":"1",
+                "UOM": "BAGS",
+                "COST_TOTAL":"costTotal"
+            },
+            "CONFIGURATION_HEADER":{                
+                "PROCUREMENT_CONFIG_HEADER": "Service",
+                "CONFIG_TYPE": "Sales",
+                "CONTRACT_TYPE": "Unit Rate Contract",
+                "PROJECT_CONTRACT_TYPE": "Unit Rate Contract",
+                "PATMENT_TERM_FI": "NET30"
+            },
+            "BILLING_SCHEMATA":{
+                "BILLING_SCHEMA": "Standard Singel"
+            },
+            "BID":{
+                "RUBRIC_CATEGORY1": "Main Quote",
+                "RUBRIC_CATEGORY": "Main Bid",                
+                "BUSINESS_PARTNER": "Adolf Koch",
+                "SOURCE_LEAD": "BoQ",
+                "QUANTITY": "200.000"
+            }
+            
+    
+    },    
+    "CONTAINER_COLUMNS": {
+            "BOQ":{
+                "boqrootitem.briefinfo": "Outline Specification"
+            },
+            "BOQ_STRUCTURE": {
+                "briefinfo": "Outline Specification",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "boqlinetypefk": "BoQ Line Type",
+                "finalgross":"Final Price (Gross)",
+                "price":"Unit Rate (EUR)"
+                
+            },
+            "ESTIMATE":{           
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Category"
+            },
+            "LINE_ITEMS":{
+                "descriptioninfo" : "Description",
+                "quantity" : "Quantity",
+                "basuomfk" : "UoM",            
+                "costtotal" : "Cost Total"
+            },
+            "RESOURCES":{
+                "estresourcetypeshortkey": "Short Key",
+                "code": "Code",
+                "costtotal": "Cost Total"
+            },
+            "CONFIGURATION_HEADER":{
+                "descriptioninfo": "Description",
+                "prcconfigheadertypefk": "Procurement Config Header Type",
+                "basconfigurationtypefk": "Configuration Type"
+            },
+            "CONFIGURATION":{
+                "descriptioninfo": "Description",
+                "prccontracttypefk": "Contract Type",
+                "paymenttermfifk": "Payment Term (FI)",
+                "PaymentTermPaFkDescription": "Payment Term (PA) Description",
+                "prjcontracttypefk":"Project Contract Type"
+            },
+            "BID":{
+                "rubriccategoryfk":"Rubric Category",
+                "descriptioninfo":"Description",
+                "billingschemafk":"Billing Schema",
+                "configurationfk":"Configuration",
+                "paymenttermfifk":"Payment Term (FI)"
+            }
+
+        }   
+   
+}

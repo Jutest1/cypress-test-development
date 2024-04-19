@@ -1,0 +1,56 @@
+{
+    "CONTAINERS": {
+        "COMPANY": {
+            "RIB": "999"
+        },
+        "SHIFT_MODELS": {
+            "CALENDAR": "DE"
+        },
+        "WORKING_TIME_MODELS": {
+            "CHECKBOX": "check",
+            "WEEK_ENDS_ON": "Friday"
+        },
+        "EMPLOYEES": {
+            "START_DATE": "current",
+            "CHECKBOX": "check",
+            "TIMEKEEPING": "TKG_BASE"
+        },
+        "EMPLOYEES_1": {
+            "START_DATE": "incremented",
+            "CHECKBOX": "uncheck",
+            "TIMEKEEPING": "TKG_BASE"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "TIMEKEEPING_GROUPS": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "PAYMENT_GROUPS_LIST": {
+            "descriptioninfo": "Description",
+            "code": "Code"
+        },
+        "SHIFT_MODELS": {
+            "descriptioninfo": "Description",
+            "calendarfk": "Calendar"
+        },
+        "WORKING_TIME_MODELS": {
+            "isdefault": "Is Default",
+            "descriptioninfo": "Description",
+            "weekendson": "Week Ends On"
+        },
+        "EMPLOYEES": {
+            "code": "Code",
+            "startdate": "Start",
+            "shiftfk": "Shift",
+            "timekeepinggroupfk": "Timekeeping Group",
+            "paymentgroupfk": "Payment Group",
+            "descriptioninfo": "Description",
+            "iscrewleader": "Is Crew Leader"
+        },
+        "CREW_ASSIGNMENTS": {
+            "employeecrewfk": "Crew Leader",
+            "employeecrewfkcode": "Crew Leader-Code"
+        }
+    }
+}

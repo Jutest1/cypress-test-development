@@ -1,0 +1,68 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "MG2FM",
+            "QUANTITY": "200"
+        },
+        "PACKAGE": {
+            "CRITERIA": "Material & Cost Code"
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "PLANTS": {
+            "PLANTS_TYPE": "Bulk",
+            "PLANT": "ETM_0004",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "Ownership",
+            "UPDATE_PLANT": "Yes",
+            "INDEX_PLANT": 0
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT": {
+            "constatusfk": "Contract Status",
+            "reqheaderfk": "Requisition",
+            "code": "Code"
+        },
+        "PLANT": {
+            "planttypefk": "Plant Type",
+            "descriptioninfo": "Description",
+            "plantkindfk": "Plant Kind"
+        }
+    }
+}

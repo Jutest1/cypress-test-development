@@ -1,0 +1,32 @@
+
+{
+    "CONTAINERS": {
+        "PLANT": {
+            "PLANT_GROUP": "Material Processing",
+            "PLANT_KIND": "Ownership",
+            "CLERK_RESPONSIBLE":"FI",
+            "STRUCTURE": "Equipment",
+            "UOM": "LE",
+            "MATCH_CODE": "12345",
+            "SERIAL_NUMBER": "123",
+            "CLERK_OWNER":"FI"
+        },
+        "PLANT_BUSINESS_PARTNERS":{
+            "PARTNER_TYPE": "Technical Service",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PLANT": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "plantgroupfk": "Plant Group",
+            "plantkindfk": "Plant Kind",
+            "clerkresponsiblefk": "Clerk Responsible",
+            "procurementstructurefk": "Procurement Structure",
+            "matchcode": "Match Code",
+            "uomfk": "UoM",
+            "serialnumber": "Serial Number"
+        }
+    }
+}

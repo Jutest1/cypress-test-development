@@ -1,0 +1,109 @@
+{
+    "CONTAINERS": {
+        "PROJECT":{
+            "CLERK_NAME":"HS"
+        },
+        "BOQ_STRUCTURE": {           
+            "QUANTITY": "200.000",
+            "UOM": "BAGS",
+            "UNITRATE":"50.000",            
+            "RECORDING_LEVEL": "LI"
+        },
+        "ESTIMATE":{
+            "RUBRIC_CATEGORY":"Planning",
+            "ESTIMATE_TYPE":"Bid Estimate"
+            
+        },
+        "RESOURCES":{
+            "SHORT_KEY":"C",
+            "CODE":"1",
+            "UOM": "BAGS",
+            "COST_TOTAL":"costTotal"
+        },
+        
+        "BID":{
+            "RUBRIC_CATEGORY1": "Main Quote",
+            "RUBRIC_CATEGORY": "Main Bid",                
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SOURCE_LEAD": "BoQ",
+            "QUANTITY": "200.000",
+            "BID_ENV":"netAmount"
+        },
+        "WIP":{
+            "QUANTITY":"100.000",
+            "QUANTITY2":"100.000"
+        },
+        "BILL":{
+            "CONTRACT_SALES":"Contract Sales(1)",
+            "BOQ_SOURCE":"WIP BoQ",
+            "TYPE1":"Progress Invoice",
+            "MODULE":"WIP1",
+            "LINETYPE":"Position"
+            
+        }
+        
+
+    }, 
+   
+    "CONTAINER_COLUMNS": {
+        "BOQ":{
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+                "boqlinetypefk": "BoQ Line Type",
+                "finalgross":"Final Price (Gross)",
+                "price":"Unit Rate (EUR)"
+                
+            },
+            "ESTIMATE":{           
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Category"
+            },
+            "LINE_ITEMS":{
+                "descriptioninfo" : "Description",
+                "quantity" : "Quantity",
+                "basuomfk" : "UoM",            
+                "costtotal" : "Cost Total"
+            },
+            "RESOURCES":{
+                "estresourcetypeshortkey": "Short Key",
+                "code": "Code",
+                "costtotal": "Cost Total"          
+            
+            },
+            "BID":{
+                "rubriccategoryfk":"Rubric Category",
+                "descriptioninfo":"Description",
+                "billingschemafk":"Billing Schema",
+                "configurationfk":"Configuration",
+                "paymenttermfifk":"Payment Term (FI)"
+            },
+            "WIP_BOQ_STRUCTURE":{
+                "boqlinetypefk":"BoQ Line Type" ,
+                "briefinfo":"Outline Specification",
+                "quantity":"Quantity",
+                "price":"Unit Rate (EUR)",
+                "basuomfk":"UoM",
+                "finalprice":"Final Price (EUR)"
+            },
+            "BILL":{
+                "amountnet":"Net Amount",
+                "amountnetoc":"Amount (Net OC)"
+            },
+            "BILL_BOQ_STRUCTURE":{
+                "boqlinetypefk":"BoQ Line Type" ,
+                "briefinfo":"Outline Specification",
+                "quantity":"Quantity",
+                "price":"Unit Rate (EUR)",
+                "basuomfk":"UoM",
+                "finalprice":"Final Price (EUR)"
+            }
+
+        }   
+       
+}

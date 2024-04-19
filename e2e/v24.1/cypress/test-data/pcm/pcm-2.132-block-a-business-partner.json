@@ -1,0 +1,26 @@
+{
+    "CONTAINERS":{
+        "BUSINESS_PARTNER":{
+            "ENTITY_TYPE": "BP Status",
+            "STREET": "ABC",
+            "ZIPCODE": "411045"
+        },
+        "ROLES":{
+            "ROLE":"1 Admin",
+            "RIGHT":"AR show BP (Blocked)",
+            "UNCHECK":"Uncheck"
+        }
+
+    },
+    "CONTAINER_COLUMNS":{
+        "BUSINESS_PARTNER":{
+            "businesspartnerstatusfk":"Status",
+            "code":"Code",
+            "businesspartnername1":"Business Partner Name"
+        }
+    }
+
+   
+    
+    
+}

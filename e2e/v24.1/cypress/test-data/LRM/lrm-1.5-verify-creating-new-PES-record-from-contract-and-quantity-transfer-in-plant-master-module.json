@@ -1,0 +1,148 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "BOQ_CONFIG_TYPE":"Boq Rounding Configuration Type"
+        },
+        "DATA_RECORD": {
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted"
+        },
+        "PLANT_TYPES":{
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted" 
+        },
+        "OPERATION_TYPES": {
+            "CHECK": "check",
+            "DAY": "Day",
+            "KM": "Km",
+            "ST": "ST",
+            "HOUR": "Hour"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "PLANT": {
+            "PLANT_TYPE": "Bulk",
+            "PLANT": "ETM_0004",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "External Rental",
+            "UPDATE_PLANT": "No",
+            "INDEX_PLANT": 1,
+            "WORK_OPERATION_TYPE":"Work Day",
+            "PES_ITEM":"200.000"
+        },
+        "PLANT_GROUP": {
+            "DESCRIPTION1": "A",
+            "DESCRIPTION2": "B",
+            "DESCRIPTION3": "C",
+            "RUBARIC_CATAGORY":"Equipment"
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "CONTRACT_STATUS": "Approved",
+            "CONFIGURATION": "Material PO"
+        },
+        "ITEM": {
+            "PROCUREMENT_STRUCTURE": "Equipment",
+            "QUANTITY1": "2.000",
+            "QUANTITY2": "5.000",
+            "UOM1": "LE",
+            "UOM2": "ST",
+            "PRICE1": "500.00",
+            "PRICE2": "200.00"
+        },
+        "PES_ITEM":{
+            "quantity":"100",
+            "quantity1":"0.000",
+            "quantity2":"50.000",
+            "structure":"M",
+            "materialNo":"2109001"
+        }
+    
+    },
+    "CONTAINER_COLUMNS": {
+        "DATA_TYPES": {
+            "name":"Data Type",
+            "type":"Type",
+            "modulename":"Module",
+            "dbtablename":"DB Table Name"
+        },
+        "DATA_RECORD": {
+            "BoqRoundingConfiguration":"Check Config",
+            "boqroundingconfigfk":"Boq Rounding Configuration",
+            "descriptioninfo":"Description",
+            "lineitemcontextfk":"Line Item Context",
+            "islive":"Live"
+        },
+        "PLANT_TYPES":{
+            "planttypefk":"Plant Type",
+            "istimekeepingdefault":"Is Timekeeping Default" 
+        },
+        "OPERATION_TYPES": {
+            "isminorequipment": "Is Minor Equipment",
+            "ishire": "Is Hire",
+            "isdefault": "Is Default",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "islive": "Active"
+        },
+        "PLANT": {
+            "planttypefk": "Plant Type",
+            "descriptioninfo": "Description",
+            "plantkindfk": "Plant Kind"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isplantmanagement": "Is Plantmanagement",
+            "isassetmanagement": "Asset Management"
+        },
+        "ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "total": "Total",
+            "basuomfk": "UoM",
+            "price": "Price",
+            "prcstructurefk": "Structure",
+            "description1": "Description 1"
+        },
+        "CONTRACT": {
+            "reqheaderfk": "Requisition",
+            "controllingunitfk": "Controlling Unit Code"
+        },
+        "PLANT_GROUP": {
+            "rubriccategoryfk": "Rubric Category",
+            "descriptioninfo": "Description",
+            "islive": "Active",
+            "code":"Code"
+        },
+        "PES":{
+            "code":"Code",
+            "projectfk":"Project No."
+        },
+        "PES_ITEM":{
+            "quantity":"Quantity",
+            "quantitycontracted":"Contracted Quantity",
+            "quantityremaining":"Remaining Quantity",
+            "mdcmaterialfk":"Material No.",
+            "prcstructurefk":"Structure Code",
+            "uomfk":"UoM"
+        } 
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CONSTRUCTIONPROJECT": "Construction Project",
+            "COSTGROUPCONFIG": "MDC_LINEITEMCONTEXT RIB_DEMO",
+            "PROJECTGROUP": "6",
+            "CLERK": "SmiJ"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "1202",
+            "RESOURCEDESC": "Diesel"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "25",
+            "UOM": "10M3"
+        },
+        "SOURCE_WIC_BOQ": {
+            "WIC_BOQ":"WIC BoQ",
+            "PROCUREMENT_CONTRACT_BOQ": "Procurement Contract BoQ",
+            "PACKAGE_BOQ": "Package BOQ",
+            "ProjectBoQ": "Project BoQ",
+            "PROJECT": "iTWO Solution Center DACH",
+            "WIC_GROUP": "002",
+            "BOQ_SELECTION": "1",
+            "BOQ_STRUCTURE_FOLDER": "Abschnitt",
+            "boqstructureLineItemType": "Level 1",
+            "boqstructureLineItemType2": "Level 2"
+        }
+    },
+    "MODAL": {
+        "CREATE_MATERIAL_PACKAGE": {
+            "SCOPE": "Current Result Set",
+            "SCOPE_ID": "entireEstimate_2",
+            "MATERIAL_COST_CODE": "Material & Cost Code",
+            "SELECT_CHECK_BOX": "Entire Estimate",
+            "SELECT_CHECK_BOX_ID": "entireEstimate_2",
+            "SELECT_PACKAGE_OPTION_1": "Create new item",
+            "SELECT_PACKAGE_VALUE_1": "2"
+        },
+        "GENERATE_BUDGET": {
+            "X_FACTOR": "1",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "BUDGET_FROM": "Grand Total",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 0
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE":"M",
+            "CONFIGURATION":"Material",
+            "BUSINESS_PARTNER":"Adolf Koch",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "criteriaSelection": "Material & Cost Code",
+            "MATERIAL_CODE": "Silo- Portlandzement"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "reference":"Reference No."
+        },
+        "BOQ_SOURCE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "boqlinetypefk": "BoQ Line Type",
+            "reference":"Reference No."
+        },
+        "CONTRACT":{
+            "documenttype":"File Type",
+            "contracttypefk":"Contract Type",
+            "descriptioninfo":"Description"
+        },
+        "COPY_BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        }
+    }
+}
+

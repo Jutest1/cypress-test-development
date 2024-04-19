@@ -1,0 +1,218 @@
+
+
+{
+    "CONTAINERS": {
+        "BOQ": {
+            "DESCRIPTION":"Test",
+            "UOM":"BAG",
+            "QUANTITY":"200"
+        },
+        "PACKAGE":{
+            "CONFIGURATION":"Service",
+            "DESCRIPTION":"Service Package"
+        },
+        "CONTROLLING_UNIT":{
+            "DESCRIPTION": "CU0",
+            "QUANTITY": "1000.000",
+            "UOM": "BAGS"
+        },
+        "ITEM":{
+            "MATERIAL1":"DÜB08PVC",
+            "QUANTITY1":"700.000",
+            "MATERIAL2":"DÜB08PVC",
+            "QUANTITY2":"500.000",
+            "CELL_1":"10",
+            "CELL_2":"20"
+        },
+        "CONTRACT":{
+            "configuration": "Material PO",
+            "taxcode": "05",
+            "BP": "Adolf Koch",
+            "BP2": "AGO Baumaschinen GmbH",
+            "procurementStructure": "M"
+        },
+        "ORDER_ITEM":{
+            "MaterialNo": "DÜB08MESS",
+            "Quantity": "100"
+        },
+        "TAX_CODE":{
+             "code": "19",
+            "taxCodeID": "1000055",
+            "VATGroup": "DL",
+            "VATPercent": "10",
+            "VATPercent_INT": 10
+        },
+        "PROCUREMENT_STRUCTURE":{
+            "RolesID": [
+                "clerkreqfk",
+                "clerkprcfk"
+            ],
+            "Role": "Project Manager",
+            "code": "21",
+            "clerk": "FI"
+        },
+        "BP_SUPPLIER":{
+            "BusinesspartnerName": "AGO Baumaschinen GmbH",
+            "BranchDescription": "Brandenburg",
+            "LabelName": "Supplier No."
+        },
+        "WIC_CATALOG":{
+            "WICGroupCode": "001",
+            "WICBoQCode": "1",
+            "editContainerValues": [
+                "bpdbusinesspartnerfk",
+                "bpdsupplierfk",
+                "baspaymenttermadfk",
+                "baspaymenttermfifk",
+                "baspaymenttermfk"
+            ],
+            "editContainerValuesInContract": [
+                "businesspartnerfk",
+                "supplierfk",
+                "paymenttermadfk",
+                "paymenttermfifk",
+                "paymenttermpafk"
+            ],
+            "tobeChangeValues": [
+                "Adolf Koch",
+                "K00066",
+                "NET14",
+                "NET30",
+                "NET90"
+            ]
+        },
+        "WIC_BOQ_STRUCTURE":{
+            "description": "BoQ_Sctructure",
+            "quantity": "500",
+            "unitRate": "1",
+            "uom": "%"
+        },
+        "MATERIAL_CATALOG":{
+            "businessPartner": "ago baumaschinen gmbh",
+            "searchDatatypes": "Material Catalog Type",
+            "supplier": "K00036",
+            "paymenTerm_AD": "NET14",
+            "paymenTerm_FI": "NET30",
+            "paymenTerm_PA": "NET90",
+            "incoterms": "EXW",
+            "FRAMEWORK_MATERIAL_CATALOG": "materialcatalogfk",
+            "FMC_CODE": "001",
+            "datarecordsDescription": "Neutral Material",
+            "searchDatatypes1": "Neutral Material",
+            "editContainerValues": [
+                "businesspartnerfk",
+                "paymenttermadfk",
+                "paymenttermfifk",
+                "paymenttermfk",
+                "prcincotermfk"
+            ],
+            "editContainerValuesInContract": [
+                "businesspartnerfk",
+                "paymenttermadfk",
+                "paymenttermfifk",
+                "paymenttermpafk",
+                "IncotermFkDescription"
+            ],
+            "tobeChangeValues": [
+                "AGO Baumaschinen GmbH",
+                "NET14",
+                "NET30",
+                "NET90",
+                "EXW"
+            ]
+        },
+        "CLERK":{
+            "ClerkName": "KCN",
+            "ProcurementCode": "M"
+        },
+        "PROCUREMENT_CONFIGURATION":{
+            "ConfigurationHeaderDescription": "Material",
+            "ConfigurationDescription": "Contract",
+            "ConfigurationDescription1": "Construction",
+            "AwardMethod": "Negotiation"
+        }
+},
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "briefinfo":"Outline Specification",
+            "basuomfk":"UoM",
+            "quantity":"Quantity"
+        },
+        "PROCUREMENT_BOQ":{
+            "boqstatusfk":"BoQ Status",
+            "briefinfo":"Outline Specification",
+            "reference":"Reference No."
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type"
+          
+
+        },
+        "PACKAGE":{
+            "code":"Code",
+            "description":"Description",
+            "mdccontrollingunitfk":"Controlling Units"
+        },
+        "CONTROLLING_UNIT":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "quantity":"Quantity",
+            "uomfk":"UoM"
+        },
+        "ITEM":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "itemno":"Item Number"
+        },
+        "CONTRACT":{
+            "businesspartnerfk": "Business Partner",
+            "purchaseorders": "Purchase Orders",
+            "bpdvatgroupfk": "VAT Group",
+            "taxcodefk": "Tax Code",
+            "controllingunitfk": "Controlling Unit Code",
+            "structureCode": "Procurement structure",
+            "subsidiaryfk": "Branch",
+            "bankfk": "Bank",
+            "supplierfk": "Supplier No.",
+            "boqwiccatfk": "Framework WIC Group",
+            "clerkreqfk": "Requisition Owner",
+            "paymenttermfifk": "Payment Term (FI)",
+            "paymenttermpafk": "Payment Term (PA)",
+            "paymenttermadfk": "Payment Term (AD)",
+            "incotermfk": "Incoterms",
+            "IncotermFkDescription": "Incoterm Description",
+            "materialcatalogfk": "Framework Material Catalog",
+            "boqwiccatboqfk": "Framework WIC BoQ",
+            "clerkprcfk": "Responsible"
+        },
+        "ORDER_ITEM":{
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity"
+        },
+        "CONTRACT_TOTALS":{
+            "valuenet": "Net Value",
+            "valuetax": "VAT",
+            "gross": "Gross"
+        },
+        "PROCUREMENT_STRUCTURE":{
+            "clerkreqfk": "Requisition Owner Role",
+            "clerkprcfk": "Responsible Role",
+            "code": "Code"
+        },
+        "MATERIAL_CATALOG":{
+            "paymenttermadfk": "Payment Term (AD)",
+            "paymenttermfifk": "Payment Term (FI)",
+            "paymenttermfk": "Payment Term (PA)",
+            "businesspartnerfk": "Business Partner",
+            "prcincotermfk": "Incoterms",
+            "supplierfk": "Supplier"
+        },
+        "PROCUREMENT_CONFIGURATION":{
+            "awardmethodfk": "Award Method"
+        }
+    }
+}

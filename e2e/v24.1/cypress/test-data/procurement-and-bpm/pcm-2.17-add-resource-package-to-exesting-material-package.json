@@ -1,0 +1,90 @@
+{   
+    
+        "CONTAINERS": {
+            "ESTIMATE": {
+                "RUBRIC_CATEGORY": "Planning",
+                "ESTIMATE_TYPE": "Bid Estimate"
+            },
+            "LINE_ITEM": {
+                "QUANTITY": "100",
+                "UOM": "10M3",
+                "LINE_ITEM_CODE":"000020"
+            },
+            "RESOURCE": {
+                "SHORT_KEY": "M",
+                "CODE": "292503",
+                "MATERIAL_CODE":"REIFEN",
+                "CODE_PRICE":"34.18",
+                "TOTAL":"Total",
+                "QUANTITY":"100",
+                "QUANTITY2":"200"
+            }
+            
+            
+        },
+        "MODAL": {
+            "UPDATE_MATERIAL_PACKAGE": {                
+                "SELECTED_CHECKBOX":"Selected Line Item",
+                "SELECTED_CHECKBOX_ID":"estimateResultSet_3",
+                "SELECT_PKG_OPTION1":"Merge to existed item (first record)",
+                "SELECT_PKG_OPTION2":"Create new item",
+                "SELECT_PKG_VALUE1":"1",
+                "SELECT_PKG_VALUE2":"2"
+            },
+            
+            "CREATE_UPDATE_MATERIAL_PACKAGE": {
+                "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+                "PROCUREMENT_STRUCTURE":"M",
+                "CONFIGURATION":"Material",
+                "BUSINESS_PARTNER":"Adolf Koch",
+                "ESTIMATE_SCOPE": "Entire Estimate",
+                "SCOPE_ID": "entireEstimate_2",                
+                "MATERIAL_CODE": "Silo- Portlandzement"
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            
+            "ESTIMATE": {
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Rubric Category"
+            },
+            "LINE_ITEM": {
+                "code": "Code",
+                "descriptioninfo": "Description",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "costtotal": "Cost Total",
+                "costunit": "Cost/Unit"
+            },
+            "RESOURCE": {
+                "estresourcetypeshortkey": "Short Key",
+                "code": "Code",
+                "descriptioninfo": "Description",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",                
+                "costtotal": "Cost Total",                
+                "costunit":"Cost/Unit"
+            },
+            "PACKAGE": {
+                "code": "Code"
+            },
+            "TOTAL": {
+                "TotalTypeFkDescriptionInfo.Translated": "Type Description",
+                "valuenet": "Net Value"
+            },
+            "PACKAGE_ITEM_ASSIGNMENT": {
+                "prcpackagefk": "Procurement Package"
+            },
+            
+            "PACKAGE_ITEM":{
+                "price": "Price",
+                "co2project": "CO2/kg (Project)",
+                "mdcmaterialfk": "Material No.",
+                "quantity": "Quantity",
+                "isfreequantity":"Is Free Quantity"
+            }
+        }    
+    
+    }

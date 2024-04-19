@@ -1,0 +1,145 @@
+{
+    "Prerequisites": {
+        "SidebarInputs": {
+            "ProjectName": "AN_11_AP_001",
+            "searchType": "standard",
+            "Search": "Search"
+        }
+    },
+    "Estimate": {
+        "EstimateHeaderInputs": {
+            "code": "R_EST",
+            "description": "R_EST-01",
+            "rubricCategory": "Planning",
+            "estimateType": "Bid Estimate",
+            "LineItem1": "AN_Line-01",
+            "Quantity": "10",
+            "Uom": "10M3"
+        },
+        "ResourceInputs": {
+            "shortKey": "M",
+            "code": "221001",
+            "Quantity": "110"
+        }
+    },
+    "Package": {
+        "criteria": {
+            "ProcurementStructure": "Procurement structure",
+            "MaterialandCostCode": "Material & Cost Code"
+        }
+    },
+    "Quote": {
+        "BusinessPartner": {
+            "BusinessPartner1": "Adolf Koch",
+            "BusinessPartner2": "AGO Baumaschinen GmbH"
+        },
+        "Price": {
+            "materialsup1": "25",
+            "materialsup2": "35"
+        },
+        "Verify": {
+            "Total": "Total"
+        }
+    },
+    "Inputs": {
+        "footerOptions": {
+            "Lineitems": "Line Items",
+            "Estimate": "Estimate",
+            "Resources": "Resources"
+        },
+        "SidebarOptions": {
+            "Quickstart": "Quick Start",
+            "Qckstrttype": "quickstart",
+            "Search": "Search",
+            "searchtype": "search",
+            "project": "Project",
+            "wizard1": "Wizard",
+            "wizard2": "wizard"
+        },
+        "wizardOptions": {
+            "CreateMaterialPackage": "Create/Update Material Package",
+            "ChangePackageStatus": "Change Package Status",
+            "CreateRequisition": "Create Requisition",
+            "ChangeRequisitionStatus": "Change Requisition Status",
+            "CreateRfQ": "Create Request For Quote",
+            "ChangeRfQStatus": "Change RfQ Status",
+            "CreateQuote": "Create Quote",
+            "ChangeQuoteStatus": "Change Quote Status",
+            "createContract": "Create Contract"
+        },
+        "statusOption": {
+            "Approved": "Approved",
+            "Published": "Published",
+            "InProgress": "In-Progress",
+            "Checked": "Checked"
+        },
+        "gotoButtons": {
+            "Requisition": "Go To Requisition",
+            "RfQ": "Go To RfQ",
+            "Quote": "Go To Quote",
+            "contract": "Go To Contract"
+        }
+    },
+    "columns": {
+        "column_headers": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "Column_Quotes": {
+            "statusfk": "Status",
+            "packagenumber": "Package Number",
+            "supplierfk": "Supplier No.",
+            "businesspartnerfk": "Business Partner",
+            "subsidiaryfk":"Branch"
+        },
+        "Column_Contract": {
+            "codequotation": "Quotation Code",
+            "packagefk": "Package Code",
+            "supplierfk": "Supplier No.",
+            "businesspartnerfk": "Business Partner",
+            "subsidiaryfk":"Branch"
+        }
+    },
+    "Column_EstLineItems": {
+        "column_LineItemsheaders": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "Column_ResLineItems": {
+        "Column_ResItems": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "code",
+            "quantity": "Quantity"
+        }
+    },
+    "Column_QuotesLineItems": {
+        "Column_QuotesItems": {
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "Column_ContractLineItems": {
+        "Column_ContractItems": {
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "GenerateBudget": {
+        "BudgetInputs": {
+            "wizard1": "Wizard",
+            "wizard2": "wizard",
+            "GenerateBudget": "Generate Budget from DJC",
+            "XFactor": "1",
+            "EstimateScope": "Entire Estimate",
+            "BugetFrom": "Grand Total",
+            "EstimateScopeIndex": 0,
+            "BugetFromIndex": 0
+        }
+    }
+}

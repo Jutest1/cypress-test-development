@@ -1,0 +1,46 @@
+{
+    "CONTAINERS": {
+        "ACTIVITY_STRUCTURE": {
+            "QUANTITY": "100.000",
+            "UoM" : "BAGS"         
+            },
+            "LOCATIONS": {
+                "QUANTITYFACTOR1": "10.000",
+                "QUANTITYFACTOR2": "10.000"
+            },
+            "KEY_DATES": {
+                "REMARK": "input is valid"
+            }        
+    },
+
+    "MODAL":{
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    },
+
+    "CONTAINER_COLUMNS": {
+        "SCHEDULES": {
+            "code":"Code",
+            "descriptioninfo":"Description"           
+          },
+          "ACTIVITY_STRUCTURE": {
+            "description":"Description",           
+            "projectfk":"Project",
+            "schedulefk" : "Schedule",
+            "locationfk" : "Location",
+            "activitypresentationfk" : "Activity Presented"
+          },
+          "LOCATIONS": {
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "quantity":"Quantity Factor"
+          },
+          "KEY_DATES": {
+            "date": "Date",
+            "enddate": "Finish",
+            "text": "Text",
+            "isactive" : "Is Active"
+        }            
+    }
+}     

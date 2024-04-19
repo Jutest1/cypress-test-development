@@ -1,0 +1,69 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "M",
+                "S"
+            ],
+            "CODE": [
+                "MG3FM",
+                "MG2FM",
+                "DÜB06PVC"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material"
+        },
+        "UPDATE_MATERIAL_PACKAGE": {
+            "SELECTED_CHECKBOX_ID": "estimateResultSet_3",
+            "SELECT_PKG_OPTION1": "Merge to existed item (first record)",
+            "SELECT_PKG_VALUE1": "1"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "costunit": "Cost/Unit"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "TOTAL": {
+            "TotalTypeFkDescriptionInfo.Translated": "Type Description",
+            "valuenet": "Net Value"
+        },
+        "PACKAGE_ITEM_ASSIGNMENT": {
+            "prcpackagefk": "Procurement Package"
+        }
+    }
+}

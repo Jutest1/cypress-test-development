@@ -1,0 +1,49 @@
+{
+  "CONTAINERS": {
+    "DATA_TYPES": {
+      "PRICE_CONDITION_TYPE": "Price Condition Type"
+    },
+    "DATA_RECORDS": {
+      "VALUE": [
+        20,
+        25
+      ],
+      "FORMULA": [
+        "var d = GetDate('order','DateEffective');d.setDate(d.getDate() - 10);return (GetIndex('S', d));",
+        "return Reference('C').Value"
+      ]
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY": ["10","20","30"],
+      "UNIT_RATE": ["2","4","6"],
+      "UOM": "Days"
+    },
+    "CREATE_NEW_RULE":[
+      {
+          "FieldName": "Price Condition",
+          "Option": "Set Value to",
+          "OptionData": "PM Price1"
+      }
+  ]
+  },
+  "CONTAINER_COLUMNS": {
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "prcpriceconditionfk":"Price Condition"
+    },
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification"
+    },
+    "DATA_RECORDS": {
+      "code":"Code",
+      "descriptioninfo": "Description",
+      "value": "Value",
+      "hastotal":"Has Total",
+      "isprinted":"Is Printed"
+    }
+  }
+}

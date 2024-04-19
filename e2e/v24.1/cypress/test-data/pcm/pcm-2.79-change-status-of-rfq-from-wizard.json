@@ -1,0 +1,22 @@
+{
+    "CONTAINERS": {
+        "RFQ":{
+            "ID1":"1",
+            "ID2":"2",
+            "ID3":"3",
+            "ID4":"4",
+            "ID5":"5",
+            "ID6":"6",
+            "ID7":"7",
+            "ID8":"1000001",
+            "RFQ_STATUS":"RFQ Status"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "RFQ":{
+            "rfqstatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        }
+    }
+}

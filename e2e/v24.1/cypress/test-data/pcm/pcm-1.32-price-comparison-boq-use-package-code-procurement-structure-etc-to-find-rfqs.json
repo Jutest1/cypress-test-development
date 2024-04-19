@@ -1,0 +1,24 @@
+{
+    "CONTAINERS": {
+        "PACKAGE": {
+            "PACKAGE": "Package",
+            "PROCUREMENT_STRUCTURE": "Material",
+            "BUSINESS_PARTNER": "Business Partner"
+        },
+        "RFQ": {
+            "BUSINESS_PARTNER_1": "Adolf Koch",
+            "BUSINESS_PARTNER_2": "AGO Baumaschinen GmbH"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PACKAGE": {
+            "code": "Code",
+            "description": "Description"
+        },
+        "RFQ": {
+            "code": "Rfq Code",
+            "description": "RfQ Description",
+            "packagenumber": "Package Number"
+        }
+    }
+}

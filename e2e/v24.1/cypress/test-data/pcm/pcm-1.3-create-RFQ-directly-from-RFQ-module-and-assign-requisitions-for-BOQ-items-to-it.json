@@ -1,0 +1,67 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "STRUCTURE_CODE": "D",
+            "CONFIGURATION": "Service REQ"
+        },
+        "REQUISITION_ITEM": {
+            "MATERIAL_NO": "DÜB08PVC",
+            "PRICE": "60",
+            "QUANTITY": "10"
+        },
+        "PROCUREMNET_BOQ": {
+            "SUBPACAKGE": "Service"
+        },
+        "REQUISITION_BOQ": {
+            "QUANTITY": "500",
+            "UNITRATE": "20",
+            "UOM": "10M3"
+        },
+        "REQUISITION_TOTAL": {
+            "VALUE": "Total"
+        },
+        "RFQ_BIDDERS": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "REQUISITION_ITEM": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "REQUISITION_BOQ": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "basuomfk": "UoM",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "PROCUREMNET_BOQ": {
+            "packageCode": "Package Code"
+        },
+        "REQUISITION_TOTAL": {
+            "valuenet": "Net Value"
+        },
+        "RFQ": {
+            "description": "RfQ Description"
+        },
+        "RFQ_REQUISITION": {
+            "reqheaderfk": "Requisition Code"
+        },
+        "RFQ_BIDDERS": {
+            "businesspartnerfk": "Business Partner"
+        },
+        "TOTALS": {
+            "valuenet": "Net Value"
+        }
+    }
+}

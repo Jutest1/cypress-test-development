@@ -1,0 +1,16 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "RFQ": {
+            "reference": "Invoice No.",
+            "businesspartnerfk": "Business Partner",
+            "prcstructurefk": "Structure Code",
+            "projectfk": "Project No.",
+            "dateposted": "Posting Date"
+        }
+    }
+}

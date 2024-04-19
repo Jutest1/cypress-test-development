@@ -1,0 +1,207 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": [
+                "0"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "10",
+                "20"
+            ],
+            "UNIT_RATE": [
+                "25",
+                "10"
+            ],
+            "UOM": [
+                "10M3"
+            ],
+            "PES_QUANTITY": [
+                "90"
+            ]
+        },
+        "CONTRACTS": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CONTRACT_BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "20"
+            ],
+            "CHANGE_QUANTITY": [
+                "30"
+            ],
+            "CHANGE_UNIT_RATE": [
+                "20",
+                "25"
+            ]
+        },
+        "PACKAGE": {
+            "BUDGET": [
+                "100"
+            ]
+        },
+        "INVOICE": {
+            "AMOUNT_NET": [
+                "1000"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_CONTRACT_WIZARD": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "quantityadj": "AQ Quantity",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price",
+            "mdccontrollingunitfk": "Controlling Units",
+            "reference": "Reference No."
+        },
+        "CONTRACTS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "CONTRACT_BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "mdccontrollingunitfk": "Controlling Units",
+            "finalprice": "Final Price (EUR)"
+        },
+        "COST_CONTROL": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "revenue": "Revenue",
+            "basiccost": "Basic Cost",
+            "budgetshift": "Budget Shift",
+            "additional": "Additional Expenses"
+        },
+        "PACKAGE": {
+            "code": "Code",
+            "description": "Description",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "TOTALS": {
+            "TotalTypeFkDescriptionInfo.Translated": "Type Description",
+            "valuenet": "Net Value"
+        },
+        "PACKAGE_PROCUREMENT_BOQS": {
+            "briefinfo": "Outline Specification",
+            "reference": "Reference No.",
+            "packageCode": "Package Code"
+        },
+        "PACKAGE_BOQ_STRUCTURE": {
+            "reference": "Reference No.",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "finalprice": "Final Price (EUR)",
+            "mdccontrollingunitfk": "Controlling Units",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "PROCUREMENT_CONTRACT": {
+            "code": "Code",
+            "projectfk": "Project No.",
+            "clerkprcfk": "Responsible",
+            "controllingunitfk": "Controlling Unit Code",
+            "net": "Net"
+        },
+        "PROCUREMENT_CONTRACT_BOQS": {
+            "briefinfo": "Outline Specification",
+            "reference": "Reference No.",
+            "packageCode": "Package Code"
+        },
+        "PROCUREMENT_CONTRACT_BOQ_STRUCTURE": {
+            "reference": "Reference No.",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "finalprice": "Final Price (EUR)",
+            "mdccontrollingunitfk": "Controlling Units",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "PES": {
+            "pesstatusfk": "PES Status",
+            "code": "Code",
+            "description": "Description",
+            "projectfk": "Project No.",
+            "pesvalue": "Total"
+        },
+        "PES_BOQS": {
+            "prcboqfk": "Code",
+            "ConHeaderFk": "Contract Description",
+            "PackageFk": "Package Description"
+        },
+        "PES_BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "finalprice": "Final Price (EUR)"
+        },
+        "INVOICE": {
+            "invstatusfk": "Status",
+            "reference": "Invoice No.",
+            "projectfk": "Project No.",
+            "amountnet": "Amount (Net)"
+        },
+        "SALES_CONTRACT": {
+            "descriptioninfo": "Description",
+            "total": "Net Amount"
+        },
+        "PRC_PACKAGES": {
+            "code": "Code",
+            "description": "Description",
+            "budget": "Budget"
+        },
+        "PRC_CONTRACT": {
+            "description": "Description",
+            "total": "Net Amount"
+        },
+        "PRC_PES": {
+            "code": "Code",
+            "pesvalue": "Total"
+        },
+        "PRC_INVOICES": {
+            "amountnet": "Amount(Net)",
+            "code": "Code"
+        }
+    }
+}

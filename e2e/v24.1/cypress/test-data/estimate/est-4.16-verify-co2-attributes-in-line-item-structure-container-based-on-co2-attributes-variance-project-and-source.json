@@ -1,0 +1,153 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "COST_CODES": {
+            "COST_CODE": [
+                "S0"
+            ],
+            "COST_CODE_CO2_VALUE": "250"
+        },
+        "MATERIAL_CATALOGS": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "MATERIAL_TYPE": "Neutral Material"
+        },
+        "MATERIAL_GROUPS": {
+            "STRUCTURE_CODE": "M"
+        },
+        "MATERIAL_RECORDS": {
+            "UOM": "BAGS",
+            "RETAIL_PRICE": "11",
+            "LIST_PRICE": "130",
+            "CO2_PROJECT": "360"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": [
+                "12",
+                "22",
+                "33",
+                "44"
+            ],
+            "UOM": "BAGS"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "ASSEMBLY_DESCRIPTION": "GRUNDLAGENARBEIT"
+        },
+        "ASSEMBLIES": {
+            "ASSEMBLIES_DESCRIPTION": "Baugrubenaushub bis BKL 4 mit Abfuhr"
+        },
+        "ASSEMBLY_RESOURCES": {
+            "ASSEMBLY_RESOURCE_DESCRIPTION": "Tiefbau-Stunden"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "C",
+                "M"
+            ],
+            "COST_CODE": [
+                "S0"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "descriptioninfo": "Description",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2sourcefk": "CO2/kg (Source Name)"
+        },
+        "MATERIAL_CATALOGS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "validfrom": "Valid From",
+            "validto": "Valid To",
+            "materialcatalogtypefk": "Type",
+            "isticketsystem": "Is Ticket System",
+            "isneutral": "Neutral Material"
+        },
+        "MATERIAL_GROUPS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "descriptioninfo": "Description"
+        },
+        "MATERIAL_GROUP_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_RECORDS": {
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "basco2sourcefk": "CO2/kg (Source Name)"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ASSEMBLIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "costtotal": "Cost Total",
+            "costfactor1": "Cost Factor 1"
+        },
+        "ASSEMBLY_RESOURCES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "costtotal": "Cost Total"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification",
+            "boqrootitem.reference": "Reference No."
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross": "Final Price (Gross)"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "estassemblyfk": "Assembly Template",
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total",
+            "co2totalvariance": "CO2 Total Variance"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total",
+            "quantity": "Quantity",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total"
+        },
+        "LINE_ITEM_STRUCTURE": {
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total",
+            "co2totalvariance": "CO2 Total Variance"
+        }
+    }
+}

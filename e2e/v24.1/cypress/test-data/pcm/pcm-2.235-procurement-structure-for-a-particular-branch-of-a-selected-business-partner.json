@@ -1,0 +1,70 @@
+{
+    "CONTAINERS": {
+        "BUSINESSPARTNER": {
+            "STREET_NAME": "FC Road",
+            "CITY_NAME": "Nashik",
+            "COUNTRY_NAME": "India",
+            "ZIP_CODE": "123456"
+        },
+        "BRANCHES": {
+            "STREET_NAME": "GP Road",
+            "CITY_NAME": "Pune",
+            "COUNTRY_NAME": "India",
+            "ZIP_CODE": "123456"
+        },
+        "PROCUREMENTSTRUCTURE": {
+            "PROCUREMENT_STRUCTURE": "Service",
+            "CHECK": "check",
+            "SEARCH_RESULT": "D",
+            "STRUCTURE_CODE_1": "001",
+            "STRUCTURE_CODE_2": "027",
+            "STRUCTURE_CODE_3": "024",
+            "TYPE": "Procurement structure"
+        },
+        "CONTACTS": {
+            "ROLE": "Service Personnel",
+            "FIRST_NAME": "RNM_FrstNm",
+            "LAST_NAME": "RNM_LstNm",
+            "COUNTRY_NAME": "Germany",
+            "GRID_PHNO": "Phone Number",
+            "GRID_EXT": "Extension",
+            "GRID_COUNTRY": "Country",
+            "GRID_TELEPHONE": "Telephone"
+        },
+        "PROCUREMENTCONTRACT": {
+            "TYPE": "Procurement structure"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESSPARTNER": {
+            "code": "Code",
+            "businesspartnerstatusfk": "Status",
+            "businesspartnername1": "Business Partner Name",
+            "clerkfk": "Responsible",
+            "address": "Address",
+            "email": "E-Mail"
+        },
+        "BRANCHES": {
+            "ismainaddress": "Is Main Address",
+            "description": "Description",
+            "addresstypefk": "Address Type",
+            "addressdto": "Address",
+            "telephonenumber1dto": "Telephone"
+        },
+        "PROCUREMENTSTRUCTURE": {
+            "bpdsubsidiaryfk": "Branch",
+            "Code": "Code",
+            "Description": "Description"
+        },
+        "CONTACTS": {
+            "contactrolefk": "Role",
+            "titlefk": "Salutation",
+            "firstname": "First Name",
+            "telephonenumberdescriptor": "Telephone",
+            "email": "E-Mail"
+        },
+        "PROCUREMENTCONTRACT": {
+            "businesspartnerfk": "Business Partner"
+        }
+    }
+}

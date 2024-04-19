@@ -1,0 +1,104 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "10",
+            "UNIT_RATE": "20",
+            "UOM": "BAG"
+        },
+        "QUOTE_BOQ_STRUCTURE": {
+            "QUANTITY": "5",
+            "UNIT_RATE": "15",
+            "UOM": "%"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "BASED_ON": "Project BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "ESTIMATE_SCOPE_INDEX": "0",
+            "PROCUREMENT_STRUCTURE": "D",
+            "QTY_TRANSFER": "BoQ Quantity (WQ/AQ)"
+        },
+        "REQUEST_FOR_QUOTE": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "CREATE_WIC_FROM_BOQ": {
+            "TRAGET_WIC_GROUP": "002",
+            "OUTLINE_SPEC": "Auswahlposition"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "SOURCE_BOQ": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "grandtotal": "Grand Total"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "QUOTE": {
+            "code": "Code",
+            "rfqheaderfk": "RfQ Header"
+        },
+        "WIC_CATALOGUES": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "WIC_GROUP": {
+            "code": "Code"
+        },
+        "REQUISITION": {
+            "code": "Code"
+        },
+        "RFQ": {
+            "code": "Rfq Code"
+        }
+    }
+}

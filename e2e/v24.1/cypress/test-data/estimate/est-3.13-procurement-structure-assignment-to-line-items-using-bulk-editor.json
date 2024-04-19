@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+       "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "%",
+            "PROCUREMENT_STRUCTURE":"D"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+       "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "prcstructurefk": "Procurement Structure"
+        }
+    },
+    "CREATE_NEW_RULE": [
+        {
+            "FieldName": "Procurement Structure",
+            "Option": "Set Value to",
+            "OptionData": "D"
+        }
+    ]
+}

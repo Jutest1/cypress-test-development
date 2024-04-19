@@ -1,0 +1,250 @@
+{
+    "CONTAINERS": {
+        "UNITS_OF_MEASUREMENT": {
+            "UNIT_DESCRIPTION": [
+                "Meter",
+                "Centimeter"
+            ],
+            "LENGTH_DIMENSION": [
+                "1"
+            ],
+            "FACTOR": [
+                "2"
+            ]
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "MATERIAL_CATALOG_DESCRIPTION": [
+                "Artikelkatalog"
+            ]
+        },
+        "MATERIAL_RECORDS": {
+            "MATERIAL_DESCRIPTION": [
+                "2109001",
+                "221001"
+            ],
+            "UOM": [
+                "M",
+                "CM"
+            ]
+        },
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": [
+                "100"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "RESOURCES": {
+            "SHORT_KEY": [
+                "C",
+                "M"
+            ],
+            "MATERIAL": [
+                "Silo- Portlandzement"
+            ]
+        },
+        "ITEMS": {
+            "MATERIAL": [
+                "2331101",
+                "2109001"
+            ]
+        }
+    },
+    "MODAL": {
+        "UPDATE_ITEM_PRICE": {
+            "SCOPE": [
+                "All item under current selected lead record",
+                "Selected item(s)"
+            ],
+            "PRICE_VERSION": [
+                "Latest Price version"
+            ],
+            "CHECKBOX": [
+                "Include Neutral Material"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "UNITS_OF_MEASUREMENT": {
+            "descriptioninfo": "Description",
+            "isbase": "Is Base",
+            "factor": "Factor",
+            "unitinfo": "Unit of Measurement",
+            "lengthdimension": "Length Dimension"
+        },
+        "MATERIAL_RECORDS": {
+            "mdcmaterialfk": "Neutral Material",
+            "neutralmaterialcatalogfk": "Neutral Material Catalog"
+        },
+        "CONTRACT": {
+            "businesspartnerfk": "Business Partner"
+        },
+        "ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price",
+            "priceunit": "Price Unit",
+            "priceextra": "Extras",
+            "discount": "Discount Percent",
+            "factorpriceunit": "Factor"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity"
+        },
+        "PACKAGE": {},
+        "REQUISITION": {},
+        "RFQ": {
+            "description": "RfQ Description",
+            "code": "Rfq Code"
+        },
+        "BIDDERS": {
+            "businesspartnerfk": "Business Partner",
+            "rfqbusinesspartnerstatusfk": "Status"
+        },
+        "PROJECT_DOCUMENT": {
+            "description": "Description",
+            "prjdocumentstatusfk": "Status"
+        }
+    },
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "Wizard": "Wizard",
+            "wizard": "wizard",
+            "CreateUpdateMaterialPackage": "Create/Update Material Package",
+            "QuickStart": "Quick Start",
+            "quickStart": "quickstart",
+            "Search": "Search"
+        },
+        "ModuleName": {
+            "moduleContract": "Contract",
+            "moduleProject": "Project",
+            "UoM": "Unit",
+            "material": "Material"
+        }
+    },
+    "CreateContract": {
+        "ContractInputs": {
+            "buisnessPartner": "Adolf Koch"
+        },
+        "ColumnHeaders": {
+            "businesspartnerfk": "Business Partner"
+        },
+        "ColumnHeaders2": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price"
+        }
+    },
+    "CreateEstimate": {
+        "EstimatePageInputs": {
+            "newCode": "02",
+            "rubicCategory": "Planning",
+            "estimateType": "Bid Estimate",
+            "estimateDes": "GLI3.6",
+            "moduleName": "Estimate"
+        },
+        "ColumnHeaders": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        }
+    },
+    "CreateNewLineItemRecord": {
+        "LineItemsInputs": {
+            "description": "line item",
+            "quantity": "100",
+            "uom": "10M3"
+        },
+        "ColumnHeaders": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "CreateNewResource": {
+        "ResourceInput": {
+            "ShortKey": "M",
+            "Code": "Silo- Portlandzement",
+            "Code2": "Flussand (1.6t/m3)",
+            "Code3": "2331101",
+            "Code4": "2109001",
+            "CodePrice": "34.18",
+            "total": "Total"
+        },
+        "ColumnHeaders": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity"
+        }
+    },
+    "CreateMaterialPkg": {
+        "SelectCriteria": {
+            "MaterialCostCode": "Material & Cost Code"
+        }
+    },
+    "createRequisition": {
+        "updateItemInput": {
+            "scope1": "All item under current selected lead record",
+            "scope2": "Selected item(s)",
+            "priceversion": "Latest Price version",
+            "checkboxNeutral": "Include Neutral Material"
+        },
+        "Status": {
+            "inProgress": "In-Progress",
+            "approved": "Approved",
+            "packageStatus": "Change Package Status",
+            "createRequisition": "Create Requisition",
+            "requisitionStatus": "Change Requisition Status",
+            "updateItemPrice": "Update Item Price"
+        },
+        "ColHeaderRequisitionItems": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price",
+            "priceunit": "Price Unit",
+            "priceextra": "Extras",
+            "discount": "Discount Percent",
+            "factorpriceunit": "Factor"
+        }
+    },
+    "UnitModule": {
+        "UnitInput": {
+            "unit1": "Meter",
+            "unit2": "Centimeter",
+            "lengthDimension": "1",
+            "factor": "2"
+        }
+    },
+    "MaterialModule": {
+        "MaterialInput": {},
+        "ColumnHeaders": {
+            "mdcmaterialfk": "Neutral Material",
+            "neutralmaterialcatalogfk": "Neutral Material Catalog"
+        }
+    }
+}

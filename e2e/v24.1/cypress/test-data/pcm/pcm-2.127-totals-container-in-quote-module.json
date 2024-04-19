@@ -1,0 +1,117 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "INVOICE_TYPE": "Invoice Type",
+            "INVOICE": "Invoice"
+        },
+        "DATA_RECORDS": {
+                "DESCRIPTION": "Progress Invoice",
+                "Check": "check"
+        },
+        "CONFIGURATION_HEADER": {
+            "DESCRIPTIONINFO": "Service"
+        },
+        "CONFIGURATIONS": {
+            "INVOICES": "Invoices",
+            "SERVICE_PA": "Service PA"
+        },
+        "CONTROLLING_UNIT": {
+            "QUANTITY": "1",
+            "UOM": "10M3"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB08PVC",
+            "QUANTITY": "20"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "300",
+            "UOM": "10M3"
+        },
+        "ITEMS": {
+            "QUANTITY": "40",
+            "PRICE": "20.00",
+            "TAX_CODE":"Umsatzsteuer 19%"
+    }
+},
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "CRITERIA_SELECTION": "Material & Cost Code",
+            "configurationInput": "Material",
+            "QUANTITY": "40",
+            "PRICE": "12"
+        },
+        "REQUEST_FOR_QUOTE": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONFIGURATION_HEADER": {
+            "descriptioninfo": "Description"
+        },
+        "CONFIGURATIONS": {
+            "descriptioninfo": "Description",
+            "description": "Description",
+            "prcawardmethodfk": "Award Method",
+            "paymenttermfifk": "Payment Term (FI)",
+            "paymenttermpafk": "Payment Term (PA)"
+        },
+        "CONTROLLING_UNIT": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "uomfk": "UoM"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "ITEMS": {
+            "quantity": "Quantity",
+            "totaloc":"Total (OC)",
+            "vat":"VAT",
+            "totalgross":"Total (Gross)"
+        },
+        "REQUISITION": {
+            "code": "Code"
+        },
+        "RFQ": {
+            "code": "Rfq Code"
+        },
+        "QUOTE": {
+            "code": "Code",
+            "rfqheaderfk": "RfQ Header"
+        },
+        "ITEMS_QUOTES":{
+            "mdcmaterialfk":"Material No.",
+            "mdctaxcodefk":"Tax Code",
+            "price":"Price"
+        }
+
+
+    }
+}

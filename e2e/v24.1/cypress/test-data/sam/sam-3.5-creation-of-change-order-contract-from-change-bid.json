@@ -1,0 +1,79 @@
+{
+    "CONTAINERS": {
+        "CUSTOMIZING": {
+            "DATA_TYPE": "Project Change Status",
+            "DATA_RECORDS": "Approved"
+        },
+        "BOQ":{
+            "PROJECT_BOQ":"Project BoQ"
+        },
+        "BOQ_STRUCTURES": {
+            "QUANTITY": "200.000",           
+            "UOM": "BAGS",
+            "UNIT_RATE":"20.000",
+            "BOQ_LINE_TYPE":"Position",
+            "DESCRIPTION": "boqstructure002",
+            "QUANTITY1":"100.000",
+            "UNIT_RATE1":"10",
+            "OUTLINE_SPECIFICATION":"Existing Record",
+            "OUTLINE_SPECIFICATION1":"New Record"            
+        },
+        "BID":{
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "CONTRACT_SALES":{
+            "BUSINESS_PARTNER": "Adolf Koch"   
+        },
+        "CHANGE_BID":{
+            "CHANGE_BID":"Change bid from bid page",
+            "DESCRIPTION":"ChangeBID_DESC",
+            "BUSINESS_PARTNER": "Adolf Koch"   
+        },
+        "CHANGE_CONTRACT": {
+            "CHANGE_ORDER":"Change Order",
+            "DESCRIPTION":"CHANGED CONTRACT"   
+        }   
+    },
+
+    "MODAL":{
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    },
+
+    "CONTAINER_COLUMNS": {
+        "BOQ":{
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURES": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross":"Final Price (Gross)",
+            "finalprice":"Final Price (EUR)",
+            "price":"Unit Rate"   
+        },
+        "BOQ_STRUCTURE": {
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "finalgross":"Final Price (Gross)",
+            "finalprice":"Final Price (EUR)",
+            "price":"Unit Rate"   
+        },
+        "BID":{
+            "amountnet": "Net Amount"
+        },
+        "CONTRACT":{           
+            "ordstatusfk": "Contract Status", 
+            "code": "Code"
+        },
+        "CONTRACT_SALES":{           
+            "boqrootitem.briefinfo":"Outline Specification"
+        },
+        "CHANGES":{
+            "description":"Description"
+        }
+    }     
+}

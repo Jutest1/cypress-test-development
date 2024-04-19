@@ -1,0 +1,81 @@
+{
+    "CONTAINERS": {
+        "BUSINESS_PARTNERS": {
+            "BUSINESS_PARTNER": ["Gibson Ltd","Anton Waliser"]
+        },
+        "CONTACT":{
+            "FIRSTNAME":["Helen","Anton"],
+            "FAMILYNAME":["Carter","Waliser"]
+            
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "270",
+            "UOM": "BAGS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "1202"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Gibson Ltd"
+        },
+        "REQUEST_FOR_QUOTE": {
+            "BUSINESS_PARTNER": ["Gibson Ltd","Anton Waliser"]
+        }
+    },    
+    "CONTAINER_COLUMNS": {
+        "BUSINESS_PARTNERS": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "CONTACT":{
+            "firstname":"First Name",
+            "familyname":"Last Name"
+        },
+        "PROJECTS":{
+            "businesspartnerfk":"Business Partner",
+            "customerfk":"Customer"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "REQUISITION": {
+            "code": "Code"
+        },
+        "RFQ": {
+            "code": "Rfq Code"
+        },
+        "BIDDER": {
+            "contactfk": "Contact Last Name",
+            "ContactFirstName": "Contact First Name"
+        }
+    }
+}

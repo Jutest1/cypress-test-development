@@ -1,0 +1,135 @@
+{
+  "CONTAINERS": {
+    "COST_CODES": {
+      "COST_CODE": [
+        "Lohn"
+      ],
+      "COST_CODE_CO2_VALUE": [
+        "300"
+      ]
+    },
+    "MATERIAL_CATALOG_FILTER": {
+      "materialCode": "Artikelkatalog"
+    },
+    "MATERIAL_RECORDS": {
+      "MATERIAL_DESCRIPTION": [
+        "Silo- Portlandzement"
+      ],
+      "CO2_PROJECT_VALUE": "300"
+    },
+    "ASSEMBLY_CATEGORIES": {
+      "ASSEMBLY_CATEGORY_DESCRIPTION": "BETONARBEITEN"
+    },
+    "ASSEMBLIES": {
+      "ASSEMBLIES_DESCRIPTION": "Betonstahl S IV (500/550)",
+      "COST_FACTOR_VALUE": "2"
+    },
+    "ASSEMBLY_RESOURCES": {
+      "SHORT_KEY": [
+        "C"
+      ],
+      "COST_CODE": [
+        "1"
+      ]
+    },
+    "PROJECT": {
+      "CLERK_NAME": "HS"
+    },
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": [
+        "1"
+      ],
+      "UOM": [
+        "10M3"
+      ]
+    },
+    "RESOURCE": {
+      "SHORT_KEY": [
+        "C",
+        "M",
+        "A"
+      ],
+      "COST_CODE": [
+        "1"
+      ],
+      "MATERIAL": [
+        "Silo- Portlandzement"
+      ]
+    }
+  },
+  "MODAL": {
+    "ESTIMATE": {
+      "NEW_ESTIMATE_TYPE": "Job Estimate"
+    },
+    "BUDGET": {
+      "Copy Cost to Base Cost": "check"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "COST_CODES": {
+      "descriptioninfo": "Description",
+      "co2project": "CO2/kg (Project)"
+    },
+    "MATERIAL_CATALOG_FILTER": {
+      "descriptioninfo": "Description"
+    },
+    "MATERIAL_RECORDS": {
+      "descriptioninfo1": "Description",
+      "co2project": "CO2/kg (Project)"
+    },
+    "ASSEMBLY_CATEGORIES": {
+      "code": "Code",
+      "descriptioninfo": "Description"
+    },
+    "ASSEMBLIES": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "costtotal": "Cost Total",
+      "costfactor1": "Cost Factor 1"
+    },
+    "ASSEMBLY_RESOURCES": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "costtotal": "Cost Total",
+      "co2project": "CO2/kg (Project)",
+      "co2source": "CO2/kg (Source)",
+      "estresourcetypeshortkey": "Short Key",
+      "co2projecttotal": "CO2 (Project) Total",
+      "co2sourcetotal": "CO2 (Source) Total"
+    },
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "estassemblyfk": "Assembly Template",
+      "descriptioninfo": "Description",
+      "code": "Code",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total",
+      "quantitytotal": "Quantity Total",
+      "costunit": "Cost/Unit",
+      "co2projecttotal": "CO2 (Project) Total",
+      "co2sourcetotal": "CO2 (Source) Total",
+      "co2totalvariance": "CO2 Total Variance"
+    },
+    "RESOURCES": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "costtotal": "Cost Total",
+      "quantity": "Quantity",
+      "co2project": "CO2/kg (Project)",
+      "co2source": "CO2/kg (Source)",
+      "co2projecttotal": "CO2 (Project) Total",
+      "co2sourcetotal": "CO2 (Source) Total"
+    }
+  }
+}

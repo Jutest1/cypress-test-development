@@ -1,0 +1,57 @@
+{
+    "CONTAINERS": {
+     "EVENT": {
+        "CHECKBOX":"CheckboxisNotselected",
+        "SCH_QUANTITY":"50",
+        "SCH_UOM":"BAGS",
+        "CURRENT":"current",
+        "FETCHED_DATE_DECREMENT":"fetchedDateDecrement",
+        "FETCHED_DATE_INCREMENT" :"fetchedDateIncrement",
+        "POSITIVE_DATE":"3",
+        "NEGATIVE_DATE":"-3",
+        "CHECK":"check"
+
+
+    },
+    "ACTIVITY_STRUCTURE": {
+      "QUANTITY": "100.000",
+      "PLANNED_START":"current",
+      "PLANNED_FINISH":"incremented"
+      },
+
+      "CALENDAR": {
+        "TYPE":"Hour",
+        "TYPE1":"Day",
+        "CALENDAR":"Calendar"
+       },
+    "UNIT": {
+      "TYPE":"Week",
+      "TYPE1":"Year"
+    }
+  },
+    "CONTAINER_COLUMNS": {
+      "SCHEDULES": {
+        "code":"Code",
+        "descriptioninfo":"Description",
+        "performancesheetfk":"Performance Sheet"
+      },
+      "ACTIVITY_STRUCTURE": {
+        "description":"Description",
+        "locationfk":"Location",
+        "plannedstart":"Planned Start",
+        "plannedfinish":"Planned Finish",
+        "projectfk":"Project"
+      },
+      "UNIT": {
+        "descriptioninfo":"Description",
+        "unitinfo":"Unit of Measurement",
+        "uomtypefk":"Type"
+      },
+      "CALENDAR": {
+        "code":"Code",
+        "descriptioninfo":"Description",
+        "basuomhourfk":"UoM of Hour",
+        "basuomdayfk":"UoM of Day"
+      }
+    }
+  }

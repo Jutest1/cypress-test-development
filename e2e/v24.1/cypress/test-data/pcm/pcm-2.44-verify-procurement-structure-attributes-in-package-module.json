@@ -1,0 +1,130 @@
+{
+    "CONTAINERS": {
+        "CHARACTERISTICS_SECTION": {
+            "Procurement Structure": "check",
+            "Procurement Package": "check"
+        },
+        "CONFIGURATION_HEADERS": {
+            "Description": "Service",
+            "Description2": "Material",
+            "OwnerRole": "Project Manager",
+            "ResponsibleRole": "Project Manager",
+            "Service": "Service",
+            "Material": "Material"
+        },
+        "CONFIGURATION": {
+            "Description": "Package",
+            "SubDesc": "Construction"
+        },
+        "GENERAL": {
+            "TYPE": [
+                "Nachlass %",
+                "Baustrom %"
+            ],
+            "VALUE": [
+                "20.00",
+                "40.00"
+            ]
+        },
+        "CLERK": {
+            "CLERK": [
+                "FI",
+                "SmiJ"
+            ]
+        },
+        "CERTIFICATES": {
+            "TYPE": [
+                "Tax Clearance Certificate",
+                "CIS Certificate (en)"
+            ]
+        },
+        "ROLE_CHARACTERISTICS": {
+            "CODE": [
+                "200",
+                "208"
+            ],
+            "VALUE": [
+                "135",
+                "145"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONFIGURATION_HEADERS": {
+            "descriptioninfo": "Description"
+        },
+        "CONFIGURATION": {
+            "descriptioninfo": "Description",
+            "description": "Description"
+        },
+        "HEADER_TEXTS": {
+            "prctexttypefk": "Text Type",
+            "isrubricbased": "Rubric Based",
+            "bastextmoduletypefk": "Text Module Type"
+        },
+        "GENERALS": {
+            "prcconfigheaderfk": "Configuration Header",
+            "prcgeneralstypefk": "Type",
+            "value": "Value"
+        },
+        "PACKAGE_GENERALS": {
+            "prcgeneralstypefk": "Type",
+            "value": "Value"
+        },
+        "CLERK": {
+            "contextfk": "Configuration Header",
+            "clerkrolefk": "Clerk Role",
+            "clerkfk": "Clerk"
+        },
+        "CLERK_RIGHT": {
+            "clerkrolefk": "Clerk Role",
+            "clerkfk": "Clerk"
+        },
+        "CERTIFICATES": {
+            "prcconfigheaderfk": "Configuration Header",
+            "bpdcertificatetypefk": "Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory"
+        },
+        "PACKAGE_CERTIFICATES": {
+            "bpdcertificatetypefk": "Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory"
+        },
+        "ROLE_CHARACTERISTICS": {
+            "characteristicfk": "Code",
+            "valuetext": "Value"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "clerkreqfk": "Requisition Owner Role",
+            "clerkprcfk": "Responsible Role",
+            "prcconfigheaderfk": "Configuration Header"
+        },
+        "PACKAGE": {
+            "structurefk": "Procurement structure"
+        },
+        "PACKAGE_HEADER_TEXTS": {
+            "prctexttypefk": "Text Type",
+            "textmoduletypefk": "Text Module Type"
+        },
+        "PACKAGE_CHARACTER": {
+            "characteristicfk": "Code",
+            "valuetext": "Value"
+        },
+        "CHARACTERISTICS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "characteristictypefk": "Type"
+        },
+        "CHARACTERISTICS_GROUP": {
+            "descriptioninfo": "Description"
+        },
+        "CHARACTERISTICS_SECTIONS": {
+            "descriptioninfo": "Description",
+            "checked": "Checked"
+        }
+    }
+}

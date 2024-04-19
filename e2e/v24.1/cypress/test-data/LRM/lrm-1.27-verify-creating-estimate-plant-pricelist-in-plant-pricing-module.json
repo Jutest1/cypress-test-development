@@ -1,0 +1,45 @@
+{
+    "CONTAINERS": {
+        "PLANT_PRICELIST_TYPES": {
+            "SORTING":"1"
+        },
+        "ESTIMATE_PLANT_PRICELISTS":{
+            "CALCULATION_TYPE":"Lower Catalog Value",
+            "CATALOG":"2015",
+            "UOM":"Month",
+            "PERCENT":"100.00",
+            "YEAR":"2024"
+        },
+        "PLANT_PRICELISTS":{
+            "CALCULATION_TYPE":"Lower Catalog Value",
+            "CURRENCY":"EUR",
+            "UOM":"Month",
+            "PERCENT":"100.00",
+            "YEAR":"2024"            
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PLANT_PRICELIST_TYPES": {
+            "descriptioninfo":"Description",
+            "sorting":"Sorting",
+            "islive":"Active"
+        },
+        "ESTIMATE_PLANT_PRICELISTS":{
+            "descriptioninfo":"Description",
+            "equipmentcalculationtypefk":"Calculation Type",
+            "equipmentcatalogfk":"Catalog",
+            "percent":"Percent",
+            "referenceyear":"Reference Year",
+            "uomfk":"UoM"
+        },
+        "PLANT_PRICELISTS":{
+            "descriptioninfo":"Description",
+            "equipmentcalculationtypefk":"Calculation Type",
+            "currencyfk":"Currency",
+            "percent":"Percent",
+            "referenceyear":"Reference Year",
+            "uomfk":"UoM"
+
+        }
+    }
+}

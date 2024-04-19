@@ -1,0 +1,30 @@
+
+{
+    "CONTAINERS": {
+       
+        "BIDDER":{
+            "BP1":"Adolf Koch",
+            "BP2":"AGO Baumaschinen GmbH",
+            "BP3":"AVAL Versicherung GmbH",
+            "BP4":"Braas GmbH",
+            "TITLE":"Assign Business Partner",
+            "REMARK":"Status Changed"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        
+        "QUOTE":{
+            "prcstructurecode": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "BIDDER":{
+            "businesspartnerfk":"Business Partner"
+        },
+        "RFQ":{
+            "code":"Rfq Code",
+            "description": "RFQ Description"
+        }
+    }
+    
+}

@@ -1,0 +1,44 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "MG2FM",
+            "QUANTITY": "200"
+        },
+        "PACKAGE": {
+            "CRITERIA": "Material & Cost Code",
+            "CONFIGURATION": "Material"
+        },
+        "QUOTE": {
+            "BUSINESS_PARTNER_1": "Adolf Koch",
+            "BUSINESS_PARTNER_2": "AGO Baumaschinen GmbH",
+            "REQ_STATUS": "RfQ Created"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity"
+        }
+    }
+}

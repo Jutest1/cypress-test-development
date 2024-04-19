@@ -1,0 +1,128 @@
+{
+    "CONTAINERS": {
+        "DOCUMENT_VALUE": {
+            "STRUCTUREFK": "M",
+            "PROJECTFK": "10000",
+            "CONFIGURATIONFK": "Material",
+            "DESCRIPTION": "Copy main entity to document project",
+            "BUSINESSPARTNERFK": "Adolf Koch",
+            "SCHEDULE": "1",
+            "ACTIVITY": "10",
+            "MATERIALCATALOGFK": "FRAMEWORK",
+            "CONTROLLINGUNITFK": "10000-10100",
+            "PACKAGECODE": "PK-10282-COPY",
+            "REQCODE": "BANF-00122-COPY",
+            "RFQCODE": "ANF-00114-COPY",
+            "QTNCODE": "ANG-00133-COPY",
+            "CONCODE": "VER-000168-COPY",
+            "PESCODE": "PES-00004-COPY",
+            "INVCODE": "ER-202400127-COP"
+        },
+        "DEFAULT_VIEW": {
+            "PAKCAGE_VIEW": "RIB Standard Paket V2",
+            "REQ_VIEW": "RIB Standard Allgemein V2",
+            "RFQ_VIEW": "RIB Standard Anfrage V2",
+            "QTN_VIEW": "RIB Standard Angebot V2",
+            "CON_VIEW": "RIB Standard Vertrag V2",
+            "PES_VIEW": "RIB Standard LE LV",
+            "INV_VIEW": "RIB Buchhaltung"
+        },
+        "WIZARD": {
+            "CREATEREQUISITION_PACKAGE": "Create Requisition",
+            "CHANGESTATUS_REQ": "Change Requisition Status",
+            "TOSTATUS_REQ": "Approved",
+            "CREATERFQ_REQ": "Create Request For Quote",
+            "CREATEQUOTE_FRQ": "Create Quote",
+            "CREATECONTRACT_QTN": "Create Contract",
+            "CHANGESTATUS_CON": "Change Contract Status",
+            "TOSTATUS_CON": "Approved",
+            "CREATEPES_CON": "Create PES",
+            "CREATEINVOICE_PES": "Create Invoice"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PACKAGE_DOCUMENT_PROJECT":{
+            "code": "Code",
+            "psdactivityfk": "Schedule Activity",
+            "psdschedulefk": "Schedule",
+            "prjprojectfk": "Project No.",
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner"
+        },
+        "PACKAGE_HEADER":{
+            "code": "Code",
+            "description": "Description",
+            "activityfk": "Activity",
+            "schedulefk": "Schedule",
+            "projectfk": "Project No.",
+            "structurefk": "Procurement structure",
+            "businesspartnerfk": "Business Partner"
+        },
+        "REQUISITION_HEADER":{
+            "code": "Code",
+            "description": "Description",
+            "controllingunitfk": "Controlling Unit Code",
+            "materialcatalogfk": "Framework Material Catalog"
+        },
+        "REQUISITION_DOCUMENT_PROJECT":{
+            "code": "Code",
+            "prjprojectfk": "Project No.",
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "mdccontrollingunitfk": "Controlling Unit",
+            "mdcmaterialcatalogfk": "Material Catalog",
+            "prcpackagefk": "Package"
+        },
+
+        "RFQ_DOCUMENT_PROJECT":{
+            "code": "Code",
+            "prjprojectfk": "Project No.",
+            "prcstructurefk": "Structure"
+
+        },
+        "QUOTE_DOCUMENT_PROJECT":{
+            "code": "Code",
+            "prjprojectfk": "Project No.",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "prcstructurefk": "Structure",
+            "rfqfk": "RfQ"
+
+        },
+        "CONTRACT_DOCUMENT_PROJECT":{
+            "code": "Code",
+            "mdcmaterialcatalogfk": "Material Catalog",
+            "prjprojectfk": "Project No.",
+            "prcstructurefk": "Structure",
+            "prcpackagefk": "Package",
+            "reqheaderfk": "REQ",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "mdccontrollingunitfk": "Controlling Unit"
+
+
+        },
+        "PES_DOCUMENT_PROJECT":{
+            "code": "Code",
+            "prjprojectfk": "Project No.",
+            "prcstructurefk": "Structure",
+            "prcpackagefk": "Package",
+            "conheaderfk": "Contract",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "mdccontrollingunitfk": "Controlling Unit"
+
+
+        },
+        "INV_DOCUMENT_PROJECT":{
+            "code": "Code",
+            "prjprojectfk": "Project No.",
+            "mdccontrollingunitfk": "Controlling Unit",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "prcstructurefk": "Structure",
+            "prcpackagefk": "Package",
+            "conheaderfk": "Contract",
+            "pesheaderfk": "PES No."
+        }
+
+
+    }
+
+}

@@ -1,0 +1,23 @@
+{
+    "CONTAINERS": {
+        "CONTRACT": {
+            "CONFIGURATION": "Material PO",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "TEXT_ASSEMBLIES": {
+            "textmodulecontextfk": "Text Module Context",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "textmoduletypefk": "Text Module Type",
+            "islanguagedependent": "Language Dependent",
+            "textformatfk": "Text Format"
+        }
+    }
+}

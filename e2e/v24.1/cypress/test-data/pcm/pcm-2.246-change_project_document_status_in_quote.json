@@ -1,0 +1,58 @@
+{
+    "CONTAINERS": {
+        "BIDDERS": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "PROJECT_DOCUMENT": {
+            "REMARK": "Status Changed By User"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "RFQ":{
+            "description":"RfQ Description",
+            "code":"Rfq Code"
+        },
+        "BIDDERS":{
+            "businesspartnerfk":"Business Partner",
+            "rfqbusinesspartnerstatusfk":"Status"
+
+        },
+        "PROJECT_DOCUMENT": {
+            "description": "Description",
+            "prjdocumentstatusfk": "Status"
+        }
+    },
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "Wizard": "wizard",
+            "search": "Search",
+            "searchValue1": "Requisition"
+        }
+    },
+    "sidebarInputs": {
+        "sidebar": {
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "quickStart": "Quick Start",
+            "quickStart1": "quickstart",
+            "project": "Project",
+            "RFQ": "RfQ",
+            "remark": "Status Changed",
+            "changeRfqStatus": "Change RfQ Status",
+            "createQuote": "Create Quote",
+            "chnageProjDocStatus": "Change Project Document Status",
+            "documentStatus": "Approved",
+            "status": "Published",
+            "modalLabel": "Assign Business Partner"
+        }
+    },
+    "BidderInputs": {
+        "bidder1": "Adolf Koch",
+        "check": "check"
+    },
+    "projectDocument_ColumnHeader": {
+        "description": "Description",
+        "prjdocumentstatusfk": "Status"
+    }
+}

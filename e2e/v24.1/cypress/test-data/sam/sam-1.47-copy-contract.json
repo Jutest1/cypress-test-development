@@ -1,0 +1,60 @@
+{
+    "CONTAINERS": {
+        "PROJECT":{
+            "CLERK_NAME":"HS"
+        },
+        "BOQ_STRUCTURE": {
+            "BOQLINETYPE":"Position",
+            "QUANTITY": "100.000",           
+            "UOM": "BAGS",
+            "UNITRATE":"50.000"         
+            
+        },
+        "BID":{
+            "BUSINESS_PARTNER":"Adolf Koch"            
+        },
+        "CONTRACT_SALES":{
+            "ENV_CONTRACT_DESC":"contractDesc"
+        }      
+        
+
+    },    
+    "CONTAINER_COLUMNS": {
+        "BOQ":{
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross":"Final Price (Gross)",
+            "price":"Unit Rate (EUR)"
+            
+        },
+        "BID":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet" 
+        },        
+        "CONTRACT_SALES":{           
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_SALES_BOQ":{
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "CONTRACT_SALES_BOQ_STRUCTURE":{
+            "boqlinetypefk": "BoQ Line Type", 
+            "briefinfo": "Outline Specification", 
+            "quantity": "Quantity", 
+            "basuomfk": "UoM",
+            "price":"Unit Rate (EUR)"
+        }
+
+    }
+    
+    
+}

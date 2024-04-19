@@ -1,0 +1,76 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCES": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "CODE": [
+                "MG2FM"
+            ]
+        },
+        "ITEMS": {
+            "UPDATED_MATERIAL_PRICE": [
+                "95",
+                "116"
+            ],
+            "UPDATED_MATERIAL_QUANTITY": [
+                "20",
+                "10"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "businesspartnerfk": "Business Partner"
+        },
+        "ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "price": "Price"
+        },
+        "REQUISITION": {
+            "id": "Id",
+            "reqstatusfk": "Status",
+            "code": "Code"
+        },
+        "SUBCONTRACTORS": {
+            "description": "Description"
+        }
+    }
+}

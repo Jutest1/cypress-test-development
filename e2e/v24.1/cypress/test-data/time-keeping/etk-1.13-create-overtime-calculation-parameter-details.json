@@ -1,0 +1,80 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "MusM"
+        },
+        "PAYMENT_GROUP_RATES":{
+            "RATE":"31.00"
+        },
+        "PAYMENT_GROUP_SURCHARGE":{
+            "RATE":"23.00"
+        },
+        "TIME_SYMBOLS":{
+            "CHECKBOX":"check",
+            "TIME_SYMBOL_TYPE":"Type not specified",
+            "TIME_SYMBOL_GROUP":"6. Controlling: Allocated Times",
+            "TIME_SYMBOL_GROUP_OT":"7. Time Account: Overtime Evaluated Times",
+            "VAL_PERCENTAGE":"100",
+            "VAL_RATE":"1"
+        },
+        "WORKING_TIME_MODELS":{
+            "CHECKBOX":"check"   
+       },
+       "OVERTIME_CALCULATION_PARAMETERS_DETAILS":{
+        "LIMITS":"Limits",
+        "TIME_SYMBOL_LIMITS":"Time Symbol Limits",
+        "TIME_SYMBOL_SAVING_LIMITS":"Time Symbol Saving Limits",
+        "LABEL1":"Weekly Limit",
+        "LABEL2":"Monthly Limit",
+        "LABEL3":"Time Symbol before daily limit",
+        "LABEL4":"Time symbol for hrs over saving limit",
+        "WEEKLY":"40",
+        "MONTHLY":"168"   
+       } 
+      
+    },
+
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "PAYMENT_GROUP_SURCHARGE":{
+            "controllingunitfk":"Controlling Unit",
+            "surchargetypefk":"Surcharge Type",
+            "rate":"Rate"        
+        },
+       
+        "PAYMENT_GROUPS_LIST":{
+            "descriptioninfo":"Description",
+            "code": "Code"
+        },
+        "PAYMENT_GROUP_RATES":{
+            "controllingunitfk":"Controlling Unit",
+            "surchargetypefk":"Surcharge Type",
+            "commenttext":"Comment Text",
+            "rate":"Rate"          
+        },
+        "TIME_SYMBOLS":{
+            "code": "Code",
+            "descriptioninfo":"Description",
+            "isproductive":"Is Productive",
+            "ispresence":"Is Presence",
+            "iswtmrelevant": "Is WTM Relevant",
+            "valuationpercent":"Valuation Percent",
+            "valuationrate":"Valuation Rate",
+            "timesymboltypefk":"Time Symbol Type",
+            "timesymbolgroupfk":"Time Symbol Group"
+        },
+        "WORKING_TIME_MODELS": {
+            "isdefault":"Is Default",
+            "descriptioninfo":"Description"
+        },
+        "OVERTIME_CALCULATION_PARAMETERS":{
+            "timesymbolbdl1fkdescription":"Time Symbol before daily limit-Description",
+            "weeklylimit":"Weekly Limit",
+            "monthlylimit":"Monthly Limit",
+            "timesymbolbdl1fk":"Time Symbol before daily limit"   
+           }
+    }
+}

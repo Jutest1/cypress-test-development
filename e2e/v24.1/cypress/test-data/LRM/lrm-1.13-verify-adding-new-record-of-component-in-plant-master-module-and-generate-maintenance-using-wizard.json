@@ -1,0 +1,48 @@
+{
+    "CONTAINERS": {
+        "PLANT": {
+            "PLANT_TYPE": "Bulk",
+            "PLANT": "ETM_0004",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "Leasing",
+            "STRUCTURE": "Equipment",
+            "INDEX_PLANT": 1
+        },
+        "PLANT_GROUP": {
+            "DESCRIPTION1": "A",
+            "DESCRIPTION2": "B",
+            "DESCRIPTION3": "C",
+            "RUBARIC_CATAGORY":"Equipment"
+        },
+        "PLANT_COMPONENT":{
+            "MAINTENANCE_SCHEMA": "Annual Inspection",
+            "PLANT_COMPONENT_TYPE":"Main Component",
+            "VALID_FROM":"17/12/2021",
+            "VALID_TO":"15/12/2023"
+       }
+    },
+
+    "CONTAINER_COLUMNS": {
+        "PLANT": {
+            "planttypefk": "Plant Type",
+            "descriptioninfo": "Description",
+            "plantkindfk": "Plant Kind"
+        },
+        "PLANT_GROUP": {
+            "rubriccategoryfk": "Rubric Category",
+            "descriptioninfo": "Description",
+            "islive": "Active",
+            "code":"Code"
+        },
+        "PLANT_COMPONENT":{
+            "validto":"Valid To",
+            "validfrom":"Valid From",
+            "maintenanceschemafk":"Maintenance Schema",
+            "plantcomponenttypefk":"Component Type"
+        },
+        "MAINTENANCE":{
+            "code":"Code",
+            "maintenancestatusfk":"Status"
+        }
+    }
+}

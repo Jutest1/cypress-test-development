@@ -1,0 +1,39 @@
+{
+    "CONTAINERS": {
+        "PLANT": {
+            "PLANT_GROUP": "Concreting",
+            "PLANT_KIND": "External Rental",
+            "CLERK_RESPONSIBLE":"FI",
+            "STRUCTURE": "Equipment"
+        },
+        "PLANT_COMPONENT":{
+            "MAINTENANCE_SCHEMA": "Annual Inspection",
+            "PLANT_COMPONENT_TYPE":"Main Component",
+            "VALID_FROM":"17/12/2021",
+            "VALID_TO":"15/12/2023"
+       },
+       "COMPONENT_WARRANTIES":{
+        "WARRANTY_END": "15/12/2024",
+        "QUANTITY":"5000",
+        "UOM":"Hour",
+        "DESCRIPTION":"Warranty 1",
+        "HOURS":"12000"
+   }
+    },
+    "CONTAINER_COLUMNS": {
+        "PLANT": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "plantgroupfk": "Plant Group",
+            "plantkindfk": "Plant Kind",
+            "clerkresponsiblefk": "Clerk Responsible",
+            "procurementstructurefk": "Procurement Structure"
+        },
+        "PLANT_COMPONENT":{
+            "validto":"Valid To",
+            "validfrom":"Valid From",
+            "maintenanceschemafk":"Maintenance Schema",
+            "plantcomponenttypefk":"Component Type"
+        }
+    }
+}

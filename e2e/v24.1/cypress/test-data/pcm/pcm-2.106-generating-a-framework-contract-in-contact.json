@@ -1,0 +1,84 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "10"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "MG2FM",
+            "QUANTITY": "200.00",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "PACKAGE": {
+            "MATERIAL_AND_COSTCODE": "Material & Cost Code",
+            "Criteria": "Material & Cost Code",
+            "VALUE": "MG2FM",
+            "QUANTITY": "200.000",
+            "CONFIG": "Material"
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "PURCHASE_ORDERS": "Framework Contract"
+        },
+        "ITEMS_CONTRACT": {
+            "MATERIAL_NO": "MG3FM",
+            "QUANTITY": "100.00",
+            "UOM":"%"
+        }
+    },
+    "MODAL": {
+        "FRAMEWORK_MATERIAL_CATALOG": {
+            "NEW_CATALOG": "New Catalog",
+            "TYPE": "framework agreements",
+            "RUBRIC_CATEGORY": "Supplier Catalogs",
+            "VALID_TO": "1/06/2023",
+            "VALID_FORM": "31/08/2023"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity"
+        },
+        "CONTRACT": {
+            "isframework": "Is Framework",
+            "packagefk": "Package Code",
+            "supplierfk": "Supplier No.",
+            "businesspartnerfk": "Business Partner",
+            "purchaseorders": "Purchase Orders",
+            "materialcatalogfk":"Framework Material Catalog"
+        },
+        "ITEMS_CONTRACT": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "price": "Price"
+        },
+        "MATERIAL_CATALOGS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "basrubriccategoryfk": "Rubric Category",
+            "validfrom": "Valid From",
+            "validto": "Valid To",
+            "materialcatalogtypefk": "Type",
+            "conheaderfk": "Contract"
+        }
+    }
+}

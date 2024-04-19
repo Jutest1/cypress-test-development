@@ -1,0 +1,25 @@
+{
+    "PROJECTCALENDER": {
+        "CALENDER": {
+            "Calendar":"Calendar",
+            "VerifyCalendar":"DE",
+            "Calendartype":"Calendartype",
+            "VerifyCalendartype":"Project",
+            "uncheck":"uncheck",
+            "check":"check",
+            "PROJCALENDARS":"PROJCALENDARS",
+            "SP":"SP",
+            "day":"8",
+            "week":"40",
+            "month":"180",
+            "workday":"8.000000",
+            "workweek":"40.000000",
+            "workmonth":"180.000000",
+            "Lable1":"Work Hours per Day",
+            "Lable2":"Work Hours per Week",
+            "Lable3":"Work Hours per Month"
+        }
+    }
+   
+
+}

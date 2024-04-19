@@ -1,0 +1,84 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": [
+                "0"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "10",
+                "20"
+            ],
+            "UNIT_RATE": [
+                "25",
+                "10"
+            ],
+            "UOM": "10M3"
+        },
+        "CONTRACTS": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CONTRACT_BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "20"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "quantityadj": "AQ Quantity",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price",
+            "mdccontrollingunitfk": "Controlling Units"
+        },
+        "CONTRACTS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "CONTRACT_BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "mdccontrollingunitfk": "Controlling Units",
+            "finalprice": "Final Price (EUR)"
+        },
+        "COST_CONTROL": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "revenue": "Revenue",
+            "basiccost": "Basic Cost",
+            "budgetshift": "Budget Shift",
+            "additional": "Additional Expenses"
+        }
+    }
+}

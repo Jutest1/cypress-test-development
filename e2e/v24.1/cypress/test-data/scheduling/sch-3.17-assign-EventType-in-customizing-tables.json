@@ -1,0 +1,11 @@
+{
+    "CONTAINERS": {
+      "DATA_TYPES":{
+        "SCHEDULE_EVENT_TYPE":"Scheduling Event Types",
+        "EVENT":"Event",
+        "KEY_EVENT":"Key Event"
+      }
+        
+    }
+   
+    }

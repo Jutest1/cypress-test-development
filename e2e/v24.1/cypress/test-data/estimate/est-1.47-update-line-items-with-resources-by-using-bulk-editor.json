@@ -1,0 +1,67 @@
+{
+    "CONTAINERS": {
+              "ESTIMATE": {
+                  "RUBRIC_CATEGORY": "Planning",
+                  "ESTIMATE_TYPE": "Bid Estimate"
+              },
+              "LINE_ITEM":{
+                "QUANTITY1": "450",
+                "QUANTITY2": "550",
+                "UOM": "10M3",
+                "PROCUREMENT_STRUCTURE":"1",
+                "ASSEMBLY_TEMPLATE":"000020.000020"
+              },
+              "RESOURCE":{
+                "SHORTKEY": "C",
+                "CODE": "1",
+                "CODE1":"Stoffe",
+                "QUANTITY":"100",
+                "UPDATED_QUANTITY":"100"
+              }
+          },
+
+          "CONTAINER_COLUMNS": {
+              "ESTIMATE": {
+                  "estheader.code": "Code",
+                  "estheader.descriptioninfo": "Description",
+                  "estheader.esttypefk": "Estimate Type",
+                  "estheader.rubriccategoryfk": "Category"
+              },
+              "LINE_ITEM":{
+                "descriptioninfo" : "Description",
+                "quantity" : "Quantity",
+                "basuomfk" : "UoM",
+                "prcstructurefk" : "Procurement Structure",
+                "estassemblyfk" : "Assembly Template",
+                "costtotal" : "Cost Total"
+              },
+              "RESOURCE":{
+                "estresourcetypeshortkey": "Short Key",
+                "code": "Code",
+                "costtotal": "Cost Total",
+                "costunit":"Cost.Unit",
+                "quantity":"Quantity",
+                "quantitytotal": "Quantity Total"
+            }
+          },
+          
+          "CREATE_NEW_RULE": [
+            {
+                "FieldName": "Quantity",
+                "Option": "Set Value to",
+                "OptionData": "25"
+            },{
+                "FieldName": "Description",
+                "Option": "Set Description for current Language",
+                "OptionData": "Create New Rule"
+            },{
+                "FieldName": "UoM",
+                "Option": "Set Value to",
+                "OptionData": "BAG"
+            },{
+                "FieldName": "WQ Quantity Item",
+                "Option": "Set Value to",
+                "OptionData": "65"
+            }
+        ]
+}

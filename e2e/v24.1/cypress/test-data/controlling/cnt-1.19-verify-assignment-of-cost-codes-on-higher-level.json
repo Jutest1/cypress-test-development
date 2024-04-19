@@ -1,0 +1,80 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": ["10"],
+            "UOM": ["10M3"]
+        },
+        "COST_CODES": {
+            "CONTROLLING_COST_CODE":"Lohn",
+            "RATE": ["555","666","777"]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate",
+            "CHECKBOX":"check"
+          },
+          "LINE_ITEM": {
+            "QUANTITY": "10"
+          },
+          "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+          },
+          "LINE_ITEM_QUANTITY":{
+            "QUANTITY":"5",
+            "QUANTITY_TYPE":"AQ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "controllingcatfk":"Category"
+        },
+        "CONTROLLING_UNIT_TEMPLATES":{
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "COST_CODES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "rate":"Market Rate",
+            "contrcostcodefk":"Controlling Cost Code"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category",
+            "estheader.iscontrolling":"Controlling"
+          },
+          "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "mdccontrollingunitfk":"Controlling Units"
+            
+          },
+          "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM"
+          },
+          "LINE_ITEM_QUANTITY":{
+            "quantity": "Quantity",
+            "quantitytypefk":"Quantity Type"
+        },
+        "PROJECT_CONTROLS_DASHBOARD":{
+            "description":"Description",
+            "ec_in_rp":"Estimate Cost in Report Period"
+        }
+    }
+}

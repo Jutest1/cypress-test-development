@@ -1,0 +1,43 @@
+
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "S",
+            "CODE1":"1",
+            "CODE2":"A"
+        }
+
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code", 
+            "estheader.descriptioninfo": "Description", 
+            "estheader.esttypefk": "Estimate Type", 
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description"
+        }
+  
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "HS"
+        }
+    }
+}

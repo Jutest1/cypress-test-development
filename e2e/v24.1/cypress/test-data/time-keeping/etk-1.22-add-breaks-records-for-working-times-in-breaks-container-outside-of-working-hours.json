@@ -1,0 +1,39 @@
+{
+    "CONTAINERS": {
+        "SHIFT_MODELS": {
+            "CALENDAR": "DE"
+        },
+        "WORKING_TIMES": {
+            "ACRONYM": "MON",
+            "WEEKDAY": "Mon",
+            "FROMTIME": "09:00",
+            "TOTIME": "18:00",
+            "DURATION": "9"
+        },
+        "BREAK": {
+            "BREAKSTART": "18:00",
+            "BREAKEND": "19:00"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "SHIFT_MODELS": {
+            "descriptioninfo": "Description",
+            "calendarfk": "Calendar"
+        },
+        "WORKING_TIMES": {
+            "acronym": "Acronym",
+            "descriptioninfo": "Description",
+            "weekdayfk": "Weekday",
+            "duration": "Duration",
+            "fromtime": "From Time",
+            "totime": "To Time",
+            "breakfrom": "Break From",
+            "breakto": "Break To"
+        },
+        "BREAK": {
+            "breakstart": "Break Start",
+            "breakend": "Break End",
+            "duration": "Duration"
+        }
+    }
+}

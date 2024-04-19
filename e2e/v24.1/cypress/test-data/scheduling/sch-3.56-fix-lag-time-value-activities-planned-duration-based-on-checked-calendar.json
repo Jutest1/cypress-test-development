@@ -1,0 +1,67 @@
+{
+  "CONTAINERS": {
+    "PROJECT": {
+      "CLERK_NAME": "HS"
+    },
+    "ACTIVITY_STRUCTURE": {
+      "QUANTITY": [
+        "1"
+      ],
+      "UOM": [
+        "cm3"
+      ],
+      "ACTDESC": [
+        "ACT1",
+        "ACT2",
+        "ROOT"
+      ]
+    },
+    "PREDECESSORS": {
+      "PARENT_ACT": "ACT2",
+      "DURATION": "5"
+    },
+    "UNIT": {
+      "TYPE": "Week",
+      "TYPE1": "Year"
+    },
+    "CALENDAR": {
+      "TYPE": "Hour",
+      "TYPE1": "Day",
+      "CALENDAR": "Calendar"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "PROJECT": {
+      "calendarfk": "Calendar"
+    },
+    "SCHEDULES": {
+      "code": "Code",
+      "descriptioninfo": "Description"
+    },
+    "ACTIVITY_STRUCTURE": {
+      "description": "Description",
+      "plannedstart": "Planned Start",
+      "plannedfinish": "Planned Finish",
+      "plannedduration": "Planned Duration",
+      "calendarfk": "Calendar",
+      "quantity": "Quantity",
+      "quantityuomfk": "UoM"
+    },
+    "PREDECESSORS": {
+      "parentactivityfk": "Parent",
+      "fixlagtime": "Fix Lag Time",
+      "usecalendar": "Use Calendar"
+    },
+    "CALENDAR": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "basuomhourfk": "UoM of Hour",
+      "basuomdayfk": "UoM of Day"
+    },
+    "UNIT": {
+      "descriptioninfo": "Description",
+      "unitinfo": "Unit of Measurement",
+      "uomtypefk": "Type"
+    }
+  }
+}

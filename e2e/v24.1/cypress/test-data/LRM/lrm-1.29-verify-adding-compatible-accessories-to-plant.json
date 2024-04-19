@@ -1,0 +1,48 @@
+{
+    "CONTAINERS": {
+        "PLANT_GROUP": {
+            "RUBRIC_CATEGORY":"Equipment"
+        },
+        "SPECIFIC_VALUE":{
+            "SPECIFIC_VALUE_TYPE":"Estimate Performance",
+            "UOM":"M3",
+            "VALUE":"1.00",
+            "FACTOR":"1",
+            "COST_CODE":"1"
+        },
+        "PLANT":{
+            "PLANT_TYPE": "Estimation Plant",
+            "PLANT": "ETM_0004",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "Leasing",
+            "STRUCTURE": "Equipment"
+            
+        }        
+    },
+    "CONTAINER_COLUMNS": {
+        "PLANT_GROUP": {
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "rubriccategoryfk":"Rubric Category"
+        },
+        "SPECIFIC_VALUE":{
+            "descriptioninfo":"Description",
+            "specificvaluetypefk":"Specific Value Type",
+            "isinherited":"Is Inherited",
+            "value":"Value",
+            "factor":"Factor",
+            "uomfk":"UoM",
+            "costcodefk":"Cost Code"
+        },
+        "PLANT":{
+            "descriptioninfo":"Description",
+            "code":"Code",
+            "plantstatusfk":"Plant Status"            
+
+        },
+        "COMPATIBLE_ACCESSORIES":{
+            "plant2fk":"Plant",
+            "plant2fkdescription":"Plant-Description"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "BOQ_STR_QUANTITY": "100",
+            "UOM": "%",
+            "UNIT_RATE": "50",
+            "UPDATED_UNIT_RATE_1": "50.00",
+            "UPDATED_UNIT_RATE_2": "30.00"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "PACKAGE_BOQ": {
+            "QUANTITY": "200",
+            "UNIT_RATE": "100",
+            "UOM": "BAGS"
+        },
+        "PACKAGE": {
+            "BOQ": "BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "PROCUREMENT_STRUCTURE": "D"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "QUOTE": {
+            "BUSINESS_PARTNER_1": "Anton Waliser",
+            "BUSINESS_PARTNER_2": "AGO Baumaschinen GmbH",
+            "PRICE_1": "20",
+            "PRICE_2": "10"
+        },
+        "PRICE_COMPARISON": {
+            "BOQ_LINE_TYPE": "Level 2",
+            "BUSINESS_PARTNER": "Anton Waliser",
+            "BUSINESS_PARTNER_2": "AGO Baumaschinen GmbH",
+            "outlineSpec": "TESTOUTLINE1",
+            "UOM": "BAGS"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "BOQS": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "REQUISITION": {
+            "packagefk": "Package"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "PACKAGE_BOQ": {
+            "quantity": "Quantity",
+            "price": "Unit Rate",
+            "finalprice": "Final Price",
+            "briefinfo": "Outline Specification"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "QUOTE": {
+            "businesspartnerfk": "Business Partner",
+            "quoteversion": "Version",
+            "supplierfk": "Supplier No."
+        },
+        "SIMPLE_COMPARISON": {
+            "code": "Code",
+            "qtnversion": "Version",
+            "bpname1": "Business Partner Name",
+            "suppliercode": "Supplier No."
+        }
+    }
+}

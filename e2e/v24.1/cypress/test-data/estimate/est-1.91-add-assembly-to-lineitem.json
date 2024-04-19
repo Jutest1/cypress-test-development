@@ -1,0 +1,115 @@
+{
+  "CONTAINERS": {
+    "ASSEMBLY_CATEGORY": {
+      "CODE": "000010"
+    },
+    "ASSEMBLIES": {
+      "RULE": "101",
+      "PARAMETER": "10",
+      "DIN276_2018_12": "100"
+    },
+    "ASSEMBLY_RESOURCE": {
+      "SHORT_KEY": ["C","M","A","CA"],
+      "CODE": ["Stoffe","DÜB06PVC","000010.000010","000040.000010"]
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "100",
+      "UOM": "10M3"
+    },
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "RESOURCES": {
+      "LEASING_COST_UNIT": "10.00",
+      "SERVICE_COST_UNIT": "20.00",
+      "INSTALLATION_COST_UNIT": "30.00",
+      "LIST_MINUS_COST_UNIT": "40.00",
+      "LIST_MAX_COST_UNIT": "50.00",
+      "SHORT_KEY": "C",
+      "CODE": "81010"
+    },
+    "PROJECT_COST_CODE": {
+      "RATE_PROJECT": "20.00"
+    }
+  },
+  "MODAL": {
+    "SELECT_UPDATE_SCOPE": {
+      "SELECT_UPDATE_SCOPE": "Entire Assemblies"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ASSEMBLY_CATEGORY": {
+      "code": "Code",
+      "descriptioninfo": "Description"
+    },
+    "ASSEMBLIES": {
+      "rule": "Rules",
+      "param": "Parameters",
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "costgroup_lic_din276_2018-12": "DIN276_2018-12"
+    },
+    "ASSEMBLY_RESOURCE": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "estresourcetypeshortkey":"Short Key",
+      "costunit": "Cost/Unit",
+      "iscost": "Is Cost"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "estassemblyfk": "Assembly Template",
+      "costtotal": "Cost Total",
+      "quantitytotal": "Quantity Total",
+      "productivityfactor": "Productivity Factor",
+      "costfactor1": "Cost Factor 1",
+      "costfactor2": "Cost Factor 2",
+      "costgroup_lic_din276_2018-12": "DIN276_2018-12",
+      "dayworkrateunit": "DW/T+",
+      "EstimateLineItemUDP1costunit": "Leasing Cost/Unit",
+      "EstimateLineItemUDP2costunit": "Service Cost/Unit",
+      "EstimateLineItemUDP3costunit": "Installation Cost/Unit",
+      "EstimateLineItemUDP4costunit": "List Minus Cost/Unit",
+      "EstimateLineItemUDP5costunit": "List Maxs Cost/Unit"
+    },
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "RESOURCES": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "costtotal": "Cost Total",
+      "costfactor1": "Cost Factor 1",
+      "costfactor2": "Cost Factor 2",
+      "costfactorcc": "Cost Factor CC",
+      "iscost": "Is Cost",
+      "productivityfactor": "Productivity Factor",
+      "quantityfactor1": "Quantity Factor 1",
+      "quantityfactor2": "Quantity Factor 2",
+      "quantityfactor3": "Quantity Factor 3",
+      "quantityfactor4": "Quantity Factor 4",
+      "quantityfactorcc": "Quantity Factor Cc",
+      "quantity": "Quantity",
+      "costunit": "Cost/Unit",
+      "quantitytotal": "Quantity Total",
+      "dayworkrateunit": "DW/T+",
+      "EstimateResourceUDP1costunit": "Leasing Cost/Unit",
+      "EstimateResourceUDP2costunit": "Service Cost/Unit",
+      "EstimateResourceUDP3costunit": "Installation Cost/Unit",
+      "EstimateResourceUDP4costunit": "List Minus Cost/Unit",
+      "EstimateResourceUDP5costunit": "List Maxs Cost/Unit"
+    },
+    "PROJECT_COST_CODE": {
+      "israte": "Is Rate (Project)",
+      "description": "Description"
+    }
+  }
+}

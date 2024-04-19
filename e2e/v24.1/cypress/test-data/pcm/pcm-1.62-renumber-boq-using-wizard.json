@@ -1,0 +1,30 @@
+{
+
+        "CONTAINERS": {
+            "BOQ_STRUCTURE": {
+                
+                "QUANTITY1": "100.000",
+                "QUANTITY2": "200.000",
+                "UNITRATE": "20",
+                "UOM": "10M3",
+                "LEVEL2":"10.10.",
+                "SELECTION":"Renumber only selected items",
+                "LINETYPE":"Position",
+                "STARTVALUE":50,
+                "INCREMENT":10
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            "BOQ": {
+                "boqrootitem.briefinfo": "Outline Specification"
+            },
+            "BOQ_STRUCTURE":{
+                "briefinfo": "Outline Specification",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "boqlinetypefk": "BoQ Line Type",
+                "price":"Unit Rate (EUR)"
+            }
+        }
+    
+}

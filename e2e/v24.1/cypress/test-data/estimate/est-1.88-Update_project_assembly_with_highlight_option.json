@@ -1,0 +1,110 @@
+{
+"CONTAINERS": {
+                  "ESTIMATE": {
+                      "RUBRIC_CATEGORY": "Planning",
+                      "ESTIMATE_TYPE": "Bid Estimate"
+                  },
+                  "LINE_ITEM":{
+                    "QUANTITY1": "450",
+                    "QUANTITY2": "550",
+                    "UOM": "10M3",
+                    "PROCUREMENT_STRUCTURE":"1",
+                    "ASSEMBLY_TEMPLATE":"000020.000020"
+                  },
+                  "RESOURCE":{
+                    "SHORTKEY": "A",
+                    "CODE": "1",
+                    "CODE1":"Stoffe",
+                    "QUANTITY":"100",
+                    "UPDATED_QUANTITY":"100"
+                  },
+                  "ASSEMBLY_RESOURCE":{
+                    "RESOURCE_TYPE1":"C",
+                    "RESOURCE_TYPE2":"M",
+                    "CODE1":"1",
+                    "CODE2":"2109001",
+                    "DESCRIPTION1":"Lohn",
+                    "DESCRIPTION2":"Silo- Portlandzement",
+                    "QUANTITY":"3.000",
+                    "QUANTITY_FACTOR":"3.000000",
+                    "RATE":"40.00"
+                    }
+              },
+              "MODAL":{
+                "RECALCULATE_ASSEMBLY":{
+                    "SCOPE":"Highlighted Assembly"
+                }
+              },
+ "CONTAINER_COLUMNS": {
+                  "ESTIMATE": {
+                      "estheader.code": "Code",
+                      "estheader.descriptioninfo": "Description",
+                      "estheader.esttypefk": "Estimate Type",
+                      "estheader.rubriccategoryfk": "Category"
+                  },
+                  "LINE_ITEM":{
+                    "quantitytotal": "Quantity Total",
+                    "costfactor1": "Cost Factor 1",
+                    "costfactor2": "Cost Factor 2",
+                    "quantity": "Quantity",
+                    "basuomfk": "UoM"
+                  },
+                  "RESOURCE":{
+                    "estresourcetypeshortkey": "Short Key",
+                    "code": "Code",
+                    "descriptioninfo": "Description",
+                    "quantity": "Quantity",
+                    "basuomfk": "UoM",
+                    "costunit":"Cost/Unit",
+                    "quantitytotal":"Quantity Total",
+                    "costfactor1":"Cost Factor 1",
+                    "costfactor2":"Cost Factor 2",
+                    "costfactorcc":"Cost Factor CC",
+
+                    "quantityfactor1":"Quantity Factor 1",
+                    "quantityfactor2":"Quantity Factor 2",
+                    "quantityfactor3":"Quantity Factor 3",
+                    "quantityfactor4":"Quantity Factor 4",
+                    "quantityfactorcc":"Quantity Factor Cc",
+                    "productivityfactor":"Productivity Factor",
+                    "efficiencyfactor1":"Efficiency Factor 1",
+                    "efficiencyfactor2":"Efficiency Factor 2",
+                    "dayworkrateunit":"DW/T+M Rate",
+                    "EstimateResourceUDP1costunit":"Leasing Cost/Unit",
+                    "EstimateResourceUDP2costunit":"Service Cost/Unit",
+                    "EstimateResourceUDP3costunit":"Installation Cost/Unit",
+                    "EstimateResourceUDP4costunit":"List Minus Cost/Unit",
+                    "EstimateResourceUDP5costunit":"List Maxs Cost/Unit",
+                    "EstimateResourceUDP1total":"Leasing Total",
+                    "EstimateResourceUDP2total":"Service Total",
+                    "EstimateResourceUDP3total":"Installation Total",
+                    "EstimateResourceUDP4total":"List Minus Total",
+                    "EstimateResourceUDP5total":"List Maxs Total",
+                    "dayworkratetotal":"DW/T+M Rate Total",
+                    "costtotal":"Cost Total"
+                },
+                "ASSEMBLY_RESOURCE":{
+                    "estresourcetypeshortkey": "Short Key",
+                    "quantity":"Quantity",
+                    "quantityfactor1":"Quantity Factor 1",
+                    "productivityfactor":"Productivity Factor",
+                    "efficiencyfactor1":"Efficiency Factor 1",
+                    "costfactorcc":"Cost Factor CC",
+                    "costfactor1":"Cost Factor 1"
+                },
+                "COST_CODE": {
+                    "israte":"Is Rate (Project)"
+                },
+                "COST_CODE_JOBRATE": {
+                    "rate":"Rate (Project)"
+                },
+                "PROJECT_ASSEMBLY_RESOURCE":{
+                    "costunit":"Cost/Unit",
+                    "quantityfactor1":"Quantity Factor 1",
+                    "efficiencyfactor1":"Efficiency Factor 1",
+                    "productivityfactor":"Productivity Factor",
+                    "costfactor1":"Cost Factor 1"
+                }
+    }
+    
+}

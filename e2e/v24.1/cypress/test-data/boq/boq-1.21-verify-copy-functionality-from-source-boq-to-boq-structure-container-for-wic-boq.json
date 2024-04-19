@@ -1,0 +1,57 @@
+{
+    "CONTAINERS": {
+        
+        "WIC_BOQ_STRUCTURE": {            
+            "QUANTITY": ["100.000","50.00"],
+            "UOM": "10M3",
+            "UNIT_RATE": ["50.00","25.00"],
+            "ENV_FINAL":"FinalPrice"
+        },        
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "500.000",
+            "UNIT_RATE": "20",
+            "UOM": "Days",
+            "LEVEL1":"Level 1"
+        },
+        "SOURCE_BOQ":{
+            "WIC_BOQ":"WIC BoQ",
+            "BOQ_SELECTION":"1"
+        }      
+    },    
+    "CONTAINER_COLUMNS": {
+        "WIC_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "WIC_CATALOG": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "WIC_BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate"
+        },
+        "WIC_BOQ": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+          
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "SOURCE_BOQ":{
+            "briefinfo":"Outline Specification",
+            "boqlinetypefk":"BoQ Line Type"
+        }
+    }
+}

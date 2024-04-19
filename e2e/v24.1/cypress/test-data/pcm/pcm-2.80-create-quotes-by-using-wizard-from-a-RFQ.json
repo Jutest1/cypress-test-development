@@ -1,0 +1,33 @@
+{
+    
+    "CONTAINERS": {
+        "RFQ": {            
+            "REQUESTED": "30/06/2023",
+            "REQUISITION_OWNER":"HS",
+            "BP":"AVAL Versicherung GmbH",
+            "BP2":"Adolf Koch",
+            "CHECK":"check",
+            "MESSAGE":"Create quote successfully!"
+        }  
+
+    }, 
+    
+    "CONTAINER_COLUMNS": {
+        "RFQ": {
+            "description":"RfQ Description",
+            "daterequested":"Requested",
+            "clerkreqfk":"Requisition Owner",
+            "rfqstatusfk" :"Status"
+        },
+        "BIDDERS":{
+            "businesspartnerfk": "Business Partner"
+        }
+        
+    }       
+    
+    
+  
+    
+
+
+}

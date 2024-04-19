@@ -1,0 +1,77 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "%"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": ["DÜB10PVC","I110"],
+            "QUANTITY": "20"
+        },
+        "PACKAGE_ITEMS": {
+            "BUDGET": "10"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "GENERATE_BUDGET": {
+            "X_FACTOR": "5",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 0,
+            "BUDGET_FROM": "Grand Total",
+            "ESTIMATE_SCOPE": "Highlighted Line Item"
+        },
+        "MESSAGES": {
+            "MESSAGE": "Highlighted item is not generated from Estimate or already referenced by other item hence cannot be used as base item"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "quantitytotal": "Quantity Total",
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "budget": "Budget"
+        },
+        "PACKAGE_ITEMS": {
+            "itemno": "Item Number",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Price",
+            "total": "Total",
+            "prcitemstatusfk": "Status",
+            "isdisabled": "Is Disabled"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        }
+    }
+}

@@ -1,0 +1,253 @@
+{
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "quickStart1": "quickstart",
+            "quickStart": "Quick Start",
+            "wizard2": "wizard",
+            "wizard1": "Wizard",
+            "Search": "Search",
+            "Project1": "RNM555"
+        },
+        "Modules": {
+            "Project": "Project",
+            "controllingUnit" :"Controlling Units",
+            "Contract":"Contract",
+            "PriceComparison":"Price Comparison",
+            "PES":"PES"
+
+        },
+        "wizardOptions": {
+            "CreateMaterialPackage": "Create/Update Material Package",
+            "ChangePackageStatus": "Change Package Status",
+            "CreateRequisition": "Create Requisition",
+            "ChangeRequisitionStatus": "Change Requisition Status",
+            "CreateRfQ": "Create Request For Quote",
+            "ChangeRfQStatus": "Change RfQ Status",
+            "CreateQuote": "Create Quote",
+            "ChangeQuoteStatus": "Change Quote Status",
+            "createContract": "Create Contract",
+            "ChangeContractStatus": "Change Contract Status",
+            "CreatePES": "Create PES",
+            "ChangePESStatus": "Change PES Status",
+            "CreateInvoice":"Create Invoice",
+            "GenerateTransactionForAll":"Generate Transaction For All",
+            "GenerateTransactionForall":"Generate Transaction For all",
+            "Information":"Information",
+            "CreateoneinvoiceperPES":"Create one invoice per PES",
+            "CreateCOcontractfornewPESitem":"Create CO contract for new PES item",
+            "ChangeOrder": "Change Order",
+            "GenerateTransactionForSelected":"Generate Transaction For Selected"
+        },
+        "statusOption": {
+            "Approved": "Approved",
+            "Published": "Published",
+            "InProgress": "In-Progress",
+            "Checked": "Checked",
+            "Acception": "Acception",
+            "DateReceived":"Date Received"
+        }
+    },
+    "controllingUnit": {
+        "Inputs": {
+            "quantity": "200",
+            "uom": "BAGS"
+        }
+    },
+    "controllingUnit_columns": {
+        "column_headers": {
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity",
+            "budget": "Budget",
+            "isfixedbudget": "Fix Budget"
+        }
+    },
+    "Requisition": {
+        "MaterialInput": {
+            "materialCode": "I110",
+            "materialQuantity": "2"
+        },
+        "moduleInput": {
+            "requisition": "Requisition"
+        },
+        "Column_headers": {
+            "code": "Code",
+            "description": "Requisition Name",
+            "ControllingUnitFkDescriptionInfo.Translated": "Controlling Unit Description",
+            "projectfk": "Project No.",
+            "addressentity": "Delivery Address"
+        }
+    },
+    "Estimate": {
+        "EstimateHeaderInputs": {
+            "code": "R_EST",
+            "description": "R_EST-01",
+            "rubricCategory": "Planning",
+            "estimateType": "Bid Estimate",
+            "LineItem1": "AN_Line-01",
+            "Quantity": "10.000",
+            "Uom": "10M3"
+        },
+        "ResourceInputs": {
+            "shortKey": "M",
+            "code": "221001",
+            "Quantity": "110"
+        }
+    },
+    "columns": {
+        "coloumn_transaction":{
+            "quantity":"Quantity",
+            "amount":"Amount",
+            "linetype":"Line Type"
+        },
+        "column_headers": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "Column_Contract": {
+            "businesspartnerfk": "Business Partner",
+            "description": "Reference Name",
+            "reqheaderfk": "Requisition",
+            "code": "Code"
+        },
+        "Column_Package": {
+            "structurefk": "Procurement structure"
+        },
+        "Column_Config_Header": {
+            "descriptioninfo": "Description"
+        },
+        "Column_Config": {
+            "descriptioninfo": "Description",
+            "description": "Description",
+            "prcawardmethodfk": "Award Method",
+            "paymenttermfifk": "Payment Term (FI)",
+            "paymenttermpafk": "Payment Term (PA)"
+        },
+        "columnPESItems": {
+            "vat": "VAT",
+            "quantity": "Quantity",
+            "total": "Total",
+            "mdcmaterialfk":"Material No.",
+            "price":"Price"
+        },
+        "Column_InvoiceHeader": {
+            "amountnet": "Amount (Net)",
+            "prcconfigurationfk": "Configuration",
+            "invtypefk": "Type",
+            "reference": "Invoice No.",
+            "businesspartnerfk": "Business Partner",
+            "conheaderfk": "Contract",
+            "billingschemafk": "Billing Schema",
+            "paymenttermfk": "Payment Term"
+        },
+        "Column_QuotesItems": {
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "pricegross":"Price (Gross)",
+            "total":"Total"
+        }
+    },
+    "Column_EstLineItems": {
+        "column_LineItemsheaders": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "Column_ResLineItems": {
+        "Column_ResItems": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "code",
+            "quantity": "Quantity"
+        }
+    },
+    "Column_ContractLineItems": {
+        "Column_ContractItems": {
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "requisition_ColumnHeaders": {
+        "column_headers": {
+            "code": "Code",
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk": "Business Partner",
+            "description": "Requisition Name"
+        },
+        "Items_ColumnHeaders": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "total": "Total",
+            "basuomfk": "UoM",
+            "price": "Price"
+        },
+        "Totals_ColumnHeaders": {
+            "valuenet": "Net Value"
+        }
+    },
+    "Invoice": {
+        "Column_Reconciliation": {
+            "ReconGross": "Gross",
+            "ReconVat": "VAT",
+            "ReconNet": "Net",
+            "ReconName": "Type"
+        },
+        "columnPES_Sheet": {
+            "pesheaderfk": "PES",
+            "pesvat": "VAT",
+            "pesvalue": "Value"
+        }
+    },
+    "Package": {
+        "criteria": {
+            "ProcurementStructure": "Procurement structure",
+            "MaterialandCostCode": "Material & Cost Code"
+        }
+    },
+    "Quote": {
+        "BusinessPartner": {
+            "BusinessPartner1": "Adolf Koch",
+            "BusinessPartner2": "AGO Baumaschinen GmbH"
+        },
+        "Price": {
+            "materialsup1": "25.00",
+            "materialsup2": "35.00",
+            "itemprice":"10.00",
+            "material_No": "MAT-CODE22"
+            
+        }
+    },
+    "ProcurementConfiguration": {
+        "ConfigurationHeaderInputs": {
+            "DESCRIPTIONINFO": "Service"
+        },
+        "ConfigurationInputs": {
+            "Invoices": "Invoices",
+            "ServicePA": "Service PA"
+        }
+    },
+    "createchangeinputs":{
+        "changeinputs":{
+           "projectname":"PCM836",
+           "rubicCategory":"Standard",
+           "changeDesc":"An_changeproject001",
+           "DesignChange":"Design Change",
+           "ChangeRequest":"Change Request" 
+         }
+      },
+      "pes":{
+        "pesiteminputs":{
+            "Quantity1" : "120.000",
+            "Quantity2" :"50.000",
+            "Quantity3" : "110.000",
+            "Quantity4" : "100.000"
+        }
+      }
+}

@@ -1,0 +1,54 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "4",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB08PVC",
+            "QUANTITY": "200"
+        },
+        "QUOTE": {
+            "CASE": "Multiple Business Partner selection",
+            "PROCUREMENT_STRUCTURE": "Material",
+            "BUSINESS_PARTNER_1": "Adolf Koch",
+            "BUSINESS_PARTNER_2": "AGO Baumaschinen",
+            "PRICE_1": "10",
+            "PRICE_2": "30"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "QUOTE": {
+            "code": "Code",
+            "businesspartnerfk": "Business Partner"
+        },
+        "QUOTE_ITEM": {
+            "quantity": "Quantity",
+            "price": "Price",
+            "totalnodiscount": "Total (No Discount)"
+        },
+        "PRICE_COMPARISON": {
+            "tree": "Structure"
+        }
+    }
+}

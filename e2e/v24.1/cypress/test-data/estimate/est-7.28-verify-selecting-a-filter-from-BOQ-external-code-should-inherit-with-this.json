@@ -1,0 +1,49 @@
+{
+    "CONTAINERS": {
+      "BOQ_STRUCTURE": {
+        "QUANTITY": "500.000",
+        "UNIT_RATE": "20",
+        "UOM": "Days"
+      },
+      "ESTIMATE": {
+        "RUBIC_CATEGORY": "Planning",
+        "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+        "QUANTITY": "100",
+        "UOM": "10M3"
+    }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "externalcode":"External Code"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code", 
+            "estheader.descriptioninfo": "Description", 
+            "estheader.esttypefk": "Estimate Type", 
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "externalcode":"External Code"
+        },
+        "ESTIMATE_BOQ": {
+            "ExternalCode":"External Code"
+        }
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    }
+}

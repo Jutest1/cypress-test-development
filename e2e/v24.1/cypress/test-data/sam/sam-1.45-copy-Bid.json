@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "25",
+            "UOM": "CM3"
+        },
+        "CREATE_BID": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "SOURCE_BOQ": {
+            "briefinfo": "Outline Specification",
+            "boqlinetypefk": "BoQ Line Type",
+            "quantity": "Quantity"
+        }
+    }
+}

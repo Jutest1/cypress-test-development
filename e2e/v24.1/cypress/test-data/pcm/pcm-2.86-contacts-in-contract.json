@@ -1,0 +1,40 @@
+{
+    "CONTAINERS": {
+        "REQUISITION":{
+            "CONFIGURATION": "Service REQ"
+        },
+        "BUSINESS_PARTNER":{
+            "PARTNERNAME": "Adolf Koch",
+            "NAME":"Maurer",
+            "NAME2":"Brings"
+        },
+        "PROCUREMENT_BOQ":{
+            "SUBPACKAGE": "Service"
+        },
+        "CONTRACT": {
+            "INPUTTEXT":"Assign Contact"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "businesspartnerfk":"Business Partner",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "PACKAGE":{
+            "code":"Code"
+        },
+        "CONTACT": {            
+            "bpdcontactrolefk": "Role",
+            "BpdContactFirstName": "First Name",
+            "contactroletypefk":"Contact Role Type",
+            "BpdContactSubsidiary":"Branch",
+            "bpdcontactfk":"Contact"
+        },
+        "CONTRACT":{
+            "businesspartnerfk":"Business Partner"
+        }
+    }
+     
+}

@@ -1,0 +1,73 @@
+{
+    "CONTAINERS": {
+        "PLANT": {
+            "PLANT_TYPE": "Bulk",
+            "PLANT": "ETM_0004",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "Leasing",
+            "STRUCTURE": "Equipment",
+            "INDEX_PLANT": 1
+        },
+        "PLANT_GROUP": {
+            "DESCRIPTION1": "A",
+            "DESCRIPTION2": "B",
+            "DESCRIPTION3": "C",
+            "RUBARIC_CATAGORY":"Equipment"
+        },
+        "JOB_CARD": {
+            "PLANT_RECORD_TYPE": "Plant",
+            "MATERIAL_RECORD_TYPE": "Material",
+            "SUNDRY_SERVICE_RECORD_TYPE": "Sundry Service",
+            "MATERIAL_NO": "MG2FM",
+            "SUNDRY_ARTICALE_No":"01-01",
+            "OPERATION_TYPE":"Work Day",
+            "WORK_OPERATION_TYPE":"Work967"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PLANT": {
+            "planttypefk": "Plant Type",
+            "descriptioninfo": "Description",
+            "plantkindfk": "Plant Kind"
+        },
+        "PLANT_GROUP": {
+            "rubriccategoryfk": "Rubric Category",
+            "descriptioninfo": "Description",
+            "islive": "Active",
+            "code":"Code"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isplantmanagement": "Is Plantmanagement",
+            "isassetmanagement": "Asset Management"
+        },
+        "PLANT_CONTROLLING":{
+            "controllingunitfk":"Controlling Unit",
+            "controllingunitdescription":"Controlling Unit Description"
+        },
+        "CART_TEMPLATE": {
+        "workoperationtypefk": "Work Operation Type",
+        "descriptioninfo": "Description",
+        "code":"Code"
+        },
+        "ACTIVITIES": {
+            "descriptioninfo": "Description",
+            "code":"Code"
+        },
+        "RECORDS": {
+            "workoperationtypefk": "Work Operation Type",
+            "descriptioninfo": "Description",
+            "code":"Code",
+            "cardrecordfk":"Article",
+            "jobcardrecordtypefk":"Job Card Record Type"
+        }
+       
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    }
+}

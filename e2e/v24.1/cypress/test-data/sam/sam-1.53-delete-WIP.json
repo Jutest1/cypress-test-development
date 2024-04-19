@@ -1,0 +1,58 @@
+{
+    "CONTAINERS": {
+        "PROJECT":{
+            "CLERK_NAME":"HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100.000",           
+            "UOM": "BAGS",
+            "UNITRATE":"50.000"         
+            
+        },
+        "BID":{
+            "BUSINESS_PARTNER":"Adolf Koch"            
+        }, 
+        "BID_BOQ_STRUCTURE":{
+            "QUANTITY": "200.000",           
+            "UOM": "BAGS",
+            "UNITRATE":"30.000"         
+             
+        },        
+        "WIP":{
+            "EVN_DESC":"Desc_WIP"
+        }
+        
+        
+
+    },    
+    "CONTAINER_COLUMNS": {
+        "BOQ":{
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross":"Final Price (Gross)",
+            "price":"Unit Rate (EUR)"
+            
+        },
+        "BID":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet" 
+        },        
+        "CONTRACT_SALES":{           
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "WIP":{
+            "descriptioninfo":"Description",
+            "amountnet":"Net Amount",
+            "amountgross":"Amount (Gross)"
+        }
+
+    }   
+}

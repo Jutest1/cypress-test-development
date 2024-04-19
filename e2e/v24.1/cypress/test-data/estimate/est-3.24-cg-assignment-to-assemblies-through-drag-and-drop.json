@@ -1,0 +1,27 @@
+{
+    "CONTAINERS": {
+        "ASSEMBLIES_COST_GROUP": {
+            "CATALOG_NUMBER": "DIN276_2018-12",
+            "CODE":"126"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "ASSEMBLIES": {
+            "costgroup_lic_din276_2018-12":"DIN276_2018-12"
+        },
+        "ASSEMBLIES_COST_GROUP": {
+            "code": "Code"
+        }
+    }
+  }

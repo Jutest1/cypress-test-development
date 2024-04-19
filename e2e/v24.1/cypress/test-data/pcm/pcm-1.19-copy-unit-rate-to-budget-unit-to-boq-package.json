@@ -1,0 +1,70 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "50",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "QUANTITY": "10"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "25",
+            "UOM": "CM3"
+        },
+        "PACKAGE": {
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "PROCUREMENT_STRUCTURE": "D",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "MATERIAL": "DÜB06PVC"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate"
+        },
+        "PACKAGE_BOQ_STRUCTURE": {
+            "tree": "Structure",
+            "briefinfo": "Outline Specification",
+            "price": "Unit Rate (EUR)",
+            "priceoc": "Unit Rate OC (EUR)",
+            "budgetperunit": "Budget/Unit"
+        },
+        "ITEMS": {
+            "mdcmaterialfk": "Material No."
+        }
+    }
+}

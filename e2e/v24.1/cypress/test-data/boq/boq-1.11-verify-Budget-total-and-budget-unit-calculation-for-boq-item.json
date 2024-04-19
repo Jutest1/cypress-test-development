@@ -1,0 +1,37 @@
+
+{
+    "CONTAINERS": {
+      "BOQ_STRUCTURE": {
+        "QUANTITY": "500.000",
+        "UNIT_RATE": "20",
+        "UOM": "Days",
+        "BUDGET_UNIT":"30",
+        "CHECKBOX":"check"
+      },
+      "BOQ_STRUCTURE2": {
+        "QUANTITY": "30.000",
+        "UNIT_RATE": "20",
+        "UOM": "Days",
+        "BUDGET_TOTAL":"500",
+        "CHECKBOX":"check",
+        "BOQ_TYPE":"Level 2"
+      }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "budgetfixedtotal":"Fixed Budget Total",
+            "budgetfixedunit":"Fixed Budget/Unit",
+            "itemtotal":"Item Total (EUR)",
+            "budgetperunit":"Budget/Unit",
+            "budgettotal":"Budget Total"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    }
+}

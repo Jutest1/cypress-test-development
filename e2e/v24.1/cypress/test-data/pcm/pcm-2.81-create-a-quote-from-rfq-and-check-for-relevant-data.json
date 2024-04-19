@@ -1,0 +1,79 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "STRUCTURE_CODE": "D",
+            "STRUCTURE": "M",
+            "CONFIGURATION": "Service REQ",
+            "BP": "Adolf Koch",
+            "ROLE": "Owner",
+            "FIRST_NAME": "Hans",
+            "TAX_CODE": "NSTB",
+            "value": "500.00",
+            "BP2": "AGO Baumaschinen GmbH"
+        },
+        "REQUISITION_MILESTONE": {
+            "TYPE": "Progress Meeting",
+            "TAX_CODE": "05",
+            "AMOUNT": "999",
+            "DATE": "30/06/2023",
+            "TYPE1": "Contract Milestones",
+            "TAX_CODE1": "07",
+            "AMOUNT1": "888",
+            "DATE1": "20/06/2023"
+        },
+        "REQUISITION_ITEM": {
+            "MATERIAL_NO": "DÜB08PVC",
+            "PRICE": "60",
+            "QUANTITY": "10"
+        },
+        "REQUISITION_CERTIFICATE": {
+            "GUARANTEE_COST": "500.00"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk": "Business Partner"
+        },
+        "REQUISITION_ITEM": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity"
+        },
+        "REQUISITION_CHARACTERISTICS": {
+            "description": "Description",
+            "valuetext": "Value"
+        },
+        "REQUISITION_CERTIFICATE": {
+            "guaranteecost": "Guarantee Cost",
+            "bpdcertificatetypefk": "Type"
+        },
+        "REQUISITION_SUBCONTRACTOR": {
+          "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner"
+        },
+        "REQUISITION_CONTACT": {
+        
+            "bpdcontactrolefk": "Role",
+            "BpdContactFirstName": "First Name"
+        },
+        "REQUISITION_GENERALS": {
+            "prcgeneralstypefk": "Type",
+            "mdctaxcodefk": "Tax Code",
+            "value": "Value"
+        },
+        "REQUISITION_MILESTONE": {
+            "mdctaxcodefk": "Tax Code",
+            "amount": "Amount",
+            "milestone": "Date"
+        },
+        "REQUISITION_DOCUMENTS": {
+            "description": "Description"
+        },
+        "OVERVIEW": {
+            "description": "Title",
+            "count": "Status"
+        }
+    }
+}

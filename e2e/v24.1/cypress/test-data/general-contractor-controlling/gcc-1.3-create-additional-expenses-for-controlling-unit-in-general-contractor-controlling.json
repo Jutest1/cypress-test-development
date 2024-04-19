@@ -1,0 +1,199 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": [
+                "0"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "10",
+                "20"
+            ],
+            "UNIT_RATE": [
+                "25",
+                "10"
+            ],
+            "UOM": "10M3"
+        },
+        "CONTRACTS": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CONTRACT_BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "20"
+            ]
+        }
+    },
+    "MODAL": {
+        "ADDITIONAL_EXPENSES_PARAMETERS": {
+            "ADDITIONAL_EXPENSE_AMOUNT": [
+                "200",
+                "500"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "quantityadj": "AQ Quantity",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price",
+            "mdccontrollingunitfk": "Controlling Units"
+        },
+        "CONTRACTS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "CONTRACT_BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "mdccontrollingunitfk": "Controlling Units",
+            "finalprice": "Final Price (EUR)"
+        },
+        "COST_CONTROL": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "revenue": "Revenue",
+            "basiccost": "Basic Cost",
+            "budgetshift": "Budget Shift",
+            "additional": "Additional Expenses"
+        },
+        "ADDITIONAL_EXPENSES": {
+            "description": "Description",
+            "amount": "Amount",
+            "MdcControllingUnitFk": "Controlling Unit Description"
+        }
+    },
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "quickstart": "quickstart",
+            "inQuickstart": "Quick Start",
+            "wizard": "wizard",
+            "inWizard": "Wizard",
+            "Search": "Search",
+            "gridPopup": "grid",
+            "gridList": "list",
+            "check": "check"
+        },
+        "Modules": {
+            "project": "Project",
+            "controllingUnit": "Controlling Units",
+            "contractSales": "Contract Sales",
+            "generalContractorControlling": "General Contractor Controlling"
+        },
+        "Wizards": {
+            "changeContractStatus": "Change Contract Status",
+            "createUpdateCostControlStructure": "Create / Update Cost Control Structure",
+            "createAdditionalExpenses": "Create Additional Expense"
+        },
+        "Status": {
+            "contracted": "Contracted"
+        }
+    },
+    "ControllingUnit": {
+        "ControllingUnitInput": {
+            "quantity": "0",
+            "uom": "10M3"
+        },
+        "Column_Headers": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        }
+    },
+    "BoQ": {
+        "Column_Headers": {
+            "boqrootitem.reference": "Reference No."
+        }
+    },
+    "BoQStructure": {
+        "BoQStructure_Inputs": {
+            "quantity1": "10",
+            "unitRate1": "25",
+            "quantity2": "20",
+            "unitRate2": "10",
+            "uom": "10M3"
+        },
+        "Column_Headers": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)",
+            "basuomfk": "UoM",
+            "mdccontrollingunitfk": "Controlling Units",
+            "boqlinetypefk": "BoQ Line Type"
+        }
+    },
+    "ContractSales": {
+        "ContractSales_Input": {
+            "contractTypeMain": "Main Contract",
+            "businessPartner": "Adolf Koch",
+            "boqSource": "Project BoQ"
+        },
+        "Column_Headers": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "BoQ_Column_Headers": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BoQStructure_Column_Headers": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "mdccontrollingunitfk": "Controlling Units",
+            "finalprice": "Final Price (EUR)"
+        }
+    },
+    "GeneralContractorControlling": {
+        "CostControl_Column_Headers": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "revenue": "Revenue",
+            "basiccost": "Basic Cost",
+            "budgetshift": "Budget Shift",
+            "additional": "Additional Expenses"
+        },
+        "AdditionalExpenses_Input": {
+            "additionalExp01": "200",
+            "additionalExp02": "500"
+        },
+        "AdditionalExpenses_Column_Headers": {
+            "description": "Description",
+            "amount": "Amount",
+            "MdcControllingUnitFk": "Controlling Unit Description"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "CONTAINERS": {
+      "ESTIMATE": {
+        "RUBRIC_CATEGORY": "Planning",
+        "ESTIMATE_TYPE": "Bid Estimate"
+      },
+      "LINE_ITEM": {
+        "QUANTITY": "40",
+        "UOM": "BAGS",
+        "EST_QTY_REL_ACT_FK": "To Structure"
+      },
+      "RESOURCE": {
+        "SHORT_KEY": "C",
+        "CODE": "1"
+      },
+      "SCHEDULING_ACTIVITY":{
+        "QUANTITY": "100",
+        "UOM": "BAGS",
+        "NO_OF_DAYS":"5"
+      },
+      "PROGRESS_REPORT_HISTORY":{
+         "REMAINING_QUANTITY":"10",
+         "REMAINING_PERCENT":"10",
+         "QUANTITY":"900"
+      }
+    },
+    "MODAL":{
+        "UPDATE_LINE_ITEM_QUANTITIES":{
+            "SELECT_ESTIMATE_SCOPE":"Entire Estimate",
+            "UPDATED_PLANNED_QUANTITY":"From Schedule",
+            "IQ_QUANTITY_UPDATE":"From Schedule"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+      "ESTIMATE": {
+        "estheader.code": "Code",
+        "estheader.descriptioninfo": "Description",
+        "estheader.esttypefk": "Estimate Type",
+        "estheader.rubriccategoryfk": "Category"
+      },
+      "LINE_ITEM": {
+        "descriptioninfo": "Description",
+        "quantity": "Quantity",
+        "basuomfk": "UoM",
+        "estassemblyfk": "Assembly Template",
+        "costtotal": "Cost Total",
+        "estqtyrelactfk": "Act Qty Relation",
+        "psdactivityfk": "Activity"
+      },
+      "RESOURCE": {
+        "estresourcetypeshortkey": "Short Key",
+        "code": "Code",
+        "quantity": "Quantity",
+        "descriptioninfo": "Description",
+        "basuomfk": "UoM",
+        "costtotal": "Cost Total"
+      },
+      "SCHEDULING":{
+        "descriptioninfo": "Description",
+        "code": "Code"
+      },
+      "SCHEDULING_ACTIVITY":{
+        "description": "Description",
+        "code": "Code",
+        "quantity": "Quantity",
+        "quantityuomfk": "UoM",
+        "plannedstart": "Planned Start",
+        "plannedfinish": "Planned Finish"
+      },
+      "PROGRESS_REPORT_HISTORY":{
+        "remainingquantity": "Remaining Quantity",
+        "plannedquantity": "Planned Quantity",
+        "quantity": "Quantity",
+        "pco": "Percentage Completion",
+        "remainingpco": "Remaining Percentage Completion"
+      },
+      "LINE_ITEM_QUANTITY":{
+        "quantitytypefk": "Quantity Type",
+        "quantity": "Quantity"
+      }
+    }
+  }

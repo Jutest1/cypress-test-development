@@ -1,0 +1,112 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "Stoffe"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "10",
+            "UNIT_RATE": "20",
+            "UOM": "BAG"
+        },
+        "CONTRACT_BOQ_STRUCTURE": {
+            "QUANTITY": "30",
+            "UNIT_RATE": "50",
+            "UOM": "BAGS"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "BASED_ON": "Project BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "ESTIMATE_SCOPE_INDEX": "0",
+            "PROCUREMENT_STRUCTURE": "D",
+            "QTY_TRANSFER": "BoQ Quantity (WQ/AQ)",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "UPDATE_BOQ_PACKAGE": [
+            {
+                "name": "SyncBaseQuantity",
+                "nameCheckboxVal": "check"
+            },
+            {
+                "name": "SyncBasePrice",
+                "nameCheckboxVal": "check"
+            }
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "grandtotal": "Grand Total"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "CONTRACT": {
+            "code": "Code"
+        },
+        "CONTRACT_BOQ": {
+            "briefinfo": "Outline Specification",
+            "boqrootitem.finalprice": "Final Price",
+            "boqrootitem.finalpricegross": "Final Price (Gross)"
+        },
+        "CONTRACT_BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "PACKAGE_BOQ": {
+            "briefinfo": "Outline Specification",
+            "boqrootitem.finalprice": "Final Price",
+            "boqrootitem.finalpricegross": "Final Price (Gross)"
+        },
+        "PACKAGE_BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "CONTAINERS": {
+        "CUSTOMIZING": {
+            "EST_ASSEMBLY_TYPE": "Est. Assembly Type",
+            "PROTECTED_ASSEMBLY": "Protected Assembly"
+        },
+        "ASSEMBLY_CATEGORY": {
+            "DESCRIPTION": "GRUNDLAGENARBEIT",
+            "ASSEMBLY_DESCRIPTION": "Baugrubenaushub bis BKL 4 mit Abfuhr"
+        },
+        "ASSEMBLY_RESOURCE": {
+            "CODE_1": "S2",
+            "CODE_2": "RH8"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "10",
+            "UOM": "BAGS"
+        },
+        "RESOURCE": {
+            "CODE": "000010.000010"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ASSEMBLY_CATEGORY": {
+            "marker": "Filter",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "estassemblytypefk": "Assembly Type"
+        }
+    }
+}

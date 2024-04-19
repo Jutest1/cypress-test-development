@@ -1,0 +1,64 @@
+{
+  
+   
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "CONTROLLING_UNIT":{
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "LINE_ITEMS":{
+            "QUANTITY":"10"
+        },
+        "RESOURCE":{
+            "SHORTKEY":"M",
+            "CODE":"221001",
+            "QUANTITY":"110"
+        },
+        "GENERALS":{
+            "TYPE":"Baustrom %",
+            "VALUE":"200.00",
+            "BPNAME":"Adolf Koch" 
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "CONTROLLING_UNIT":{
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "LINE_ITEMS":{
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE":{
+            "estresourcetypeshortkey": "Short Key",
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity"
+        },
+        "GENERALS":{
+            "prcgeneralstypefk":"Type",
+            "value":"Value",
+            "mdccontrollingunitfk":"Controlling Unit Code"
+
+        },
+        "CONTRACT": {            
+            "packagefk": "Package Code",
+            "supplierfk": "Supplier No.",
+            "businesspartnerfk": "Business Partner",
+            "subsidiaryfk":"Branch"
+        }
+    }
+
+}

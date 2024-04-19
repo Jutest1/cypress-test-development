@@ -1,0 +1,32 @@
+{
+    "CONTAINERS": {
+        "COMPANIES": {
+            "CODE": "999",
+            "COMPANY_NAME": "RIB Demo"
+        },
+        "CLERK": {
+            "CODE": "HS"
+        },
+        "MATERIAL": {
+            "MATERIAL_CODE": "I110",
+            "MATERIAL_QUANTITY": "2"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "code": "Code",
+            "clerkreqfk": "Requisition Owner",
+            "clerkprcfk": "Responsible",
+            "description": "Requisition Name",
+            "projectfk": "Project No.",
+            "remark":"Remarks"
+        },
+        "COMPANIES": {
+            "companyname": "Company Name"
+        },
+        "CLERK": {
+            "code": "Code",
+            "userfk": "User"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "CONTAINERS": {
+        "REQUISITION":{
+            "STRUCTRECODE": "D",
+            "CONFIGURATION": "Service REQ",
+            "REMARK":"Status Changed"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION":{
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        }
+    }
+}

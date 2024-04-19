@@ -1,0 +1,31 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "BOQ_CONFIG_TYPE":"Boq Rounding Configuration Type"
+        },
+        "DATA_RECORD": {
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "DATA_TYPES": {
+            "name":"Data Type",
+            "type":"Type",
+            "modulename":"Module",
+            "dbtablename":"DB Table Name"
+        },
+        "DATA_RECORD": {
+            "BoqRoundingConfiguration":"Check Config",
+            "boqroundingconfigfk":"Boq Rounding Configuration",
+            "descriptioninfo":"Description",
+            "lineitemcontextfk":"Line Item Context",
+            "islive":"Live"
+        }
+    }
+
+}

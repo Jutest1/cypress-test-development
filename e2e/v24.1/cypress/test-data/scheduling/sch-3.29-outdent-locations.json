@@ -1,0 +1,19 @@
+{
+    "CONTAINERS": {
+      "PROJECT":{
+        "CLERK_NAME":"HS"
+      },
+      "LOCATION":{
+        "QTY_FACTOR":["1.000","2.000"]
+      }
+    },
+    "CONTAINER_COLUMNS": {
+        "LOCATION":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "quantity":"Quantity Factor"
+            
+
+        }
+    }
+}

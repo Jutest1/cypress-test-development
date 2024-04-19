@@ -1,0 +1,48 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+        "RUBRIC_CATEGORY": "Planning",
+        "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+        "QUANTITY": "1",
+        "ADVANCED_ALL": "10.00",
+        "MANUAL_MARKUP":"10.00",
+        "GRAND_COST_UNIT_TARGET":"1000"
+  
+    },
+    "RESOURCE": {
+        "SHORT_KEY": "C",
+        "CODE": "CC-LAB-3165",
+        "QUANTITY":"2",
+        "COST_UNIT":"12"
+    }
+},
+  
+  "BackWardCalculationfromWizard": {
+    
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+        "estheader.code": "Code",
+        "estheader.descriptioninfo": "Description",
+        "estheader.esttypefk": "Estimate Type",
+        "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+        "descriptioninfo": "Description",
+        "quantity": "Quantity",
+        "basuomfk": "UoM",
+        "advancedall": "Adv. Allowance Total",
+        "manualmarkup":"Manual Markup"
+    },
+    "RESOURCE": {
+        "estresourcetypeshortkey": "Short Key",
+        "code": "Code",
+        "quantity": "Quantity",
+        "costunit": "Cost/Unit"
+
+       
+    }
+}
+}

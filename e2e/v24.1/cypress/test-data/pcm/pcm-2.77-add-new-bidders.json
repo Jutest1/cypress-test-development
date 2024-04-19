@@ -1,0 +1,35 @@
+{
+       
+    "CONTAINERS": {
+        "PROCUREMENT_STRUCTURE_BP":{
+            "RESOURCE":"Material"
+        },
+        "BIDDER":{
+            "FIRSTNAME": "Hans",
+            "LASTNAME":"Maurer",
+            "LASTNAME1":"Brings",
+            "INPUT_TEXT":"Search String",
+            "INPUT_TEXT2":"Assign Contact",
+            "STRUCTURE":"Procurement structure"
+           
+        },
+        "BUSINESS_PARTNER": {
+            "PARTNERNAME": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        
+        "BUSINESS_PARTNER":{
+            "countryDesc":"Country Description"
+
+        },
+        "RFQ":{
+            "description": "RFQ Description"
+        },
+        "BIDDER":{
+            "businesspartnerfk": "Business Partner",
+            "contactfk":"Contact Last Name",
+            "ContactFirstName":"Contact First Name"
+        }
+    }
+}

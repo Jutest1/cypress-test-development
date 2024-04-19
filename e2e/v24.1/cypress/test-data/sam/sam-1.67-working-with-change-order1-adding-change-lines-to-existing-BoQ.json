@@ -1,0 +1,97 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPE": {
+            "PROJECT_CHANGE_STATUS": "Project Change Status"
+        },
+        "DATA_RECORD": {
+            "DESCRIPTION": "Identified",
+            "PARAMETER_VALUE": "1"
+        },
+        "BOQ_STRUCTURE": {
+            "BOQ_STR_QUANTITY": [
+                "500.000",
+                "300.000"
+            ],
+            "UOM": "10M3",
+            "UNIT_RATE": [
+                "20",
+                "50"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "CHANGE_LINE_ITEM": {
+            "QUANTITY": "1"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "BID": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ",
+            "SWITCH_CASE_CHANGE_BID": "Change Bid"
+        },
+        "QUANTITY_TAKEOFF_HEADER": {
+            "ITEM": "Sales / WIP&Bill",
+            "VALUE_1": "300",
+            "CHANGE_VALUE_1": "100"
+        },
+        "BILL_OF_QUANTITY_LOOKUP": {
+            "QUANTITY": "250.000"
+        },
+        "BILL": {
+            "TYPE": "Progress Invoice",
+            "SWITCH_CASE": "WIP1"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "prjchangefk": "Project Change",
+            "boqitemfk": "BoQ Item Ref. No."
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "QUANTITY_TAKEOFF_HEADER": {
+            "qtotypefk": "QTO Type",
+            "qtotargettype": "QTO Purpose",
+            "code": "Code"
+        },
+        "BILL_OF_QUANTITY_LOOKUP": {
+            "briefinfo": "Outline Specification",
+            "installedquantity": "IQ Quantity"
+        },
+        "QUANTITY_TAKEOFF_DETAIL": {
+            "qtoformulafk": "QTO Formula",
+            "value1detail": "Value 1",
+            "result": "Result"
+        },
+        "BILL": {
+            "amountnet": "Net Amount"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "20",
+            "UNIT_RATE": "25",
+            "UOM": "10M3"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1401",
+            "SHORT_KEY_1": "C",
+            "CODE_1": "1"
+        },
+        "PACKAGE": {
+            "PROCUREMENT_STRUCTURE": "D",
+            "WIC_BOQ": "Project BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BASED_ON": "Project BoQ",
+            "QTY_TYPE": "BoQ Quantity (WQ/AQ)",
+            "CREATE_PACKAGE_CHECKBOX": "check"
+        },
+        "RENUMBER_BOQ": {
+            "SELECTION": "Renumber only selected items",
+            "LINE_TYPE": "Position",
+            "START_VALUE": "34",
+            "INCREMENT": "5",
+            "LEVEL": "Level2"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "briefinfo"
+        },
+        "BOQ_STRUCTURE": {
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "finalprice": "Final Price (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type "
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        }
+    }
+}

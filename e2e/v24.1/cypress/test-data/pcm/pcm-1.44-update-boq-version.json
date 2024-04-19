@@ -1,0 +1,142 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "50",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "QUANTITY": "10"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "25",
+            "UOM": "CM3"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "QUOTE_BOQ_STRUCTURE": {
+            "QUANTITY": "13",
+            "UNIT_RATE": "15",
+            "UOM": "%",
+            "QUANTITY_2":"20.00"
+        },
+        "CONTRACT_ITEM": {
+            "PERCENTAGE_VALUE": "35"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "BASED_ON": "Project BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "ESTIMATE_SCOPE_INDEX": "0",
+            "PROCUREMENT_STRUCTURE": "D",
+            "QTY_TRANSFER": "BoQ Quantity (WQ/AQ)"
+        },
+        "REQUEST_FOR_QUOTE": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BUSINESS_PARTNER_2": "Anton Waliser"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "grandtotal": "Grand Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice":"Final Price"
+        },
+        "HEADER": {
+            "code": "Code"
+        },
+        "INVOICE_HEADER": {
+            "reference": "Invoice No.",
+            "billingschemafk": "Billing Schema",
+            "description": "Narrative"
+        },
+        "REQUISITION": {
+            "code": "Code"
+        },
+        "RFQ": {
+            "code": "Rfq Code"
+        },
+        "CONTRACT": {
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible",
+            "description": "Reference Name",
+            "code": "Code",
+            "clerkreqfk": "Requisition Owner"
+        },
+        "QUOTE": {
+            "code": "Code",
+            "rfqheaderfk": "RfQ Header"
+        },
+        "RECONCILIATION": {
+            "ReconName": "Type",
+            "ReconNet": "Net"
+        },
+        "BILLING_SCHEMA": {
+            "description": "Item Description",
+            "result": "Result"
+        },
+        "CONTRACT_ITEM": {
+            "prcboqfk": "BoQ",
+            "conheaderfk": "Contract",
+            "price": "Price",
+            "quantity": "Quantity",
+            "Percentage": "Percentage",
+            "orderquantity": "Order Qty",
+            "totalvalue": "Total Value"
+        }
+    }
+}

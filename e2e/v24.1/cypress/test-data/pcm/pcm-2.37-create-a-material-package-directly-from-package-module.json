@@ -1,0 +1,54 @@
+{
+    "CONTAINERS": {
+        "BOQ": {
+            "DESCRIPTION":"Test",
+            "UOM":"BAG",
+            "QUANTITY":"200"
+        },
+        "PACKAGE":{
+            "CONFIGURATION":"Service",
+            "DESCRIPTION":"Service Package"
+        },
+        "CONTROLLING_UNIT":{
+            "DESCRIPTION": "CU0",
+            "QUANTITY": "1000.000",
+            "UOM": "BAGS"
+        },
+        "ITEM":{
+            "MATERIAL1":"DÜB08PVC",
+            "QUANTITY1":"700.000",
+            "MATERIAL2":"DÜB08PVC",
+            "QUANTITY2":"500.000",
+            "CELL_1":"10",
+            "CELL_2":"20"
+        }
+},
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "briefinfo":"Outline Specification",
+            "basuomfk":"UoM",
+            "quantity":"Quantity"
+        },
+        "PROCUREMENT_BOQ":{
+            "boqstatusfk":"BoQ Status",
+            "briefinfo":"Outline Specification",
+            "reference":"Reference No."
+        },
+        "PACKAGE":{
+            "code":"Code",
+            "description":"Description",
+            "mdccontrollingunitfk":"Controlling Units"
+        },
+        "CONTROLLING_UNIT":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "quantity":"Quantity",
+            "uomfk":"UoM"
+        },
+        "ITEM":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "itemno":"Item Number"
+        }
+    }
+}

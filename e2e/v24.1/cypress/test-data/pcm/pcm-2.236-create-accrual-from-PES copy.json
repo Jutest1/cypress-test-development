@@ -1,0 +1,149 @@
+{
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "projectName": "Bauhof",
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "ModuleNameControlling": "Controlling Units",
+            "project": "Project",
+            "searchTypeQuick": "quickstart",
+            "PES":"PES",
+            "billingSchema":"Billing Schema"
+        }
+    },
+    "CreateControllingUnit": {
+        "ControllingUnitInputs": {
+            "description": "CU0",
+            "quantity": "300.000",
+            "uom": "BAGS",
+            "GetTextColumns": 
+                ["descriptioninfo",
+                "quantity",
+                "uomfk"]
+            },
+       
+        "Column_Headers": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "uomfk": "UoM"
+        }
+    },
+    "CreateNewBoq": {
+        "CreateBoQ": {
+            "newCode": "BoQ_001",
+            "newCode1": "BoQ_002"
+        },
+        "Column_header": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    },
+    "CreateNewBoQStructure": {
+        "BoQStructureInputs": {
+            "description": "ITEM",
+            "descriptionChange": "CHANGE_ITEM",
+            "quantity": "100",
+            "unitRate": "50",
+            "uom": "%"
+        },
+        "Column_header": {
+            "boqlinetypefk": "BoQ Line Type",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate"
+        }
+    },
+    "EstimatePageInputes": {
+        "CreateEstimate": {
+            "newCode": "CodeEstimate123",
+            "description": "TestEstimate",
+            "rubicCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        },
+        "Column_header": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        }
+    },
+    "CreateNewLineItemRecord": {
+        "LI_Inputs": {
+            "quantity":"100"
+        },
+        "LIColumn_header": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqitemfk":"BoQ Item Ref. No."
+        }
+    },
+    "ResourceRecord": {
+        "CreateNewResource": {
+            "shortKey": "C",
+            "code": "Lohn"
+        },
+        "ResourceColumn_header": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "CreateBoQPackage": {
+        "Package": {
+            "BusinessPartner": "Adolf Koch",
+            "Scope": "Entire Estimate",
+            "groupingstructure": "Project BoQ",
+            "ProcurementStructure": "D",
+            "transferFrom": "BoQ Quantity",
+            "Change_Package_Status": "Change Package Status",
+            "packageStatus_InProgress": "In-Progress",
+            "CreateBoQPackage": "Create/Update BoQ Package"
+        }
+    },
+
+    "CreateContract": {
+        "createContract": "Create Contract",
+        "contractChangeStatus": "Change Contract Status",
+        "contractStatus": "Approved",
+        "Responsible": "HS",
+        "businesspartner":"Adolf Koch"
+    },
+
+    "CreatePES": {
+        "createPES": "Create PES",
+        "pesStatus": "Delivered",
+        "BoqQuantity":"10",
+
+        "AccrualcolumnHeader":{
+            "transAccount":"Account",
+            "transOffsetAccount":"Offset Account",
+            "dateeffective":"Date Effective"
+        }
+    },
+
+    "CreateTransaction":{
+        "createTransaction":"Create Transaction",
+        "transactionMode":"One Transaction per PES Item",
+        "transactionMode1":"One Transaction per PES, CU, Acc and TaxC",
+        "companyYear":"2023",
+        "reportingPeriod":"10",
+        "validationMsg":"company transactions are created",
+
+        "transactionHeadersColumnHeader":{
+            "description":"Description",
+            "issuccess":"Is Success"
+        },
+        "transactionColumnHeader":{
+            "pesheaderfk":"PES"        }
+    },
+    "customizing":{
+        "dataType":"PES Status",
+        "description":"Delivered"
+
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "200.000",
+            "UOM": "BAGS",
+            "UNITRATE": "50.000",
+            "RECORDING_LEVEL": "LI"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCES": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "UOM": "BAGS",
+            "COST_TOTAL": "costTotal"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "quantitytarget": "AQ Quantity Item",
+            "quantity": "Quantity",
+            "boqitemfkbrief": "BoQ Item Ref. No.-Brief Info"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "costunit": "Cost/Unit"
+        },
+        "SOURCEBOQ": {
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification"
+        }
+    }
+}

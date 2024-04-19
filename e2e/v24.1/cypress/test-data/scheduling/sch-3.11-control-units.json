@@ -1,0 +1,16 @@
+{
+  "CONTAINERS": {
+    "DATA_TYPES":{
+      "CONTROLING_GROUP":"Controlling Group",
+      "CONTROLING_GROUP_DETAILS":"Controlling Group Detail"
+    }
+      
+  },
+  "CONTAINER_COLUMNS": {
+      "SCHEDULES": {
+        "code":"Code",
+        "descriptioninfo":"Description",
+        "performancesheetfk":"Performance Sheet"
+      }
+    }
+  }

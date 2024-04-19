@@ -1,0 +1,133 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "100.000"
+            ],
+            "UOM": [
+                "10M3"
+            ],
+            "UNIT_RATE": [
+                "500"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "C"
+            ],
+            "CODE": [
+                "Lohn",
+                "Stoffe"
+            ]
+        },
+        "BIDS": {
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "BID_BOQSTRUCTURE": {
+            "COPY_SOURCE_FROM": "Project BoQ",
+            "ROOT": "Root",
+            "POSTION": "Position",
+            "LEVEL_1": "Level 1"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "CASE": [
+                "BoQ"
+            ],
+            "PROCUREMENT_STRUCTURE": [
+                "D"
+            ]
+        },
+        "CREATE_CONTRACT": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CREATE_BID": {
+            "MAIN_BID": "Main Bid",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "GENERATE_BUDGET": {
+            "X_FACTOR": "5",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 0,
+            "BUDGET_FROM": "Grand Total",
+            "ESTIMATE_SCOPE": "Highlighted Line Item"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {},
+        "BIDS": {
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount"
+        },
+        "SALES_CONTRACT": {
+            "code": "Code"
+        },
+        "SALES_CONTRACT_BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "SALES_CONTRACT_BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "SALES_CONTRACT_SOURCE_BOQ": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        }
+    }
+}

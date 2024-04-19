@@ -1,0 +1,24 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "REMARK": "TestRemark123",
+            "BusinessPartner": "Adolf Koch",
+            "CONFIGURATION": "Service REQ"
+        },
+        "DOCUMENT_PROJECT": {
+            "DOCUMENT_1": "A1",
+            "DOCUMENT_2": "A2",
+            "DOCUMENT_3": "A3"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "DOCUMENT_PROJECT": {
+            "description": "Description"
+        }
+    }
+}

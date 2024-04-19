@@ -1,0 +1,71 @@
+{
+  "CONTAINERS": {
+    "QTO_HEADER": {
+      "QTO_PURPOSE_SALE_WQ_AQ":"Sales WQ/AQ",
+      "QTO_PURPOSE_PROCUREMENT_PES":"Procurement / PES",
+      "QTO_PURPOSE_SALE_WIP_BILL":"Sales / WIP&Bill",
+      "QTO_PURPOSE_PROCUREMENT_WQ_AQ":"Procurement WQ/AQ",
+      "QTO_HEADER_QTO_TYPE":"REB 23.003"
+    },
+    "CONTROLLING_UNIT":{
+      "DESCRIPTION": "CU0",
+      "QUANTITY": "300.000",
+      "UOM": "BAGS"
+  },
+  "PACKAGE":{
+    "CONFIGURATION":"Service",
+    "DESCRIPTION":"Service Package"
+  },
+  "PACKAGE_BOQ_STRUCTURE": {
+    "DESCRIPTION":"Test",
+    "UOM":"BAG",
+    "QUANTITY":"200"
+}
+  
+
+  },
+
+
+  "MODAL": {
+   
+  },
+  "CONTAINER_COLUMNS": {
+    "QTO_HEADER":{
+      "code": "Code",
+      "projectfk": "Project",
+      "ProjectFkProjectName": "Project Name",     
+      "qtotypefk" :"QTO Type",
+      "basrubriccategoryfk" :"Rubric Category",
+      "qtotargettype":"QTO Purpose",
+      "boqheaderfk":"BoQ Reference No."      
+
+    },
+    "CONTROLLING_UNIT":{
+      "quantity": "Quantity",
+      "uomfk": "UoM",
+      "descriptioninfo": "Description"
+  },
+  "PACKAGE":{
+    "packagestatusfk":"Status",
+    "code":"Code",
+    "description":"Description",
+    "structurefk":"Procurement structure",
+    "configurationfk":"Configuration",
+    "mdccontrollingunitfk":"Controlling Units"
+},
+
+"PROCUREMENT_BOQ":{
+  "boqstatusfk":"BoQ Status",
+  "briefinfo":"Outline Specification",
+  "reference":"Reference No."
+},
+"PROCUREMENT_BOQ_STRCTURE": {
+  "briefinfo":"Outline Specification",
+  "basuomfk":"UoM",
+  "quantity":"Quantity"
+}
+
+
+
+  }
+}

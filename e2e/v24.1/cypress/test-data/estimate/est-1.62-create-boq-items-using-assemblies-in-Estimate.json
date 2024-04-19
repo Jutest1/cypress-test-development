@@ -1,0 +1,78 @@
+{
+  "CONTAINERS": {
+    "ASSEMBLIES": {
+      "description": "test",
+      "quantity": "100"
+    },
+    "ASSEMBLY": {
+      "searchValue": "Assemblies",
+      "ASSEMBLY_CODE": "000030"
+    },
+    "ASSEMBLY_RESOURCE": {
+      "CODE": "S2",
+      "QUANTITY": "50"
+    },
+    "ASSEMBLIES_WIC": {
+      "WIC_GROUP": "002",
+      "WIC_CATEGORY": "1",
+      "WIC_BOQ": "Wurzelstock roden d 15-30cm"
+    },
+    "BOQ": {
+      "LINE_TYPE": "Position"
+    },
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "100",
+      "UOM": "10M3",
+      "EST_TYPE": "Edit Estimate Type",
+      "WIC_GROUP": "Default WIC Group"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": "C",
+      "CODE": "1"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ASSEMBLIES": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM"
+    },
+    "ASSEMBLY_CATEGORY": {
+      "code": "Code",
+      "descriptioninfo": "Description"
+    },
+    "ASSEMBLY_RESOURCE": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM"
+    },
+    "ASSEMBLIES_WIC": {
+      "boqwiccatfk": "WIC Group",
+      "boqwiccatfkdescription": "WIC Group-Description",
+      "boqwiccatboqfk": "WIC Category",
+      "boqitemfk": "WIC BoQ-Item Ref.No.",
+      "briefinfo": "Outline Specification"
+    },
+    "BOQ": {
+      "briefinfo": "Outline Specification",
+      "reference": "Reference"
+    },
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM"
+    }
+  }
+}

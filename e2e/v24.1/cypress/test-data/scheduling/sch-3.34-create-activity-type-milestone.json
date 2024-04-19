@@ -1,0 +1,23 @@
+{
+    "CONTAINERS": {
+      "ACTIVITY_STRUCTURE": {
+        "QUANTITY": ["100.000","200.000"],
+        "UOM": ["BAGS","%"],
+        "PLANNED_START":"current",
+        "PLANNED_FINISH":"incremented"
+        }        
+    },
+    "CONTAINER_COLUMNS": {
+        "SCHEDULES": {
+          "code":"Code",
+          "descriptioninfo":"Description"
+        },
+        "ACTIVITY_STRUCTURE": {
+          "description":"Description",
+          "locationfk":"Location",
+          "plannedstart":"Planned Start",
+          "plannedfinish":"Planned Finish",
+          "plannedduration":"Planned Duration"
+        }
+      }
+    }

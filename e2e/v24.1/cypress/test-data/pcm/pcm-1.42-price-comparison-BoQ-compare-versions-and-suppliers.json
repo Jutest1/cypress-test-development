@@ -1,0 +1,104 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "BOQ_STR_QUANTITY": "100",
+            "UOM": "%",
+            "UNIT_RATE": "50",
+            "UPDATED_UNIT_RATE_1": "50.00",
+            "UPDATED_UNIT_RATE_2": "30.00",
+            "CELL_VALUE": "10.10.  20.",
+            "CELL_VALUE_2": "10.10.  30."
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "PACKAGE_BOQ": {
+            "QUANTITY": "200",
+            "UNIT_RATE": "100",
+            "UOM": "BAGS"
+        },
+        "PACKAGE": {
+            "LINE_ITEM_WITH_RESOURCE":"LineItemWithResource",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BOQ": "BoQ",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "PROCUREMENT_STRUCTURE": "D",
+            "TRANSFER_FROM":"BoQ Quantity"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "QUOTE": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "PRICE_1": "20",
+            "PRICE_2": "10",
+            "UNIT_RATE": "10",
+            "GET_TEXT_COLUMN_HEADERS": [
+                "supplierfk",
+                "businesspartnerfk"
+            ]
+        },
+        "PRICE_COMPARISON": {
+            "BOQ_LINE_TYPE": "Level 2",
+            "BUSINESS_PARTNER": "Anton Waliser",
+            "BUSINESS_PARTNER_2": "AGO Baumaschinen GmbH",
+            "outlineSpec": "TESTOUTLINE1",
+            "UOM": "BAGS",
+            "GET_TEXT_COLUMN_HEADERS": [
+                "suppliercode",
+                "bpname1"
+            ]
+        }
+      
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "BOQS": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "REQUISITION": {
+            "packagefk": "Package"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "PACKAGE_BOQ": {
+            "quantity": "Quantity",
+            "price": "Unit Rate",
+            "finalprice": "Final Price",
+            "briefinfo": "Outline Specification"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "QUOTE": {
+            "businesspartnerfk": "Business Partner",
+            "supplierfk": "Supplier No."
+        },
+        "PRICE_COMPARISON": {
+            "qtnversion": "Version",
+            "suppliercode": "Supplier No.",
+            "bpname1": "Adolf Koch"
+        }
+    }
+}

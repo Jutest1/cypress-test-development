@@ -1,0 +1,147 @@
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": ["C","S"],
+            "CODE": ["1","2"],
+              "QUANTITY":"50"
+        },
+        "PACKAGE": {
+            "BASED_ON": "Project BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "ESTIMATE_SCOPE_INDDEX": "0",
+            "PROCUREMENT_STRUCTURE": "D",
+            "QUANTITY_TRANSFER": "BoQ Quantity (WQ/AQ)"
+        },
+        "PACKAGE_BOQSTRUCTURE": {
+            "QUANTITY": "12",
+            "UNIT_RATE": "30",
+            "UOM": "BAG",
+            "X_FACTOR":"1"
+
+        },
+        "PROCUREMENT_STRUCTURES": {
+            "QUANTITY": "12",
+            "UNIT_RATE": "30",
+            "UOM": "BAG"
+        }
+    },
+    "MODAL": {
+        "UPDATE_ESTIMATE_WIZARD": [
+            {
+                "LABEL_NAME": "Linked Package BoQ Item",
+                "INDEX": "0",
+                "VALUE": "check"
+            },
+            {
+                "LABEL_NAME": "Create new Line Item for new Procurement BoQ item",
+                "INDEX": "0",
+                "VALUE": "check"
+            },
+            {
+                "LABEL_NAME": "Create UR Breakdown Resources under one Subitem",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            },
+            {
+                "LABEL_NAME": "Create Project BoQ",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            },
+            {
+                "LABEL_NAME": "Transfer BoQ Items Budget to new Line Item",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            },
+            {
+                "LABEL_NAME": "Create UR Breakdown Resources under one Subitem",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            }
+        ],
+        "UPDATE_ESTIMATE_WIZARD_2": [
+            {
+                "LABEL_NAME": "Create UR Breakdown Resources under one Subitem",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            },
+            {
+                "LABEL_NAME": "Create Project BoQ",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            },
+            {
+                "LABEL_NAME": "Transfer BoQ Items Budget to new Line Item",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            },
+            {
+                "LABEL_NAME": "Create UR Breakdown Resources under one Subitem",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            }
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "PROCUREMENT_STRUCTURES": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "costcodefk": "Cost Code"
+        }
+    }
+}

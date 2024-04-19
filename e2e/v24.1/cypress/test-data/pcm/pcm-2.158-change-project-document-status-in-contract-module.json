@@ -1,0 +1,30 @@
+{
+    "CONTAINERS": {
+        "CONTRACT": {
+            "REMARK": "TestRemark123",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "ITEM": {
+            "ITEMS_NO": "10",
+            "MATERIAL_NO": "DÜB06PVC"
+        },
+        "DOCUMENT_PROJECT": {
+            "DOCUMENT_1": "A1",
+            "DOCUMENT_2": "A2",
+            "DOCUMENT_3": "A3"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "description": "Reference Name",
+            "code": "Code"
+        },
+        "ITEM": {
+            "itemno": "Item Number",
+            "mdcmaterialfk": "Material No."
+        },
+        "DOCUMENT_PROJECT": {
+            "description": "Description"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "STRUCTURE_CODE": "D",
+            "STRUCTURE": "M",
+            "CONFIGURATION": "Service REQ",
+            "BP2": "Adolf Koch",
+            "NAME":"Name",
+            "BP":"Anton Waliser",
+            "TODAY":"Today"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk": "Business Partner"
+        }
+       
+    }
+}

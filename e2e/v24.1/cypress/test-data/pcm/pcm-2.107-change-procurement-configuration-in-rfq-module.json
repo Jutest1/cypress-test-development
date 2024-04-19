@@ -1,0 +1,100 @@
+{   
+    "CONTAINERS": {        
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.00",
+            "UOM": "%"
+            
+        },
+        "RESOURCE": {
+            "MATERIAL": "DÜB06PVC",
+            "SHORT_KEY": "M"
+            
+        },
+        "PACKAGE":{
+            "STRUCTURE":"Procurement structure"
+        },
+        "RFQ":{
+            "CONFIG_HEADER":["Service","Material","Equipment"],
+            "RECORD_TYPE":"RFQs",            
+            "CONFIGURATION":"Material RFQ",
+            "HEADER_TEXT":"Project Text",
+            "CONFIGURATION1":"Service RFQ",
+            "MATERIAL":"Material"
+        }
+        
+    },
+        
+    "MODALS":{
+        "QUOTE":{
+            "BUSINESS_PARTNER":["Adolf Koch", "AVAL Versicherung GmbH"],
+            "CHECK":"check"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "quantitytarget": "AQ Quantity Item",
+            "wqquantitytarget": "WQ Quantity Item",
+            "costtotal": "Cost Total",
+            "mdccontrollingunitfk": "Controlling Units",
+            "prjlocationfk": "Location",
+            "mdccontrollingunitfkdescription": "Controlling Units-Description"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costunit": "Cost/Unit"
+        },
+        "PACKAGE": {
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        },
+        "PACKAGE_ITEM": {
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "price":"Price"
+        },
+        "REQUISITION": {
+            "code":"Code",
+            "id":"Id",
+            "reqstatusfk":"Status",
+            "packagefk":"Package"
+        },
+        "RFQ":{
+            "rfqstatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        },
+        "CONFIGURATION":{
+            "description":"Description"
+        },
+        "HEADER_TEXTS":{
+            "prctexttypefk":"Text Type"
+        },
+        "CONFIGURATION_HEADER":{
+            "descriptioninfo":"Description"
+        }
+    }  
+    
+    
+    
+        
+    
+    
+}

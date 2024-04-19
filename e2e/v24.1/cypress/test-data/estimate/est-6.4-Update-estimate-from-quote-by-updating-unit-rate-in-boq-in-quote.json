@@ -1,0 +1,128 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "AQ_QUANTITY": "200",
+            "WQ_QUANTITY": "200",
+            "BOQ_RELATION": "To Structure",
+            "AOT_RELATION": "To Structure"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "40",
+            "UOM": "BAG"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE_1": "1",
+            "CODE_2": "2"
+        },
+        "QUOTES_BOQ_STRUCTURE": {
+            "quantity": "300.000",
+            "UnitRate": "20.00",
+            "UPDATED_UNIT_RATE1": "1.00",
+            "UPDATED_UNIT_RATE2": "1.00",
+            "uom": "BAG",
+            "UPDATED_QUANTITY1": "30.00",
+            "UPDATED_QUANTITY2": "40.00",
+            "chkStatus": "check",
+            "chkStatus2": "checked",
+            "chkStatus3": "unchecked",
+            "option1": "Linked Package BoQ Item",
+            "option2": "Create new Line Item for new Procurement BoQ item",
+            "commenttext": "Update from Quote"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "PROCUREMENT_STRUCTURE": "D",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BASED_ON": "Project BoQ",
+            "QUANTITY_TYPE": "BoQ Quantity (WQ/AQ)"
+        },
+        "CREATE_REQUEST_FOR_QUOTE": {
+            "ADOLF_KOCH": "Adolf Koch",
+            "AGO_BAUMASCHINEN": "AGO Baumaschinen GmbH"
+        },
+        "CREATE_QUOTE_FROM_WIZARD": {
+            "ADOLF_KOCH": "Adolf Koch",
+            "AGO_BAUMASCHINEN": "AGO Baumaschinen GmbH"
+        },
+        "UPDATE_ESTIMATE_WIZARD": [
+            {
+                "LABEL_NAME": "Linked Package BoQ Item",
+                "INDEX": "0",
+                "VALUE": "check"
+            },
+            {
+                "LABEL_NAME": "Create new Line Item for new Procurement BoQ item",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            }
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "quantitytarget": "AQ Quantity Item"
+        },
+        "RESOURCE": {
+            "descriptioninfo": "Description",
+            "isgeneratedprc": "Generated Prc",
+            "commenttext": "Comment",
+            "costtotal": "Cost Total"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification",
+            "boqrootitem.reference": "Reference No."
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross": "Final Price (Gross)",
+            "quantityadj": "AQ Quantity",
+            "pricegross": "Corrected UR (Gross)"
+        },
+        "REQUISITION": {
+            "code": "Code",
+            "id": "Id",
+            "reqstatusfk": "Status",
+            "packagefk": "Package"
+        },
+        "RFQ": {
+            "rfqstatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "QUOTE": {
+            "statusfk": "Status",
+            "code": "Code",
+            "packagenumber": "Package Number",
+            "rfqheaderfk": "RfQ Header",
+            "projectfk": "Project No."
+        },
+        "QUOTE_PROCUREMENT_BOQS": {
+            "reference": "Reference No.",
+            "briefinfo": "Outline Specification"
+        }
+    }
+}

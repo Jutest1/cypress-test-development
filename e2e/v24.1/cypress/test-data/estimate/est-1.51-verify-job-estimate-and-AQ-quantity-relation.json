@@ -1,0 +1,41 @@
+{
+ "CONTAINERS": {
+            "ESTIMATE": {
+              "RUBRIC_CATEGORY": "Planning",
+              "ESTIMATE_TYPE": "Job Estimate"
+            },
+            "BOQ_STRUCTURE":{
+              "QUANTITY": "100.000",
+              "UNIT_RATE": "25",
+              "UOM": "BAG",
+              "QUANTITY1": "40.000",
+              "QUANTITY2": "60.000"
+            }
+      
+        },
+        
+        "CONTAINER_COLUMNS": {
+            "ESTIMATE": {
+              "estheader.code":"Code",
+              "estheader.descriptioninfo":"Description",
+              "estheader.rubriccategoryfk":"Rubric Category",
+              "estheader.esttypefk":"Estimate Type"
+            },
+            "ESTIMATE_LINE_ITEM":{
+                "quantity": "Quantity",
+                "quantitytarget":"AQ Quantity Item",
+                "quantitytotal":"Quantity Total"
+            },
+            "BOQ":{
+              "boqrootitem.briefinfo": "Outline Specification" 
+            },
+            "BOQ_STRUCTURE":{
+                "boqlinetypefk": "BoQ Line Type",
+                "briefinfo": "Outline Specification",
+                "quantity": "Quantity",
+                "price": "Unit Rate (EUR)",
+                "basuomfk": "UoM"
+            }
+        }
+        
+}

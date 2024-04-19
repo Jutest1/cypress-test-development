@@ -1,0 +1,154 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "LINE_ITEM_CODE":"000020"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": ["C","S","M"],
+            "CODE": ["1","Silo- Portlandzement"],
+            "CodePrice": "34.18"
+            
+            
+        },
+        "COST_CODES": {
+            "CO2_PROJECT_VALUE":"300.000",
+            "COST_CODE":"Lohn"
+        },
+        "MATERIAL_CATALOG_FILTER":{
+                "CO2_PROJECT_VALUE":"300.000",
+                "CO2_PROJECT_VALUE2":"500.000",
+                "CO2_PROJECT_VALUE3":"600.000",
+                "MATERIAL_CODE":"Artikelkatalog",
+                "chkStatus1":"check",
+                "chkStatus2":"uncheck",
+                "lookup1":"grid",
+                "uom":"BAGS",
+                "MATERAL_RECORD_CODE":"Silo- Portlandzement",
+                "MATERIAL1_CODE":"MG2FM",
+                "material2Code":"MG3DM" ,
+                "QUANTITY":"2"
+        }
+    },
+    "MODAL": {
+        "CREATE_MATERIAL_PACKAGE": {
+            "SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "MATERIAL_COST_CODE": "Material & Cost Code",
+            "SELECT_CHECK_BOX": "Entire Estimate",
+            "SELECT_CHECK_BOX_ID": "entireEstimate_2",
+            "SELECT_PACKAGE_OPTION_1": "Create new item",
+            "SELECT_PACKAGE_VALUE_1": "2"
+        },
+        "GENERATE_BUDGET": {
+            "X_FACTOR": "1",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "BUDGET_FROM": "Grand Total",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 0
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE":"M",
+            "CONFIGURATION":"Material",
+            "BUSINESS_PARTNER":"Adolf Koch",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "criteriaSelection": "Material & Cost Code",
+            "MATERIAL_CODE": "Silo- Portlandzement"
+        },
+        "UPDATE_ESTIMATE_WIZARD": [
+            {
+                "LABEL_NAME": "Linked Material Item",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Overwrite original Resources",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME":"Create new Line Item for new Material Item",
+                "INDEX": "0",
+                "VALUE": "check"
+            }
+        ],
+        "UPDATE_ESTIMATE_WIZARD_2": [
+            {
+                "LABEL_NAME": "Linked Material Item",
+                "INDEX": "0",
+                "VALUE": "check"
+            },
+            {
+                "LABEL_NAME": "Overwrite original Resources",
+                "INDEX": "0",
+                "VALUE": "check"
+            },
+            {
+                "LABEL_NAME":"Create new Line Item for new Material Item",
+                "INDEX": "0",
+                "VALUE": "unchecked"
+            }
+        ]
+
+    
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "co2project":"CO2/kg (Project)"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "costunit": "Cost/Unit"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "co2project":"CO2/kg (Project)",
+            "costtotal": "Cost Total",
+            "isgeneratedprc":"Generated Prc",
+            "isdisabledprc":"Disabled Prc",
+             "costunit":"Cost/Unit"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "TOTAL": {
+            "TotalTypeFkDescriptionInfo.Translated": "Type Description",
+            "valuenet": "Net Value"
+        },
+        "PACKAGE_ITEM_ASSIGNMENT": {
+            "prcpackagefk": "Procurement Package"
+        },
+        "MATERIAL_RECORDS":{
+            "co2project":"CO2/kg (Project)"
+        },
+        "PACKAGE_ITEM":{
+            "price": "Price",
+            "co2project": "CO2/kg (Project)",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "isfreequantity":"Is Free Quantity"
+        }
+    }
+   
+}

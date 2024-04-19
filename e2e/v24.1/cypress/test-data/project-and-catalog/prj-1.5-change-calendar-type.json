@@ -1,0 +1,10 @@
+{
+    "PROJECTCALENDER": {
+        "CALENDER": {
+            "VerifyCalendar": "DE",
+            "updateCalender":"SP",
+            "uncheck": "uncheck",
+            "check": "check"
+        }
+    }
+}

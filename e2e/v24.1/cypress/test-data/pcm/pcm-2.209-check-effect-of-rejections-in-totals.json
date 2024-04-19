@@ -1,0 +1,174 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "QUANTITY": "1",
+            "UOM": "10M3"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "I110",
+            "QUANTITY": "100"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "10",
+            "UOM": "10M3"
+        },
+        "ITEMS": {
+            "QUANTITY": "40",
+            "PRICE": "12"
+        },
+        "PROCUREMENTCONTRACT": {
+            "BUISNESS_PARTNER": "Adolf Koch",
+            "RUBERIC_CATAGORY": "Standard",
+            "CHANGE_TYPE": "Design Change",
+            "CHANGE_TYPE_REASONS": "Change Request",
+            "STATUS": "Recorded",
+            "BUISNESS_PARTNER_2": "Bremer Betonwerk Friedrich Thielen",
+            "PARENT_ELEMENT": "Business Partner",
+            "ITEM": "Name"
+        },
+        "PES": {
+            "QUANTITY": "50"
+        },
+        "INVOICE": {
+            "LABEL": "Create one invoice per PES",
+            "AMOUNT": "100",
+            "STRUCTURE": "M",
+            "REJECTIONS_AMOUNT": "200"
+        },
+        "REJECTIONS":{
+            "QUANTITY_CONFIRMED": "10.00",
+            "QUANTITY_CONFIRMED_2": "100.00",
+            "PRICE_CONFIRMED": "200.00",
+            "UoM": "BAG",
+            "REASON": "Material damaged",
+            "AMOUNT": "30000"
+        },
+        "INVOICE_BILLING_SCHEMA": {
+            "INVOICES": "Invoices",
+            "SHEMA_TYPE": "Standard Singel",
+            "INVOICE_TYPE": "Final Invoice",
+            "TOTAL_TYPE": "Netto"
+        },
+        "INVOICE_RECONCILLIATION":{
+            "InvoiceAmount": "Amount",
+            "PESAmount": "From PES",
+            "ContractItemsAmount": "From Contract Items",
+            "OTHERS_AMOUNT": "From Other",
+            "REJECTIONS": "Rejections",
+            "FROM_BILLING_SCHEMA": "From Billing Schema",
+            "Balance": "Balance"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "CRITERIA_SELECTION": "Material & Cost Code",
+            "configurationInput": "Material",
+            "QUANTITY": "40",
+            "PRICE": "12"
+        }
+        
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "budget": "Budget",
+            "isfixedbudget": "Fix Budget"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "ITEMS": {
+            "itemno": "Item Number",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "price": "Price",
+            "total": "Total"
+        },
+        "PROCUREMENTCONTRACT": {
+            "code": "Code",
+            "businesspartnerfk": "Business Partner",
+            "structureCode": "Procurement structure",
+            "constatusfk": "Contract Status",
+            "configurationfk": "Configuration",
+            "clerkprcfk": "Responsible",
+            "projectfk": "Project No.",
+            "description": "Reference Name",
+            "reqheaderfk": "Requisition",
+            "billingschemafk": "Billing Schema",
+            "paymenttermfifk": "Payment Term (FI)"
+
+        },
+        "INVOICEHEADER": {
+            "prcconfigurationfk": "Configuration",
+            "invtypefk": "Type",
+            "reference": "Invoice No.",
+            "businesspartnerfk": "Business Partner",
+            "conheaderfk": "Contract",
+            "billingschemafk": "Billing Schema",
+            "paymenttermfk": "Payment Term"
+
+        },
+        "PERFORMANCE_ENTRY_SHEETS": {
+            "pesheaderfk": "PES",
+            "pesvat": "VAT",
+            "pesvalue": "Value"
+        },
+        "RECONCILIATION": {
+            "ReconGross": "Gross",
+            "ReconVat": "VAT",
+            "ReconNet": "Net",
+            "ReconName": "Type"
+        },
+        "REJECTIONS":{
+            "priceconfirmed": "Price(Confirmed)",
+            "invrejectionreasonfk": "Reason",
+            "quantityconfirmed": "Quantity Confirmed",
+            "invrejectfk": "Rejection",
+            "confirmedtotal": "Total(Confirmed )",
+            "uomfk": "UoM",
+            "amountnet": "Amount (Unit)",
+            "amounttotal": "Amount (Total)"
+        },
+        "OTHER_SERVICES": {
+            "prcstructurefk": "Structure Code",
+            "controllingunitfk": "Controlling Unit Code",
+            "quantity": "Quantity",
+            "amounttotal": "Amount (Total)"
+        }
+    }
+}

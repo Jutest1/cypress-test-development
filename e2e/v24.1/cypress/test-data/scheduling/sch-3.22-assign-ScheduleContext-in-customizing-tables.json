@@ -1,0 +1,18 @@
+{
+    "CONTAINERS": {
+      "DATA_TYPES":{
+        "COMPANY_NAME":"999",
+        "SCHEDULING_CONTEXT":"CIS Certificate"
+      }
+        
+    },
+    "CONTAINER_COLUMNS": {
+        "COMPANY": {
+            "code": "Code",
+            "schedulingcontextfk": "Scheduling Context"
+          
+        }
+    }
+   
+    }
+

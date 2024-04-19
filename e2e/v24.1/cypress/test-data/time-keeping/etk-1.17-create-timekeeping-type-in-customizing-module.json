@@ -1,0 +1,46 @@
+{
+    "CONTAINERS": {
+
+        "DATA_TYPES": {
+            "TIMEKEEPING_TYPE": "Timekeeping Type",
+            "Timesheet_Context":"Default Timesheet Context",
+            "CHECKBOX":["check","uncheck"]
+        },
+      
+       "EMPLOYEES": {
+            "START_DATE":"current",
+            "CHECKBOX":"check",
+            "TIMEKEEPING":"TKG_BASE"
+           
+        }
+       
+    },
+
+    "CONTAINER_COLUMNS": {
+
+        "DATA_RECORDS": {
+            "timesheetcontextfk": "Timesheet Context",
+            "descriptioninfo":"Description",
+            "islive":"Live"
+        },
+
+        "PAYMENT_GROUPS_LIST":{
+            "descriptioninfo":"Description",
+            "code": "Code"
+        },
+
+        "EMPLOYEES": {
+            "code":"Code",
+            "startdate":"Start",
+            "shiftfk":"Shift",
+            "timekeepinggroupfk":"Timekeeping Group",
+            "paymentgroupfk":"Payment Group",
+            "descriptioninfo":"Description",
+            "generaterecording":"Generate Recording",
+            "iscrewleader":"Is Crew Leader",
+            "groupfk":"Group"
+           
+        }
+       
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "CONTAINERS": {
+        "MATERIAL_RECORD": {
+            "UOM": "BAGS",
+            "RETAIL_PRICE": [
+                "10",
+                "20"
+            ],
+            "LIST_PRICE": [
+                "130",
+                "136"
+            ],
+            "ESTIMATE_PRICE": "145"
+        },
+        "MATERIAL_CATALOGS": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "NEUTRAL_MATERIAL": "Neutral Material",
+            "STRUCTURE_CODE": "M"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "1",
+            "UOM": "BAGS"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOGS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "validfrom": "Valid From",
+            "validto": "Valid To",
+            "materialcatalogtypefk": "Type"
+        },
+        "MATERIAL_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_GROUP_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_RECORD": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code",
+            "estimateprice": "Estimate Price"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costunit": "Cost/Unit"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    }
+}

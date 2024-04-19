@@ -1,0 +1,38 @@
+{
+    "CONTAINERS": {
+        "PACKAGE": {
+            "CURRENCY": "INR",
+            "HOME_CURRENCY": "EUR",
+            "VAT_GROUP": "DL"
+        },
+        "ITEM": {
+            "QUANTITY": "10",
+            "MATERIAL_NUMBER": "S452",
+            "RATE_LABEL": "Rate",
+            "RATE": "4",
+            "TAX_CODE": "00"
+        },
+        "GET_TEXT_COLUMNS": [
+            "price",
+            "totalpricegross",
+            "total",
+            "totalgross"
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "PACKAGE": {
+            "currencyfk": "Currency",
+            "bpdvatgroupfk": "VAT Group"
+        },
+        "ITEM": {
+            "quantity": "Quantity",
+            "mdcmaterialfk": "Material No.",
+            "pricegross": "Price (Gross)",
+            "totalpricegross": "Total Price (Gross)",
+            "total": "Total",
+            "totalgross": "Total (Gross)",
+            "price": "Price",
+            "mdctaxcodefk": "Tax Code"
+        }
+    }
+}

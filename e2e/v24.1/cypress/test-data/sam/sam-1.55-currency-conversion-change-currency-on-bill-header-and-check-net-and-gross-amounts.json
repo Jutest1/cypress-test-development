@@ -1,0 +1,87 @@
+
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE":{
+          "QUANTITY":"100.00",
+          "UOM":"10M3",
+          "UNIT_RATE": "9"
+        },
+        "BIDS":{
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "BID_BOQSTRUCTURE":{
+            "COPY_SOURCE_FROM":"Project BoQ",
+            "ROOT":"Root",
+            "POSTION":"Position",
+            "LEVEL_1":"Level 1"
+        },
+        "CONTRACTS":{
+
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "WIP":{
+            "QUANTITY": "10.000",
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ",
+            "EUR":"EUR",
+            "USD":"USD",
+            "CONVERSION_RATE":"50.00",
+            "FOREIGN_CURRENCY":"Foreign Currency",
+            "RATE":"1"
+        },
+        "BILL":{
+            "VALIDATION_MSG":"The currency should be equal to the Sales Contract",
+            "TYPE": "Progress Invoice",
+            "amountgross":"Amount (Gross)",
+            "currencyfk":"Currency"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk":"BoQ Line Type"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BIDS":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet",
+            "amountgross":"Amount (Gross)",
+            "currencyfk":"Currency"
+        },
+        "CONTRACTS":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet",
+            "amountgross":"Amount (Gross)"
+        },
+        "CURRENCY_CONVERSION": {
+            "currencyforeignfk": "Foreign Currency",
+            "currencyforeignfkdescription": "Foreign Currency-Description"
+        },
+        "WIP":{
+            "descriptioninfo":"Description",
+            "amountnet":"Net Amount",
+            "amountgross":"Amount (Gross)",
+            "currencyfk":"Currency"
+        },
+        "BILL":{
+            "descriptioninfo":"Description",
+            "amountnet":"Net Amount",
+            "amountgross":"Amount (Gross)",
+            "currencyfk":"Currency"
+        }
+    }
+}

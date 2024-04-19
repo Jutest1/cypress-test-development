@@ -1,0 +1,52 @@
+{
+    "CONTAINERS": {
+        "BUSINESSPARTNER": {
+            "STREET_NAME": "FC Road",
+            "CITY_NAME": "Nashik",
+            "COUNTRY_NAME": "India",
+            "ZIP_CODE": "123456",
+            "BANK_TYPE": "Universal Bank",
+            "iban": "DE02 7015 0000 0000 5949 37",
+            "ACCOUNT_NO": "1234567890"
+        },
+        "BRANCHES": {
+            "STREET_NAME": "GP Road",
+            "CITY_NAME": "Pune",
+            "COUNTRY_NAME": "India",
+            "ZIP_CODE": "123456"
+        },
+        "ACTIVITIES_BUSINESSPARTNER": {
+            "TYPE": "Mailing",
+            "current": "current",
+            "incremented": "incremented",
+            "responsible": "SmiJ",
+            "CLARK": "MusM"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESSPARTNER": {
+            "code": "Code",
+            "businesspartnerstatusfk": "Status",
+            "businesspartnername1": "Business Partner Name",
+            "clerkfk": "Responsible",
+            "address": "Address",
+            "email": "E-Mail"
+        },
+        "BRANCHES": {
+            "ismainaddress": "Is Main Address",
+            "description": "Description",
+            "addresstypefk": "Address Type",
+            "addressdto": "Address",
+            "telephonenumber1dto": "Telephone"
+        },
+        "ACTIVITIES_BUSINESSPARTNER": {
+            "activitytypefk": "BP Activity Type",
+            "activitydate": "Activity Date",
+            "clerkfk": "Responsible",
+            "clerkDescription": "Responsible Name",
+            "reminderstartdate": "Start Date",
+            "reminderenddate": "End Date",
+            "isfinished": "Finished"
+        }
+    }
+}

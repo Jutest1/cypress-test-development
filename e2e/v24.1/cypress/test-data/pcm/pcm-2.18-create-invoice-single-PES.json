@@ -1,0 +1,98 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "QUANTITY": "1",
+            "UOM": "10M3"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB08PVC",
+            "QUANTITY": "20"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "300",
+            "UOM": "10M3"
+        },
+        "ITEMS": {
+            "QUANTITY": "40",
+            "PRICE": "12"
+        },
+        "PROCUREMENTCONTRACT": {
+            "BUISNESS_PARTNER": "Adolf Koch",
+            "RUBERIC_CATAGORY": "Standard",
+            "CHANGE_TYPE": "Design Change",
+            "CHANGE_TYPE_REASONS": "Change Request",
+            "STATUS": "Recorded",
+            "BUISNESS_PARTNER_2": "Bremer Betonwerk Friedrich Thielen",
+            "PARENT_ELEMENT": "Business Partner",
+            "ITEM": "Name"
+        },
+        "PES": {
+            "QUANTITY": "10000",
+            "PESstatus":"Acception"
+        },
+        "INVOICE":{
+            "LABEL":"Create one invoice for all PES independently of the contract",
+            "invoiceNo":"test"
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "CRITERIA_SELECTION": "Material & Cost Code",
+            "configurationInput": "Material",
+            "QUANTITY": "40",
+            "PRICE": "12"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "uomfk": "UoM"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "ITEMS": {
+            "quantity": "Quantity"
+        },
+        "PROCUREMENTCONTRACT": {
+            "code": "Code",
+            "businesspartnerfk": "Business Partner",
+            "structureCode": "Procurement structure",
+            "constatusfk": "Contract Status",
+            "configurationfk": "Configuration",
+            "clerkprcfk": "Responsible",
+            "projectfk": "Project No."
+        },
+        "INVOICEHEADER": {
+            "contractTotal": "Contract Total"
+        }
+    }
+}

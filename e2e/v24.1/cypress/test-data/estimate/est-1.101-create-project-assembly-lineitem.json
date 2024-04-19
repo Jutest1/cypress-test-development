@@ -1,0 +1,96 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "LINE_ITEM_CODE":"000020"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "CodePrice": "34.18",
+            "SHORT_KEY_2": "M",
+            "shortKey2": "C",
+            "MATERIAL_CODE":"Silo- Portlandzement"
+        },
+        "ASSEMBLY_RESOURCE":{
+            "ASSEMBLY_TYPE":"CA",
+            "SHORT_KEY":"C",
+            "SHORT_KEY_MATERIAL":"M",
+            "CODE_C": "1",
+            "CODE_M":"DÜB08PVC",
+            "QUANTITY":"12"
+            
+        },
+        "CUSTOMIZING": {
+            "costCodeType": "Cost Code Type",
+            "ASSEMBLY_TYPE":"Assembly Type",
+            "EST_ASSEMBLY_TYPE":"Est. Assembly Type"
+        },
+        "ASSEMBLIES":{
+            "SHORY_KEY_CA":"CA",
+            "CREW_ASSEMBLY":"Crew Assembly"
+        }
+    },
+
+    "CONTAINER_COLUMNS": {
+        "ASSEMBLIES":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "quantity":"Quantity",
+            "estassemblycatfk":"Assembly Category",
+            "mdccostcodefk":"Cost Code",
+            "mdcmaterialfk":"Material"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "estassemblytypefk":"Assembly Type",
+            "marker":"Filter"
+        },
+        "ASSEMBLY_RESOURCE":{
+            "estresourcetypeshortkey":"Short Key",
+            "code":"Code",
+            "costunit":"Cost/Unit"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "costunit": "Cost/Unit",
+            "estassemblyfk":"Assembly Template"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+             "costunit":"Cost/Unit"
+        },
+        "DATA_TYPE": {
+            "name": "Data Type"
+        },
+        "DATA_RECORD": {
+            "descriptioninfo": "Description",
+            "isdefault": "Is Default",
+            "islive":"Live",
+            "assemblytypelogicfk":"Est. Assembly Type Logic",
+            "shortkeyinfo":"Short Key"
+        }
+    }
+   
+}

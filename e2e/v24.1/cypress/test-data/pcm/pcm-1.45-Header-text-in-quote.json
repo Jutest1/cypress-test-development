@@ -1,0 +1,28 @@
+{
+    "CONTAINERS": {
+        
+        "PROCUREMENT_CONFIGURATION": {
+            "CONFIG_DETAILS":"Material QTN",
+            "TYPE0":"Supplier Text",
+            "TYPE1":"Project Text",
+            "TYPE2":"Order Text"
+        },
+       
+        "RFQ":{
+            "BP1":"Adolf Koch",
+            "BP2":"AGO Baumaschinen GmbH"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        
+        "CUSTOMIZING":{
+            "dbtablename": "DB Table Name"
+            
+        },
+        "REQUISITION":{
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "code": "Code"
+        }
+    }
+  }

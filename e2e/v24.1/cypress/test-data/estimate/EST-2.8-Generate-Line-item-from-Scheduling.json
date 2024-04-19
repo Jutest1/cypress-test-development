@@ -1,0 +1,46 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "SCHEDULING_ACTIVITY": {
+            "QUANTITY": "100",
+            "UOM": "BAGS",
+            "NO_OF_DAYS": "5"
+        }
+    },
+    "MODAL": {
+        "ESTIMATE_CONFIGURATION": {
+            "SELECT_ESTIMATE_SCOPE": "Entire Estimate",
+            "UPDATED_PLANNED_QUANTITY": "From Schedule",
+            "IQ_QUANTITY_UPDATE": "From Schedule"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "quantitytarget": "AQ Quantity Item"
+        },
+        "SCHEDULING": {
+            "descriptioninfo": "Description",
+            "code": "Code"
+        },
+        "SCHEDULING_ACTIVITY": {
+            "description": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "quantityuomfk": "UoM",
+            "plannedstart": "Planned Start",
+            "plannedfinish": "Planned Finish"
+        }
+    }
+}

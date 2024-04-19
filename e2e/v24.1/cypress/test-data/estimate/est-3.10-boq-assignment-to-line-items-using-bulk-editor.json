@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "%",
+            "BOQ_ITEM_REF": "10.10.  20."
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqitemfk": "BoQ Item Ref. No."
+        }
+    },
+    "CREATE_NEW_RULE": [
+        {
+            "FieldName": "BoQ Item Ref. No.",
+            "Option": "Set Value to",
+            "OptionData": "10.10.  20."
+        }
+    ]
+}

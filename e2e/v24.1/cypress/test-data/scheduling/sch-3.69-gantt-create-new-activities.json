@@ -1,0 +1,37 @@
+{
+  "CONTAINERS": {
+    "PROJECT": {
+      "CLERK_NAME": "HS"
+    },
+    "GANTT_TREEGRID": {
+      "QUANTITY": "1",
+      "PLANNED_DATE": [
+        "21/02/2024",
+        "22/02/2024",
+        "01/03/2024",
+        "04/03/2024"
+      ],
+      "FINISHED_DATE": [
+        "26/02/2024",
+        "28/02/2024",
+        "10/03/2024",
+        "20/03/2024"
+      ]
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "SCHEDULES": {
+      "code": "Code",
+      "descriptioninfo": "Description"
+    },
+    "GANTT_TREEGRID": {
+      "description": "Description",
+      "plannedstart": "Planned Start",
+      "plannedfinish": "Planned Finish",
+      "plannedduration": "Planned Duration",
+      "calendarfk": "Calendar",
+      "quantity": "Quantity",
+      "quantityuomfk": "UoM"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+
+{
+    "CONTAINERS": {
+      "BOQ_STRUCTURE": {
+        "QUANTITY": "500.000",
+        "UNIT_RATE": "20",
+        "UOM": "Days",
+        "UPDATED_QUANTITY":"1",
+        "UPDATED_UOM":"LSUM",
+        "UPDATED_UNIT_RATE":"40",
+        "CHECKBOX":"check",
+        "BOQ_TYPE":"Level 2"
+      }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type", 
+            "briefinfo": "Outline Specification", 
+            "quantity": "Quantity", 
+            "basuomfk": "UoM",
+            "price":"Unit Rate (EUR)",
+            "islumpsum":"Lump Sum",
+            "itemtotal":"Item Total (EUR)",
+            "lumpsumprice":"Lumpsum Price (EUR)"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification",
+            "boqrootitem.reference":"Reference No."
+        }
+    }
+}
+
+
+
+
+    
+ 

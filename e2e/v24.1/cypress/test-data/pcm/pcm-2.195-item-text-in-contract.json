@@ -1,0 +1,31 @@
+{
+      "CONTAINERS": {
+        
+        "CONTRACT":{
+          "CONFIGURATION":"Material PO",
+          "BUSINESSPARTNER":"Adolf Koch"
+        },
+        "ITEM":{
+          "ITEM_NO":"10",
+          "MATERIAL_NO":"DÜB06PVC"
+        },
+        "ITEM_TEXT":{
+          "TEXT_TYPE":"Order Text",
+          "TEXT_MODULE_TYPE":"Bid Salutation",
+          "TEXT_FORMAT":"HTML File",
+          "PLAIN_TEXT1":"Added new text module assemblies",
+          "PLAIN_TEXT2":"newly added text module assemblies"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        
+        "ITEM":{
+          "itemno":"Item Number",
+          "mdcmaterialfk":"Material No."
+        },
+        "ITEM_TEXT":{
+          "prctexttypefk":"Text Type",
+          "textmoduletypefk":"Text Module Type"
+        }
+    }
+}

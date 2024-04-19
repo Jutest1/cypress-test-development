@@ -1,0 +1,55 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "CONFIGURATION": [
+                "Material Req"
+            ]
+        },
+        "ITEMS": {
+            "MATERIAL": [
+                "DÜB08PVC"
+            ],
+            "QUANTITY": [
+                "100.000"
+            ]
+        },
+        "ITEM_TEXTS": {
+            "TEXT_TYPE": [
+                "Order Text",
+                "Supplier Text"
+            ],
+            "TEXT_MODULE_TYPE": [
+                "Bid Salutation"
+            ],
+            "PLAIN_TEXT_INPUT": [
+                "Added new text module assemblies",
+                "newly added text module assemblies"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONFIGURATION_HEADER": {
+            "descriptioninfo": "Description"
+        },
+        "CONFIGURATIONS": {
+            "description": "Description"
+        },
+        "ITEM_TEXTS": {
+            "prctexttypefk": "Text Type",
+            "bastextmoduletypefk": "Text Module Type",
+            "bastextmodulefk": "Text Module"
+        },
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "ITEMS": {
+            "basuomfk": "UoM",
+            "quantity": "Quantity",
+            "price": "Price",
+            "mdcmaterialfk": "Material No.",
+            "itemno": "Item Number"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate",
+      "BOQ_QUANTITY_REL": "To Structure"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": "C",
+      "CODE": "1",
+      "QUANTITY": "100"
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY": "100.000",
+      "UNIT_RATE": "25",
+      "UOM": "%",
+      "NOTE": "NOTE",
+      "DESIGN_DESCRIPTION": "Design Description",
+      "TEXT_ELEMENT": "Text Element",
+      "SUB_DESCRIPTION": "Sub-Description",
+      "BUSINESS_PARTNER": "Adolf Koch",
+      "STRUCTURE_TYPE": "BoQ",
+      "BOQ_CHECKBOX": "checkbox-radio-box"
+    },
+    "DATA_TYPE": {
+      "SYSTEM_OPTION": "System Option"
+    },
+    "DATA_RECORD": {
+      "DESCRIPTION": "Consider Line item BoQ Qty Relation while creating Bid BoQ",
+      "PARAMETER_VALUE": "1"
+    }
+  },
+  "MODAL": {
+    "UPDATE_ESTIMATE_WIZARD": [
+      {
+        "LABEL_NAME": "Update to BoQ",
+        "INDEX": "0",
+        "VALUE": "checked"
+      },
+      {
+        "LABEL_NAME": "Calculate Rule/Parameter",
+        "INDEX": "0",
+        "VALUE": "unchecked"
+      }
+    ]
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM":{
+      "estqtyrelboqfk":"Boq Qty Relation",
+      "quantitytarget":"AQ Quantity Item",
+      "costtotal":"Cost Total",
+      "quantity":"Quantity",
+      "basuomtargetfk":"UoM Item"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code"
+    },
+    "BOQ": {
+      "boqrootitem.reference": "Reference No."
+    },
+    "BOQ_STRUCTURE": {
+      "boqlinetypefk":"BoQ Line Type",
+      "finalgross": "Final Price (Gross)",
+      "basuomfk": "UoM",
+      "price": "Unit Rate",
+      "quantity": "Quantity"
+    },
+    "DATA_TYPE": {
+      "name": "Data Type",
+      "modulename": "Module"
+    },
+    "DATA_RECORD": {
+      "parametervalue": "Parameter Value",
+      "descriptioninfo": "Description"
+    },
+    "BID": {
+      "finalprice": "Final Price (EUR)",
+      "basuomfk": "UoM",
+      "price": "Unit Rate",
+      "quantity": "Quantity",
+      "briefinfo": "Outline Specification",
+      "reference": "Reference No.",
+      "boqlinetypefk": "BoQ Line Type",
+      "quantityadj": "AQ Quantity"
+    }
+  }
+}

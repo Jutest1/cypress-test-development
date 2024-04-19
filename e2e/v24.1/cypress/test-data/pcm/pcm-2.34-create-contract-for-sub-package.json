@@ -1,0 +1,99 @@
+
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "BOQ_STR_QUANTITY": "100",
+            "UOM": "%",
+            "UNIT_RATE": "50",
+            "BOQ_STR_QUANTITY1": "200",
+            "UOM1": "BAGS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "PACKAGE_BOQ": {
+            "QUANTITY": "200",
+            "UNIT_RATE": "100",
+            "UOM": "BAGS",
+            "CONTROLLING_UNIT": "000010",
+            "PROCUREMENT_STRUCTURE": "D"
+        },
+        "PACKAGE": {
+            "BOQ": "BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "PROCUREMENT_STRUCTURE": "D"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "BUSINESS_PARTNER":{
+            "BP":"Adolf Koch",
+            "BP1":"AGO Baumaschinen GmbH"
+        },
+        "SUB_PACKAGE":{
+            "DESC":"Test"
+        }
+    },
+    
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "quantityadj": "AQ Quantity",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+
+        },
+        "BOQS": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "REQUISITION": {
+            "code": "Code",
+            "id": "Id",
+            "reqstatusfk": "Status",
+            "packagefk": "Package"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "PROCUREMENT_BOQ": {
+            "boqstatusfk":"BoQ Status",
+            "briefinfo":"Outline Specification",
+            "reference":"Reference No."
+        },
+        "SUB_PACKAGE":{
+            "description":"Description"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "RFQ":{
+            "rfqstatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "QUOTE":{
+            "statusfk": "Status",
+            "code": "Code",
+            "packagenumber": "Package Number",
+            "rfqheaderfk": "RfQ Header",
+            "projectfk": "Project No."
+        }
+    }
+}

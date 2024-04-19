@@ -1,0 +1,62 @@
+{
+    "CONTAINERS": {
+        
+        "CONTRACT":{
+            "PROCUREMENT_STRUCTURE":"Material",
+            "MATERIAL_COSTCODE": "Material & Cost Code",
+            "BP":"Adolf Koch",
+            "BP1":"AGO Baumaschinen GmbH",
+            "CONFIGURATION":"Material PO",
+            "HEADER_TEXT":"Project Text"
+        },
+        "CONFIG_HEADER":{
+            "SERVICE":"Service",
+            "CHECK":"check",
+            "STANDARD_CUMULATIVE":"Standard Cumulative",
+            "CONSTRUCTION":"Construction",
+            "MATERIAL":"Material",
+            "CONFIGURATION":"Subcontract",
+            "CODE":"M",
+            "CONTRACT":"Contract"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        
+        "CONTRACT":{
+            "structureCode":"Procurement structure",
+            "businesspartnerfk":"Business Partner",
+            "taxcodefk":"Tax Code",
+            "controllingunitfk":"Controlling Unit Code",
+            "billingschemafk":"Billing Schema"
+        },
+       
+        "BILLING_SCHEMA":{
+            "billingschemafk":"Billing Schema",
+            "isdefault":"Is Default"
+        },
+        "CONFIG_HEADER":{
+            "descriptioninfo":"Description"
+        },
+        "CONTRACT_BILLING_SCHEMA":{
+            "description":"Description"
+        },
+        "PROCUREMENT_STRUCTURE":{
+            "code":"Code"
+        },
+        "GENERALS":{
+            "prcgeneralstypefk":"Type"
+        },
+        "CERTIFICATE":{
+            "bpdcertificatetypefk":"Type"
+        },
+        "CONFIGURATION":{
+            "description":"Description"
+        },
+        "HEADER_TEXT":{
+            "prctexttypefk":"Text Type"
+        }
+    }   
+    
+    
+    
+}

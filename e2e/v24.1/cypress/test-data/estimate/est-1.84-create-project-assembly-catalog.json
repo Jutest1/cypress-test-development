@@ -1,0 +1,8 @@
+{
+    "CONTAINER_COLUMNS": {
+        "ASSEMBLY_CATEGORIES": {
+            "descriptioninfo": "Description",
+            "estassemblytypefk": "Assembly Type"
+        }
+    }
+}

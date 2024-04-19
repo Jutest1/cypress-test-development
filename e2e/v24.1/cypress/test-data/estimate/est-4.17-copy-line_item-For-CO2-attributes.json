@@ -1,0 +1,97 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "COST_CODES": {
+            "COST_CODE": [
+                "S0"
+            ],
+            "COST_CODE_CO2_VALUE": "300.00"
+        },
+        "MATERIAL_GROUPS": {
+            "STRUCTURE_CODE": "M"
+        },
+        "MATERIAL_RECORDS": {
+            "UOM": "BAGS",
+            "RETAIL_PRICE": "11",
+            "LIST_PRICE": "130",
+            "CO2_PROJECT": "360",
+            "VALUE1":"Artikelkatalog",
+            "VALUE2":"Silo- Portlandzement"
+
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": [
+                "1",
+                "22",
+                "33",
+                "44"
+            ],
+            "UOM": "BAGS"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "S",
+                "C"
+            ],
+            "COST_CODE": [
+                "A0",
+                "M0"
+            ],
+            "Updatedco2projectvalue":"500.000"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "descriptioninfo": "Description",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2sourcefk": "CO2/kg (Source Name)"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "descriptioninfo": "Description"
+        },
+        "MATERIAL_GROUP_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_RECORDS": {
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "basco2sourcefk": "CO2/kg (Source Name)"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "estassemblyfk": "Assembly Template",
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total",
+            "co2totalvariance": "CO2 Total Variance"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total",
+            "quantity": "Quantity",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total"
+        }
+    }
+}

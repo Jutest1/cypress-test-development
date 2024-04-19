@@ -1,0 +1,137 @@
+
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "PLANT_GROUP": {
+            "RUBARIC_CATAGORY":"Equipment"
+        },
+        "PLANT": {
+            "PLANT_TYPE": "Bulk",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "External Rental",
+            "UPDATE_PLANT": "No",
+            "INDEX_PLANT": 1,
+            "WORK_OPERATION_TYPE":"Work Day",
+            "PES_ITEM":"200.000",
+            "STRUCTURE":"Equipment",
+            "TRAFFIC_LIGHT":"Orange"
+        },
+        "JOB_CARD": {
+            "PLANT_RECORD_TYPE": "Plant",
+            "MATERIAL_RECORD_TYPE": "Material",
+            "SUNDRY_SERVICE_RECORD_TYPE": "Sundry Service",
+            "MATERIAL_NO": "MG2FM",
+            "SUNDRY_ARTICALE_No":"01-01",
+            "OPERATION_TYPE":"Work Day",
+            "WORK_OPERATION_TYPE":"Work Day"
+        },
+        "SCHEME": {
+            "LEAD_DAYS": "30",
+            "LEAD_QUANTITY": "80.00",
+            "SORTING": "1"
+        },
+        "SCHEME_RECORD": {
+            "QUANTITY": "300.00",
+            "UOM": "Hour",
+            "UOM2":"Km",
+            "DESCRIPTION1": "Maintainance 1",
+            "DESCRIPTION2": "Maintainance 2",
+            "DESCRIPTION3": "Maintainance 3",
+            "DURATION": " 1",
+            "DAYS_AFTER1":"100",
+            "DAYS_AFTER2":"200"
+        },
+        "PLANT_COMPONENT":{
+            "MAINTENANCE_SCHEMA": "Annual Inspection",
+            "PLANT_COMPONENT_TYPE":"Main Component",
+            "VALID_FROM":"17/12/2021",
+            "VALID_TO":"15/12/2023",
+            "METER_NO":"12345",
+            "UOM_FK":"Hour",
+            "RADIO_INDEX":"1"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "LOCATION":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "quantity":"Quantity Factor"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isassetmanagement": "Asset Management"
+        },
+        "PLANT_GROUP": {
+            "rubriccategoryfk": "Rubric Category",
+            "descriptioninfo": "Description",
+            "islive": "Active",
+            "code":"Code"
+        },
+        "PLANT": {
+            "planttypefk": "Plant Type",
+            "descriptioninfo": "Description",
+            "plantkindfk": "Plant Kind"
+        },
+        "CART_TEMPLATE": {
+            "workoperationtypefk": "Work Operation Type",
+            "descriptioninfo": "Description",
+            "code":"Code"
+        },
+        "ACTIVITIES": {
+            "descriptioninfo": "Description",
+            "code":"Code"
+        },
+        "RECORDS": {
+            "workoperationtypefk": "Work Operation Type",
+            "descriptioninfo": "Description",
+            "code":"Code",
+            "cardrecordfk":"Article",
+            "jobcardrecordtypefk":"Job Card Record Type"
+        },
+        "SCHEME": {
+            "leaddays": "Lead Days",
+            "leadquantity": "Lead Quantity",
+            "sorting": "Sorting",
+            "descriptioninfo": "Description"
+        },
+        "SCHEME_RECORD": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "code":"Code",
+            "isperformancebased": "Performance Based",
+            "jobcardtemplatefk":"Job Card Template",
+            "daysafter":"Days After",
+            "isfixeddays":"Fixed Days",
+            "isrecalcdates":"Do Recalculate Dates"
+        },
+        "PLANT_COMPONENT":{
+            "meterno":"Meter No",
+            "description":"Description",
+            "uomfk":"UoM",
+            "maintenanceschemafk":"Maintenance Schema",
+            "plantcomponenttypefk":"Component Type",
+            "homeprojectfk":"Home Location",
+            "projectlocationfk":"Home Project"
+        },
+        "MAINTENANCE":{
+            "code":"Code",
+            "maintenancestatusfk":"Status"
+        }
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        },
+        "REQUISITION": 
+            {
+                "Maintainance 1":"check"
+            }
+        
+    }
+}

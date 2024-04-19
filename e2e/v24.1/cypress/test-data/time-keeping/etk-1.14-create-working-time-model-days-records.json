@@ -1,0 +1,29 @@
+{
+    "CONTAINERS": {
+        "WORKING_TIME_MODELS": {
+            "CHECKBOX": "check",
+            "WEEK_ENDS_ON": "Friday"
+        },
+        "WORKING_TIME_MODEL_DAYS": {
+            "TARGET_HRS": "8",
+            "WEEKDAY": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "WORKING_TIME_MODELS": {
+            "isdefault": "Is Default",
+            "descriptioninfo": "Description",
+            "weekendson": "Week Ends On"
+        },
+        "WORKING_TIME_MODEL_DAYS": {
+            "weekdayindex": "Weekday",
+            "targethours": "Target Hours"
+        }
+    }
+}

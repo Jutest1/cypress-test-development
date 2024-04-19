@@ -1,0 +1,86 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "300",
+            "UOM": "BAGS"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": [
+                "DÜB08PVC",
+                "FILTER"
+            ],
+            "QUANTITY": "20",
+            "UOM":"St"
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "PACKAGE": "Package(1)"
+        },
+        "PACKAGE": {
+            "LINE_ITEM_WITH_RESOURCE": "LineItemWithResource",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "PROCUREMENT_STRUCTURE": "D",
+            "TRANSFER_FROM": "BoQ Quantity (WQ/AQ)"
+        },
+        "UPDATE_BOQ_PACKAGE": {
+            "SCOPE": "Highlighted Line Item",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "UPDATED_TO_EXISTED_PACKAGE": "Update to Existed Package"
+        },
+        "REQUISITION": {
+            "CREATE_CHANGE_ORDER_RATIO": "Create change order requisition based on below selected base requisition",
+            "VALIDATION_MESSAGE": "Create change requisition successfully!"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "BOQS": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqitemfk": "BoQ Item Ref. No.",
+            "prjchangefk": "Project Change"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity"
+        },
+        "PACKAGE_BOQ_STRUCTURE": {
+            "finalprice": "Final Price",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "REQUISITION_ITEM": {
+            "quantity": "Quantity"
+        }
+    }
+}

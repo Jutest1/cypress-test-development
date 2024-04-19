@@ -1,0 +1,48 @@
+{
+    "CONTAINERS": {
+       
+       "PAYMENT_GROUP_RATES":{
+            "RATE":"31.00"
+        },
+        "PAYMENT_GROUP_SURCHARGE":{
+            "RATE":"23.00"
+        },
+
+        "ACTIONS": {
+            "CHECKBOX": "check"
+        },
+        "DATA_TYPES": {
+            "ACTION_TYPE": "Action Type",
+            "CONTEXT":"RIB_DEMO_PROJEKT",
+            "TIMEKEEPING_SURCHARGE":"Timekeeping Surcharge Type",
+            "CHECKBOX":["check","uncheck"]
+        }   
+      
+    },
+
+    "CONTAINER_COLUMNS": {
+        
+        "DATA_RECORDS": {
+            "contextfk": "Context",
+            "descriptioninfo":"Description",
+            "isstandardrate":"Evaluationlevel"
+        },
+        "PAYMENT_GROUP_SURCHARGE":{
+            "controllingunitfk":"Controlling Unit",
+            "surchargetypefk":"Surcharge Type",
+            "rate":"Rate"        
+        },
+       
+        "PAYMENT_GROUPS_LIST":{
+            "descriptioninfo":"Description",
+            "code": "Code"
+        },
+        "PAYMENT_GROUP_RATES":{
+            "controllingunitfk":"Controlling Unit",
+            "surchargetypefk":"Surcharge Type",
+            "commenttext":"Comment Text",
+            "rate":"Rate"          
+        }
+       
+    }
+}

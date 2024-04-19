@@ -1,0 +1,63 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "%",
+            "QUANTITY": "50"
+        },
+        "TAX_CODE": {
+            "TAX_CODE": "07"
+        },
+        "PACKAGE": {
+            "Item": "Item1",
+            "quantity": "100",
+            "STRUCTURE": "M",
+            "ITEM_STRUCTURE": "299505",
+            "UoM": "BAGS",
+            "MATERIAL_CODE": "DÜB06PVC",
+            "PS_CODE": "1803",
+            "Branch": "Brandenburg,DE 14733 Brandenburg, Postfach 1340",
+            "SUPPLIER": "K00036",
+            "VAT_GROUP": "INL",
+            "BUSINESS_PARTNER": "AGO Baumaschinen GmbH"
+        },
+        "ROLES": {
+            "CLERK": "HS"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "CONFIG_HEADER_1": "Service",
+            "CONFIG_HEADER_2": "Material",
+            "CODE_1": "D",
+            "CODE_2": "M"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "budget": "Budget",
+            "isfixedbudget": "Fix Budget",
+            "uomfk": "UoM"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcconfigheaderfk": "Configuration Header"
+        },
+        "PACKAGE_ITEM": {
+            "mdctaxcodefk": "Tax Code"
+        },
+        "ROLES": {
+            "clerkfk": "Clerk"
+        },
+        "PACKAGE": {
+            "mdccontrollingunitfk": "Controlling Units",
+            "taxcodefk": "Tax Code",
+            "clerkreqfk": "Requisition Owner",
+            "clerkprcfk": "Responsible",
+            "subsidiaryfk": "Branch",
+            "supplierfk": "Supplier",
+            "bpdvatgroupfk": "VAT Group",
+            "businesspartnerfk": "Business Partner"
+        }
+    }
+}

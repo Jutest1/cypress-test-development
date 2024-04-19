@@ -1,0 +1,89 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "CONTROLLING_UNIT": {
+      "UOM": "BAGS",
+      "QUANTITY": "250"
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY": "100",
+      "UNIT_RATE": "25",
+      "UOM": "CM3",
+      "PROCUREMENT_STRUCTURE": "D"
+    }
+  },
+  "MODAL": {
+    "PROJECTS": {
+      "CLERK": "SmiJ"
+    },
+    "ADDITIONAL_SETTING": {
+      "Generate Line item by Split Quantity": "check",
+      "Generate as reference Line items": "check"
+    },
+    "COPYING_ASSIGNMENT": {
+      "Controlling Unit": "check",
+      "Procurement structure": "check"
+    },
+    "COPYING_DESCRIPTION_AND_USER_DEFINED": {
+      "Description": "check"
+    },
+    "ADDITIONAL_SETTING_1": {
+      "Generate Line item by Split Quantity": "uncheck",
+      "Generate as reference Line items": "uncheck",
+      "BoQ Final Price": "check"
+    },
+    "COPYING_ASSIGNMENT_1": {
+      "Controlling Unit": "uncheck",
+      "Procurement structure": "uncheck"
+    },
+    "COPYING_DESCRIPTION_AND_USER_DEFINED_1": {
+      "Description": "check"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total",
+      "mdccontrollingunitfk": "Controlling Units",
+      "prcstructurefk": "Procurement Structure"
+    },
+    "CONTROLLING_UNIT": {
+      "quantity": "Quantity",
+      "uomfk": "UoM",
+      "descriptioninfo": "Description"
+    },
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification"
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "quantityadj": "AQ Quantity",
+      "mdccontrollingunitfk": "Controlling Units",
+      "prcstructurefk": "Procurement Structure",
+      "finalprice": "Final Price"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "quantity": "Quantity",
+      "descriptioninfo": "Description",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total"
+    }
+  }
+}

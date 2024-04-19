@@ -1,0 +1,22 @@
+{
+    "CONTAINERS": {
+        "ACTIVITY_STRUCTURE": {
+            "QUANTITY": "100.000",
+            "UoM": "BAGS"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "HS"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "SCHEDULES": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ACTIVITY_STRUCTURE": {
+            "description": "Description"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+"CONTAINERS": {
+  "LOCATIONS": {
+    "QUANTITYFACTOR1": "10.000",
+    "QUANTITYFACTOR2": "10.000"
+  },
+  "ACTIVITY_STRUCTURE": {
+    "QUANTITY": "100.000",
+    "PLANNED_START":"current",
+    "PLANNED_FINISH":"incremented"
+    }
+    
+},
+"CONTAINER_COLUMNS": {
+    "SCHEDULES": {
+      "code":"Code",
+      "descriptioninfo":"Description"
+    },
+    "LOCATIONS": {
+      "code":"Code",
+      "descriptioninfo":"Description",
+      "quantity":"Quantity Factor"
+    },
+    "ACTIVITY_STRUCTURE": {
+      "description":"Description",
+      "locationfk":"Location",
+      "plannedstart":"Planned Start",
+      "plannedfinish":"Planned Finish"
+    }
+  }
+}

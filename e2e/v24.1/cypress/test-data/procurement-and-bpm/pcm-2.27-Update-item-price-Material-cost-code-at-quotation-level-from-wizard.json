@@ -1,0 +1,100 @@
+
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "20"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "2109010",
+            "MATERIAL_DESC":"Portlandzement 45",
+            "QUANTITY": "1.000",
+            "UPDATED_QUANTITY": "50.000",
+            "CO2_QUANTITY":"20.000",
+            "TOTALTYPE":"T10"
+        },
+        "RFQ": {
+          "BP": "Adolf Koch",
+          "BP2":"AGO Baumaschinen GmbH"
+        },
+        "PACKAGE":{
+            "SCOPE" : "Selected Line Item",
+            "COST_TOTAL":"Cost Total",
+            "XFACTOR":"1",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 3
+        },
+        "QUOTE_ITEM":{
+            "PRICE1": "25",
+            "PRICE2": "35"
+        }
+    },
+
+"MODAL":{
+    "UPDATE_ITEM_PRICE":[
+        {
+                "labelName": "Material Catalog Price Version",
+                "VALUE": "checked"
+            
+        },
+        {
+            "labelName": "Include Neutral Material",
+            "VALUE": "checked"
+        
+        },
+        {
+            "LABEL_labelNameNAME": "Quotation",
+            "VALUE": "checked"
+                
+        },
+        {
+            "labelName": "Contract",
+            "VALUE": "checked"
+
+        }
+    ]
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity"
+        },
+        "PACKAGE_ITEM":{
+            "description1":"Description 1", 
+                "quantity": "Quantity",
+                 "prcstructurefk":"Structure",
+                  "basuomfk":"UoM",
+                  "mdcmaterialfk":"Material No.",
+                  "totalprice":"Total Price"
+        },
+        "PACKAGE_TOTALS": {
+            "TotalTypeFkDescriptionInfo":"Type Description", 
+            "valuenet": "Net Value",
+            "valuetax":"VAT"
+        },
+        "QUOTES":{
+            "businesspartnerfk": "Business Partner"
+        },
+        "QUOTE_ITEMS":{
+            "mdcmaterialfk": "Material No."
+        }
+    }
+  }
+

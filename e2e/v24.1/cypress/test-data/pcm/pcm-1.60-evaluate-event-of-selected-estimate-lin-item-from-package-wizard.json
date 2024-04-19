@@ -1,0 +1,138 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "SCHEDULING_ACTIVITY": {
+            "QUANTITY": "100",
+            "UOM": "BAGS",
+            "NO_OF_DAYS": [
+                "30",
+                "5",
+                "7"
+            ]
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB06PVC"
+        },
+        "EVENT": {
+            "TYPE": [
+                "Req. Prep.",
+                "Design Ready",
+                "Tendering"
+            ],
+            "START_DAY": [
+                "2",
+                "4",
+                "5"
+            ],
+            "END_DAY": [
+                "3",
+                "5",
+                "6"
+            ],
+            "SAFETY_LEAD_TIME": "2"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "ESTIMATE_CONFIGURATION": {
+            "SELECT_ESTIMATE_SCOPE": "Entire Estimate",
+            "UPDATED_PLANNED_QUANTITY": "From Schedule",
+            "IQ_QUANTITY_UPDATE": "From Schedule"
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "grandtotal": "Grand Total"
+        },
+        "SCHEDULING": {
+            "descriptioninfo": "Description",
+            "code": "Code"
+        },
+        "SCHEDULING_ACTIVITY": {
+            "code": "Code",
+            "description": "Description",
+            "quantityuomfk": "UoM",
+            "quantity": "Quantity",
+            "plannedstart": "Planned Start",
+            "plannedfinish": "Planned Finish",
+            "actualstart": "Actual Start",
+            "actualfinish": "Actual Finish"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "code": "Code",
+            "structurefk": "BS-Schlüssel",
+            "plannedend": "Planned End",
+            "plannedstart": "Planned Start",
+            "actualend": "Actual End",
+            "actualstart": "Actual Start"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code"
+        },
+        "EVENT": {
+            "prceventtypefk": "Event Type",
+            "startnoofdays": "Start No. Of Days",
+            "startbasis": "Start Basis",
+            "endnoofdays": "End No. Of Days",
+            "endbasis": "End Basis",
+            "prceventtypeendfk": "Event Type End",
+            "prcsystemeventtypestartfk": "System Event Type Start",
+            "prceventtypestartfk": "Event Type Start",
+            "prcsystemeventtypeendfk": "System Event Type End",
+            "addleadtimetostart": "Include Lead Time To Start",
+            "addleadtimetoend": "Include Lead Time To End"
+        },
+        "PROCUREMENT_EVENT": {
+            "prceventtypefk": "Event Type",
+            "startcalculated": "Calc. Start",
+            "endcalculated": "Calc. End",
+            "startoverwrite": "Man. Start",
+            "endoverwrite": "Man. End",
+            "startactual": "Actual Start",
+            "endactual": "Actual End"
+        },
+        "DATA_TYPE": {
+            "name": "Data Type"
+        },
+        "DATA_RECORD": {
+            "descriptioninfo": "Description",
+            "systemeventtypestartfk": "Start System Event Type",
+            "systemeventtypeendfk": "End System Event Type"
+        },
+        "PACKAGE_ITEMS": {
+            "safetyleadtime": "Safety Lead Time",
+            "prcpackagefk": "Package"
+        }
+    }
+}

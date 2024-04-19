@@ -1,0 +1,137 @@
+{
+    "CONTAINERS": {
+        "PROCUREMENT_STRUCTURE": {
+            "STRUCTURE_CODE": [
+                "080",
+                "053"
+            ]
+        },
+        "GENERALS": {
+            "CONFIGURATION_HEADER": [
+                "Service"
+            ],
+            "TYPE": [
+                "Baustrom %",
+                "Bauwesenversicherung %"
+            ],
+            "type1": "Bauwesenversicherung %",
+            "VALUE": [
+                "40.00"
+            ]
+        },
+        "CERTIFICATES": {
+            "CONFIGURATION_HEADER": [
+                "Service"
+            ],
+            "TYPE": [
+                "CIS Certificate (en)",
+                "Certificate of Compliance (BauBG)"
+            ],
+            "type1": "Certificate of Compliance (BauBG)",
+            "isRequired": "check",
+            "isMandatory": "check"
+        },
+        "REQUISITION": {
+            "AMOUNT_NET": [
+                "1000"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CREATE_CONTRACT": {
+            "LABLE": [
+                "Bypass evaluated item"
+            ],
+            "INDEX": [
+                "0"
+            ],
+            "RESPONSIBLE": [
+                "HS"
+            ]
+        },
+        "CONTRACT_TERMINATION": {
+            "TRANSFER_TO": "New Requisition",
+            "TransferIndex": 0,
+            "Project": "PCM-TEST",
+            "RUBRIC_CATEGORY": "Standard",
+            "ChangeType": "Design Change",
+            "ChangeReason": "Change Request",
+            "SpecifyProjectChange": "TRUE"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "code": "Code",
+            "description": "Description",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "REQUISITION": {},
+        "RFQ": {},
+        "QUOTE": {},
+        "ITEMS": {
+            "quantity": "Quantity",
+            "price": "Price"
+        },
+        "CONTRACT": {
+            "code": "Code",
+            "projectfk": "Project No.",
+            "clerkprcfk": "Responsible",
+            "controllingunitfk": "Controlling Unit Code",
+            "net": "Net"
+        },
+        "PES": {
+            "pesstatusfk": "PES Status",
+            "code": "Code",
+            "description": "Description",
+            "projectfk": "Project No.",
+            "pesvalue": "Total"
+        },
+        "PES_ITEMS": {
+            "quantity": "Quantity",
+            "price": "Price",
+            "quantityremaining": "Remaining Quantity"
+        },
+        "INVOICE": {
+            "invstatusfk": "Status",
+            "reference": "Invoice No.",
+            "projectfk": "Project No.",
+            "amountnet": "Amount (Net)"
+        }
+    }
+}

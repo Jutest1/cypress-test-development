@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "MASTER_DATA": "Masterdata"
+        },
+        "DATA_RECORDS": {
+            "CONTEXT": "RIB_DEMO_Stamm",
+            "CURRENCY": "Euro"
+        },
+        "COST_CODES": {
+            "CO2_PROJECT_VALUE": "300.000",
+            "COST_CODE": "Lohn"
+        },
+        "PRICE_LIST": {
+            "CO2_PROJECT_VALUE_1": "200.000",
+            "CO2_PROJECT_VALUE_2": "400.000",
+            "lookup1": "grid",
+            "lookup2": "list"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "descriptioninfo": "Description",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2sourcefk": "CO2/kg (Source Name)"
+        },
+        "PRICE_LIST": {
+            "co2project": "CO2/kg (Project)",
+            "costcodepriceverfk": "Price Version Description",
+            "CostcodePriceVerFkPriceListDescription": "Price List Description"
+        }
+    }
+}

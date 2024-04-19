@@ -1,0 +1,18 @@
+{
+    "CONTAINERS": {
+
+        "COMPANY": {
+            "RIB":"999"
+           }
+
+    },
+
+    "CONTAINER_COLUMNS": {
+        
+        "TIMEKEEPING_GROUPS": {
+            "code":"Code",
+            "descriptioninfo":"Description"
+        }
+
+    }
+}

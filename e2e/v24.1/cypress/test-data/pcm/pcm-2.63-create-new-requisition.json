@@ -1,0 +1,248 @@
+{
+    "CONTAINERS": {
+        "WIC": {
+            "WIC_CODE": "001",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "PAYMENT_AD": "BGB5J",
+            "PAYMENT_PA": "VOB4J",
+            "PAYMENT_FI": "EINBEHALT"
+        },
+        "CLERK_RIGHTS": {
+            "CLERK_NAME": "KCN",
+            "PROCUREMENT_CODE": "M"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "%",
+            "QUANTITY": "250"
+        },
+        "REQUISITION_ITEMS": {
+            "UOM": "BAGS",
+            "PRICE": "30",
+            "QUANTITY": "250"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "MG2FM",
+            "QUANTITY": "50"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "270",
+            "UOM": "BAGS"
+        },
+        "REQUISITION": {
+            "CONFIGURATION": "Material Req",
+            "STRUCTURE_CODE": "M",
+            "TAX_CODE": "05",
+            "TAX_CODE_ID": "1000073",
+            "VAT_PERCENT": "13",
+            "PROCUREMENT_CODE": "21",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "TAX_CODE": {
+            "LEDGER": "RIB_DEMO_Kontenrahmen",
+            "TAX_CODE": "16"
+        },
+        "BRANCHES": {
+            "STREET": "4 Bockelsdorf",
+            "ZIP_CODE": "48727",
+            "COUNTRY": "Germany",
+            "BRANCH": "Branch",
+            "HEAD_QUARTERS": "Head Quarters"
+        },
+        "SUPPLIER": {
+            "PAYMENT_TERM_PA": [
+                "NET90",
+                "NET14"
+            ],
+            "PAYMENT_TERM_FI": [
+                "NET20",
+                "NET07"
+            ],
+            "VAT": [
+                "EU",
+                "DL"
+            ]
+        },
+        "MATERIAL_CATALOGS": {
+            "TYPE": "Neutral Material",
+            "CODE": "001",
+            "DESCRIPTION": "Artikelkatalog",
+            "PAYMENT_TERM_AD": "NET20",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "INCOTERMS": "DDPA"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "MATERIAL": "Material",
+            "REQUISITION": "Requisition",
+            "CONFIGURATION": "Material Req",
+            "ROLE": "Project Manager",
+            "CODE": "M",
+            "CLERK": "FI"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "REQUISITION": {
+            "supplierfk": "Supplier",
+            "businesspartnerfk": "Business Partner",
+            "subsidiaryfk": "Branch",
+            "taxcodefk": "Tax Code",
+            "controllingunitfk": "Controlling Unit Code",
+            "packagefk": "Package",
+            "structure": "Structure Code",
+            "bpdvatgroupfk": "VAT Group",
+            "baspaymenttermfifk": "Payment Term (FI)",
+            "baspaymenttermpafk": "Payment Term (PA)",
+            "materialcatalogfk": "Framework Material Catalog",
+            "baspaymenttermadfk": "Payment Term (AD)",
+            "incotermfk": "Incoterms",
+            "clerkreqfk": "Requisition Owner",
+            "clerkprcfk": "Responsible",
+            "code": "Code",
+            "prcawardmethodfk": "Award Method",
+            "boqwiccatboqfk": "Framework WIC BoQ",
+            "boqwiccatfk": "Framework WIC Group"
+        },
+        "BUSINESS_PARTNER": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "TAX_CODE": {
+            "mdcledgercontextfk": "Ledger Context",
+            "mdctaxcodefk": "Tax Code"
+        },
+        "BRANCHES": {
+            "ismainaddress": "Is Main Address",
+            "description": "Description",
+            "addresstypefk": "Address Type",
+            "addressdto": "Address",
+            "taxno": "Tax No."
+        },
+        "SUPPLIERS": {
+            "code": "Creditor No.",
+            "subsidiaryfk": "Branch Description",
+            "paymenttermpafk": "Payment Term (PA)",
+            "paymenttermfifk": "Payment Term (FI)",
+            "vatgroupfk": "VAT Group"
+        },
+        "MATERIAL_CATALOGS": {
+            "materialcatalogtypefk": "Type",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "prcincotermfk": "Incoterms",
+            "supplierfk": "Supplier",
+            "paymenttermadfk": "Payment Term (AD)",
+            "paymenttermfifk": "Payment Term (FI)",
+            "paymenttermfk": "Payment Term (PA)",
+            "subsidiaryfk": "Branch"
+        },
+        "DATA_TYPES": {
+            "name": "Data Type"
+        },
+        "DATA_RECORDS": {
+            "descriptioninfo": "Description",
+            "isdefault": "Is Default",
+            "isframework": "Is Framework"
+        },
+        "CONFIGURATION_HEADER": {
+            "descriptioninfo": "Description"
+        },
+        "CONFIGURATION": {
+            "descriptioninfo": "Description",
+            "description": "Description",
+            "prcawardmethodfk": "Award Method",
+            "paymenttermfifk": "Payment Term (FI)",
+            "paymenttermpafk": "Payment Term (PA)"
+        },
+        "REQUISITION_ITEMS": {
+            "basuomfk": "UoM",
+            "quantity": "Quantity",
+            "price": "Price"
+        },
+        "REQUISITION_TOTALS": {
+            "valuenet": "Net Value",
+            "valuetax": "VAT",
+            "gross": "Gross"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "clerkreqfk": "Requisition Owner Role",
+            "clerkprcfk": "Responsible Role",
+            "code": "Code",
+            "prcconfigheaderfk": "Configuration Header"
+        },
+        "WIC_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "WIC_CATALOGUES": {
+            "boqrootitem.briefinfo": "Outline Specification",
+            "wiccatboq.bpdbusinesspartnerfk": "Business Partner",
+            "wiccatboq.bpdsubsidiaryfk": "Branch",
+            "boqrootitem.reference": "Reference No.",
+            "wiccatboq.baspaymenttermadfk": "Payment Term (AD)",
+            "wiccatboq.baspaymenttermfifk": "Payment Term (FI)",
+            "wiccatboq.bpdsupplierfk": "Supplier No.",
+            "wiccatboq.baspaymenttermfk": "Payment Term (PA)"
+        },
+        "WIC_CATALOGUES_VALIDATE": {
+            "briefinfo": "Outline Specification",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "bpdsubsidiaryfk": "Branch",
+            "reference": "Reference No.",
+            "baspaymenttermadfk": "Payment Term (AD)",
+            "baspaymenttermfifk": "Payment Term (FI)",
+            "bpdsupplierfk": "Supplier No.",
+            "baspaymenttermfk": "Payment Term (PA)"
+        },
+        "CONTRACTS": {
+            "purchaseorders": "Purchase Orders",
+            "materialcatalogfk": "Framework Material Catalog",
+            "code": "Code",
+            "packagefk": "Package Code"
+        }
+    }
+}

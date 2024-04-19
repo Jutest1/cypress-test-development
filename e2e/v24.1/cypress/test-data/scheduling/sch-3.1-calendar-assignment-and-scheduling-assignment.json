@@ -1,0 +1,39 @@
+{
+    "CONTAINERS": {
+      "DATA_TYPES":{
+        "COMPANY_NAME":"999",
+        "SCHEDULING_CONTEXT":"CIS Certificate",
+        "CALENDAR_CODE":"DE"
+      },
+      "UNIT": {
+        "TYPE":"Week",
+        "TYPE1":"Year"
+
+    },
+    "CALENDAR": {
+      "TYPE":"Hour",
+      "TYPE1":"Day"
+    }
+
+  },
+    "CONTAINER_COLUMNS": {
+        "COMPANY": {
+            "code": "Code",
+            "schedulingcontextfk": "Scheduling Context"
+          
+        },
+        "UNIT": {
+            "descriptioninfo":"Description",
+            "unitinfo":"Unit of Measurement",
+            "uomtypefk":"Type"
+          },
+          "CALENDAR": {
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "basuomhourfk":"UoM of Hour",
+            "basuomdayfk":"UoM of Day"
+          }
+    }
+   
+}
+

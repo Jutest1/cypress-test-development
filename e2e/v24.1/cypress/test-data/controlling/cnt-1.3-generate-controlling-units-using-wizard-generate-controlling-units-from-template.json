@@ -1,0 +1,32 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": [
+                "10",
+                "20"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "CONTROLLING_UNIT_TEMPLATES":{
+            "code": "Code",
+            "descriptioninfo": "Description"
+        }
+    }
+}

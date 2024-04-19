@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPE": {
+            "TYPE": "S-Curve",
+            "TYPE1": "S-Curve Detail"
+        },
+        "S_CURVE": {
+            "DESCRIPTION": "S-Curve-SP1"
+        },
+        "S_CURVE_DETAILS": {
+            "TIME": ["1","2","3"],
+            "COST":["25","15","60"],
+            "BIN":["1","2","3"],
+            "WEIGHT":["25","15","60"]
+        }       
+    },
+    "CONTAINER_COLUMNS": {
+        "DATA_TYPE": {
+            "name": "Data Type",
+            "type": "Type",
+            "modulename": "Module"
+        },
+        "S_CURVE": {
+            "descriptioninfo": "Description"
+        } ,
+        "S_CURVE_DETAILS": {
+            "scurvefk": "S-Curve",
+            "percentoftime":"Percent Of Time",
+            "percentofcost":"Percent Of Cost",
+            "bin":"Bin",
+            "weight":"Weight"
+        }  
+      }
+    }

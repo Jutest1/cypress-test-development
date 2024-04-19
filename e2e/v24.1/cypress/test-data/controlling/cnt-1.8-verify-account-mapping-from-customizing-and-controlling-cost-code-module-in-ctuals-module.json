@@ -1,0 +1,77 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "50"
+        },
+        "DATA_TYPES": {
+            "DB_TABLE_NAME": "BAS_ACCOUNT"
+        },
+        "DATA_RECORDS": {
+            "LEDGER_CONTEXT": "RIB_DEMO_Kontenrahmen"
+        },
+        "CONTROLLING_COST_CODE": {
+            "UoM": "ACRE"
+        },
+        "COST_DATA": {
+            "AMOUNT": [
+                "50",
+                "100"
+            ],
+            "UOM": [
+                "ACRE",
+                "BAGS"
+            ],
+            "CONTROLLING_COST_CODE": "1",
+            "QUANTITY": [
+                "30",
+                "10"
+            ]
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "DATA_TYPES": {
+            "dbtablename": "DB Table Name"
+        },
+        "DATA_RECORDS": {
+            "ledgercontextfk": "Ledger Context",
+            "code": "Code",
+            "description2info": "Description 2"
+        },
+        "CONTROLLING_COST_CODE": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM"
+        },
+        "ACCOUNT": {
+            "basaccountfk": "Account"
+        },
+        "COST_HEADER": {
+            "code": "Code",
+            "projectfk": "Project",
+            "projectfkname": "Project-Name",
+            "companyyearfk": "Company Year Service",
+            "total": "Total"
+        },
+        "COST_DATA": {
+            "mdccontrollingunitfk": "Controlling Unit",
+            "accountfk": "Account",
+            "accountfkdescription": "Account-Description",
+            "mdccontrcostcodefk": "Controlling Cost Code",
+            "mdccontrcostcodefkdescription": "Controlling Cost Code-Description",
+            "uomfk": "UoM",
+            "amount": "Amount (EUR)",
+            "quantity": "Quantity"
+        }
+    }
+}

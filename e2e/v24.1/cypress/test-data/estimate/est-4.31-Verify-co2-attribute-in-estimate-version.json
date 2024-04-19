@@ -1,0 +1,81 @@
+{
+    "CONTAINERS": {
+        "COST_CODES": {
+            "CO2_PROJECT_VALUE": "300.000",
+            "COST_CODE": "Lohn"
+        },
+        "MATERIAL": {
+            "CO2_PROJECT_VALUE": "300.000",
+            "CO2_PROJECT_VALUE_SUM": "600.000",
+            "CODE": "Artikelkatalog",
+            "MATERIAL_RECORD_CODE": "Silo- Portlandzement"
+        },
+        "ASSEMBLY_RESOURCE": {
+            "CO2_PROJECT_VALUE": "300.000",
+            "RESOURCE_TYPE": [
+                "C",
+                "M"
+            ],
+            "RESOURCE_CODE": [
+                "1",
+                "Silo- Portlandzement"
+            ],
+            "RESOURCE_DESC": [
+                "Lohn",
+                "Silo- Portlandzement"
+            ]
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "A",
+                "M",
+                "C"
+            ],
+            "MATERIAL": "Silo- Portlandzement",
+            "COST_CODE": "1"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "1",
+            "UOM": "10M3"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "co2project": "CO2/kg (Project)"
+        },
+        "COST_CODES": {
+            "co2project": "CO2/kg (Project)"
+        },
+        "MATERIAL": {
+            "co2project": "CO2/kg (Project)"
+        },
+        "ASSEMBLY_RESOURCE": {
+            "co2project": "CO2/kg (Project)",
+            "estresourcetypeshortkey": "Short Key",
+            "descriptioninfo": "Description"
+        },
+        "ASSEMBLY_PROJECT": {
+            "co2projecttotal": "CO2 (Project) Total"
+        }
+    }
+}

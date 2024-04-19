@@ -1,0 +1,23 @@
+{
+    "CONTAINERS": {
+        "CHARACTERISTICS": {
+            "CODE": [
+                "202",
+                "203",
+                "204"
+            ],
+            "VALUE": [
+                "200",
+                "30.00"
+            ],
+            "modalLabel": "Set multiple Characteristics"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        }
+    }
+}

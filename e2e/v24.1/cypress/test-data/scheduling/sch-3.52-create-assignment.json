@@ -1,0 +1,56 @@
+{
+    "CONTAINERS": {
+      "LOCATION":{
+        "QTY_FACTOR":["1.00","2.00"]
+      },
+      "SCHEDULE":{
+        "COUNTRY":"Germany"
+      },
+      "ACTIVITY_STRUCTURE": {
+        "QUANTITY": "100.000",
+        "UOM":"Days",
+        "PLANNED_START":"current",
+        "PLANNED_FINISH":"incremented"
+        },
+        "CONTROLLING_UNIT":{
+          "UOM": "BAGS",
+          "QUANTITY": "250"
+      }
+        
+    },
+    "CONTAINER_COLUMNS": {
+        "LOCATION":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "quantity":"Quantity Factor",
+            "insertedat":"Inserted At"
+
+        },
+        "SCHEDULES": {
+          "code":"Code",
+          "descriptioninfo":"Description",
+          "performancesheetfk":"Performance Sheet"
+        },
+        "ACTIVITY_STRUCTURE": {
+          "description":"Description",
+          "locationfk":"Location",
+          "plannedstart":"Planned Start",
+          "plannedfinish":"Planned Finish",
+          "projectfk":"Project",
+          "calendarfk":"Calendar",
+          "schedulingmethodfk":"Scheduling Method",
+          "tasktypefk":"Type",
+          "prcstructurefk":"Procurement structure",
+          "activitypresentationfk":"Activity Presented",
+          "chartpresentationfk":"Chart Presented",
+          "controllingunitfk":"Controlling Unit",
+          "constrainttypefk":"Constraint",
+          "bas3dvisualizationtypefk":"3D Visualization Type"
+        },
+        "CONTROLLING_UNIT":{
+          "quantity": "Quantity",
+          "uomfk": "UoM",
+          "descriptioninfo": "Description"
+      }
+      }
+    }

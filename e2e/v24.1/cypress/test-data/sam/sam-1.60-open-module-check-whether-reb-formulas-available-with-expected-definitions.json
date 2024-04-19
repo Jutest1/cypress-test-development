@@ -1,0 +1,36 @@
+
+{
+    "CONTAINERS": {
+        "FORMULA": {
+            "Predefine":"Predefine",
+            "operator1":"*",
+              "operator2": "=",
+              "FORMULA1":"Retangle Column Volume",
+              "FORMULA2":"Retangle Area",
+              "FORMULA3":"Circle Column Volume",
+              "FORMULA4":"Circle Area"
+        },
+        "QUANTITY_TAKEOFF_RUBRIC": {
+            "QUANTITY_TAKEOFF_TYPE": "REB 23.003",
+            "multiplySign": "*",
+            "equalsSign": "=",
+            "REB_STANDARD_FORMULA": "QTO_REB_Formula_Standard"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "FORMULA": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "operator1":"operator",
+            "value2isactive":"value",
+            "operator2":"operator",
+            "value1isactive":"value",
+            "icon":"icon",
+            "qtoformulatypefk":"formulaType",
+            "basformfk":"Formula Form"
+        },
+        "QUANTITY_TAKEOFF_RUBRIC": {
+            "Description": "Quantity Takeoff Type"
+        }
+    }
+}

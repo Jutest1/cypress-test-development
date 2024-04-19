@@ -1,0 +1,44 @@
+{
+    "CONTAINERS": {
+        "CERTIFICATE": {
+            "CONFIG_HEADER": "Material",
+            "CIS_CERTIFICATE": "CIS Certificate (en)"
+        },
+        "CONTRACT": {
+            "CONFIGURATION": "Material PO",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "PROCUREMENT_CONFIG_HEADER": {
+            "TYPE": "Material",
+            "REQ_OWNER_ROLE": "Project Manager",
+            "RESPONSIBLE_ROLE": "Project Manager",
+            "PRC_CONFIG_HEADER": "Material"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CERTIFICATES": {
+            "prcconfigheaderfk": "Configuration Header",
+            "bpdcertificatetypefk": "Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "clerkreqfk": "Requisition Owner Role",
+            "clerkprcfk": "Responsible Role",
+            "prcconfigheaderfk": "Configuration Header"
+        },
+        "CONTRACTS": {
+            "code": "Code",
+            "structureCode": "Procurement Structure"
+        },
+        "CONTRACT_CERTIFICATE": {
+            "bpdcertificatetypefk": "Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory",
+            "requiredamount": "Required Amount"
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "50",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "QUANTITY": "10"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "OTHER_SERVICES": {
+            "quantity":"100",
+            "quantity1":"0.000",
+            "AMOUNT_UNIT": "350",
+            "QUANTITY": "2"
+
+        },
+        "ITEM_PRICE": {
+            "PRICE": [
+                "30",
+                "40"
+            ],
+            "QUANTITY": "45"
+        },
+        "INVOICE_BILLING_SCHEMA":{
+            "fromOther":"From Other",
+            "fromBillingSchema":"From Billing Schema",
+            "fromPES":"From PES",
+            "BILLING_SCHEMA":"./. Nachlass",
+            "balance":"Balance",
+            "netTotal":"Net Total",
+            "Amount":"Amount",
+            "quantity":"2",
+            "structure":"M"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material"
+        },
+        "REQUEST_FOR_QUOTE": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch",
+                "AGO Baumaschinen GmbH"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "QUOTE": {
+            "code": "Code",
+            "rfqheaderfk": "RfQ Header"
+        },
+        "QUOTE_ITEMS": {
+            "price": "Price",
+            "itemno": "Item Number"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description"
+        },
+        "REQUISITION": {
+            "code": "Code"
+        },
+        "RFQ": {
+            "code": "Rfq Code"
+        },
+        "CONTRACT": {
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible",
+            "description": "Reference Name",
+            "code": "Code",
+            "clerkreqfk": "Requisition Owner"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isassetmanagement": "Asset Management"
+        },
+        "HEADER": {
+            "code": "Code"
+        },
+        "PES_ITEMS": {
+            "quantity": "Quantity"
+        },
+        "INVOICE": {
+            "reference": "Invoice No.",
+            "billingschemafk": "Billing Schema",
+            "description": "Narrative"
+        },
+        "OTHER_SERVICES": {
+            "prcstructurefk": "Structure Code",
+            "controllingunitfk": "Controlling Unit Code",
+            "taxcodefk": "Tax Code",
+            "isassetmanagement": "Asset Management",
+            "amountnet": "Amount (Unit)",
+            "quantity": "Quantity",
+            "amountgross": "Amount (Gross)",
+            "amounttotal": "Amount (Total)",
+            "fixedassetfk": "Fixed Asset",
+            "bascompanydeferaltypefk": "Company Deferral Type",
+            "datedeferalstart": "Date Deferral Start",
+            "PrcStructureFkDescriptionInfo.Translated": "Structure Description",
+            "description": "Item Description"
+        },
+        "TAX_CODE": {
+            "mdctaxcodefk": "Tax Code"
+        },
+        "RECONCILIATION": {
+            "ReconName": "Type",
+            "ReconNet": "Net"
+        },
+        "BILLING_SCHEMA": {
+            "descriptioninfo": "Description",
+            "ischained": "Chained"
+        },
+        "DATA_TYPE": {
+            "name": "Data Type"
+        },
+        "DATA_RECORD": {
+            "descriptioninfo": "Description",
+            "parametervalue": "Parameter Value"
+        },
+        "DATA_RECORDS": {
+            "descriptioninfo": "Description",
+            "ispublished": "Published",
+            "isordered": "Ordered",
+            "isquoted": "Quoted"
+        }
+    }
+}

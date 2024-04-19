@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "MusM"
+        },
+       
+        "DATA_TYPES": {
+            "TIME_SYMBOL_GROUP": "Time Symbol Group",
+            "TIME_SYMBOL_TYPE": "Time Symbol Type",
+            "CONTEXT":"RIB_DEMO_PROJEKT",
+            "TIMEKEEPING_SURCHARGE":"Timekeeping Surcharge Type",
+            "CHECKBOX":["check","uncheck"]
+        }   
+      
+    },
+
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "DATA_RECORDS": {
+            "contextfk": "Context",
+            "descriptioninfo":"Description",
+            "isstandardrate":"Evaluationlevel"
+        },
+        "TIME_SYMBOLS": {
+            "timesymbolgroupfk": "Time Symbol Group",
+            "timesymboltypefk":"Time Symbol Type",
+            "code":"Code"
+        }
+       
+    }
+}

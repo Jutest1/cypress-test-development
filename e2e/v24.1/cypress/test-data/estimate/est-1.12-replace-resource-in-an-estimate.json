@@ -1,0 +1,58 @@
+
+{
+  "CONTAINERS": {
+      "ESTIMATE": {
+          "RUBRIC_CATEGORY": "Planning",
+          "ESTIMATE_TYPE": "Bid Estimate"
+      },
+      "LINE_ITEM": {
+          "QUANTITY": "100",
+          "UOM": "%"
+      },
+      "RESOURCE": {
+          "SHORT_KEY": ["C","S"],
+          "CODE": ["1","2"],
+          "QUANTITY":"50"
+      }
+  },
+  "MODAL": {
+     "REPLACE_RESOURCE":{
+        "SELECT_ESTIMATE_SCOPE":"Entire Estimate",
+        "FUNCTION_TYPE":"Replace Cost Code By Cost Code",
+        "REPLACE_WITH_ELEMENT":"3"
+     },
+     "IGNORE_CURRENT_ELEMENT_JOB":{
+        "Ignore Current Element Job":"uncheck"
+     },
+     "REPLACE_DETAILS":{
+        "Cost/Unit":"check",
+        "Comment":"check",
+        "Quantity Details":"check"
+     },
+     "CHANGE_VALUE":{
+        "Cost/Unit":"10",
+        "Comment":"Check Data",
+        "Quantity Details":"12"
+     }
+  },
+  "CONTAINER_COLUMNS": {
+      "ESTIMATE": {
+          "estheader.code": "Code",
+          "estheader.descriptioninfo": "Description",
+          "estheader.esttypefk": "Estimate Type",
+          "estheader.rubriccategoryfk": "Category"
+      },
+      "LINE_ITEM": {
+          "descriptioninfo": "Description",
+          "quantity": "Quantity",
+          "basuomfk": "UoM"
+      },
+      "RESOURCE": {
+          "estresourcetypeshortkey": "Short Key",
+          "code": "Code",
+          "quantity": "Quantity",
+          "descriptioninfo": "Description",
+          "basuomfk": "UoM"
+      }
+  }
+}

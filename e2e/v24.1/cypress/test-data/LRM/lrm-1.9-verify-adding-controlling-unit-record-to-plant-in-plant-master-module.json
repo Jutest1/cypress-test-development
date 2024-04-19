@@ -1,0 +1,59 @@
+{
+    "CONTAINERS": {
+        "PLANT_TYPES":{
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted" 
+        },
+        "CONTROLLING_UNIT": {
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "PLANT": {
+            "PLANT_TYPE": "Bulk",
+            "PLANT": "ETM_0004",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "Leasing",
+            "STRUCTURE": "Equipment",
+            "INDEX_PLANT": 1
+        },
+        "PLANT_GROUP": {
+            "DESCRIPTION1": "A",
+            "DESCRIPTION2": "B",
+            "DESCRIPTION3": "C",
+            "RUBARIC_CATAGORY":"Equipment"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PLANT": {
+            "planttypefk": "Plant Type",
+            "descriptioninfo": "Description",
+            "plantkindfk": "Plant Kind"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isplantmanagement": "Is Plantmanagement",
+            "isassetmanagement": "Asset Management"
+        },
+        "PLANT_GROUP": {
+            "rubriccategoryfk": "Rubric Category",
+            "descriptioninfo": "Description",
+            "islive": "Active",
+            "code":"Code"
+        },
+        "PLANT_CONTROLLING":{
+            "controllingunitfk":"Controlling Unit",
+            "controllingunitdescription":"Controlling Unit Description"  
+        }
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    }
+}

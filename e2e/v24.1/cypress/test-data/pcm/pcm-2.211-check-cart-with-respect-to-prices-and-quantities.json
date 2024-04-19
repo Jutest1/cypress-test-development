@@ -1,0 +1,117 @@
+{
+    "CONTAINERS": {
+        "COMPANIES": {
+            "CODE": "999",
+            "COMPANY_NAME": "RIB Demo"
+        },
+        "CLERKS": {
+            "CODE": "HS"
+        },
+        "DATA_TYPES": {
+            "PRICE_CONDITION_TYPE": "Price Condition Type"
+        },
+        "DATA_RECORDS": {
+            "COPPER_SURCHARGE": "Copper Surcharge"
+        },
+        "ROLES": {
+            "ADMIN": "Admin"
+        },
+        "RIGHTS": {
+            "SHOW_PRICE": "Show Price",
+            "ROLES_DESCRIPTION": "Admin"
+        },
+        "MATERIAL_CATALOG": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch",
+                "Anton Waliser"
+            ]
+        },
+        "MATERIAL_GROUP": {
+            "PROCUREMENT_STRUCTURE": "M"
+        },
+        "MATERIAL_RECORDS": {
+            "UOM": [
+                "BAG",
+                "m"
+            ],
+            "RETAIL_PRICE": [
+                "140"
+            ],
+            "LIST_PRICE": [
+                "140"
+            ],
+            "CURRENCY": [
+                "INR"
+            ]
+        },
+        "PRICE_CONDITION": {
+            "VALUE": "80",
+            "TYPE": "Copper Surcharge",
+            "priceConditionColumn": {
+                "conditionTotal": "Total",
+                "value": "Value",
+                "prcpriceconditiontypefk": "Type"
+            }
+        },
+        "CURRENCY": {
+            "FOREIGN_CURRENCY": "INR",
+            "HOME_CURRENCY": "EUR",
+            "RATE": [
+                "90.84"
+            ],
+            "BASIS_RATE": [
+                "1"
+            ]
+        },
+        "CART": {
+            "QUANTITY": "1.00 ",
+            "VENDOR": [
+                "Adolf Koch",
+                ""
+            ],
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "CONFIGURATION": "Material PO",
+            "PROCUREMENT_TYPE": "Contract"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COMPANIES": {
+            "code": "Code",
+            "companyname": "Company Name"
+        },
+        "CLERKS": {
+            "code": "Code",
+            "userfk": "User"
+        },
+        "ROLES": {
+            "description": "Description",
+            "name": "Name"
+        },
+        "RIGHTS": {
+            "name": "Name",
+            "description": "Description",
+            "read": "Read"
+        },
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "conheaderfk": "Contract",
+            "materialcatalogtypefk": "Type",
+            "isticketsystem": "Is Ticket System"
+        },
+        "MATERIAL_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "MATERIAL_RECORDS": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "descriptioninfo2": "Further Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "basuompriceunitfk": "Price Unit UoM",
+            "bascurrencyfk": "Currency"
+        }
+    }
+}

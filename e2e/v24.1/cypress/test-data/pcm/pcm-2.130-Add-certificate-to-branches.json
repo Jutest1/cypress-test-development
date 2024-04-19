@@ -1,0 +1,33 @@
+{
+    "CONTAINERS": {
+        "BUSINESS_PARTNERS": {
+            "STREET": "ABC",
+            "CITY": "Pune",
+            "ZIP_CODE": "411045",
+            "COUNTRY": "India",
+            "BANK_TYPE": "Hausbank",
+            "I_BAN": "DE02 7015 0000 0000 5949 37"
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BUSINESS_PARTNER_1": "AGO Baumaschinen GmbH",
+            "STRUCTURE_SERVICE": "D",
+            "STRUCTURE_MATERIAL": "M",
+            "MATERIAL_NO": "2331101"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESS_PARTNERS": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "CONTRACT": {
+            "description": "Reference Name",
+            "purchaseorders": "Purchase Orders",
+            "constatusfk": "Contract Status"
+        },
+        "CONTACTS_BP": {
+            "familyname": "Last Name",
+            "contactrolefk": "Role"
+        }
+    }
+}

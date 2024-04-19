@@ -1,0 +1,13 @@
+{
+    "CONTAINERS": {
+      "DATA_TYPES":{
+        "RELATION_KIND":"Relation Kind",
+        "FINISH_START_RELATION":"Finish - Start",
+        "FINISH_FINISH_RELATION":"Finish - Finish",
+        "START_FINISH_RELATION":"Start - Finish",
+        "START_START_RELATION":"Start - Start"
+      }
+        
+    }
+   
+    }

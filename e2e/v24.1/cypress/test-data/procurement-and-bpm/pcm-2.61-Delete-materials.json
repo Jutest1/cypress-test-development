@@ -1,0 +1,31 @@
+{
+
+    "CONTAINERS": {  
+        "MATERIAL":{
+            "PROCUREMENT_STRUCTURE":"21",
+            "BP": "Adolf Koch",
+            "UOM": "BAG",
+            "LISTPRICE":"100",
+            "RETAILPRICE":"100"
+        },
+        "MATERIAL_GROUP":{
+            "PROCUREMENT_STRUCTURE_1":"21" 
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_FILTER":{
+            "descriptioninfo": "Description",
+            "IsChecked": "Filter",
+            "materialcatalogtypefk": "Type"
+        },
+        "MATERIAL_CATALOG":{
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner"
+        },
+        "MATERIAL_GROUP":{
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "CONTAINERS": {
+        "CONFIGURATION": {
+            "UNIT_RATE_CONTRACT": "Unit Rate Contract",
+            "Package": "Package",
+            "pkcode": "pkcode",
+            "Configuration": "Configuration",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BUSINESS_PARTNER_1": "Anton Waliser"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "PROCUREMENT_STRUCTURE": "D"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "code": "Code",
+            "packagefk": "Package Code",
+            "description": "Requisition Name",
+            "configurationfk": "Configuration",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_BOQ": {
+            "packagefk": "Package Code",
+            "configurationfk": "Configuration"
+        },
+        "PACKAGE": {
+            "description": "Description",
+            "configurationfk": "Configuration",
+            "code": "Code",
+            "businesspartnerfk": "Business Partner"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "price": "Unit Rate (EUR)",
+            "finalprice": "Final Price (EUR)"
+        }
+    }
+}

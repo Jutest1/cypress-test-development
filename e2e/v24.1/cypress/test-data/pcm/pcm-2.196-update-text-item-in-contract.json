@@ -1,0 +1,25 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "CONFIGURATION": "Material Req"
+        },
+        "REQUISITION_ITEM": {
+            "MATERIAL_CODE": "DÜB08PVC",
+            "QUANTITY": 100
+        },
+        "ITEM_TEXT": {
+            "TEXT_TYPE": "Order Text",
+            "TEXT_TYPE_1": "Supplier Text",
+            "TEXT_INPUT": "Added new text module assemblies",
+            "TEXT_INPUT_1": "newly added text module assemblies"
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION_ITEM": {
+            "mdcmaterialfk": "Material No."
+        }
+    }
+}

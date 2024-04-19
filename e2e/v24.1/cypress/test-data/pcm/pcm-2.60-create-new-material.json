@@ -1,0 +1,99 @@
+{
+    "CONTAINERS": {
+        "TAX_CODES": {
+            "PROCUREMENT_STRUCTURE": "M",
+            "TAX_CODE": "05"
+        },
+        "MATERIAL_CATALOG": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "MATERIAL_GROUPS":{
+            "PROCUREMENT_STRUCTURE":"M"
+        },
+        "MATERIAL_RECORDS": {
+            "UOM": [
+                "m",
+                "BAG"
+            ],
+            "RETAIL_PRICE": [
+                "140"
+            ],
+            "LIST_PRICE": [
+                "140"
+            ],
+            "DISCOUNT": [
+                "10"
+            ],
+            "CHARGES": [
+                "35"
+            ]
+        },
+        "CONTRACT": {
+            "CONFIGURATION": "Material PO",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "QUANTITY": "100"
+        },
+        "MATERIALS_TRANSLATION": {
+            "LANGUAGE": [
+                "English (US)",
+                "Deutsch",
+                "Français",
+                "Español",
+                "Italiano"
+            ],
+            "DESCRIPTION": [
+                "Desc-English (US)",
+                "Desc-Deutsch",
+                "Desc-Français",
+                "Desc-Español",
+                "Desc-Italiano"
+            ],
+            "DESCRIPTION1": [
+                "further_Desc-English (US)",
+                "further_Desc-Deutsch",
+                "further_Desc-Français",
+                "further_Desc-Español",
+                "further_Desc-Italiano"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner"
+        },
+        "MATERIAL_GROUP": {
+            "tree": "Structure",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "ATTRIBUTE": {
+            "propertyinfo": "Attribute",
+            "hasfixedvalues": "Fixed Values"
+        },
+        "MATERIAL_RECORD": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "discount": "Discount %",
+            "charges": "Charges",
+            "estimateprice": "Estimate Price"
+        },
+        "CONTRACT": {
+            "code": "Code",
+            "materialcatalogfk": "Framework Material Catalog"
+        },
+        "ITEMS_CONTRACT": {
+            "mdcmaterialfk": "Material No.",
+            "itemno": "Item Number",
+            "quantity": "Quantity"
+        },
+        "MATERIAL_CATALOGS_FILTER": {
+            "IsChecked": "Filter",
+            "materialcatalogtypefk": "Type",
+            "conheaderfk": "Contract"
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "MG2FM",
+            "QUANTITY": "100",
+            "REPLACE_RECORD": "MG3DM"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "1",
+            "UOM": "BAG"
+        },
+        "PACKAGE": {
+            "VALUE": "MG2FM",
+            "QUANTITY": ["50","40"],
+            "RADIO_INPUT": "For current package"
+        },
+        "MATERIAL_RECORD": {
+            "MIN_QUANTITY": "20",
+            "SELL_UNIT": "10"
+        }
+    },
+    "MODAL":{
+        "PROJECTS":{
+            "CLERK":"SmiJ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+           
+        },
+        "MATERIAL_RECORD": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "minquantity": "Min Quantity",
+            "sellunit": "Sell Unit"
+        },
+        "PACKAGE_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "price": "Price",
+            "prcpackagefk": "Package"
+        },
+        "REQUISITION": {
+            "packagefk": "Package",
+            "description":"Requisition Name"
+        },
+        "REQUISITION_ITEMS":{
+            "prcpackagefk": "Package"
+
+        },
+        "DATA_TYPE":{
+            "name": "Data Type"
+
+        },
+        "DATA_RECORD":{
+            "descriptioninfo": "Description",
+            "ispublished":"Published",
+            "isordered":"Ordered"
+
+        }
+    }
+}

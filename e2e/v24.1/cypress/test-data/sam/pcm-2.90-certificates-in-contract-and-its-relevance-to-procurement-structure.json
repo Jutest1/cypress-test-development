@@ -1,0 +1,105 @@
+{
+    "Prerequisites": {
+        "SidebarInputs": {
+            "ProjectName": "PCM2.44",
+            "searchType": "standard",
+            "searchTypeQuick": "quickstart",
+            "modulename": "Project",
+            "OkButton": "OK",
+            "Search": "Search",
+            "ProcurementConfig": "Procurement Configuration",
+            "ProcurementStructure": "Procurement Structure",
+            "Package": "Package",
+            "Characteristics": "Characteristics",
+            "Requisition": "Requisition",
+            "Customizing":"Customizing",
+            "Contract":"Contract"
+        }
+    },
+    "Inputs": {
+        "Approved": "Approved",
+        "BusinessPartner": "Adolf Koch"
+    },
+    "SidebarOptions": {
+        "SidebarInputs": {
+            "Quickstart": "Quick Start",
+            "Qckstrttype": "quickstart",
+            "Search": "Search",
+            "project": "Project",
+            "wizard1": "Wizard",
+            "wizard2": "wizard",
+            "estimate": "Estimate"
+        },
+        "wizardInputs": {
+            "ChangeRequisitionStatus": "Change Requisition Status",
+            "CreateContract": "Create Contract"
+        }
+    },
+    "Headers": {
+        "Column_Certificates": {
+            "prcconfigheaderfk": "Configuration Header",
+            "bpdcertificatetypefk": "Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory"
+        },
+        "Column_ProcurementStructure": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "clerkreqfk": "Requisition Owner Role",
+            "clerkprcfk": "Responsible Role",
+            "prcconfigheaderfk": "Configuration Header"
+        },
+        "Column_ContractCertificate":{
+            "bpdcertificatetypefk":"Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory",
+            "requiredamount":"Required Amount"
+        },
+        "Column_Requisitions": {
+            "projectfk": "Project No.",
+            "businesspartnerfk": "Business Partner",
+            "structure": "Structure Code",
+            "code": "Code"
+        },
+        "Column_Contracts": {
+            "code": "Code"
+        },
+        "Column_DataTypes": {
+            "name": "Data Type"
+        },
+        "Column_DataRecords": {
+            "descriptioninfo": "Description",
+            "isvalued": "Is Valued"
+        }
+    },
+    "Customizing": {
+        "DataType": "Certificate Type",
+        "DataRecords":"CIS Certificate (en)",
+        "Check": "check",
+        "UnCheck": "uncheck"
+    },
+    "ProcurementConfig": {
+        "Config_Header": {
+            "Description": "Material",
+            "OwnerRole": "Project Manager",
+            "ResponsibleRole": "Project Manager",
+            "Material": "Material"
+        },
+        "Certificate_Input": {
+            "ConfigHeader": "Material",
+            "Type": "CIS Certificate (en)",
+            "isRequired": "check",
+            "isMandatory": "check"
+        }
+    },
+    "RequisitionInput": {
+        "List": "list",
+        "Grid": "grid",
+        "Structure": "M",
+        "BP": "Adolf Koch",
+        "MaterialNo": "DÜB06PVC",
+        "Price": "100",
+        "Qty": "23"
+    }
+}

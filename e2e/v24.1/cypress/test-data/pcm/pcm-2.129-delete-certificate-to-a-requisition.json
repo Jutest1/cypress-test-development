@@ -1,0 +1,54 @@
+{
+    "CONTAINERS": {
+        "PROCUREMENT_STRUCTURE": {
+            "TYPE": "Material",
+            "REQ_OWNER_ROLE": "Project Manager",
+            "RESPONSIBLE_ROLE": "Project Manager",
+            "PRC_CONFIG_HEADER": "Material"
+        },
+        "CERTIFICATE_INPUT":{
+            "CONFIG_HEADER": "Material",
+            "TYPE": "Tax Clearance Certificate",
+            "IS_REQUIRED": "check",
+            "IS_MANDATORY": "check",
+            "AMOUNT":"30.00",
+            "GURANTEE_COST":"50.00"
+        },
+        "REQUISITION_INPUT":{
+            "STRUCTURE_CODE1": "D",
+            "CONFIGURATION": "Service REQ",
+            "STRUCTURE_CODE2": "M",
+            "BP": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROCUREMENT_STRUCTURE_COLUMN": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "clerkreqfk": "Requisition Owner Role",
+            "clerkprcfk": "Responsible Role",
+            "prcconfigheaderfk": "Configuration Header"
+
+        },
+        "CERTIFICATE_COLUMN": {
+            "prcconfigheaderfk": "Configuration Header",
+            "bpdcertificatetypefk": "Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory",
+            "guaranteecost":"Guarantee Cost",
+            "amount":"Amount"
+        },
+        "REQUISITION_CERTIFICATE_COLUMN": {
+            "bpdcertificatetypefk":"Type",            
+            "requiredamount":"Required Amount",
+            "guaranteecost":"Guarantee Cost"
+        },
+        "REQUISITION_COLUMN": {
+            "projectfk": "Project No.",
+            "businesspartnerfk": "Business Partner",
+            "structure": "Structure Code",
+            "code": "Code"
+        }
+    }
+}

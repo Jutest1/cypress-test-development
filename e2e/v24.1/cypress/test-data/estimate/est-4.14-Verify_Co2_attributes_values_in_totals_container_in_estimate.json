@@ -1,0 +1,104 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "COST_CODES": {
+            "COST_CODE": [
+                "A0",
+                "M0"
+            ],
+            "COST_CODE_CO2_VALUE": [
+                "300",
+                "100"
+            ],
+            "COST_CODE_DESCRIPTION": [
+                "Lohn",
+                "Stoffe"
+            ]
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "MATERIAL_CATALOG_DESCRIPTION": "Artikelkatalog"
+        },
+        "MATERIAL_RECORDS": {
+            "MATERIAL_DESCRIPTION": [
+                "Silo- Portlandzement"
+            ],
+            "CO2_PROJECT_VALUE": "300"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": [
+                "1"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "C",
+                "M"
+            ],
+            "COST_CODE": [
+                "A0",
+                "M0"
+            ],
+            "MATERIAL": [
+                "Silo- Portlandzement"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "descriptioninfo": "Description",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2sourcefk": "CO2/kg (Source Name)"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "descriptioninfo": "Description"
+        },
+        "MATERIAL_RECORDS": {
+            "descriptioninfo1": "Description",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "basco2sourcefk": "CO2/kg (Source Name)"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total",
+            "co2totalvariance": "CO2 Total Variance"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total",
+            "quantity": "Quantity",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total"
+        },
+        "TOTALS": {
+            "description": "Description",
+            "co2projecttotal": "CO2/Kg (Project) Total"
+        }
+    }
+}

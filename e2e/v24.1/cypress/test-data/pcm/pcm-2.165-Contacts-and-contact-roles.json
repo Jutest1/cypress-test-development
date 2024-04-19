@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "STRUCTURE_CODE": "D",
+            "STRUCTURE": "M",
+            "CONFIGURATION": "Service REQ",
+            "BP": "Adolf Koch",
+            "ROLE": "Owner",
+            "FIRST_NAME": "Hans",
+            "TAX_CODE": "NSTB",
+            "value": "500.00",
+            "BP2": "AGO Baumaschinen GmbH"
+        },
+        "REQUISITION_CONTACT": {
+            "ASSIGN_CONTACT":"Assign Contact",
+            "ROLE": "Owner",
+            "FIRST_NAME":"Brings",
+            "BP":"Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk": "Business Partner"
+        },
+        "REQUISITION_CONTACT": {
+            "bpdcontactrolefk": "Role",
+            "BpdContactFirstName": "First Name"
+        }
+       
+    }
+}

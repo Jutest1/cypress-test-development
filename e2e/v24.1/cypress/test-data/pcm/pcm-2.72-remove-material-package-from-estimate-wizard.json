@@ -1,0 +1,175 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "30",
+                "50"
+            ],
+            "UOM": [
+                "10M3"
+            ],
+            "UNIT_RATE": [
+                "50",
+                "60"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "CHANGE_QUANTITY": [
+                "10"
+            ],
+            "UOM": "BAG"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "MATERIAL": [
+                "MG3FM"
+            ]
+        },
+        "BIDS": {
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "BID_BOQSTRUCTURE": {
+            "COPY_SOURCE_FROM": "Project BoQ",
+            "ROOT": "Root",
+            "POSTION": "Position",
+            "LEVEL_1": "Level 1"
+        },
+        "WIP_BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "20",
+                "30"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "SCOPE_ID": "entireEstimate_2"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "ESTIMATE": {
+            "estheader.code":"Code",
+            "estheader.descriptioninfo":"Description",
+            "estheader.esttypefk":"Estimate Type",
+            "estheader.rubriccategoryfk":"Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "code":"Code",
+            "packageassignments":"Package",
+            "grandtotal": "Grand Total",
+            "costtotal": "Cost Total",
+            "prjchangefk": "Project Change",
+            "boqitemfk": "BoQ Item Ref. No."
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "packageassignments":"Package"
+        },
+        "PACKAGE_ITEM_ASSIGNMEMT":{
+            "prcpackagefk": "Procurement Package"
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "projectfk":"Project No."
+        },
+        "ITEM_ASSIGNMENT":{
+            "estheaderfk":"Estimate",
+            "estheaderfkdescription":"Estimate-Description",
+            "estresourcefk":"Resource"
+        }
+
+    },
+
+    "Prerequisites": {
+        "SidebarInputs": {
+            "ProjectName": "21062023",
+            "searchType": "standard",
+            "quickStart1":"Quick Start",
+            "searchTypeQuick": "quickstart",            
+            "Search": "Search",
+            "Package": "Package",            
+            "wizard1": "Wizard",
+            "wizard2": "wizard",
+            "estimate":"Estimate"
+            
+        }
+    },
+    "Estimate":{
+        "EstimateHeader_Column":{
+
+        },
+        "LineItemInputs":{
+            "estimate":"EST 1.1",
+            "packageNo":"PK-10261",
+            "removePackage":"Remove Package",
+            "LineItemDesc":"LI A",
+            "estimateScope":"Entire Estimate",
+            "check":"check",
+            "resource":"MG3FM",
+            "popupType":"grid"
+                  
+
+        },
+        
+        "LineItem_Column":{
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "code":"Code",
+            "packageassignments":"Package"
+        },
+        "Resource_Column":{
+            "estresourcetypeshortkey":"Short Key",
+            "code":"Code",
+            "packageassignments":"Package"
+
+        }
+    },
+    "PackageItemAssignment_ColumnHeader": {
+        "prcpackagefk": "Procurement Package"
+    },
+    "ItemAssignment_Column":{
+        "estheaderfk":"Estimate",
+        "estheaderfkdescription":"Estimate-Description",
+        "estresourcefk":"Resource"
+        
+    },
+    "Package_ColumnHeader":{
+        "packagestatusfk":"Status",
+        "code":"Code",
+        "projectfk":"Project No."
+    },
+    "removePackage":{
+        "PK-10261":"check"        
+    }      
+}

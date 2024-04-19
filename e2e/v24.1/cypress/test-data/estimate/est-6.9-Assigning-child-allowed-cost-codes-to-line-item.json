@@ -1,0 +1,41 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "1",
+            "UOM": "BAGS"
+        },
+        "COST_CODES": {
+            "CODE_1": "A0",
+            "CODE_2": "2109",
+            "CHECKBOX_STATUS": "check",
+            "UOM": "BAG",
+            "LABLE": "Cost Codes"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "COST_CODES": {
+            "isprojectchildallowed": "Child Allowed",
+            "uomfk": "UoM"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "basuomfk": "UoM"
+        }
+    }
+}

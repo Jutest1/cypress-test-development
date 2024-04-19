@@ -1,0 +1,72 @@
+{
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "Search": "Search",
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "QuickStart": "Quick Start",
+            "quickstart": "quickstart",
+            "project": "Project",
+            "createContract": "Create Contract",
+            "bid": "Bid",
+            "createBillOption": "Create/Update Bill",
+            "createBill": "Create Bill",
+            "qto": "QTO",
+            "billing": "Billing",
+            "createWIP": "Create WIP"
+        }
+    },
+    "BoQHeader": {
+        "BoQheaderInputs": {
+            "OutlineSpecification": "RDESC"
+        },
+        "Column_Headers": {
+            "boqrootitem.briefinfo": "Outline Specification",
+            "boqrootitem.finalprice": "Final Price"
+        }
+    },
+    "BoqStructure": {
+        "BoQStructureInputs": {
+            "Quantity": "500.000",
+            "Quantity1": "300.000",
+            "UnitRate": "20",
+            "UnitRate1": "50",
+            "Uom": "10M3"
+        },
+        "Column_Headers": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        }
+    },
+    "BidCreation": {
+        "bidInputs": {
+            "businessPartner": "Adolf Koch",
+            "sourceLead": "BoQ",
+            "quantity": "200.000"
+        }
+    },
+    "Contract":{
+        "ColumnHeaders": {
+            "amountnet": "Net Amount"
+        }
+    },
+    "WIPCreation": {
+        "WIP_BoQ_Structure_Inputs": {
+            "quantity": "100"
+        },
+        "ColumnHeaders": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity"
+        }
+    },
+    "billPage": {
+        "ColumnHeaders": {
+            "amountnet": "Net Amount"
+        }
+    }
+}

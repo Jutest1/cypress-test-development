@@ -1,0 +1,55 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "UOM": "10M3"
+    },
+    "RESOURCE": {
+      "SHORTKEY": "C",
+      "CODE": ["2","2"],
+      "QUANTITY": ["10","1"]
+    }
+  },
+  "MODAL": {
+    "UPDATE_ESTIMATE_WIZARD": [
+      {
+        "LABEL_NAME": "Calculate Rule/Parameter",
+        "INDEX": "0",
+        "VALUE": "check"
+      }
+    ],
+    "RULES": {
+      "RULE_CODE": "102"
+    },
+    "RULE_PARAMETER": {
+      "GA_2": "10",
+      "RP_2": "20"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "isgc": "General Cost"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "quantity": "Quantity",
+      "descriptioninfo": "Description",
+      "costtotal": "Cost Total",
+      "ga":"G&A",
+      "rp":"R&P"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "REQUISITION": {
+            "STRUCTURE": "M",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "MATERIAL_NO": "DÜB06PVC",
+            "PRICE": "100",
+            "QUANTITY": "23"
+        },
+        "REQUISITION_MILESTONE": {
+            "TYPE": "Design Commitment",
+            "TAX_CODE": "05",
+            "AMOUNT": "134"
+        },
+        "REQUISITION_CHARACTERISTICS": {
+            "CODE": "200",
+            "VALUE": "Testing"
+        },
+        "REQUISITION_CONTACT": {
+            "ROLE": "Service Personell",
+            "CONTACT": "Maurer"
+        },
+        "REQUISITION_SUB_CONTRACTOR": {
+            "CONTACT": "Brings",
+            "STRUCTURE": "M",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "REQUISITION_CERTIFICATE": {
+            "TYPE": "CIS Certificate (en)",
+            "COST": "187"
+        },
+        "REQUISITION_GENERALS": {
+            "TYPE": "Nachlass %",
+            "TAX_CODE": "05",
+            "VALUE": "230"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "REQUISITION": {
+            "projectfk": "Project No.",
+            "businesspartnerfk": "Business Partner",
+            "structure": "Structure Code",
+            "code": "Code"
+        },
+        "REQUISITION_MILESTONE": {
+            "prcmilestonetypefk": "Type",
+            "mdctaxcodefk": "Tax Code",
+            "amount": "Amount",
+            "milestone": "Date"
+        },
+        "REQUISITION_CONTACT": {
+            "bpdcontactrolefk": "Role",
+            "bpdcontactfk": "Contact",
+            "BpdContactFirstName": "First Name"
+        },
+        "REQUISITION_SUB_CONTRACTOR": {
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "bpdcontactfk": "Contact"
+        },
+        "REQUISITION_CERTIFICATE": {
+            "bpdcertificatetypefk": "Type",
+            "guaranteecost": "Guarantee Cost",
+            "validto": "Valid To",
+            "validfrom": "Valid From"
+        },
+        "REQUISITION_GENERALS": {
+            "prcgeneralstypefk": "Type",
+            "mdccontrollingunitfk": "Controlling Unit Code",
+            "mdctaxcodefk": "Tax Code",
+            "value": "Value"
+        },
+        "REQUISITION_DOCUMENT": {
+            "description": "Description"
+        },
+        "CONTRACTS": {
+            "code": "Code",
+            "reqheaderfk": "Requisition",
+            "projectfk": "Project No.",
+            "structureCode": "Procurement structure",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACTS_MILESTONE": {
+            "prcmilestonetypefk": "Type",
+            "mdctaxcodefk": "Tax Code",
+            "amount": "Amount",
+            "milestone": "Date"
+        },
+        "CONTRACTS_CONTACT": {
+            "bpdcontactrolefk": "Role",
+            "bpdcontactfk": "Contact",
+            "BpdContactFirstName": "First Name"
+        },
+        "CONTRACTS_SUB_CONTRACTOR": {
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "bpdcontactfk": "Contact"
+        },
+        "CONTRACTS_CERTIFICATE": {
+            "bpdcertificatetypefk": "Type",
+            "guaranteecost": "Guarantee Cost",
+            "validto": "Valid To",
+            "validfrom": "Valid From"
+        },
+        "CONTRACTS_GENERALS": {
+            "prcgeneralstypefk": "Type",
+            "mdccontrollingunitfk": "Controlling Unit Code",
+            "mdctaxcodefk": "Tax Code",
+            "value": "Value"
+        },
+        "CONTRACTS_DOCUMENT": {
+            "description": "Description"
+        },
+        "REQUISITION_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price",
+            "quantity": "Quantity"
+        },
+        "REQUISITION_TOTALS": {
+            "valuenet": "Net Value",
+            "valuetax": "VAT",
+            "gross": "Gross"
+        },
+        "CONTRACT_TOTALS": {
+            "valuenet": "Net Value",
+            "valuetax": "VAT",
+            "gross": "Gross"
+        }
+    }
+}

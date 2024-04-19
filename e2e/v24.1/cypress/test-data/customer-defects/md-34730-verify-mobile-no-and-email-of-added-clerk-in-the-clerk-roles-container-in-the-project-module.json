@@ -1,0 +1,30 @@
+{
+    "CONTAINERS": {
+        "CLERK": {
+            "CODE": "PM1",
+            "DESCRIPTION":"PM John",
+            "Email":"param.more5050@gmail.com",
+            "MOBILE_NO":"9309772134",
+            "ROLE":"Project Manager"
+        }
+        
+    },
+    "CONTAINER_COLUMNS": {
+        "CLERK": {
+            
+            "email":"E-Mail",
+            "telephonemobilfk":"Mobile"
+            
+
+            
+        }
+       
+    },
+    
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS",
+            "CLERKA":"HS"
+        }
+    }
+}

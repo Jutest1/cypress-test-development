@@ -1,0 +1,76 @@
+
+  {
+      "CONTAINERS": {
+          "ESTIMATE": {
+              "RUBRIC_CATEGORY": "Planning",
+              "ESTIMATE_TYPE": "Bid Estimate"
+          },
+          "LINE_ITEM": {
+              "QUANTITY": "100",
+              "UOM": "10M3",
+              "ACT_RELATION":"From Structure"
+          },
+          "RESOURCES":{
+            "SHORT_KEY":"C",
+            "CODE":"1",
+            "UOM": "BAGS",
+            "COST_TOTAL":"costTotal"
+        },
+          "ACTIVITY_STRUCTURE": {
+              "QUANTITY": "100.000",
+              "PLANNED_START":"current",
+              "PLANNED_FINISH":"incremented"
+          },
+          "BID":{
+            "DESC": "RNM_BID-01",
+            "BP": "Adolf Koch",
+            "SOURCE_LEAD": "Activity"
+          },
+          "PROGRESS":{
+            "DESC": "R_Prog-01",
+            "QUANTITY": "100.000"
+          }
+      },
+      "CONTAINER_COLUMNS": {
+          "ESTIMATE": {
+              "estheader.code": "Code",
+              "estheader.descriptioninfo": "Description",
+              "estheader.esttypefk": "Estimate Type",
+              "estheader.rubriccategoryfk": "Category"
+          },
+          "LINE_ITEM": {
+                  "descriptioninfo": "Description",
+                  "quantity": "Quantity",
+                  "basuomfk": "UoM",
+                  "estqtytelaotfk":"AOT. Qty Relation",
+                  "estqtyrelactfk": "Act Qty Relation",
+                  "psdactivityfk": "Activity"
+          },
+          "RESOURCES":{
+            "estresourcetypeshortkey":"Short Key",
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "costunit":"Cost/Unit"        
+        },
+          "ACTIVITIES": {
+            "description":"Description"
+         },
+          "SCHEDULES": {
+              "code":"Code",
+              "descriptioninfo":"Description"
+          },
+          "ACTIVITY_STRUCTURE": {
+                  "description":"Description",
+                  "locationfk":"Location",
+                  "plannedstart":"Planned Start",
+                  "plannedfinish":"Planned Finish"
+            },
+            "PROGRESS":{
+                  "description": "Description",
+                  "quantity":"Quantity"
+        },
+        "WIP_LINE_ITEM":{
+            "liquantity":"IQ Quantity"
+        }
+      }
+    }

@@ -1,0 +1,24 @@
+{
+    "CONTAINERS":{
+        "BUSINESS_PARTNER": {
+            "BUSINESS_PARTNER": ["Adolf Koch","AGO Baumaschinen GmbH"],
+            "BRANCH": ["Filderstadt","Brandenburg"],
+            "CONTACT": ["Hans","Klaus"],
+            "COUNTRY":"Germany"
+        }
+    },
+    "CONTAINER_COLUMNS":{
+        "HEADERS": {
+            "rfqstatusfk": "Status",
+            "code": "Rfq Code",
+            "description": "RfQ Description",
+            "projectfk": "Project No."
+        },
+        "BIDDER_HEADER": {
+            "rfqbusinesspartnerstatusfk": "Status",
+            "businesspartnerfk": "Business Partner",
+            "ContactFirstName": "Contact First Name",
+            "subsidiaryfk": "Branch"
+        }
+    }
+}

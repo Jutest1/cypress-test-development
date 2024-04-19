@@ -1,0 +1,49 @@
+{
+
+"CONTAINERS": {
+    
+    "CONTRACT":{
+        "BP1": "Adolf Koch",
+        "CHARACTERSTICS_CODE":"205"
+    },
+    "CHARACTERISTICS":{
+        "TYPE":"Percent"
+    },
+    "CHARACTERISTICS_SECTIONS": {
+        "CONTRACT": "check"
+    },
+    "ITEMS":{
+        "MATERIALNO":"2109010"
+    }
+
+},
+"CONTAINER_COLUMNS": {
+    
+    "CONTRACT":{
+        "businesspartnerfk": "Business Partner",
+        "description":"Reference Name",
+        "code":"Code",
+        "controllingunitfk":"Controlling Unit Code"
+    },
+    "GENERALS_CONTRACT":{
+        "prcgeneralstypefk":"Type",
+        "mdctaxcodefk":"Tax Code",
+        "value":"Value"
+    },
+    "CHARACTERISTICS_GROUP": {
+        "descriptioninfo": "Description"
+    },
+    "CHARACTERISTICS": {
+        "code": "Code",
+        "descriptioninfo": "Description"
+    },
+    "CHARACTERISTICS_SECTIONS": {
+        "descriptioninfo": "Description",
+        "checked": "Checked"
+    },
+    "REQUISITION_CHARACTERISTICS": {
+        "characteristicfk": "Code",
+        "description": "Description"
+    }
+}
+}

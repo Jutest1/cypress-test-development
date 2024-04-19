@@ -1,0 +1,101 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "100",
+      "UOM": "10M3",
+      "BUDGET_UNIT": "36"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": ["C", "M", "S"],
+      "CODE": ["1", "2" ],
+      "CODE1": "MG3FM"
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY": "100",
+      "UNIT_RATE": "25",
+      "UOM": "CM3",
+      "RECORDING_LEVEL": "LI",
+      "BUDGET_PER_UNIT": "56"
+    }
+  },
+  "MODAL": {
+    "PROJECTS": {
+      "CLERK": "SmiJ"
+    },
+    "CREATE_BID": {
+      "BUSINESS_PARTNER": "Adolf Koch",
+      "STRUCTURE_TYPE": "BoQ",
+      "MAIN_BID": "Main Bid"
+    },
+    "GENERATE_UPDATE_BASE_COST": {
+      "SELECT_ESTIMATE_SCOPE": "Entire Estimate",
+      "GENERATE_UPDATE_BASE_COST": "Generate Base Cost",
+      "INDEX": "0",
+      "RADIO_INDEX": "0"
+    },
+    "UPDATE_ESTIMATE_BUDGET": {
+      "SELECT_CONTRACT_HEADER_SCOPE": "Selected Contract Header Items",
+      "RADIO_INDEX": "0",
+      "DISTRIBUTE_BASED_ON": "Base Cost Total",
+      "INDEX": "1"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "grandtotal": "Grand Total",
+      "costtotal": "Cost Total",
+      "basecostunit": "Base Cost.Unit",
+      "basecosttotal": "Base Cost Total",
+      "isfixedbudget": "Fix Budget",
+      "code": "Code",
+      "isfixedbudgetunit": "Fix Budget/Unit",
+      "budgetunit": "Budget/Unit",
+      "boqitemfk": "BoQ Item Ref. No.",
+      "budget": "Budget"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "quantity": "Quantity",
+      "descriptioninfo": "Description",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total"
+    },
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification"
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "recordinglevel": "Recording Level"
+    },
+    "CONTRACT_BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "budgettotal": "Budget Total",
+      "finalprice": "Final Price",
+      "budgetfixedtotal": "Fixed Budget Total",
+      "budgetfixedunit": "Fixed Budget/Unit",
+      "budgetperunit": "Budget/Unit"
+    }
+  }
+}

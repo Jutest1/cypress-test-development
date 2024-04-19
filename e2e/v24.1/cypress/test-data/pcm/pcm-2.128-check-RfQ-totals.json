@@ -1,0 +1,170 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK": "HS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "1",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "MATERIAL": [
+                "MG2FM"
+            ],
+            "QUANTITY": [
+                "200"
+            ]
+        },
+        "ITEMS": {
+            "MATERIAL": [
+                "S452"
+            ],
+            "QUANTITY": [
+                "10"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "TOTALS": {
+            "description": "Description",
+            "total": "Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "REQUISITION": {
+            "reqstatusfk": "Status",
+            "id": "Id",
+            "packagefk": "Package",
+            "code": "Code"
+        },
+        "RFQ": {
+            "rfqstatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "ITEMS": {
+            "itemno": "Item Number",
+            "prcitemstatusfk": "Status",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity"
+        }
+    },
+    "SidebarInputs": {
+        "searchType": "standard",
+        "Wizard": "wizard",
+        "wizard": "Wizard",
+        "CreateMaterialPackage": "Create/Update Material Package",
+        "changeProcurementConfiguration": "Change Procurement Configuration",
+        "createrequestforquote": "Create Request For Quote"
+    },
+    "LineItemInputs": {
+        "LineItem": {
+            "lineItemDesc": "test",
+            "quantity": "1",
+            "uom": "BAGS"
+        },
+        "column_headers": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        }
+    },
+    "EstimatePageInputs": {
+        "CreateEstimate": {
+            "rubicCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        },
+        "column_headers": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        }
+    },
+    "ResourcePageInputs": {
+        "createResource": {
+            "shortKey": "M",
+            "costCode": "MG2FM",
+            "quantity": "200"
+        },
+        "column_headers": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        }
+    },
+    "footersTabs": {
+        "Tabs": {
+            "lineItemTab": "Line Items",
+            "resources": "Resources"
+        }
+    },
+    "createMaterialPackageInputs": {
+        "criteriaSelection": "Material & Cost Code",
+        "Change_Package_Status": "Change Package Status",
+        "packageStatus_InProgress": "In-Progress",
+        "packageItem_column_headers": {
+            "quantity": "Quantity"
+        }
+    },
+    "Create_Requisition": {
+        "createRequisition": "Create Requisition",
+        "requisitionChangeStatus": "Change Requisition Status",
+        "requisitionStatus": "Approved",
+        "type": "T10",
+        "BusinessPartner": "Adolf Koch",
+        "Totals_column_headers": {
+            "totaltypefk": "Type",
+            "valuenet": "Net Value"
+        }
+    },
+    "procurementConfiguration": {
+        "configurationHeader": "Material Req"
+    },
+    "ItemRecordInputs": {
+        "Quantity": "10",
+        "MaterialNumber": "S452",
+        "Column_header": {
+            "quantity": "Quantity",
+            "mdcmaterialfk": "Material No."
+        }
+    }
+}

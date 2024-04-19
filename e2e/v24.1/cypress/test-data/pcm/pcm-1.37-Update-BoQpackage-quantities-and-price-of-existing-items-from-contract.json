@@ -1,0 +1,72 @@
+{
+    
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "BOQ_STRUCTURE":{
+            "QUANTITY":["500.000","300.000"],
+            "UNIT_RATE":["50.00","30.00"],
+            "UOM":"BAGS",
+            "BOQLINETYPE":"Position"
+        },
+        "RESOURCE":{
+            "SHORT_KEY": "C",
+            "CODE": "331401"
+            
+        }
+
+    },
+    "MODALS":{
+        "CREATE_BOQ_PACKAGE":{
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "SCOPE": "Entire Estimate",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "PROCUREMENT_STRUCTURE": "1",
+            "BOQ": "BoQ",
+            "MODULE":"Package(1)" 
+        }
+
+    },    
+    "UPDATE_BOQ_PACKAGE": [
+        {
+            "name": "SyncBaseQuantity",
+            "nameCheckboxVal": "check"
+        },
+        {
+            "name": "SyncBasePrice",
+            "nameCheckboxVal": "check"
+        },
+        {
+            "name": "SyncCostGroups",
+            "nameCheckboxVal": "uncheck"
+        }
+    ],
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "BOQ":{
+            "boqrootitem.briefinfo": "briefinfo"
+        },
+        "BOQ_STRUCTURE":{
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "finalprice":"Final Price (EUR)"
+        },
+        "RESOURCE":{
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        }
+    }       
+       
+    
+        
+    
+   
+}

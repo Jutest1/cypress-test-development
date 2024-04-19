@@ -1,0 +1,56 @@
+
+{
+  "CONTAINERS": {
+      "ESTIMATE": {
+          "RUBRIC_CATEGORY": "Planning",
+          "ESTIMATE_TYPE": "Bid Estimate"
+      },
+      "LINE_ITEM": {
+          "QUANTITY": "100",
+          "UOM": "%"
+      },
+      "RESOURCE": {
+        "SHORT_KEY": ["C","S"],
+        "CODE": ["1","2"],
+          "QUANTITY":"50"
+      }
+  },
+  "MODAL": {
+     "SELECT_ESTIMATE_SCOPE":{
+        "SELECT_ESTIMATE_SCOPE":"Highlighted Line Item"
+     },
+     "MODIFY_DETAILS":[
+        {
+          "FieldName":"Quantity",
+          "Option":"Set Value to",
+          "OptionData":"30"
+        }
+      ]
+  },
+  "CONTAINER_COLUMNS": {
+      "ESTIMATE": {
+          "estheader.code": "Code",
+          "estheader.descriptioninfo": "Description",
+          "estheader.esttypefk": "Estimate Type",
+          "estheader.rubriccategoryfk": "Category"
+      },
+      "LINE_ITEM": {
+          "descriptioninfo": "Description",
+          "quantity": "Quantity",
+          "basuomfk": "UoM"
+      },
+      "RESOURCE": {
+          "estresourcetypeshortkey": "Short Key",
+          "code": "Code",
+          "quantity": "Quantity",
+          "descriptioninfo": "Description",
+          "basuomfk": "UoM",
+          "quantityfactordetail1":"Quantity Factor Details 1",
+          "quantityfactordetail2":"Quantity Factor Details 2",
+          "costfactordetail1":"Cost Factor Details 1",
+          "costfactordetail2":"Cost Factor Details 2",
+          "quantitydetail":"Quantity Details",
+          "efficiencyfactordetail1":"Efficiency Factor Details 1"
+      }
+  }
+}

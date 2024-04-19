@@ -1,0 +1,25 @@
+{
+    "CONTAINERS": {
+        "MATERIAL_CATALOG": {
+            "CODE": "001",
+            "DESC": "Binde-, Zusatzmittel",
+            "LANGUAGE": "Deutsch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOG": {
+            "code": "Code"
+        },
+        "MATERIAL_GROUP": {
+            "descriptioninfo": "Description"
+        },
+        "ATTRIBUTE": {
+            "propertyinfo": "Attribute",
+            "hasfixedvalues": "Fixed Values"
+        },
+        "TRANSLATION": {
+            "langname": "Language",
+            "col0": "Attribute"
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "100",
+      "UOM": "10M3",
+      "AQ_QUANTITY": "75",
+      "BOQ_RELATION": "Bidirectional WQ AQ"
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY": "36",
+      "UNIT_RATE": "25",
+      "UOM": "%",
+      "QUANTITY_UPDATED": "45"
+    }
+  },
+  "MODAL": {
+    "UPDATE_ESTIMATE_WIZARD": [
+      {
+        "LABEL_NAME": "Update from BoQ",
+        "INDEX": "0",
+        "VALUE": "check"
+      },
+      {
+        "LABEL_NAME": "Calculate Rule/Parameter",
+        "INDEX": "0",
+        "VALUE": "uncheck"
+      },
+      {
+        "LABEL_NAME": "Update to BoQ",
+        "INDEX": "0",
+        "VALUE": "uncheck"
+      }
+    ],
+    "UPDATE_ESTIMATE_TO_WIZARD": [
+      {
+        "LABEL_NAME": "Update from BoQ",
+        "INDEX": "0",
+        "VALUE": "uncheck"
+      },
+      {
+        "LABEL_NAME": "Calculate Rule/Parameter",
+        "INDEX": "0",
+        "VALUE": "uncheck"
+      },
+      {
+        "LABEL_NAME": "Update to BoQ",
+        "INDEX": "0",
+        "VALUE": "check"
+      }
+    ]
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "estqtytelaotfk": "AOT. Qty Relation",
+      "estqtyrelboqfk": "Boq Qty Relation",
+      "quantitytarget": "AQ Quantity Item",
+      "wqquantitytarget": "WQ Quantity Item"
+    },
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification",
+      "boqrootitem.reference": "Reference No."
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "finalgross": "Final Price (Gross)",
+      "quantityadj": "AQ Quantity",
+      "pricegross": "Corrected UR (Gross)"
+    }
+  }
+}

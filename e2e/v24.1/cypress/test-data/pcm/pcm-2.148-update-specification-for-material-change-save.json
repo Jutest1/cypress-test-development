@@ -1,0 +1,33 @@
+{
+    "CONTAINERS": {
+        "MATERIAL": {
+            "RETAIL_PRICE": "0.20",
+            "UOM": "BAGS",
+            "LIST_PRICE": "0.100.10",
+            "SPECIFICATION": "Test111"
+        },
+        "MATERIAL_CATALOGS": {
+            "BUSINESS_PARTNER": "Anton Waliser",
+            "STRUCTURE_CODE": "681001"
+        },
+        "PRICE_LIST": {
+            "SPECIFICATION": "Test123"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "MATERIAL_CATALOGS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "materialcatalogtypefk": "Type"
+        },
+        "MATERIAL": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "specificationinfo": "Specification",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code"
+        }
+    }
+}

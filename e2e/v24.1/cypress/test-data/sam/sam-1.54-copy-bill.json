@@ -1,0 +1,54 @@
+
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE":{
+            "QUANTITY":"100.00",
+            "UOM":"10M3",
+            "UNIT_RATE": "9"
+          },
+        "BILL_BOQSTRUCTURE":{
+          "QUANTITY":"500.00",
+          "UOM":"BAGS",
+          "UNIT_RATE": "50",
+          "POSITION":"Position"
+        },
+        "BILL":{
+            "VALIDATION_MSG":"The currency should be equal to the Sales Contract",
+            "TYPE": "Progress Invoice",
+            "QUANTITY":"90.00",
+            "BUSINESS_PARTNER":"Adolf Koch",
+            "PROJECT_BOQ":"Project BoQ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk":"BoQ Line Type"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BILL_BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk":"BoQ Line Type"
+        },
+        "BILL":{
+            "descriptioninfo":"Description",
+            "amountnet":"Net Amount",
+            "amountgross":"Amount (Gross)",
+            "currencyfk":"Currency"
+        }
+    }
+
+}

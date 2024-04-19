@@ -1,0 +1,40 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "ESTIMATE_LINE_ITEM":{
+        "QUANTITY": "87"
+    },
+    "BOQ_STRUCTURE":{
+      "QUANTITY": "98",
+      "UNIT_RATE": "4",
+      "UOM": "10M3"
+    }
+},
+
+"CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code":"Code",
+      "estheader.descriptioninfo":"Description",
+      "estheader.rubriccategoryfk":"Rubric Category",
+      "estheader.esttypefk":"Estimate Type"
+    },
+    "ESTIMATE_LINE_ITEM":{
+        "quantity": "Quantity",
+        "wqquantitytarget":"WQ Quantity Item",
+        "quantitytotal":"Quantity Total"
+    },
+    "BOQ":{
+      "boqrootitem.briefinfo": "Outline Specification" 
+    },
+    "BOQ_STRUCTURE":{
+        "boqlinetypefk": "BoQ Line Type",
+          "briefinfo": "Outline Specification",
+          "quantity": "Quantity",
+          "price": "Unit Rate (EUR)",
+          "basuomfk": "UoM"
+    }
+}
+}

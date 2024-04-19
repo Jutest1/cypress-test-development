@@ -1,0 +1,32 @@
+{
+    "CONTAINERS": {    
+      "ACTIVITY_STRUCTURE": {
+        "QUANTITY": "100.000",
+        "UOM": "BAGS",
+        "PLANNED_START":"current",
+        "PLANNED_FINISH":"incremented",
+        "NO_OF_DAYS": "5"
+        }        
+    },
+    "CONTAINER_COLUMNS": {
+        "SCHEDULES": {
+          "code":"Code",
+          "descriptioninfo":"Description",
+          "insertedby":"Inserted By"
+        },
+        "ACTIVITY_STRUCTURE": {
+          "description":"Description",
+          "locationfk":"Location",
+          "plannedstart":"Planned Start",
+          "plannedfinish":"Planned Finish",
+          "plannedduration":"Planned Duration",
+          "insertedby":"Inserted By",
+          "activitysubfk":"Sub Activity"
+        }
+      },
+      "MODAL": {
+        "PROJECTS": {
+          "CLERK": "SmiJ"
+        }
+      }
+    }

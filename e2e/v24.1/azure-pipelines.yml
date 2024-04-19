@@ -1,0 +1,77 @@
+trigger:
+- none
+
+pool:
+  name: Cypress-testing-RIB
+
+parameters:
+- name: CYPRESS_BASE_URL
+  displayName: Cypress Base URL
+  type: string
+  default: https://apps-test.itwo40.eu/itwo40/sub6.4/client/#
+
+- name: EXECUTION_TYPE
+  displayName: Execution Type
+  type: string
+  default: 'test-suite-execution'  # Default value, change as needed
+  values:
+  - 'spec-wise-execution'
+  - 'test-suite-execution'
+
+- name: SPEC_NAME
+  displayName: Cypress Spec Name
+  type: string
+  default: "prj-1.0-create-and-pinned-project.cy.ts"
+
+jobs:
+- job: Test
+  timeoutInMinutes: 0
+  steps:
+  - task: Npm@1
+    displayName: NPM Installation
+    inputs:
+      command: 'install'
+      workingDir: 'e2e/'
+
+  - task: PowerShell@2
+    displayName: 'cypress installation'
+    inputs:
+      targetType: 'inline'
+      script: |
+        Set-Location -Path "$(Build.SourcesDirectory)\e2e"
+        npm install -g cypress@12.14.0 --save-dev
+
+  - task: PowerShell@2
+    displayName: 'cypress run'
+    continueOnError: True
+    inputs:
+      targetType: 'inline'
+      script: |
+        Set-Location -Path "$(Build.SourcesDirectory)\e2e"
+
+        # Conditional execution based on parameter value
+        $executionType = "${{parameters.EXECUTION_TYPE}}"
+        if ($executionType -eq 'test-suite-execution') {
+          npx cypress run --spec "cypress/scenarios/parallel-demo/**/*" --env allure=true --browser chrome --headed --config baseUrl=${{ parameters.CYPRESS_BASE_URL }}
+        }
+        elseif ($executionType -eq 'spec-wise-execution') {
+          npx cypress run --spec "cypress/scenarios/regression/**/${{ parameters.SPEC_NAME }}" --env allure=true --browser chrome --headed --config baseUrl=${{ parameters.CYPRESS_BASE_URL }}
+        }
+
+  - task: PowerShell@2
+    condition: succeededOrFailed()
+    continueOnError: True
+    displayName: install allure and run
+    inputs:
+      targetType: 'inline'
+      script: |
+        allure generate $(Build.SourcesDirectory)\e2e\allure-results --clean -o $(Build.SourcesDirectory)\e2e\allure-report
+        ls
+
+  - task: PublishPipelineArtifact@1
+    condition: succeededOrFailed()
+    continueOnError: True
+    inputs:
+      targetPath: '$(Build.SourcesDirectory)\e2e\allure-report'
+      artifact: 'allure-reports'
+      publishLocation: 'pipeline'

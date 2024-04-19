@@ -1,0 +1,210 @@
+{
+  "CONTAINERS": {
+    "DATA_RECORDS": {
+      "AUTOMATICALLY_PUSH_BUDGET": "Automatically push the Budget to Package after manually adding item Assignment",
+      "PARAMETER_VALUE": "1"
+    },
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "100",
+      "UOM": "10M3",
+      "AQ_QUANTITY": "75",
+      "BOQ_RELATION": "Bidirectional WQ AQ"
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY": "200",
+      "UNIT_RATE": "25",
+      "UOM": "CM3"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": "C",
+      "CODE_1": "S-R-V",
+      "CODE_2": "Lohn",
+      "QUANTITY": "35"
+    }
+  },
+  "MODAL": {
+    "GENERATE_BUDGET_FROM_DJC_WIZARD": {
+      "X_FACTOR": "1",
+      "ESTIMATE_SCOPE": "Highlighted Line Item",
+      "BUDGET_FROM": "Grand Total",
+      "ESTIMATE_SCOPE_INDEX": 0,
+      "BUDGET_FROM_INDEX": 0
+    },
+    "CREATE_UPDATE_BOQ_PACKAGE": {
+      "CASE_TYPE": "BoQ",
+      "BUSINESS_PARTNER": "Adolf Koch",
+      "ESTIMATE_SCOPE": "Entire Estimate",
+      "GROUPING_STRUCTURE": "Project BoQ",
+      "PROCUREMENT_STRUCTURE": "D",
+      "BoQReferenec": "10.10.  10."
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "estqtytelaotfk": "AOT. Qty Relation",
+      "estqtyrelboqfk": "Boq Qty Relation",
+      "quantitytarget": "AQ Quantity Item",
+      "wqquantitytarget": "WQ Quantity Item",
+      "budget": "Budget",
+      "code": "Code"
+    },
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification",
+      "boqrootitem.reference": "Reference No."
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "finalgross": "Final Price (Gross)",
+      "quantityadj": "AQ Quantity",
+      "pricegross": "Corrected UR (Gross)",
+      "budgettotal": "Budget Total"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "costtotal": "Cost Total",
+      "budget": "Budget"
+    },
+    "PACKAGE": {
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "Prerequisites": {
+    "SidebarInputs": {
+      "searchType": "standard",
+      "searchTypeQuick": "quickstart",
+      "modulename": "Project",
+      "contractSales": "Contract Sales",
+      "OkButton": "OK",
+      "Search": "Search",
+      "Quickstart": "Quick Start"
+    }
+  },
+  "customizingInput": {
+    "SystemOption": "System Option",
+    "Automatically_push_the_Budget": "Automatically push the Budget to Package after manually adding item Assignment",
+    "ParameterValue": "1"
+  },
+  "CreateNewBoQS": {
+    "BoQInput": {
+      "boqOutline": "BoQ Outline"
+    }
+  },
+  "CreateNewBoQStructure": {
+    "BoQStructureInputs": {
+      "boqOutLineSpecification": "Structure Outline",
+      "quantity": "200",
+      "unitRate": "25",
+      "uom": "CM3"
+    }
+  },
+  "Estimate": {
+    "EstimateHeaderInputs": {
+      "code": "R_EST",
+      "description": "R_EST-01",
+      "rubricCategory": "Planning",
+      "estimateType": "Bid Estimate"
+    }
+  },
+  "CreateResource": {
+    "CreateResourceInput": {
+      "shortKey": "C",
+      "code": "Lohn",
+      "code1": "Stoffe"
+    }
+  },
+  "SidebarOptions": {
+    "SidebarInputs": {
+      "Quickstart": "Quick Start",
+      "Qckstrttype": "quickstart",
+      "Search": "Search",
+      "project": "Project",
+      "wizard1": "Wizard",
+      "wizard2": "wizard",
+      "estimate": "Estimate",
+      "customizing": "Customizing"
+    },
+    "wizardInputs": {
+      "GenerateLineItem": "Generate Line Items",
+      "GenerateBudgetfromDJC": "Generate Budget from DJC",
+      "CreateBoQPackage": "Create/Update BoQ Package"
+    },
+    "data": {
+      "budgetunit": "20"
+    }
+  },
+  "Headers": {
+    "Column_BoQHeaders": {
+      "boqrootitem.briefinfo": "Outline Specification"
+    },
+    "Column_BoQStruct": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate",
+      "boqlinetypefk": "BoQ Line Type"
+    },
+    "Column_packageBoQStruct": {
+      "budgettotal": "Budget Total"
+    },
+    "Column_EstimateLineItem": {
+      "budget": "Budget",
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity"
+    },
+    "Column_Estimate": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.rubriccategoryfk": "Rubric Category",
+      "estheader.esttypefk": "Estimate Type"
+    },
+    "Column_Resource": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "costtotal": "Cost Total",
+      "budget": "Budget"
+    },
+    "dataTypesColumn": {
+      "name": "Data Type"
+    },
+    "dataRecordsColumn": {
+      "descriptioninfo": "Description",
+      "parametervalue": "Parameter Value"
+    }
+  },
+  "GeneratebudgetfromDJC": {
+    "budgetInputs": {
+      "XFactor": "1",
+      "EstimateScope": "Highlighted Line Item",
+      "budgetFrom": "Grand Total",
+      "EstimateScopeIndex": 0,
+      "budgetFromIndex": 0
+    }
+  },
+  "Package": {
+    "BusinessPartner": "Adolf Koch",
+    "estimateScope": "Entire Estimate",
+    "groupingstructure": "Project BoQ",
+    "procurementStructure": "D",
+    "BoQReferenec": "10.10.  10."
+  }
+}

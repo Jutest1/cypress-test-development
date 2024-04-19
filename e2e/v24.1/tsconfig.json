@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "lib": ["dom", "es6"],
+    /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "types": [
+      "cypress",
+      "node",
+      "@shelex/cypress-allure-plugin"
+    ] /* Specify type package names to be included without being referenced in a source file. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+
+  "include": [
+    "**/*.ts",
+    "cypress/Pages/LoginPage.ts",
+    "src/project-e2e/create-project.cy.ts",
+    "cypress/support/component.js",
+    "cypress/support/commands.ts",
+    "cypress/plugins/read-xlsx.ts",
+    "cypress/plugins/index.ts",
+    "cypress/**/*.ts"
+  ]
+}

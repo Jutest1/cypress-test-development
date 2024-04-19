@@ -1,0 +1,11 @@
+{
+    "CONTAINERS": {
+      "DATA_TYPES":{
+        "ACTIVITY_TYPE":"Activity Type",
+        "ACTIVITY_REMARK":"Activity",
+        "SUBSCH_REMARK":"Sub Schedule"
+      }
+        
+    }
+   
+    }

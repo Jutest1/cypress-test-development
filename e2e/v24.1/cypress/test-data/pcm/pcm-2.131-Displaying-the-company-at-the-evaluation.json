@@ -1,0 +1,34 @@
+{
+    "CONTAINERS": {
+        "BUSINESS_PARTNERS": {
+            "STREET": "ABC",
+            "CITY": "Pune",
+            "ZIP_CODE": "411045",
+            "COUNTRY": "India",
+            "BANK_TYPE": "Hausbank",
+            "I_BAN": "DE02 7015 0000 0000 5949 37"
+        },
+        "EVALUATION": {
+            "EVALUATION_SCHEMA": "Contractor",
+            "CLERK_INPUT": "HS",
+            "REMARK": "Newly added Business Pratner",
+            "COMPANY": "999",
+            "EVALUATION_DOCUMENT": "Bisherige Erfahrung"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESS_PARTNERS": {
+            "code": "Code",
+            "businesspartnerstatusfk": "Status",
+            "businesspartnername1": "Business Partner Name",
+            "clerkfk": "Responsible",
+            "address": "Address",
+            "email": "E-Mail"
+        },
+        "EVALUATION": {
+            "PRICE": "Price",
+            "QUANTITY": "Quantity",
+            "BASUOMFK": "UoM"
+        }
+    }
+}

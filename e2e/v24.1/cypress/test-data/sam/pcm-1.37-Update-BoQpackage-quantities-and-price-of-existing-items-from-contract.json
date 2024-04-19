@@ -1,0 +1,115 @@
+{
+    "Prerequisites": {
+        "SidebarInputes": {
+            "searchType": "standard",
+            "Wizard": "wizard"
+        }
+    },
+    "EstimatePageInputes": {
+        "CreateEstimate": {
+            "code": "EST-01",
+            "estimateDes": "EST-01",
+            "rubicCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        },
+        "ColumnHeaders": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type "
+        }
+    },
+    "BoQInputs": {
+        "BoQheader": {
+            "OutlineSpecs": "1R_BoQ",
+            "OutlineSpecs2": "2R_BoQ"
+        },
+        "BoQRecord": {
+            "ItemDesc": "1R-Item",
+            "ItemDesc2": "2R-Item",
+            "quantity": "20.000",
+            "uom": "10M3",
+            "unitRate": "25",
+            "quantity1": "100.000",
+            "unitRate1": "50.00",
+            "Position":"Position",
+            "gridtype":"grid1",
+            "package":"Package(1)"
+
+        },
+            "ColumnHeaders": {
+                "boqrootitem.briefinfo": "briefinfo"
+            }
+    },
+    "SidebarInputs": {
+        "types": {
+            "Qckstrt": "Quick Start",
+            "Qckstrttyp": "quickstart",
+            "Search": "Search",
+            "SearchType": "search",
+            "Wizard": "Wizard",
+            "wizard": "wizard",
+            "module":"Project"
+        },
+        "wizards": {
+            "GenerateLineItems": "Generate Line Items",
+            "CreateBoQPackage": "Create/Update BoQ Package",
+            "ChangePackageStatus": "Change Package Status",
+            "CreateProcContract": "Create Contract",
+            "packageBoQ":"Update Package (Boq)"
+        },
+        "Status": {
+            "InProgress": "In-Progress",
+            "Approved": "Approved"
+           
+        },
+        "Modules": {
+            "Package": "Package",
+            "Project": "Project"
+        }
+    },
+    "InputValues": {
+        "Package": {
+            "BusinessPartner": "Adolf Koch",
+            "Scope": "Entire Estimate",
+            "groupingstructure": "Project BoQ",
+            "ProcurementStructure": "1",
+            "BoQ": "BoQ"
+        }
+    },
+        "UpdatePackageBoQ": [
+            {
+                "name": "SyncBaseQuantity",
+                "nameCheckboxVal": "check"
+            },
+            {
+                "name": "SyncBasePrice",
+                "nameCheckboxVal": "check"
+            },
+            {
+                "name": "SyncCostGroups",
+                "nameCheckboxVal": "uncheck"
+            }
+        ],
+
+    "CreateNewResource": {
+        "CostCodeResourceInput": {
+            "ShortKey": "C",
+            "Code": "331401",
+            "ShortKey2": "C",
+            "Code2": "1"
+        },
+        "Column_Headers": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        }
+    },
+    "BoqStructure": {
+        "ColumnHeaders": {
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "finalprice":"Final Price (EUR)"
+        }
+    }
+}

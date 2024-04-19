@@ -1,0 +1,76 @@
+
+{
+    "CONTAINERS": {
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "CONFIGURATION": "Service"
+        },
+        "UPDATE_ITEM_PRICE": {
+            "LABEL_1": "All item under current selected lead record",
+            "LABEL_2": "Selected item(s)",
+            "PRICE_VERSION": "Base Price",
+            "MATERIAL_NUMBER_FIRST_ITEM": "DÜB08PVC",
+            "MATERIAL_NUMBER_SECOND_ITEM": "DÜB06PVC",
+            "MATERIAL_NO": [
+                "DÜB08PVC",
+                "DÜB06PVC"
+            ],
+            "ITEM_CODE": [
+                "DÜB08PVC",
+                "ANG-00131",
+                "VER-000111"
+            ],
+            "CHECKBOX": "checkbox spaceToUp",
+            "CHECK_BOX": [
+                "Material Catalog Price Version",
+                "Quotation",
+                "Contract",
+                "Include Neutral Material"
+            ],
+            "LATEST_PRICE_VERSION": "Latest Price version",
+            "UPDATE_PRICE_VALUE": "10",
+            "MATERIAL_RECORD_UOM_AFTER": "Centimeter",
+            "ZERO_DISCOUNT": "0"
+        },
+        "MATERIAL_CATALOG": {
+            "CODE": "001"
+        },
+        "ITEMS": {
+            "PRICE_CONDITION": "Surcharge",
+            "DISCOUNT_PERCENTAGE": "10",
+            "ZERO_DISCOUNT": "0",
+            "MATERIAL_FOR_CONVERTED_VALUE": "221004",
+            "FACTOR_INPUT": "1",
+            "PRICE": "10",
+            "UOM": "%"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "code": "Code",
+            "dateeffective": "Date Effective"
+        },
+        "CONTRACT_ITEM": {
+            "price": "Price"
+        },
+        "QUOTE": {
+            "datequoted": "Quote"
+        },
+        "QUOTE_ITEM": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price"
+        },
+        "MATERIAL_RECORD": {
+            "code": "Code",
+            "neutralmaterialcatalogfk": "Neutral Material Catalog"
+        },
+        "ITEMS": {
+            "factorpriceunit": "Factor",
+            "priceunit": "Price Unit",
+            "prcpriceconditionfk": "Price Condition",
+            "priceextra": "Extras",
+            "discount": "Discount Percent",
+            "totalprice": "Total Price"
+        }
+    }
+}

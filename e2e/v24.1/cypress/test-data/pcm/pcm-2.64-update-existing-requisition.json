@@ -1,0 +1,95 @@
+
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "1"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "MG2FM"
+        },
+        "RFQ": {
+          "BP": "Adolf Koch"
+        },
+        "PACKAGE":{
+            "SCOPE" : "Selected Line Item",
+            "COST_TOTAL":"Cost Total",
+            "XFACTOR":"1",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 3,
+            "CODE2":"Tankstelle",
+            "CODE3":"Artikelkatalog"
+        },
+        "MATERIAL":{
+            "UOM": "BAGS",
+            "LIST_PRICE":"20",
+            "RETAIL_PRICE":"30",
+            "BP":"Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "prcstructurefk":"Procurement Structure"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity"
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        },
+        "PACKAGE_ITEM":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "price":"Price"
+        },
+        "PROCUREMENT_STRUCTURE":{
+            "code":"Code",
+            "prcstructuretypefk":"Type",
+            "descriptioninfo":"Description"
+        },
+        "PROCUREMENT_STRUCTURE_ROLES": {
+            "companyfk":"Company",
+            "clerkfk":"Clerk",
+            "clerkrolefk":"Clerk Role"
+        },
+        
+        "REQUISITION":{
+            "code":"Code",            
+            "reqstatusfk":"Status",
+            "packagefk":"Package",
+            "taxcodefk":"Tax Code",
+            "structure":"Structure Code",
+            "clerkprcfk":"Responsible",
+            "clerkreqfk":"Requisition Owner",
+            "controllingunitfk":"Controlling Unit Code"
+        },
+        "CONTROLLING_UNIT": {
+           
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isdefault":"Is Default"
+        }
+    }
+  }

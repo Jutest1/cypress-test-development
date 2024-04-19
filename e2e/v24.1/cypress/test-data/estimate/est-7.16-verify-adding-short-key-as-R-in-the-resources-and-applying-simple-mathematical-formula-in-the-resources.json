@@ -1,0 +1,56 @@
+
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "QUANTITY":"200",
+            "UOM":"%"
+        },
+        "ESTIMATE": {
+            "RUBIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "R",
+            "QUANTITY_DETAILS":"10*10",
+            "CODE": "MG3FM",
+            "QUANTITY":"100.000"
+        }
+
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "descriptioninfo": "Description",
+            "quantity":"Quantity",
+            "uomfk":"UoM"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code", 
+            "estheader.descriptioninfo": "Description", 
+            "estheader.esttypefk": "Estimate Type", 
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "quantitydetail":"Quantity Details",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM"
+        }
+  
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    }
+}

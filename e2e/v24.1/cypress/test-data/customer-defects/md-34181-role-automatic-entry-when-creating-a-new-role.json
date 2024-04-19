@@ -1,0 +1,12 @@
+{
+    "CONTAINER_COLUMNS": {
+        "ROLES": {
+            "name": "Name",
+            "description": "Description"
+        },
+        "ROLE_TO_ROLE": {
+            "accessrolefk2": "Role",
+            "AccessRole": "Role Description"
+        }
+    }
+}

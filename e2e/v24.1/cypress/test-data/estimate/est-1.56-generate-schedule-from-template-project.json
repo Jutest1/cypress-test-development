@@ -1,0 +1,61 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LOCATION": {
+      "QUANTITY_FACTOR": "10.000"
+    },
+    "COMPANIES": {
+      "CODE": "999"
+    },
+    "SCHEDULING_ACTIVITY": {
+      "QUANTITY": "100",
+      "UOM": "BAGS",
+      "NO_OF_DAYS": "5"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "100",
+      "UOM": "%"
+    }
+  },
+  "MODAL": {
+    "PROJECTS": {
+      "CLERK": "SmiJ"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total",
+      "quantitytarget": "AQ Quantity Item"
+    },
+    "LOCATION": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity Factor",
+      "sorting": "Sorting"
+    },
+    "SCHEDULING": {
+      "descriptioninfo": "Description",
+      "code": "Code"
+    },
+    "SCHEDULING_ACTIVITY": {
+      "description": "Description",
+      "code": "Code",
+      "quantity": "Quantity",
+      "quantityuomfk": "UoM",
+      "plannedstart": "Planned Start",
+      "plannedfinish": "Planned Finish"
+    }
+  }
+}

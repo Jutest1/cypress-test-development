@@ -1,0 +1,240 @@
+    {
+        "CONTAINERS": {
+            "PROJECT": {
+                "CLERK_NAME": "HS"
+            },
+            "DATA_TYPES": {
+                "PRICE_LIST": "Price List"
+            },
+            "DATA_RECORDS": {
+                "MASTER_DATA": "Masterdata",
+                "CONTEXT": "RIB_DEMO_Stamm",
+                "CURRENCY": "Euro"
+            },
+            "MATERIAL_CATALOGS": {
+                "BUSINESS_PARTNER": "Adolf Koch"
+            },
+            "MATERIAL_RECORDS": {
+                "UOM": [
+                    "10M3"
+                ],
+                "RETAIL_PRICE": [
+                    "200"
+                ],
+                "LIST_PRICE": [
+                    "200"
+                ]
+            },
+            "RESOURCES": {
+                "SHORT_KEY": [
+                    "M"
+                ]
+            },
+            "PRICE_LIST":{
+                "LIST_PRICE": [
+                    "100"
+                ]
+            },
+            "ESTIMATE": {
+                "RUBRIC_CATEGORY": "Planning",
+                "ESTIMATE_TYPE": "Bid Estimate"
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            "MATERIAL_CATALOGS": {
+                "code": "Code",
+                "descriptioninfo": "Description",
+                "basrubriccategoryfk": "Rubric Category",
+                "validfrom": "Valid From",
+                "validto": "Valid To"
+            },
+            "MATERIAL_GROUPS": {
+                "tree": "Structure",
+                "code": "Code",
+                "descriptioninfo": "Description",
+                "prcstructurefk": "Structure Code"
+            },
+            "PRICE_VERSION": {
+                "descriptioninfo": "Description",
+                "pricelistfk": "Price List"
+            },
+            "MATERIAL_CATALOG_FILTER": {
+                "code": "Code",
+                "descriptioninfo": "Description",
+                "IsChecked": "Filter"
+            },
+            "MATERIAL_RECORDS": {
+                "code": "Code",
+                "descriptioninfo1": "Description",
+                "uomfk": "UoM",
+                "charges": "Charges",
+                "discount": "Discount %",
+                "retailprice": "Retail Price",
+                "listprice": "List Price",
+                "estimateprice": "Estimate Price",
+                "CostPriceGross": "Cost Price (Gross)",
+                "cost": "Cost Price",
+                "priceextra": "Price Extras"
+            },
+            "PRICE_LIST": {
+            },
+            "CONTRACT": {
+                "materialcatalogfk": "Framework Material Catalog",
+                "code": "Code"
+            },
+            "ITEMS": {
+                "mdcmaterialfk": "Material No."
+            },
+            "ESTIMATE": {
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Category"
+            },
+            "LINE_ITEM": {},
+            "ATTRIBUTES": {
+                "hasfixedvalues": "Fixed Values",
+                "propertyinfo": "Attribute"
+            },
+            "ATTRIBUTE_VALUES": {
+                "characteristicinfo": "Value"
+            },
+            "MATERIAL_ATTRIBUTES": {
+                "propertydescription": "Attribute Value",
+                "characteristicdescription": "Values"
+            },
+            "RESOURCES":{
+                "estresourcetypeshortkey": "Short Key",
+                "code": "Code",
+                "costunit": "Cost/Unit"  
+            }
+        },
+        "Prerequisites": {
+            "SidebarInputs": {
+                "projectName": "TESTPRJ111",
+                "searchType": "standard",
+                "Wizard": "wizard",
+                "search": "Search"
+            }
+        },
+        "sidebarInputs": {
+            "sidebar": {
+                "wizard": "Wizard",
+                "wizard1": "wizard",
+                "searchType": "standard",
+                "quickStart": "Quick Start",
+                "quickStart1": "quickstart",
+                "project": "Project",
+                "search": "Search",
+                "Standard": "standard",
+                "popupType1": "grid",
+                "popupType": "list",
+                "materialCatalog": "Material Catalog",
+                "material": "Material",
+                "customizing": "Customizing",
+                "contract": "Contract"
+            }
+        },
+        "material_Group_ColumnHeaders": {
+            "column_Headers": {
+                "tree": "Structure",
+                "code": "Code",
+                "descriptioninfo": "Description",
+                "prcstructurefk": "Structure Code"
+            }
+        },
+        "materialRecords_ColumnHeaders": {
+            "column_Headers": {
+                "code": "Code",
+                "descriptioninfo1": "Description",
+                "uomfk": "UoM"
+            }
+        },
+        "material_Catalog_ColumnHeaders": {
+            "column_Headers": {
+                "code": "Code",
+                "descriptioninfo": "Description",
+                "businesspartnerfk": "Business Partner"
+            }
+        },
+        "material_Catalog_Page": {
+            "Inputs": {
+                "businessPartner": "Adolf Koch"
+            }
+        },
+        "CreateCostGroup": {
+            "CostGroupInputs": {
+                "searchEntity": "Price List",
+                "selectValue": "Masterdata",
+                "context": "RIB_DEMO_Stamm",
+                "currency": "Euro"
+            }
+        },
+        "priceVersion_ColumnHeaders": {
+            "column_Headers": {
+                "descriptioninfo": "Description",
+                "pricelistfk": "Price List"
+            }
+        },
+        "priceList_ColumnHeaders": {
+            "column_Headers": {
+                "materialpriceversionfk": "Price Version",
+                "retailprice": "Retail Price",
+                "listprice": "List Price"
+            }
+        },
+        "priceListPage": {
+            "priceListInputs": {
+                "listPrice": "100.00"
+            }
+        },
+        "columns": {
+            "column_headers": {
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Category"
+            }
+        },
+        "resource_ColumnHeaders": {
+            "column_headers": {
+                "estresourcetypeshortkey": "Short Key",
+                "code": "Code",
+                "costunit": "Cost/Unit"
+            }
+        },
+        "lineItem_ColumnHeaders": {
+            "column_headers": {
+                "descriptioninfo": "Description",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "costunit": "Cost/Unit"
+            }
+        },
+        "EstimatePageInputs": {
+            "CreateEstimate": {
+                "description": "estAD",
+                "newCode": "02",
+                "rubicCategory": "Planning",
+                "estimateType": "Bid Estimate"
+            }
+        },
+        "ResourcePageInputs": {
+            "createResource": {
+                "shortKey": "M"
+            }
+        },
+        "LineItemInputs": {
+            "LineItem": {
+                "lineItemDesc": "test",
+                "quantity": "10",
+                "uom": "BAGS"
+            }
+        },
+        "materialPage": {
+            "materialInputs": {
+                "listPrice": "200.00",
+                "retailPrice": "200.00"
+            }
+        }
+    }

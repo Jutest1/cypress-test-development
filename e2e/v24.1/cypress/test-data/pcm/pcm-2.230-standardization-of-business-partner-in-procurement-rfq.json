@@ -1,0 +1,65 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "RADIUS": "Radius"
+        },
+        "DATA_RECORDS": {
+            "DISTANCE_IN_KM": [
+                "4.500Km"
+            ],
+            "DISTANCE_IN_M": [
+                "4500.000"
+            ]
+        },
+        "BUSINESS_PARTNER": {
+            "STREET": [
+                "Straße zum Mittelpunkt Deutschlands",
+                "An der Oberrothe 1"
+            ],
+            "CITY": [
+                "Vogtei",
+                "Vogtei"
+            ],
+            "ZIP_CODE": [
+                "99986",
+                "99986"
+            ],
+            "COUNTRY": [
+                "Germany"
+            ]
+        },
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        }
+    },
+    "MODAL": {
+        "ENHANCED_BIDDER_SEARCH": {
+            "DISTANCE_IN_KM": [
+                "4.500Km"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESS_PARTNER": {
+            "businesspartnername1": "Business Partner Name",
+            "zipCode": "Zip Code",
+            "city": "City",
+            "address": "Address"
+        },
+        "BRANCHES": {
+            "ismainaddress": "Is Main Address",
+            "description": "Description",
+            "addresstypefk": "Address Type",
+            "addressdto": "Address"
+        },
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name",
+            "addressfk": "Address"
+        },
+        "PACKAGE": {
+            "code": "Code",
+            "description": "Description"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "CONTAINERS": {
+        "PROJECT_CALENDAR": {
+            "PROJECT_CALENDAR":"DE",
+            "TYPE":"uncheck",
+            "ENTERPRISE":"Enterprise",
+            "VISIBILITY":"notVisibleColumn"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CALENDAR_PROJECT":{
+            "calendarfk":"Project Calendar",
+            "calendartypefk":"Calendar Type"
+        },
+        "CALENDAR":{
+            "code":"Code"
+        }
+     }
+  }
+    

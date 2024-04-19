@@ -1,0 +1,145 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "DATA_TYPES": {
+            "BOQ_CONFIG_TYPE":"Boq Rounding Configuration Type"
+        },
+        "JOBS": {
+            "SETTELED_BY":"Controlling Unit",
+            "CONTROLLING_UNIT":"250",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "DATA_RECORD": {
+            "LINE_ITEM_CONTEXT": "RIB_DEMO ISC Plant Context",
+            "PLANT_LIST_TYPE":"Plant List Type",
+            "PLANT_PRICE_LIST":"Plant Price List",
+            "RIB_EQUIPMENT_CONTEXT":"RIB Equipment Context",
+            "CURRENCY":"Euro",
+            "UOM":"Day",
+            "AVERAGE_CATALOG_VALUE":"Average Catalog Value",
+            "PERCENT":"100.00",
+            "CHECK":"check",
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "PERFORMANCE":"Performance"
+        },
+        "PLANT_TYPES":{
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted" 
+        },
+        "WORK_OPERATION_TYPE_CONDITIONS": {
+            "WORK_OPERATION_TYPE":"E",
+            "PLANT_PRICING_GROUP":"Default Group"
+        },
+        "OPERATION_TYPES":{
+            "CHECK":"check",
+            "DAY":"Day",
+            "KM":"Km",
+            "ST":"ST",
+            "HOUR":"Hour" 
+        },
+        "PLANT_GROUP": {
+            "RUBRIC_CATEGORY": "Equipment"
+        },
+        "PLANT": {
+            "PLANT_TYPE": "Rental Construction Machine",
+            "PLANT_KIND": "Ownership",
+            "CLERK_RESPONSIBLE":"FI",
+            "STRUCTURE": "Equipment",
+            "UOM": "LE",
+            "MATCH_CODE": "12345",
+            "SERIAL_NUMBER": "123",
+            "CLERK_OWNER":"FI",
+            "PRICE_LIST":"Dayrental External"
+        },
+        "PLANT_PRICE_LISTS": {
+            "PORTION_VALUE_1": "100.00",
+            "PORTION_VALUE_2": "200.00"
+        }
+     
+    },
+    "CONTAINER_COLUMNS": {
+        "DATA_TYPES": {
+            "name":"Data Type",
+            "type":"Type",
+            "modulename":"Module",
+            "dbtablename":"DB Table Name"
+        },
+        "DATA_RECORD": {
+          "BoqRoundingConfiguration":"Check Config",
+          "boqroundingconfigfk":"Boq Rounding Configuration",
+          "descriptioninfo":"Description",
+          "lineitemcontextfk":"Line Item Context",
+          "islive":"Live"
+        },
+        "OPERATION_TYPES":{
+            "isminorequipment":"Is Minor Equipment",
+            "ishire":"Is Hire",
+            "isdefault":"Is Default",
+            "uomfk":"UoM",
+            "descriptioninfo":"Description",
+            "code":"Code",
+            "islive":"Active" 
+        },
+        "PLANT_TYPES":{
+            "planttypefk":"Plant Type",
+            "istimekeepingdefault":"Is Timekeeping Default" 
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isbillingelement": "For Billing",
+            "isaccountingelement": "For Invoicing",
+            "isplanningelement": "For Planning",
+            "isplantmanagement": "Is Plantmanagement",
+            "isassetmanagement": "Asset Management"
+        },
+        "PLANT_GROUP": {
+            "rubriccategoryfk": "Rubric Category",
+            "descriptioninfo": "Description",
+            "islive": "Active",
+            "code": "Code"
+        },
+        "PLANT": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "plantgroupfk": "Plant Group",
+            "plantkindfk": "Plant Kind",
+            "clerkresponsiblefk": "Clerk Responsible",
+            "procurementstructurefk": "Procurement Structure",
+            "matchcode": "Match Code",
+            "uomfk": "UoM",
+            "serialnumber": "Serial Number"
+        },
+        "PLANT_CONTROLLING":{
+            "controllingunitfk":"Controlling Unit",
+            "controllingunitdescription":"Controlling Unit Description"  
+        },
+        "JOBS": {
+            "settledbytypefk": "Settled By",
+            "controllingunitfk": "Controlling Unit"
+        },
+        "CONDITIONS": {
+            "ishandlingcharge": "Is Handling Charge"
+            
+        }
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        },
+        "PLANT_ALLOCATION": {
+            "ALLOCATED_FROM":"01/05/2023",
+            "WORK_OPERATION_TYPE":"E"
+        }
+    }
+}

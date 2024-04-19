@@ -1,0 +1,27 @@
+{
+    "CONTAINERS": {
+        "ASSEMBLIES_CATEGORIES": {
+            "CODE": "000020",
+            "ASSEMBLY_TEMPLATE": "000020.000010",
+            "COST_GROUP":"100"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ASSEMBLIES_CATEGORIES": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ASSEMBLIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "costgroup_lic_din276_2018-12": "DIN276_2018-12"
+        }
+    },
+    "CREATE_NEW_RULE": [
+        {
+            "FieldName": "DIN276_2018-12",
+            "Option": "Set Value to",
+            "OptionData": "100"
+        }
+    ]
+}

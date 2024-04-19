@@ -1,0 +1,47 @@
+{
+    "CONTAINERS": {
+        "HEADER_VALUE": {
+            "CONCODE": "VER-000248-CAL",
+            "INVCODE1": "ER-20240134_CAL1",
+            "INVCODE2": "ER-20240134_CAL2",
+            "INVCODENOCHAIN": "ER-20240134_CAL3",
+            "AMOUNT": 100,
+            "AMOUNTGROSS": 1000,
+            "VATPERCENT":19,
+            "DISCOUNTPERCENT":19,
+            "AMOUNTNETOC": 100,
+            "AMOUNTGROSSOC":1000,
+            "TOTALPERFORMNET": 1000,
+            "TOTALPERFORMGROSS": 2000,
+            "DISCOUNTBASIC": 1000,
+            "PAYMENTTERM": "07T3%30N"
+        },
+        "DEFAULT_VIEW": {
+            "INV_VIEW": "RIB Buchhaltung"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "INV_HEADER":{
+            "code": "Entry No.",
+            "reference": "Invoice No.",
+            "conheaderfk": "Contract",
+            "amountnet": "Amount (Net)",
+            "amountgross": "Amount (Gross)",
+            "totalperformednet": "Total Performed Net",
+            "totalperformedgross": "Total Performed Gross",
+            "amountnetoc": "Amount (Net OC)",
+            "amountgrossoc": "Amount (Gross OC)",
+            "percentdiscount": "Percent Discount",
+            "amountdiscountbasis": "Discount Basis",
+            "amountdiscountbasisoc": "Discount Basis (OC)",
+            "amountdiscount": "Discount Amount",
+            "amountdiscountoc": "Discount Amount (OC)",
+            "exchangerate": "Rate",
+            "paymenttermfk":"Payment Term"
+
+        }
+
+
+    }
+
+}

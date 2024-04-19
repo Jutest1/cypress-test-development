@@ -1,0 +1,50 @@
+{
+  "Prerequisites": {
+    "SidebarInputs": {
+      "searchType": "standard",
+      "searchType1": "Wizard",
+      "Wizard": "wizard",
+      "searchOption": "Backward Calculation"
+    },
+    "CreateEstimate": {
+      "rubicCategory": "Planning",
+      "estimateType": "Bid Estimate"
+    },
+    "CreateNewLineItem": {
+      "quantity": "100",
+      "AA":"500",
+      "MM":"500"
+    },
+    "CreateNewResource": {
+      "ShortKey": "C",
+      "Code": "A0"
+    }
+  },
+  "BackWardCalculationfromWizard": {
+    
+  },
+  "columns": {
+    "column_headers": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    }
+  },
+  "lineItem_ColumnHeaders": {
+    "column_headers": {
+        "descriptioninfo": "Description",
+        "quantity": "Quantity",
+        "advancedall":"Adv. Allowance Total",
+        "manualmarkup":"Manual Markup"
+    }
+},
+
+"resources_ColumnHeaders": {
+  "column_headers": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "descriptioninfo": "Description"
+  }
+}
+}

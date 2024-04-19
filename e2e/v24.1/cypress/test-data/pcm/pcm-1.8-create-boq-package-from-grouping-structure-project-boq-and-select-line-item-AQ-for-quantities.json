@@ -1,0 +1,64 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "200",
+            "UNIT_RATE": "20",
+            "UOM": "BAGS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate",
+            "OPTION_1": "RefNo-Overwrite"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "SHORT_KEY_1": "M",
+            "CODE_1": "DÜB06PVC"
+        },
+        "PROJECT": {
+            "DESTINATION_PROJECT_NAME": "Verwaltung"
+        },
+        "PACKAGE":{
+            "BASED_ON": "Project BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "ESTIMATE_SCOPE_INDDEX": "0",
+            "PROCUREMENT_STRUCTURE": "1",
+            "QUANTITY_TRANSFER": "BoQ Quantity (WQ/AQ)",
+            "BusinessPartner":"Adolf Koch"
+
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "quantityadj":"AQ Quantity"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    }
+}
+

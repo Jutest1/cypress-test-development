@@ -1,0 +1,103 @@
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "CodePrice": "34.18",
+            "SHORT_KEY_2": "M",
+            "shortKey2": "C",
+            "MATERIAL_CODE":"MG3FM",
+            "SHORT_KEY_3": "A",
+            "ASSEMBY_CODE": "000020.000020",
+            "ASSEMBY_DESC": "MAUERARBEITEN",
+            "codeC":"Stoffe",
+            "MASSAGE":"The combination of Package, Line item, Resource should be unique.",
+            "CODE_DESC":"Lohn"
+        },
+        "PACKAGE": {
+            "CONFIGURATION": "Material"
+        },
+        "PACKAGE_ITEM": {
+                "MATERIAL_NO":"MG2FM",
+                "QUANTITY":"20",
+                "MATERIAL_NO_2":"MG3FM",
+                "QUANTITY_2":"30"
+        },
+        "PROCUREMENT_STRUCTURES": {
+        "QUANTITY": "12",
+        "UNIT_RATE": "30",
+        "UOM": "BAG"
+        }
+    },
+   
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "PACKAGE": {
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        },
+        "PACKAGE_ITEM_ASSIGNMENT": {
+            "prcpackagefk": "Procurement Package",
+            "estresourcefk": "Resource"
+        },
+        "PACKAGE_ITEM":{
+            "price": "Price",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity"
+            
+        }
+
+    }
+}

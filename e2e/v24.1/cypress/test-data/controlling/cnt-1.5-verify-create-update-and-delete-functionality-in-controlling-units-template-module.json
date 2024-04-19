@@ -1,0 +1,25 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "UPDATE":["Overheads"]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "controllingcatfk":"Category"
+        },
+        "CONTROLLING_UNIT_TEMPLATES":{
+            "code": "Code",
+            "descriptioninfo": "Description"
+        }
+    }
+}

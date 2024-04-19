@@ -1,0 +1,45 @@
+{
+  "CONTAINERS": {
+    "ACTIVITY_STRUCTURE": {
+      "QUANTITY": "100.000",
+      "PLANNED_START":"current",
+      "PLANNED_FINISH":"incremented",
+      "PLANNED_DURATION":"extraDayBetweenDates",
+      "DAYS_BETWEEN":"DayBetweenDates"
+      },
+      "CALENDAR": {
+        "TYPE":"Hour",
+        "TYPE1":"Day",
+        "CALENDAR":"Calendar"
+    },
+    "UNIT": {
+      "TYPE":"Week",
+      "TYPE1":"Year"
+    }
+      
+  },
+  "CONTAINER_COLUMNS": {
+      "SCHEDULES": {
+        "code":"Code",
+        "descriptioninfo":"Description"
+      },
+      "ACTIVITY_STRUCTURE": {
+        "description":"Description",
+        "locationfk":"Location",
+        "plannedstart":"Planned Start",
+        "plannedfinish":"Planned Finish",
+        "plannedduration":"Planned Duration"
+      },
+      "UNIT": {
+        "descriptioninfo":"Description",
+        "unitinfo":"Unit of Measurement",
+        "uomtypefk":"Type"
+      },
+      "CALENDAR": {
+        "code":"Code",
+        "descriptioninfo":"Description",
+        "basuomhourfk":"UoM of Hour",
+        "basuomdayfk":"UoM of Day"
+      }
+    }
+  }

@@ -1,0 +1,19 @@
+{
+    "CONTAINERS": {
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE": "D",
+            "UOM": "10M3",
+            "REMARK": "Status Changed"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "code": "Code",
+            "packagefk": "Package Code",
+            "description": "Requisition Name",
+            "configurationfk": "Configuration",
+            "businesspartnerfk": "Business Partner"
+        }
+    }
+}

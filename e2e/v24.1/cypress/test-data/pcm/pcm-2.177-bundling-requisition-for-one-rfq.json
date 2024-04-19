@@ -1,0 +1,141 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK": "HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "100.000"
+            ],
+            "UNIT_RATE": [
+                "500"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": [
+                "20",
+                "30",
+                "40"
+            ],
+            "UOM": [
+                "10M3"
+            ],
+            "PROCUREMENT_STRUCTURE": [
+                "D"
+            ]
+        },
+        "RESOURCES": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "MATERIAL": [
+                "DÜB08PVC"
+            ],
+            "QUANTITY": [
+                "10"
+            ]
+        },
+        "REQUISITION": {
+            "NAVIGATE_RFQ": "RfQ(1)",
+            "NAVIGATE_REQUISITION": "Requisition(1)",
+            "PROCUREMENT_STRUCTURE": [
+                "D"
+            ]
+        },
+        "ITEMS": {
+            "MATERIAL": [
+                "DÜB08PVC"
+            ],
+            "QUANTITY": [
+                "20",
+                "30"
+            ]
+        },
+        "RFQ": {
+            "BUSINESS_PARTNER": "Adolf"
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "UPDATE_BOQ_PACKAGES": {
+            "QUANTITY_TOTAL": "Quantity Total (Estimate Line Item)"
+        },
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "PROCUREMENT_STRUCTURE": [
+                "D",
+                "M"
+            ],
+            "SELECTION_STRUCTURE": "Line Item (Procurement Structure of Line Item)",
+            "GROUPING": "LineItems",
+            "GROUPING_STRUCTURE": "Line Items",
+            "UPDATE_TO_EXISTING_PACKAGE": "Update to Existed Package"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "quantityadj": "AQ Quantity",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "prcstructurefk": "Procurement Structure",
+            "quantitytarget": "AQ Quantity Item"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "REQUISITION": {
+            "reqstatusfk": "Status",
+            "id": "Id",
+            "packagefk": "Package",
+            "code": "Code"
+        },
+        "RFQ": {
+            "rfqstatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "ITEMS": {
+            "itemno": "Item Number",
+            "prcitemstatusfk": "Status",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity"
+        }
+    }
+}

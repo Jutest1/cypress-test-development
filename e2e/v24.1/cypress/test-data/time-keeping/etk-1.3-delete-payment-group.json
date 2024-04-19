@@ -1,0 +1,36 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "MusM"
+        },
+        "PAYMENT_GROUP_RATES":{
+            "RATE":"31.00"
+        },
+        "PAYMENT_GROUP_SURCHARGE":{
+            "RATE":"23.00",
+            "SURCHARGE_TYPE":"Surcharge25"
+        }
+    },
+
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "PAYMENT_GROUP_SURCHARGE":{
+            "controllingunitfk":"Controlling Unit",
+            "surchargetypefk":"Surcharge Type",
+            "rate":"Rate"        
+        },
+        "PAYMENT_GROUPS_LIST":{
+            "descriptioninfo":"Description",
+            "code": "Code"
+        },
+        "PAYMENT_GROUP_RATES":{
+            "controllingunitfk":"Controlling Unit",
+            "surchargetypefk":"Surcharge Type",
+            "commenttext":"Comment Text",
+            "rate":"Rate"          
+        }
+    }
+}

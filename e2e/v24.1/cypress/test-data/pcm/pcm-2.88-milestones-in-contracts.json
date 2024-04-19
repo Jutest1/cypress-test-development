@@ -1,0 +1,40 @@
+{
+    "CONTAINERS": {
+        "CONTRACT_BIDDER":{
+            "PARTNERNAME": "Adolf Koch"
+        },
+        "MILESTONES":{
+            "TYPE":"Progress Meeting",
+            "TAX_CODE":"05",
+            "AMOUNT":"999",
+            "DATE": "30/06/2023",
+            "TYPE1":"Contract Milestones",
+            "TAX_CODE1":"07",
+            "AMOUNT1":"888",
+            "DATE1": "20/06/2023"
+           
+        },
+        "REQUISITION":{
+            "STRUCTRECODE": "D",
+            "CONFIGURATION": "Service REQ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT_BIDDER": {
+            "code": "Code",
+            "constatusfk": "Contract Status",
+            "businesspartnerfk": "Business Partner"
+        },
+        "MILESTONES":{
+            "prcmilestonetypefk": "Type",
+            "mdctaxcodefk": "Tax Code",
+            "amount": "Amount",
+            "milestone":"Date"
+        },
+        "REQUISITION":{
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        }
+    }
+}

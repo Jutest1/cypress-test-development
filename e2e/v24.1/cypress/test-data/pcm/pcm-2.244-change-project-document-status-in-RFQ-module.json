@@ -1,0 +1,78 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "RESOURCES": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "CODE": [
+                "DÜB08PVC"
+            ],
+            "QUANTITY": [
+                "10"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CHANGE_STATUS": {
+            "REMARK": "The staus is set as requested"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name",
+            "addressfk": "Address"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "businesspartnerfk": "Business Partner"
+        },
+        "REQUISITION": {
+            "id": "Id",
+            "reqstatusfk": "Status",
+            "code": "Code"
+        },
+        "RFQ": {
+            "rfqstatusfk": "Status",
+            "code": "Rfq Code",
+            "description": "Description",
+            "clerkprcfk": "Responsible"
+        },
+        "DOCUMENT_PROJECT": {
+            "prjdocumentstatusfk": "Status",
+            "description": "Description"
+        }
+    }
+}

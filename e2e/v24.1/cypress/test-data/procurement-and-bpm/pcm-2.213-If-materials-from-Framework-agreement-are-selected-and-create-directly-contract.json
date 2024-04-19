@@ -1,0 +1,136 @@
+{
+    "CONTAINERS": {
+        "COMPANIES": {
+            "CODE": "999",
+            "COMPANY_NAME": "RIB Demo"
+        },
+        "CLERKS": {
+            "CODE": "HS"
+        },
+        "DATA_TYPES": {
+            "MATERIAL_CATALOG_TYPE": "Material Catalog Type",
+            "MATERIAL_TYPE": "Material Type"
+        },
+        "DATA_RECORDS": {
+            "FRAMEWORK_AGREEMENTS": "framework agreements",
+            "STOCK_MANAGED_MATERIAL": "Stock Managed Material"
+        },
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "ROLES": {
+            "ADMIN": "Admin"
+        },
+        "RIGHTS": {
+            "SHOW_PRICE": "Show Price",
+            "ROLES_DESCRIPTION": "Admin"
+        },
+        "MATERIAL_CATALOG": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "MATERIAL_GROUP": {
+            "PROCUREMENT_STRUCTURE": "M"
+        },
+        "MATERIAL_RECORDS": {
+            "UOM": [
+                "BAG",
+                "m"
+            ],
+            "RETAIL_PRICE": [
+                "11"
+            ],
+            "LIST_PRICE": [
+                "130"
+            ],
+            "MINIMUM_QUANTITY": [
+                "3"
+            ],
+            "MATERIAL_TYPE": [
+                "Stock Managed Material"
+            ],
+            "CURRENCY": [
+                "INR"
+            ]
+        },
+        "PRICE_CONDITION": {
+            "VALUE": "80",
+            "TYPE": "Copper Surcharge",
+            "priceConditionColumn": {
+                "conditionTotal": "Total",
+                "value": "Value",
+                "prcpriceconditiontypefk": "Type"
+            }
+        },
+        "CURRENCY": {
+            "FOREIGN_CURRENCY": "INR",
+            "HOME_CURRENCY": "EUR",
+            "RATE": "90.84"
+        },
+        "CART": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "COMMODITY_SEARCH": {
+            "QUANTITY": [
+                "2"
+            ],
+            "FILTER_CHECKBOX": {
+                "Only Framework Catalog": "check"
+            }
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description"
+        },
+        "COMPANIES": {
+            "code": "Code",
+            "companyname": "Company Name"
+        },
+        "CLERKS": {
+            "code": "Code",
+            "userfk": "User"
+        },
+        "ROLES": {
+            "description": "Description",
+            "name": "Name"
+        },
+        "RIGHTS": {
+            "name": "Name",
+            "description": "Description",
+            "read": "Read"
+        },
+        "MATERIAL_CATALOG": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "conheaderfk": "Contract",
+            "materialcatalogtypefk": "Type",
+            "isticketsystem": "Is Ticket System"
+        },
+        "MATERIAL_GROUP": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "MATERIAL_RECORDS": {
+            "code": "Code",
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "bascurrencyfk": "Currency",
+            "minquantity": "Min Quantity",
+            "materialtypefk": "Material Type",
+            "mdcmaterialfk": "Neutral Material",
+            "neutralmaterialcatalogfk": "Neutral Material Catalog"
+        },
+        "CONTRACT": {
+            "remark": "Remarks"
+        },
+        "ITEMS": {
+            "PrcStructureFkDescriptionInfo.Translated": "Structure Description",
+            "description1": "Description 1",
+            "mdcmaterialfk": "Material No."
+        }
+    }
+}

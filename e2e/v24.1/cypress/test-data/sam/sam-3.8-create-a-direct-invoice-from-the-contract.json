@@ -1,0 +1,161 @@
+{
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "quickstart": "quickstart",
+            "inQuickstart": "Quick Start",
+            "wizard": "wizard",
+            "inWizard": "Wizard",
+            "Search": "Search",
+            "gridPopup": "grid",
+            "gridList": "list",
+            "check": "check"
+        },
+        "Modules": {
+            "project": "Project",
+            "controllingUnit": "Controlling Units",
+            "contractSales": "Contract Sales",
+            "generalContractorControlling": "General Contractor Controlling"
+        },
+        "Wizards": {
+            "generateLineItems": "Generate Line Items",
+            "createBid": "Create Bid",
+            "changeBidStatus": "Change Bid Status",
+            "createContract": "Create Contract",
+            "changeContractStatus": "Change Contract Status",
+            "createBill": "Create Bill"
+        },
+        "Status": {
+            "submitted": "Submitted",
+            "contracted": "Contracted"
+        }
+    },
+    "BoQ": {
+        "Column_Headers": {
+            "boqrootitem.reference": "Reference No."
+        }
+    },
+    "BoQStructure": {
+        "BoQStructure_Inputs": {
+            "quantity1": "100",
+            "unitRate1": "25",
+            "quantity2": "200",
+            "unitRate2": "10",
+            "uom": "10M3"
+        },
+        "Column_Headers": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)",
+            "basuomfk": "UoM",
+            "mdccontrollingunitfk": "Controlling Units",
+            "boqlinetypefk": "BoQ Line Type"
+        }
+    },
+    "Estimate": {
+        "Estimate_input": {
+            "rubricCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        },
+        "Column_Headers": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        }
+    },
+    "LineItems": {
+        "Column_Headers": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "costtotal": "Cost Total",
+            "estqtyrelboqfk": "Boq Qty Relation",
+            "boqitemfk": "BoQ Item Ref. No.",
+            "costunit": "Cost/Unit"
+        }
+    },
+    "Resources": {
+        "Resource_Input": {
+            "shortKey": "C",
+            "code": "1",
+            "code1": "Stoffe",
+            "quantity": "10"
+        },
+        "Column_Headers": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        }
+    },
+    "Bid": {
+        "Bid_Input": {
+            "businessPartner": "Adolf Koch",
+            "rubericCategory": "Main Bid",
+            "structureType": "BoQ"
+        },
+        "Column_Headers": {
+            "bidstatusfk": "Bid Status",
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "billingschemafk": "Billing Schema",
+            "amountnet": "Net Amount"
+        },
+        "BidBoQ_column_Headers": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "bidsBoqStructure_Column_Headers": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        }
+    },
+    "ContractSales": {
+        "ContractSales_Input": {
+            "contractTypeMain": "Main Contract",
+            "businessPartner": "Adolf Koch",
+            "boqSource": "Project BoQ"
+        },
+        "Column_Headers": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "BoQ_Column_Headers": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BoQStructure_Column_Headers": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "finalprice": "Final Price (EUR)"
+        }
+    },
+    "Bill": {
+        "Bill_Input": {
+            "ContractModule": "Contract",
+            "billType": "Final Invoice"
+        },
+        "Column_Headers": {
+            "descriptioninfo": "Description",
+            "bilstatusfk": "Billing Status",
+            "typefk": "Type",
+            "amountnet": "Net Amount"
+        },
+        "BoQ_Column_Headers": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BoQStructure_Inputs": {
+            "quantityItem1": "65",
+            "quantityItem2": "125"
+        },
+        "BoQStructure_Column_Headers": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "finalprice": "Final Price (EUR)",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)"
+        }
+    }
+}

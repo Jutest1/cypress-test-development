@@ -1,0 +1,37 @@
+{
+    "CONTAINERS": {
+        
+        "PROJECT": {
+            "CLERK_NAME": "MusM"
+        },
+       
+        "ACTIONS": {
+            "CHECKBOX": "check"
+        },
+        "DATA_TYPES": {
+            "ACTION_TYPE": "Action Type",
+            "CONTEXT":"RIB_DEMO_PROJEKT",
+            "TIMEKEEPING_SURCHARGE":"Timekeeping Surcharge Type",
+            "CHECKBOX":["check","uncheck"]
+        }
+       
+    },
+    "CONTAINER_COLUMNS": {
+
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "ACTIONS": {
+            "code": "Code",
+            "description": "Description",
+            "actiontypefk": "Action Type"
+        },
+        "DATA_RECORDS": {
+            "contextfk": "Context",
+            "descriptioninfo":"Description",
+            "isstandardrate":"Evaluationlevel"
+        }
+        
+    }
+}

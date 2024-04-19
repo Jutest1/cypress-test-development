@@ -1,0 +1,21 @@
+{
+    "CONTAINERS": {
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BUSINESS_PARTNER_1": "AGO Baumaschinen GmbH",
+            "STRUCTURE_SERVICE": "D",
+            "STRUCTURE_MATERIAL": "M"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "description": "Reference Name",
+            "purchaseorders": "Purchase Orders",
+            "constatusfk": "Contract Status"
+        },
+        "SUBCONTRACTOR": {
+            "bpdbusinesspartnerfk": "Business Partner",
+            "prcstructurefk": "Structure"
+        }
+    }
+}

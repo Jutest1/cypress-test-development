@@ -1,0 +1,298 @@
+{
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "searchTypeQuick": "quickstart",
+            "modulename": "Project",
+            "Search": "Search",
+            "Package": "Package",
+            "ControllingUnit": "Controlling Units",
+            "Modules": "Modules",
+            "Requisition":"Requisition",
+            "ProcurementStructure":"Procurement Structure",
+            "BusinessPartner":"Business Partner",
+            "MaterialCatalog":"Material Catalog",
+            "TaxCode":"Tax Code",
+            "ProcurementConfiguration":"Procurement Configuration",
+            "Customizing":"Customizing",
+            "WIC":"WIC"
+        }
+    },
+    "WIC":{
+        "wicCode":"001",
+        "bp":"Adolf Koch",
+        "paymentAD":"BGB5J",
+        "paymentPA":"VOB4J",
+        "paymentFI":"EINBEHALT"
+    },
+    "ProcurementStructure": {
+        "Role": "Project Manager",
+        "code": "M",
+        "clerk": "FI"
+    },
+    "ClerkRightsInput": {
+        "ClerkName": "KCN",
+        "ProcurementCode": "M"
+    },
+    "CreateControlingunit": {
+        "description": "test controlling",
+        "uom": "%",
+        "quantity": "250"
+    },
+    "ItemsInput": {
+        "uom": "BAGS",
+        "price": "30",
+        "quantity": "250",
+        "grid":"grid"
+    },
+    "CreateResource": {
+        "CreateResourceInput": {
+            "shorttKey": "M",
+            "code": "MG2FM",
+            "Quantity": "50",
+            "description":"PVC Spreizdübel 6"
+        }
+    },
+    "Estimate": {
+        "EstimateHeaderInputs": {
+            "code": "R_EST",
+            "description": "R_EST-01",
+            "rubricCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        }
+    },
+    "LineItem": {
+        "quantity": "270",
+        "uom": "BAGS",
+        "code": "20"
+    },
+    "Requisition":{
+        "Configuration":"Material Req",
+        "StructureCode":"M",
+        "TaxCode":"05",
+        "TaxCodeId":"1000073",
+        "VATPercent":"13",
+        "ProcurementCode":"21",
+        "BusinessPartner":"Adolf Koch"
+    },
+    "TaxCode":{
+        "Ledger":"RIB_DEMO_Kontenrahmen",
+        "TaxCode":"16"
+    },
+    "SidebarOptions": {
+        "SidebarInputs": {
+            "Quickstart": "Quick Start",
+            "Qckstrttype": "quickstart",
+            "Search": "Search",
+            "project": "Project",
+            "wizard1": "Wizard",
+            "wizard2": "wizard",
+            "estimate": "Estimate"
+        },
+        "wizardInputs": {
+            "GenerateLineItem": "Generate Line Items",
+            "CreateUpdateBoQPackage": "Create/Update BoQ Package",
+            "ChangePackageStatus": "Change Package Status",
+            "CreateUpdateMaterialPackage": "Create/Update Material Package",
+            "ChangeRequisitionStatus":"Change Requisition Status",
+            "CreateContract":"Create Contract"
+        }
+    },
+    "CreateUpdateMaterialCostCode": {
+        "CriteriaSelection": "Material & Cost Code",
+        "Material": "Material",
+        "StructureCode": "M"
+    },
+    "Branch":{
+        "Street":"4 Bockelsdorf",
+        "ZipCode":"48727",
+        "Country":"Germany",
+        "Branch":"Branch",
+        "HeadQuarters":"Head Quarters"
+    },
+    "Supplier":{
+        "PaymentTermPA":"NET90",
+        "PaymentTermFI":"NET20",
+        "VAT":"EU",
+        "PaymentTermPA_1":"NET14",
+        "PaymentTermFI_1":"NET07",
+        "VAT_1":"DL"
+    },
+    "Headers": {
+        "Column_EstimateLineItem": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "Column_ControllingUnit": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "Column_Estimate": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "Column_Resource": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "Column_Package": {
+            "code": "Code"
+        },
+        "Column_Requisition":{
+            "supplierfk":"Supplier",
+            "businesspartnerfk":"Business Partner",
+            "subsidiaryfk":"Branch",
+            "taxcodefk":"Tax Code",
+            "controllingunitfk":"Controlling Unit Code",
+            "packagefk":"Package",
+            "structure":"Structure Code",
+            "bpdvatgroupfk":"VAT Group",
+            "baspaymenttermfifk":"Payment Term (FI)",
+            "baspaymenttermpafk":"Payment Term (PA)",
+            "materialcatalogfk":"Framework Material Catalog",
+            "baspaymenttermadfk":"Payment Term (AD)",
+            "incotermfk":"Incoterms",
+            "clerkreqfk":"Requisition Owner",
+            "clerkprcfk":"Responsible",
+            "code":"Code",
+            "prcawardmethodfk":"Award Method",
+            "boqwiccatboqfk":"Framework WIC BoQ",
+            "boqwiccatfk":"Framework WIC Group"
+        },
+        "Column_BP": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "Column_TaxCode":{
+            "mdcledgercontextfk":"Ledger Context",
+            "mdctaxcodefk":"Tax Code"
+        },
+        "column_BRANCHES":{
+            "ismainaddress":"Is Main Address",
+            "description":"Description",
+            "addresstypefk":"Address Type",
+            "addressdto":"Address",
+            "taxno":"Tax No."
+        },
+        "column_Supplier":{
+            "code":"Creditor No.",
+            "subsidiaryfk":"Branch Description",
+            "paymenttermpafk":"Payment Term (PA)",
+            "paymenttermfifk":"Payment Term (FI)",
+            "vatgroupfk":"VAT Group"
+        },
+        "Column_Material_Catalogs":{
+            "materialcatalogtypefk":"Type",
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "businesspartnerfk":"Business Partner",
+            "prcincotermfk":"Incoterms",
+            "supplierfk":"Supplier",
+            "paymenttermadfk":"Payment Term (AD)",
+            "paymenttermfifk":"Payment Term (FI)",
+            "paymenttermfk":"Payment Term (PA)",
+            "subsidiaryfk":"Branch"
+        },
+        "Column_DataTypes": {
+            "name": "Data Type"
+        },
+        "Column_DataRecords": {
+            "descriptioninfo": "Description",
+            "isdefault": "Is Default",
+            "isframework":"Is Framework"
+        },
+        "Column_Config_Header": {
+            "descriptioninfo": "Description"
+        },
+        "Column_Config": {
+            "descriptioninfo": "Description",
+            "description": "Description",
+            "prcawardmethodfk":"Award Method",
+            "paymenttermfifk":"Payment Term (FI)",
+            "paymenttermpafk":"Payment Term (PA)"
+        },
+        "Column_RequisitionItems":{
+            "basuomfk":"UoM",
+            "quantity":"Quantity",
+            "price":"Price"
+        },
+        "Column_RequisitionTotals":{
+            "valuenet":"Net Value",
+            "valuetax":"VAT",
+            "gross":"Gross"
+        },
+        "Column_ProcurementStructure":{
+            "clerkreqfk": "Requisition Owner Role",
+            "clerkprcfk": "Responsible Role",
+            "code": "Code",
+            "prcconfigheaderfk":"Configuration Header"
+        },
+        "Column_WICGroup": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "Column_WICCatalogoues": {
+            "boqrootitem.briefinfo": "Outline Specification",
+            "wiccatboq.bpdbusinesspartnerfk":"Business Partner",
+            "wiccatboq.bpdsubsidiaryfk":"Branch",
+            "boqrootitem.reference":"Reference No.",
+            "wiccatboq.baspaymenttermadfk":"Payment Term (AD)",
+            "wiccatboq.baspaymenttermfifk":"Payment Term (FI)",
+            "wiccatboq.bpdsupplierfk":"Supplier No.",
+            "wiccatboq.baspaymenttermfk":"Payment Term (PA)"
+        },
+        "Column_WICCatalogouesValidate": {
+            "briefinfo": "Outline Specification",
+            "bpdbusinesspartnerfk":"Business Partner",
+            "bpdsubsidiaryfk":"Branch",
+            "reference":"Reference No.",
+            "baspaymenttermadfk":"Payment Term (AD)",
+            "baspaymenttermfifk":"Payment Term (FI)",
+            "bpdsupplierfk":"Supplier No.",
+            "baspaymenttermfk":"Payment Term (PA)"
+        },
+        "Column_Contracts":{
+            "purchaseorders":"Purchase Orders",
+            "materialcatalogfk":"Framework Material Catalog",
+            "code":"Code",
+            "packagefk":"Package Code"
+        }
+    },
+    "Customizing": {
+        "DataType": "Material Catalog Type",
+        "Check": "check",
+        "UnCheck": "uncheck"
+    },
+    "Inputs": {
+        "BusinessPartner": "Adolf Koch",
+        "Status": "In-Progress",
+        "Grid": "grid",
+        "Approved": "Approved",
+        "Acception": "Acception",
+        "Responsible": "SmiJ",
+        "List": "list",
+        "ProjectManager":"Project Manager",
+        "Material":"Material"
+    },
+    "Material_Catalogs":{
+        "Type":"Neutral Material",
+        "Code":"001",
+        "Description":"Artikelkatalog",
+        "PaymentTermAD":"NET20",
+        "BusinessPartner":"Adolf Koch",
+        "INCOTERMS":"DDPA"
+    },
+    "Procurement_Configuration":{
+        "Material":"Material",
+        "Requisition":"Requisition",
+        "Configuration":"Material Req"
+    }
+}

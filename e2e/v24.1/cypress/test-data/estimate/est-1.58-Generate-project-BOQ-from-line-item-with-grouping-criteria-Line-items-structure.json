@@ -1,0 +1,73 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": "C",
+      "CODE": "1",
+      "QUANTITY": "100"
+    },
+    "COST_GROUP": {
+      "COST_GROUP_CODE": "DIN276_2018-12",
+      "COST_GROUP_DESC": [
+        "main1 cost group1",
+        "group1",
+        "group2"
+      ],
+      "QUANTITY": [
+        "200.000",
+        "120.000",
+        "80.000"
+      ],
+      "UOM": "m2"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "1",
+      "UOM": "BAGS"
+    },
+    "BOQ": {
+      "STRUCTURE": "Line Items Structure"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "COST_GROUP": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "uomfk": "UoM"
+    },
+    "LINE_ITEM": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total",
+      "costunit": "Cost/Unit",
+      "costgroup_lic_din276_2018-12": "DIN276_2018-12"
+    },
+    "LINE_ITEM_STRUCTURE": {
+      "costtotal": "Cost Total",
+      "costunit": "Cost/Unit"
+    },
+    "BOQ": {
+      "quantity": "Quantity",
+      "reference": "Reference",
+      "briefinfo": "Outline Specification",
+      "Price": "Unit Rate",
+      "Finalprice": "Final Price",
+      "basuomfk": "UoM"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code"
+    }
+  }
+}

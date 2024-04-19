@@ -1,0 +1,81 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK": "HS"
+        },
+        "COST_CODES": {
+            "CO2_PROJECT_VALUE": "600.000",
+            "COST_CODE": [
+                "Lohn",
+                "S9"
+            ]
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "MATERIAL_CATALOG_DESCRIPTION": "Artikelkatalog"
+        },
+        "MATERIAL_RECORDS": {
+            "MATERIAL_RECORD_DESCRIPTION": "Silo- Portlandzement",
+            "CO2_PROJECT_VALUE": "900.000"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "ASSEMBLY_CATEGORY_DESCRIPTION": "BETONARBEITEN"
+        },
+        "ASSEMBLIES": {
+            "ASSEMBLIES_DESCRIPTION": "Betonstahl S IV (500/550)",
+            "COST_FACTOR_VALUE": "2"
+        },
+        "ASSEMBLY_RESOURCES": {
+            "SHORT_KEY": [
+                "C",
+                "M"
+            ],
+            "COST_CODE": [
+                "1"
+            ],
+            "MATERIAL": [
+                "Silo- Portlandzement"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "descriptioninfo": "Description",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2sourcefk": "CO2/kg (Source Name)",
+            "code": "Code"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "descriptioninfo": "Description"
+        },
+        "MATERIAL_RECORDS": {
+            "descriptioninfo1": "Description",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "basco2sourcefk": "CO2/kg (Source Name)"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ASSEMBLIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "costtotal": "Cost Total",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total",
+            "co2totalvariance": "CO2 Total Variance"
+        },
+        "ASSEMBLY_RESOURCES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "costtotal": "Cost Total",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "estresourcetypeshortkey": "Short Key",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total"
+        }
+    }
+}

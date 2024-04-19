@@ -1,0 +1,27 @@
+{
+    "CONTAINERS": {
+        "REQUISITION": {
+            "STRUCTURE_CODE": "D",
+            "STRUCTURE": "M",
+            "CONFIGURATION": "Material Req",
+            "BP": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk": "Business Partner"
+        },
+        "TEXT_ASSEMBLIES":{
+            "textmodulecontextfk":"Text Module Context",
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "textmoduletypefk":"Text Module Type",
+            "islanguagedependent":"Language Dependent",
+            "textformatfk":"Text Format"
+        }
+       
+    }
+}

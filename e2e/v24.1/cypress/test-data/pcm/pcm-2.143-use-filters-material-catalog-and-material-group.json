@@ -1,0 +1,35 @@
+{   
+    "CONTAINERS":{
+        "MATERIAL_CATALOG":{
+            "BUSINESS_PARTNER":"Adolf Koch",
+            "MATGRPSTRUCT":"M",
+            "UOM": "BAGS",
+            "CHECK":"check",
+            "UNCHECK":"uncheck",
+            "MATERIAL_CATALOG_TYPE":"Material Catalog Type",
+            "NEUTRAL_MATERIAL":"Neutral Material"
+        }
+
+    },
+    "CONTAINER_COLUMNS":{
+        "MATERIAL_CATALOG":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "businesspartnerfk":"Business Partner"
+        },
+        "MATERIAL_GROUP":{
+            "tree":"Structure",
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "prcstructurefk":"Structure Code"
+        },
+        "MATERIAL_RECORD":{
+            "code":"Code",
+            "descriptioninfo1":"Description",
+            "uomfk":"UoM"
+        }
+
+
+    }
+        
+}

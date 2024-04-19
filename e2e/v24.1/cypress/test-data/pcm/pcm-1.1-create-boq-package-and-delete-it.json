@@ -1,0 +1,43 @@
+{
+    "CONTAINERS": {
+        "BOQ": {
+            "DESCRIPTION":"Test",
+            "UOM":"BAG",
+            "QUANTITY":"200"
+        },
+        "PACKAGE":{
+            "CONFIGURATION":"Service",
+            "DESCRIPTION":"Service Package"
+        },
+        "CONTROLLING_UNIT":{
+            "DESCRIPTION": "CU0",
+            "QUANTITY": "300.000",
+            "UOM": "BAGS"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "briefinfo":"Outline Specification",
+            "basuomfk":"UoM",
+            "quantity":"Quantity"
+        },
+        "PROCUREMENT_BOQ":{
+            "boqstatusfk":"BoQ Status",
+            "briefinfo":"Outline Specification",
+            "reference":"Reference No."
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description",
+            "structurefk":"Procurement structure",
+            "configurationfk":"Configuration",
+            "mdccontrollingunitfk":"Controlling Units"
+        },
+        "CONTROLLING_UNIT":{
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        }
+    }
+}

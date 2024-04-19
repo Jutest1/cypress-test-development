@@ -1,0 +1,107 @@
+
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "QUANTITY":"200",
+            "UOM":"%"
+        },
+        "ESTIMATE": {
+            "RUBIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "MG3FM"
+        },
+        "QUOTE": {
+            "BUSINESS_PARTNER_1": "Adolf Koch",
+            "BUSINESS_PARTNER_2": "AGO Baumaschinen GmbH",
+            "REQ_STATUS": "RfQ Created"
+        },
+        "QUOTES_ITEMS":{
+            "PRICE1": "5",
+            "PRICE2": "2",
+            "PRICE_COMPARISON":"Price Comparison(1)"
+        },
+        "INVOICE": {
+            "BUSINESS_PARTNER_1": "Adolf Koch",
+            "CONFIGURATION": "Material FI",
+            "INVOICE_NO": "900"
+        },
+        "CONTRACT_ITEMS": {
+            "CONTRACT_ITEM": "10",
+            "QUANTITY": "1"
+        },
+        "GENERALS": {
+            "CONTROLLING_UNIT_DESCRIPTION": "Controlling Unit Description",
+            "VALUE": "1",
+            "TAX_CODE":"19",
+            "RECORD1":"Netto",
+            "RECORD2":"./. Nachlass"
+        }
+
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "descriptioninfo": "Description",
+            "quantity":"Quantity",
+            "uomfk":"UoM"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code", 
+            "estheader.descriptioninfo": "Description", 
+            "estheader.esttypefk": "Estimate Type", 
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM"
+        },
+        "QUOTES_ITEMS": {
+            "quantity": "Quantity",
+            "mdcmaterialfk": "Material No.",
+            "basuomfk": "UoM",
+            "price": "Price",
+            "totalnodiscount": "Total (No Discount)"
+        },
+        "INVOICE": {
+            "reference": "Invoice No.",
+            "conheaderfk": "Contract",
+            "prcconfigurationfk": "Configuration",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_ITEMS": {
+            "prcitemfk": "Contract Item",
+            "quantity": "Quantity"
+        },
+        "GENERALS": {
+            "ControllingUnitFkDescriptionInfo.Translated": "Controlling Unit Description",
+            "value": "Value",
+            "taxcodefk":"Tax Code",
+            "valuetype":"Value Type",
+            "controllingunitfk":"Controlling Unit Code"
+        }
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        },
+        "MATERIAL_PACKAGE":{
+            "MATERIAL_COSTCODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "Material",
+            "CONFIGURATION": "Material"
+        }  
+    }
+}

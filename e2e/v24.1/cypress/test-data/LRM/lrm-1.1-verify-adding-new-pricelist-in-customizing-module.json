@@ -1,0 +1,31 @@
+{
+    "CONTAINERS": {
+        "DATA_RECORD": {
+          "LINE_ITEM_CONTEXT": "RIB_DEMO_Kalk",
+          "PLANT_LIST_TYPE":"Plant List Type",
+          "PLANT_PRICE_LIST":"Plant Price List",
+          "RIB_EQUIPMENT_CONTEXT":"RIB Equipment Context",
+          "CURRENCY":"Euro",
+          "UOM":"Day",
+          "AVERAGE_CATALOG_VALUE":"Average Catalog Value",
+          "PERCENT":"100.00",
+          "CHECK":"check"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "DATA_TYPES": {
+            "name":"Data Type",
+            "type":"Type",
+            "modulename":"Module",
+            "dbtablename":"DB Table Name"
+        },
+        "DATA_RECORD": {
+          "BoqRoundingConfiguration":"Check Config",
+          "boqroundingconfigfk":"Boq Rounding Configuration",
+          "descriptioninfo":"Description",
+          "lineitemcontextfk":"Line Item Context",
+          "islive":"Live"
+        }
+    }
+
+}

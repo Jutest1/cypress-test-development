@@ -1,0 +1,143 @@
+
+
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "20"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "221004",
+            "QUANTITY": "50.000",
+            "CO2_QUANTITY":"20.000",
+            "TOTALTYPE":"T10"
+        },
+        "PACKAGE_ITEM": {
+            "QUANTITY": "100.000",
+            "MATERIAL_NO": "221005"
+        },
+        "PACKAGE":{
+            "SCOPE" : "Entire Estimate",
+            "COST_TOTAL":"Grand Total",
+            "XFACTOR":"1",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 0
+        },
+         "CONTROLLING_UNIT":{
+            "DESCRIPTION": "CU0",
+            "QUANTITY": "1000.000",
+            "UOM": "BAGS"
+        },
+        "MATERIAL_CATALOG":{
+            "BP": "Anton Waliser",
+            "FROM": "31/05/2023",
+            "TO":"14/06/2023",
+            "PT_FI":"BGB5J",
+            "PT_AD":"NET07"
+        },
+        "CONTRACT":{
+            "BP1": "Adolf Koch",
+            "BP": "AGO Baumaschinen GmbH",
+            "CLERK": "SmiJ",
+            "PRICE": "40.00"
+        },
+        "PES_ITEM":{
+           
+            "MATERIAL_NO": "221001",
+            "QUANTITY": "50.000"
+        },
+        "MATERIAL_CATALOG_FRAMEWORK":{
+            "DESC": "new Description",
+           
+           
+            "FROM":"01/06/2023",
+            "TO":"30/06/2023",
+            "PT_FI":"NET30",
+            "PT_AD":"NET90",
+             "PT_PA":"NET14",
+            "INCOTERM":"EXW",
+            "RESPONSIBLE":"SmiJ"
+        }
+       
+        
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "budget":"Budget"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity",
+            "co2project":"CO2/kg (Project)"
+        },
+        "PACKAGE_ITEM":{
+            "description1":"Description 1", 
+                "quantity": "Quantity",
+                 "prcstructurefk":"Structure",
+                  "basuomfk":"UoM",
+                  "mdcmaterialfk":"Material No.",
+                  "totalprice":"Total Price",
+                  "total":"Total"
+        },
+        "PACKAGE_TOTALS": {
+            "TotalTypeFkDescriptionInfo":"Type Description", 
+            "valuenet": "Net Value",
+            "valuetax":"VAT"
+        },
+        "CONTROLLING_UNIT":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "quantity":"Quantity",
+            "uomfk":"UoM"
+        },
+        "DATA_RECORDS":{
+            "issupplier": "Is Supplier",
+            "isframework": "Is Framework"
+        },
+        "MATERIAL_CATALOG":{
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk":"Business Partner",
+            "validfrom":"Valid From",
+            "validto":"Valid To",
+            "materialcatalogtypefk":"Type",
+            "paymenttermfifk":"Payment Term (FI)",
+            "paymenttermadfk":"Payment Term (AD)",
+            "conheaderfk":"Contract"
+        },
+        "CONTRACT_ITEM":{
+            "quantityremaining": "Remaining Quantity",
+            "quantity": "Quantity",
+            "mdcmaterialfk":"Material No.",
+            "price":"Price"
+        },
+        "CONTRACT":{
+            "controllingunitfk": "Controlling Unit Code",
+            "description": "Reference Name",
+            "net": "Net",
+            "clerkprcfk": "Responsible",
+            "businesspartnerfk":"Business Partner"
+            
+        },
+        "PES_ITEM":{
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "prcstructurefk": "Structure Code"
+        }
+    }
+  }

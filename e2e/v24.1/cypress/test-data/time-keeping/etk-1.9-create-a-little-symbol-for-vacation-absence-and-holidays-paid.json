@@ -1,0 +1,17 @@
+{
+    "CONTAINERS": {
+        "TIME_SYMBOLS": {
+            "TIME_SYMBOL_TYPE": "Type not specified",
+            "TIME_SYMBOL_GROUP": "6. Controlling: Allocated Times",
+            "VALUATION_PERCENT": "100"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "TIME_SYMBOLS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "isoffday": "Is Off Day",
+            "valuationpercent": "Valuation Percent"
+        }
+    }
+}

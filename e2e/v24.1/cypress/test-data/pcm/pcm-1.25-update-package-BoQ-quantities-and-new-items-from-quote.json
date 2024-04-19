@@ -1,0 +1,90 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "BOQ_STR_QUANTITY": "100.000",
+            "UOM": "BAGS",
+            "UNIT_RATE": "50",
+            "QUOTE_BOQ_QUANTITY": "30",
+            "QUOTE_BOQ_UNIT_RATE": "100"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "PACKAGE_BOQ_STRUCTURE": {
+            "QUANTITY": "200",
+            "UNIT_RATE": "100",
+            "UOM": "BAGS"
+        },
+        "PACKAGE": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BOQ": "BoQ",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "PROCUREMENT_STRUCTURE": "D",
+            "GOTO": "Package(1)"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "QUOTE": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "PRICE_1": "20",
+            "PRICE_2": "10",
+            "UNIT_RATE": "10"
+        },
+        "TOTALS": {
+            "CELL_VALUE": "Total"
+        }
+    },
+    "MODAL": {
+        "UPDATE_BOQ_PACKAGE": [
+            {
+                "name": "AddPrice",
+                "nameCheckboxVal": "check"
+            }
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "BOQS": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "REQUISITION": {
+            "packagefk": "Package"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "PACKAGE_BOQ_STRUCTURE": {
+            "quantity": "Quantity",
+            "price": "Unit Rate",
+            "finalprice": "Final Price",
+            "briefinfo": "Outline Specification"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "TOTALS": {
+            "valuenet": "Net Value"
+        }
+    }
+}

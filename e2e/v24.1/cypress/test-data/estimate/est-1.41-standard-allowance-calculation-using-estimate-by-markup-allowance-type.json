@@ -1,0 +1,103 @@
+{
+        "CONTAINERS": {
+                  "ESTIMATE": {
+                      "RUBRIC_CATEGORY": "Planning",
+                      "ESTIMATE_TYPE": "Bid Estimate"
+                  },
+
+                  "LINE_ITEM":{
+                    "QUANTITY1": "50",
+                    "UOM": "10M3",
+                    "PROCUREMENT_STRUCTURE":"1",
+                    "ASSEMBLY_TEMPLATE":"000020.000020"
+                  },
+
+                  "RESOURCE":{
+                    "SHORTKEY": "C",
+                    "CODE": "1",
+                    "CODE1":"Stoffe",
+                    "QUANTITY":"10",
+                    "UPDATED_QUANTITY":"100"
+                  },
+
+                  "ALLOWANCE_MARKUP":{
+                    "GA":"5",
+                    "RP":"3",
+                    "AM":"2",
+                    "LOHN":"Lohn"
+                    },
+
+                    "STANDARD_ALLOWANCE":{
+                        "SA_CODE" : "1",
+                        "QUANTITY_TYPE":"WQ",
+                        "SA_TYPE":"Simple Estimate-by-Markup"
+                    },
+
+                    "ESTIMATE_CONFIGURATION":{
+                        "DEFAULT_WIC": "001",
+                        "TOTAL_LABEL2" : "Grand Total",
+                        "BUDGET": "Budget",
+                        "ADDITIONAL_MARKUP":"Additional Markup",
+                        "RISK_AND_PROFIT": "Risk and Profit",
+                        "GENERALS_ADMINISTARTION":"Generals & Administration cost/markup"
+                    }
+              },
+              
+              "CONTAINER_COLUMNS": {
+                  "ESTIMATE": {
+                      "estheader.code": "Code",
+                      "estheader.descriptioninfo": "Description",
+                      "estheader.esttypefk": "Estimate Type",
+                      "estheader.rubriccategoryfk": "Category"
+                  },
+                  "LINE_ITEM":{
+                    "descriptioninfo": "Description",
+                    "code": "Code",
+                    "quantity": "Quantity",
+                    "basuomfk": "UoM",
+                    "budget": "Budget",
+                    "am":"AM",
+                    "ga":"G&A",
+                    "gc":"GC",
+                    "fm":"FM",
+                    "rp":"R&P"
+                  },
+                  "RESOURCE":{
+                    "estresourcetypeshortkey": "Short Key",
+                    "descriptioninfo": "Description",
+                    "code": "Code",
+                    "quantity": "Quantity",
+                    "iscost": "Is Cost",
+                    "isbudget": "Is Budget",
+                    "isdisabled": "Disabled"
+                },
+                "ALLOWANCE_MARKUP":{ 
+                    "tree":"Structure",
+                    "mdccostcodefk":"Cost Code",
+                    "mdccostcodeDescription":"Description",
+                    "djctotal":"DJC",
+                    "gctotal":"GC",
+                    "gaperc":"G&A[%]",
+                    "rpperc":"R&P[%]",
+                    "amperc":"AM[%]",
+                    "gavalue":"GaValue",
+                    "rpvalue":"RpValue",
+                    "amvalue":"AmValue",
+                    "gcvalue":"GcValue",
+                    "fmvalue":"FmValue",
+                    "allowancevalue":"AllowanceValue"
+
+                },
+                "STANDARD_ALLOWANCE":{
+                   "isactive":"Is Active",
+                    "code":"Code",
+                    "mdcallowancetypefk":"Allowance Type",
+                    "isbalancefp":"Level out differences from FP items",
+                    "quantitytypefk":"Quantity Type",
+                    "markupga":"G&A[%]",
+                    "markuprp":"R&P[%]",
+                    "markupam":"AM[%]"
+                }
+              }
+    
+}

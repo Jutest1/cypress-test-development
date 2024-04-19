@@ -1,0 +1,134 @@
+{
+    "CONTAINERS": {
+        "COST_CODES": {
+            "CODE": [
+                "S1",
+                "S2"
+            ],
+            "CO2_PROJECT": "23"
+        },
+        "MATERIAL_CATALOGS": {
+            "MATERIAL_CATALOG_DESCRIPTION": "Artikelkatalog",
+            "MATERIAL_GROUP_DESCRIPTION": "Binde-, Zusatzmittel"
+        },
+        "MATERIAL_RECORDS": {
+            "CO2_PROJECT": "32",
+            "MATERIAL_RECORD_DESCRIPTION": "Silo- Portlandzement"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "QUANTITY": "10",
+            "COST_CODE": "S1",
+            "SHORT_KEY": [
+                "C",
+                "M",
+                "A"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "4",
+            "UOM": "10M3"
+        }
+    },
+    "MODAL": {
+        "RECALCULATE_ASSEMBLIES": {
+            "SELECT_UPDATE_SCOPE": "Current Result Set"
+        },
+        "UPDATE_SETTING": {
+            "Update Cost Codes": "check",
+            "Update Materials": "check",
+            "Update Assembly Resources": "uncheck",
+            "Update Cost Types": "uncheck"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "code": "Code",
+            "co2project": "CO2/kg (Project)"
+        },
+        "PROCUREMENT_STRUCTURE": {
+            "code": "Code",
+            "prcstructuretypefk": "Type",
+            "descriptioninfo": "Description",
+            "costcodefk": "Cost Code"
+        },
+        "MATERIAL_CATALOGS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "businesspartnerfk": "Business Partner",
+            "validfrom": "Valid From",
+            "validto": "Valid To",
+            "materialcatalogtypefk": "Type",
+            "isticketsystem": "Is Ticket System",
+            "isneutral": "Neutral Material"
+        },
+        "MATERIAL_GROUPS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "prcstructurefk": "Structure Code"
+        },
+        "MATERIAL_CATALOG_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_GROUP_FILTER": {
+            "code": "Code"
+        },
+        "MATERIAL_RECORDS": {
+            "descriptioninfo1": "Description",
+            "uomfk": "UoM",
+            "retailprice": "Retail Price",
+            "listprice": "List Price",
+            "code": "Code",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)"
+        },
+        "ASSEMBLY_CATEGORIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "estassemblytypefk": "Assembly Type",
+            "marker": "Filter"
+        },
+        "ASSEMBLIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "estassemblycatfk": "Assembly Category",
+            "mdccostcodefk": "Cost Code",
+            "mdcmaterialfk": "Material"
+        },
+        "ASSEMBLY_RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "co2project": "CO2/kg (Project)",
+            "co2source": "CO2/kg (Source)",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "co2projecttotal": "CO2 (Project) Total",
+            "co2sourcetotal": "CO2 (Source) Total",
+            "co2totalvariance": "CO2 Total Variance",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "co2projecttotal": "CO2 (Project) Total"
+        }
+    }
+}

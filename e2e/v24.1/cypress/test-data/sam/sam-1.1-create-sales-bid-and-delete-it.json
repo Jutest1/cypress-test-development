@@ -1,0 +1,17 @@
+{
+    "CONTAINERS": {        
+        "BID":{
+            "BUSINESS_PARTNER":"Adolf Koch"
+            
+        }  
+
+    },    
+    "CONTAINER_COLUMNS": {
+       
+        "BID":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet" 
+        }
+    }   
+    
+}

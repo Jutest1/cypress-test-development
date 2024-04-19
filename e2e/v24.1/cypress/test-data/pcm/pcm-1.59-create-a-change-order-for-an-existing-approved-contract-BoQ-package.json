@@ -1,0 +1,84 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "100",
+                "300"
+            ],
+            "UNIT_RATE": [
+                "50",
+                "60"
+            ],
+            "UOM": "BAGS"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "20",
+            "UOM": "%"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": [
+                "1",
+                "2"
+            ]
+        },
+        "PACKAGE": {
+            "LINE_ITEM_WITH_RESOURCE": "LineItemWithResource",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BOQ": "BoQ",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "GROUPING_STRUCTURE": "Project BoQ",
+            "PROCUREMENT_STRUCTURE": "D",
+            "TRANSFER_FROM": "BoQ Quantity",
+            "UPDATED_ESTIMATE_SCOPE": "Highlighted Line Item",
+            "UPDATED_GROUPING_STRUCTURE": "Project BoQ",
+            "UPDATED_TO_EXISTED_PACKAGE": "Update to Existed Package",
+            "UPDATED_PACKAGE_WITH_ONLY_GROUPING": "Update Package with only grouping structure"
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "REQUISITION":{
+            "CREATE_CHANGE_ORDER_REQUISITION":"Create change order requisition based on below selected base requisition"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate"
+        },
+        "BOQ": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqitemfk": "BoQ Item Ref. No.",
+            "prjchangefk": "Project Change"
+        },
+        "PACKAGE_BOQ_STRUCTURE": {
+            "finalprice": "Final Price",
+            "boqlinetypefk": "BoQ Line Type",
+            "quantity": "Quantity"
+        }
+    }
+}

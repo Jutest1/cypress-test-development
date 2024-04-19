@@ -1,0 +1,68 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "20"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "MG3FM",
+            "QUANTITY": "100.000"           
+        },        
+        "PACKAGE_ITEM":{
+            "MATERIAL_NO":"2331101",
+            "QUANTITY":"20"
+        }
+    },
+    "MODAL":{
+        "UPDATE_MATERIAL_PACKAGE":{
+            "CONFIGURATION": "Material",            
+            "ESTIMATE_SCOPE":"Selected Line Item",
+            "ESTIMATE_SCOPE_OPTION":"estimateResultSet_3",
+            "PKG_OPTION":"Create new item",
+            "PKG_OPTION_VALUE":"2"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "budget":"Budget"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity",
+            "co2project":"CO2/kg (Project)"
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        },
+        "PACKAGE_ITEM":{
+            "price":"Price",
+            "quantity": "Quantity",
+            "prcstructurefk":"Structure",
+            "basuomfk":"UoM",
+            "mdcmaterialfk":"Material No.",
+            "totalprice":"Total Price"
+        },
+        "PACKAGE_ITEM_ASSIGNMENT":{
+            "prcpackagefk": "Procurement Package",
+            "estresourcefk": "Resource"
+        }
+    }  
+    
+}

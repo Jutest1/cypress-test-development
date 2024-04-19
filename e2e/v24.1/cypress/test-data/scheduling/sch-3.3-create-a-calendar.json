@@ -1,0 +1,26 @@
+{
+  "CONTAINERS": {
+      "UNIT": {
+          "TYPE":"Week",
+          "TYPE1":"Year"
+
+      },
+      "CALENDAR": {
+        "TYPE":"Hour",
+        "TYPE1":"Day"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+      "UNIT": {
+        "descriptioninfo":"Description",
+        "unitinfo":"Unit of Measurement",
+        "uomtypefk":"Type"
+      },
+      "CALENDAR": {
+        "code":"Code",
+        "descriptioninfo":"Description",
+        "basuomhourfk":"UoM of Hour",
+        "basuomdayfk":"UoM of Day"
+      }
+   }
+}

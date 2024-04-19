@@ -1,0 +1,11 @@
+{
+    "CONTAINERS": {
+      "DATA_TYPES":{
+        "SCHEDULE_METHOD":"Schedule Method",
+        "MANUAL":"manual",
+        "AUTO":"Auto"
+      }
+        
+    }
+   
+    }

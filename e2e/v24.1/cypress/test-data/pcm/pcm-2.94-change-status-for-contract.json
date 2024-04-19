@@ -1,0 +1,15 @@
+{
+    "CONTAINERS": {
+        "CONTRACT": {
+            "CONFIGURATION": "Material PO",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "REMARK": "Status Changed"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "businesspartnerfk": "Business Partner",
+            "controllingunitfk": "Controlling Unit Code"
+        }
+    }
+}

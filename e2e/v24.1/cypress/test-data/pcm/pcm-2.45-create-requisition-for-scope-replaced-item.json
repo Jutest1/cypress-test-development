@@ -1,0 +1,86 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "LINE_ITEM_CODE": "000020"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1",
+            "CodePrice": "34.18",
+            "SHORT_KEY_2": "M",
+            "shortKey2": "C",
+            "MATERIAL_CODE": "DÜB08PVC",
+            "MATERIAL_CODE_2": "MG3FM",
+            "QUANTITY": "100"
+        }
+    },
+    "MODAL": {
+        "CREATE_MATERIAL_PACKAGE": {
+            "SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "MATERIAL_COST_CODE": "Material & Cost Code",
+            "SELECT_CHECK_BOX": "Entire Estimate",
+            "SELECT_CHECK_BOX_ID": "entireEstimate_2",
+            "SELECT_PACKAGE_OPTION_1": "Create new item",
+            "SELECT_PACKAGE_VALUE_1": "2"
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "ESTIMATE_SCOPE": "Entire Estimate",
+            "SCOPE_ID": "entireEstimate_2",
+            "criteriaSelection": "Material & Cost Code",
+            "MATERIAL_CODE": "Silo- Portlandzement"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEM": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "costunit": "Cost/Unit"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costunit": "Cost/Unit"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "PACKAGE_ITEM": {
+            "price": "Price",
+            "co2project": "CO2/kg (Project)",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "isfreequantity": "Is Free Quantity"
+        },
+        "REQUISITION_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "itemno": "Item Number",
+            "total": "Total"
+        }
+    }
+}

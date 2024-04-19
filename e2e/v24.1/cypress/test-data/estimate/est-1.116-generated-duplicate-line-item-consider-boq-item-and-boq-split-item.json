@@ -1,0 +1,64 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "40",
+            "UOM": "BAGS"
+        },
+        "BOQ_STRUCTURE": {
+            "UNIT_RATE": "25",
+            "UOM": "CM3",
+            "QUANTITY": "10",
+            "AQ_QUANTITY": "20",
+            "QUANTITY_UPDATE_1": "100",
+            "AQ_QUANTITY_UPDATE_1": "200",
+            "QUANTITY_UPDATE_2": "200",
+            "AQ_QUANTITY_UPDATE_2": "300"
+        },
+        "DATA_RECORDS": {
+            "EST_LINE_ITEM_STATUS": "Est Line Item Status",
+            "GESCHLOSSEN": "Geschlossen"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        },
+        "CREATE_NEW": {
+            "Update the existing items": "check"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "code": "Code",
+            "quantitytarget": "AQ Quantity Item",
+            "wqquantitytarget": "WQ Quantity Item",
+            "hint": "Copy Source",
+            "estlineitemstatusfk": "Status"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price (EUR)",
+            "quantityadj": "AQ Quantity"
+        }
+    }
+}

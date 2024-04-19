@@ -1,0 +1,146 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "50",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "C",
+                "M"
+            ],
+            "CODE": [
+                "Stoffe",
+                "DÜB06PVC",
+                "MG2FM"
+            ],
+            "QUANTITY": "12",
+            "INC": "5",
+            "DEC": "5"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100",
+            "UNIT_RATE": "25",
+            "UOM": "CM3"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "BASED_ON": "Project BoQ",
+            "ESTIMATE_SCOPE": "Highlighted Line Item",
+            "ESTIMATE_SCOPE_INDEX": "0",
+            "PROCUREMENT_STRUCTURE": "D",
+            "QTY_TRANSFER": "BoQ Quantity (WQ/AQ)",
+            "CONFIGURATION":"Service"
+        },
+        "BUSINESS_PARTNER": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material"
+        },
+        "VALIDATION": {
+            "NO_NEW_ITEM_FOUND_IN_PES": "No New item found in PES!",
+            "CREATE_CHANGE_ORDER_CONTRACT_FOR_NEW_ITEMS": "Create Change Order Contract for New Item(s)"
+        },
+        "CO_CONTRACT_ITEM": {
+            "RUBRIC_CATEGORY": "Standard",
+            "CHANGE_TYPE": "Design Change",
+            "CHANGE_REASON": "Change Request",
+            "PURCHASE_ORDER": "Change Order"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "grandtotal": "Grand Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+        },
+        "HEADER": {
+            "code": "Code"
+        },
+        "PES_ITEMS": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "price": "Price",
+            "mdcmaterialfk": "Material No.",
+            "quantityremaining": "Remaining Quantity",
+            "quantitycontracted": "Contracted Quantity",
+            "total": "Total",
+            "prcstructurefk":"Structure Code"
+        },
+        "PES_BOQ": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "ordquantity": "Contract Quantity"
+        },
+        "CONTRACT": {
+            "description": "Reference Name",
+            "purchaseorders": "Purchase Orders",
+            "constatusfk": "Contract Status",
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible",
+            "code": "Code",
+            "clerkreqfk": "Requisition Owner"
+        },
+        "CONTRACT_ITEMS": {
+            "quantity": "Quantity",
+            "mdcmaterialfk": "Material No."
+        }
+    }
+}

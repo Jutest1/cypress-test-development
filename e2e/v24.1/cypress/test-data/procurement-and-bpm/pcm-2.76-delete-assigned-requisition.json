@@ -1,0 +1,30 @@
+
+
+{
+
+    "CONTAINERS": {
+        "REQUISITION": {
+            "STRUCTURE_CODE": "D",
+            "CONFIGURATION": "Service REQ",
+            "BP":"Adolf Koch"
+        },
+        "REQUISITION_ITEM":{
+            "MATERIAL_NO": "DÜB08PVC",
+            "PRICE": "60",
+            "QUANTITY": "10"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk":"Business Partner"
+        },
+        "REQUISITION_ITEM":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity"
+        }
+    }
+    
+}

@@ -1,0 +1,104 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "ASSEMBLY_TEMPLATE": "000030.000030"
+        },
+        "RESOURCE": {
+            "CODE":"KSL12-2,08DF"
+        },
+        "MATERIAL_RECORDS":{
+            "RETAIL_PRICE": "0.52",
+            "LIST_PRICE": "10.00"
+        },
+        "ASSEMBLIES_CATEGORIES": {
+            "CODE": "000030"
+        }
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"SmiJ"
+        },
+        "RECALCULATE_ASSEMBLIES": {
+            "SELECT_UPDATE_SCOPE": "Entire Assemblies"
+        },
+        "UPDATE_SETTING": {
+            "Update Cost Codes": "uncheck",
+            "Update Materials": "check",
+            "Update Assembly Resources": "uncheck"
+        },
+        "UPDATE_MATERIAL_PRICES":{
+            "UPDATE_MATERIAL_PRICES_FROM_MATERIAL_CATALOG":"Update material prices from material catalog"
+        },
+        "UP_MATERIAL_CODE":{
+            "KSL12-2,08DF":"check"
+        },
+        "UPDATE_ESTIMATE_WIZARD": [
+            {
+                "LABEL_NAME": "Update Estimate Cost Codes",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Update Estimate Materials",
+                "INDEX": "0",
+                "VALUE": "check"
+            },
+            {
+                "LABEL_NAME": "Update Estimate Assemblies",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            },
+            {
+                "LABEL_NAME": "Calculate Rule/Parameter",
+                "INDEX": "0",
+                "VALUE": "uncheck"
+            }
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "estassemblyfk": "Assembly Template"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "MATERIAL_RECORDS":{
+            "retailprice": "Retail Price",
+            "listprice": "List Price"
+        },
+        "ASSEMBLIES_CATEGORIES": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ASSEMBLIES": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ASSEMBLY_RESOURCES": {
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "costunit": "Cost/Unit",
+            "code": "Code"
+        }
+    }
+}

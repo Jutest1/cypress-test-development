@@ -1,0 +1,198 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "270",
+            "UOM": "BAGS",
+            "CODE": "20"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB06PVC",
+            "QUANTITY": "50",
+            "DESCRIPTION": "PVC Spreizdübel 6"
+        },
+        "BANK": {
+            "BANK": "Stuttgarter Volksbank"
+        },
+        "BILLING_SCHEMA_DETAILS": {
+            "TAX_CODE": "05",
+            "GENERAL_TYPE": "Nachlass %",
+            "CRED_FACTOR": "2"
+        },
+        "PAYMENT_TERM": {
+            "NET_DAY": "1",
+            "DISCOUNT_DAYS": "2",
+            "DISCOUNT_PERCENT": "7",
+            "DAY_MONTH": "10",
+            "CAL_TYPE": "Day of month",
+            "PAYMENT_TERM": "NET07",
+            "AMOUNT_GROSS": [
+                "500",
+                "970"
+            ],
+            "AMOUNT_NET": "115"
+        },
+        "PES": {
+            "QUANTITY": [
+                "168",
+                "60"
+            ],
+            "UNIT_RATE": "24",
+            "Position": "Position",
+            "Root": "Root",
+            "UOM": "BAGS"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "%",
+            "QUANTITY": "250"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONFIGURATION_HEADER": {
+            "descriptioninfo": "Description"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "quantitytotal": "Quantity Total",
+            "costunit": "Cost/Unit"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "code": "Code"
+        },
+        "CONTRACTS": {
+            "bpdvatgroupfk": "VAT Group",
+            "taxcodefk": "Tax Code",
+            "controllingunitfk": "Controlling Unit Code",
+            "clerkprcfk": "Responsible",
+            "description": "Reference Name",
+            "bankfk": "Bank",
+            "code": "Code",
+            "supplierfk": "Supplier No.",
+            "businesspartnerfk": "Business Partner",
+            "subsidiaryfk": "Branch",
+            "bascurrencyfk": "Currency",
+            "structureCode": "Procurement structure",
+            "projectfk": "Project No.",
+            "packagefk": "Package Code",
+            "paymenttermpafk": "Payment Term (PA)",
+            "paymenttermfifk": "Payment Term (FI)",
+            "configurationfk": "Configuration",
+            "billingschemafk": "Billing Schema"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "HEADERS": {
+            "code": "Code",
+            "TotalGross": "Total (Gross)"
+        },
+        "PES_ITEMS": {
+            "quantity": "Quantity",
+            "quantityremaining": "Remaining Quantity"
+        },
+        "INVOICE": {
+            "paymenttermfk": "Payment Term",
+            "prcpackagefk": "Package",
+            "currencyfk": "Currency",
+            "bpdvatgroupfk": "VAT Group",
+            "subsidiaryfk": "Branch",
+            "invtypefk": "Type",
+            "bankfk": "Bank",
+            "taxcodefk": "Tax Code",
+            "conheaderfk": "Contract",
+            "pesheaderfk": "PES",
+            "reference": "Invoice No.",
+            "supplierfk": "Supplier",
+            "businesspartnerfk": "Business Partner",
+            "prcstructurefk": "Structure Code",
+            "projectfk": "Project No.",
+            "bpdbanktypefk": "Bank Type",
+            "datediscount": "Discount Date",
+            "amountdiscountbasis": "Discount Basis",
+            "amountdiscount": "Discount Amount",
+            "datenetpayable": "Net Payable",
+            "amountgross": "Amount (Gross)",
+            "amountnet": "Amount (Net)",
+            "amountVatBalance": "Balance (VAT)",
+            "totalperformednet": "Total Performed Net",
+            "totalperformedgross": "Total Performed Gross",
+            "amountgrossoc": "Amount (Gross OC)",
+            "amountnetoc": "Amount (Net OC)",
+            "prcconfigurationfk": "Configuration",
+            "progressid": "Progress Invoice",
+            "billingschemafk": "Billing Schema"
+        },
+        "INVOICE_BILLING_SCHEMA": {
+            "description": "Item Description"
+        },
+        "BUSINESS_PARTNER": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "BANK": {
+            "banktypefk": "Type",
+            "bankfk": "Bank"
+        },
+        "PAYMENT_TERM": {
+            "code": "Code",
+            "codefinance": "Code (Finance)",
+            "descriptioninfo": "Description",
+            "netdays": "Net Days",
+            "discountdays": "Discount Days",
+            "discountpercent": "Discount Percent",
+            "dayofmonth": "Day of month",
+            "calculationtypefk": "Calculation Type"
+        },
+        "BILLING_SCHEMA": {
+            "descriptioninfo": "Description"
+        },
+        "BILLING_SCHEMA_DETAILS": {
+            "descriptioninfo": "Description",
+            "billinglinetypefk": "Type",
+            "taxcodefk": "Tax Code",
+            "generalstypefk": "General Type",
+            "credfactor": "Cred Factor"
+        },
+        "CONTRACT_ITEMS": {
+            "quantity": "Quantity"
+        },
+        "INVOICE_CONTRACT_ITEMS": {
+            "prcitemfk": "Contract Item",
+            "quantity": "Quantity"
+        }
+    }
+}

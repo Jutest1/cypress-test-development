@@ -1,0 +1,30 @@
+{   
+    "CONTAINERS":{
+        "REQUISITION":{
+            "CONFIG": "Material Req"
+        },
+        "SUBCONTRACTOR":{
+            "STRUCTURE_CODE": "M",
+            "BUSINESS_PARTNER": "AGO Baumaschinen GmbH"
+        }
+
+    },
+    "CONTAINER_COLUMNS":{
+        "REQUISITION":{
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+        },
+        "SUBCONTRACTOR":{
+            "BpdSubsidiaryFk": "Branch Description",
+            "bpdsupplierfk": "Supplier",
+            "bpdcontactfk": "Contact",
+            "description": "Description",
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "FirstName": "First Name"
+
+        }
+    }   
+    
+}

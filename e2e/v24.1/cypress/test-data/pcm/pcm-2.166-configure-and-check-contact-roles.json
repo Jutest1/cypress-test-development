@@ -1,0 +1,60 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "Contact_Role": "Contact Role"
+        },
+        "DATA_RECORDS": {
+            "name": "Data Type",
+            "modulename": "Module"
+        },
+        "REQUISITION": {
+            "STRUCTURE_CODE": "D",
+            "STRUCTURE": "M",
+            "CONFIGURATION": "Service REQ",
+            "BP": "Adolf Koch",
+            "ROLE": "Owner",
+            "FIRST_NAME": "Hans",
+            "TAX_CODE": "NSTB",
+            "value": "500.00",
+            "BP2": "AGO Baumaschinen GmbH"
+        },
+        "REQUISITION_CONTACT": {
+            "ASSIGN_CONTACT": "Assign Contact",
+            "ROLE": "Owner",
+            "FIRST_NAME": "Brings",
+            "BP": "Adolf Koch"
+        },
+        "BUSINESS_PARTNERS": {
+            "STREET": "ABC",
+            "CITY": "Pune",
+            "ZIP_CODE": "411045",
+            "COUNTRY": "India"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "DATA_RECORDS": {
+            "descriptioninfo": "Description"
+        },
+        "DATA_TYPES": {
+            "name": "Data Type",
+            "modulename": "Module"
+        },
+        "REQUISITION": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk": "Business Partner"
+        },
+        "REQUISITION_CONTACT": {
+            "bpdcontactrolefk": "Role",
+            "BpdContactFirstName": "First Name"
+        },
+        "BUSINESS_PARTNERS": {
+            "businesspartnername1": "Business Partner Name"
+        },
+        "CONTACTS_BP": {
+            "familyname": "Last Name",
+            "contactrolefk": "Role"
+        }
+    }
+}

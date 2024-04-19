@@ -1,0 +1,50 @@
+{
+    "CONTAINERS": {
+        "PRICE_CONDITION": {
+            "PRICE_CONDITION_DESCRIPTION": "Surcharge",
+            "VALUE": "10",
+            "FREIGHT_CHARGE": "Freight Charge",
+            "FREIGHT_CHARGE_VALUE": "20",
+            "PRICE_CONDITION": "Freight Charge"
+        },
+        "CONTRACT": {
+            "configuration": "Material PO",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "contractChangeStatus": "Change Contract Status",
+            "contractStatus": "Approved"
+        },
+        "ORDER_ITEM": {
+            "MATERIAL_NO": "MG2FM",
+            "QUANTITY": "100",
+            "UPDATED_PRICE": "0.200"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ORDER_ITEM": {
+            "quantity": "Quantity",
+            "price": "Price",
+            "total": "Total",
+            "totalgross": "Total (Gross)",
+            "mdctaxcodefk": "Tax Code",
+            "totaloc": "Total (OC)",
+            "totalprice": "Total Price",
+            "prcpriceconditionfk": "Price Condition",
+            "priceextra": "Extras",
+            "priceextraoc": "Price Extras (OC)",
+            "priceoc": "Price (OC)",
+            "totalpriceoc": "Total Price (OC)"
+        },
+        "CONTRACT": {
+            "businesspartnerfk": "Business Partner",
+            "controllingunitfk": "Controlling Unit Code"
+        },
+        "TOTALS": {
+            "gross": "Gross",
+            "valuetax": "VAT",
+            "valuenet": "Net Value"
+        },
+        "BILLING_SCHEMA": {
+            "result": "Result"
+        }
+    }
+}

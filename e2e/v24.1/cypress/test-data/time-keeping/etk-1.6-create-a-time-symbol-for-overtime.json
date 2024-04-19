@@ -1,0 +1,17 @@
+{
+    "CONTAINERS": {
+        "TIME_SYMBOLS":{
+            "TIME_SYMBOL_TYPE":"Type not specified",
+            "TIME_SYMBOL_GROUP":"6. Controlling: Allocated Times"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "TIME_SYMBOLS":{
+            "code": "Code",
+            "descriptioninfo":"Description",
+            "isovertime":"Is Overtime",
+            "timesymboltypefk":"Time Symbol Type",
+            "timesymbolgroupfk":"Time Symbol Group"
+        }
+    }
+}

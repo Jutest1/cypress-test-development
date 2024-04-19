@@ -1,0 +1,37 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT":{
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "BUSINESS_PARTNER":{
+            "PARTNERNAME": "Adolf Koch",
+            "NAME":"Brings"
+        },
+        "CUSTOMIZING":{
+            "ENTITY_TYPE": "Contact Role",
+            "NAME":"RIB_DEMO_Kontenrahmen",
+            "DESCRIPTION1":"AAA1",
+            "DESCRIPTION2":"BBB"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "businesspartnerfk":"Business Partner",
+            "controllingunitfk":"Controlling Unit Code"
+        },
+        "CONTROLLING_UNIT":{
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "DATA_TYPE":{
+            "name":"Data Type"
+        },
+        "CONTACT": {            
+            "bpdcontactrolefk": "Role",
+            "BpdContactFirstName": "First Name",
+            "bpdcontactfk":"Contact"
+        }
+    }
+}

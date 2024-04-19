@@ -1,0 +1,82 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK": "HS"
+        },
+        "ESTIMATE": {
+            "newCode": "001",
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": [
+                "100.000"
+            ],
+            "UOM": [
+                "BAGS"
+            ]
+        },
+        "RESOURCES": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "CODE": [
+                "DÜB08PVC"
+            ]
+        },
+        "ITEMS": {
+            "UPDATED_PRICE": [
+                "100.00",
+                "200.00"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch",
+                "AGO Baumaschinen GmbH"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "quantitytarget": "AQ Quantity Item"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "costtotal": "Cost Total",
+            "quantity": "Quantity"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "REQUISITION": {
+            "packagefk": "Package"
+        },
+        "QUOTE": {
+            "statusfk": "Status",
+            "code": "Code",
+            "packagenumber": "Package Number",
+            "rfqheaderfk": "RfQ Header",
+            "projectfk": "Project No."
+        },
+        "ITEMS": {
+            "price": "Price",
+            "total": "Total"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "CONTAINERS": {
+        
+        "CONTRACT":{
+            "FIRSTNAME": "Hans",
+            "FIRSTNAME1": "Simone",
+            "LASTNAME":"Maurer",
+            "LASTNAME1":"Brings",
+            "INPUT_TEXT":"Search String",
+            "INPUT_TEXT2":"Assign Contact",
+            "STRUCTURE":"Procurement structure",
+            "PARTNERNAME": "Adolf Koch"
+        },
+        "BIDDER": {
+            "PARTNERNAME": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT":{
+            "contactfk":"Last Name",
+            "ContactFirstName":"First Name"
+        },
+        "RFQ":{
+            "code":"Rfq Code",
+            "description":"RfQ Description"
+        },
+        "BIDDER":{
+            "BusinessPartnerStatus":"Business Partner Status",
+            "businesspartnerfk":"Business Partner"
+        }
+    }
+}

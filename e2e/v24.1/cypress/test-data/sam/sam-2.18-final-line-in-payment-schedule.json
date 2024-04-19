@@ -1,0 +1,341 @@
+
+
+
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "100.000"
+            ],
+            "UOM": [
+                "10M3"
+            ],
+            "UNIT_RATE": [
+                "500"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "C"
+            ],
+            "CODE": [
+                "Lohn",
+                "Stoffe"
+            ]
+        },
+        "BIDS": {
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "BID_BOQSTRUCTURE": {
+            "COPY_SOURCE_FROM": "Project BoQ",
+            "ROOT": "Root",
+            "POSTION": "Position",
+            "LEVEL_1": "Level 1"
+        },
+        "WIP_BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "20",
+                "30"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "CASE": [
+                "BoQ"
+            ],
+            "PROCUREMENT_STRUCTURE": [
+                "D"
+            ]
+        },
+        "CREATE_CONTRACT": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CREATE_BID": {
+            "MAIN_BID": "Main Bid",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "GENERATE_BUDGET": {
+            "X_FACTOR": [
+                "5"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BIDS": {
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount"
+        },
+        "SALES_CONTRACT": {
+            "code": "Code"
+        },
+        "SALES_CONTRACT_BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "PAYMENT_SCHEDULE": {
+            "code": "Code",
+            "amountnet": "Net Amount",
+            "descriptioninfo": "Description",
+            "ordpsstatusfk": "Status",
+            "bilheaderfk":"Bill No.",
+            "bilamountnet":"Bill Amount Net",
+            "paymentbalancenet":"Payment Balance Net",
+            "bilheaderfkdescription":"Bill No-Description"
+        },
+        "WIP": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount"
+        },
+        "WIP_BOQS": {},
+        "WIP_BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)",
+            "basuomfk": "UoM",
+            "finalprice": "Final Price (EUR)"
+        },
+        "BILLS": {
+            "typefk": "Type",
+            "rubriccategoryfk": "Rubric Category",
+            "billno": "Bill No.",
+            "amountnet": "Net Amount",
+            "descriptioninfo": "Description"
+        }
+    },
+    "Prerequisites": {
+        "SidebarInputs": {
+            "searchType": "standard",
+            "projectName": "ANU_APRIL_14",
+            "Wizard": "wizard",
+            "searchby": "Quick Start",
+            "Quickstart": "quickstart",
+            "ModuleName": "Project"
+        }
+    },
+    "CreateNewBoq": {
+        "CreateBoQ": {
+            "newCode": "BoQ_001"
+        }
+    },
+    "CreateNewBoQStructure": {
+        "BoQStructureInputs": {
+            "description": "BoQ_Sctructure",
+            "quantity": "15",
+            "unitRate": "90",
+            "uom": "%"
+        }
+    },
+    "EstimatePageInputes": {
+        "CreateEstimate": {
+            "newCode": "CodeEstimate123",
+            "description": "TestEstimate",
+            "rubicCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        }
+    },
+    "CreateNewLineItemRecord": {
+        "SidebarInputs": {
+            "Wizard": "Wizard",
+            "genarateLineItems": "Generate Line Items",
+            "Wizard1": "wizard"
+        }
+    },
+    "ResourceRecord": {
+        "CreateNewResource": {
+            "shortKey": "C",
+            "code": "A0"
+        }
+    },
+    "CreateBidRecord": {
+        "CreateNewBid": {
+            "description": "CreateBid",
+            "businessPartner": "Adolf Koch",
+            "sourceLead": "BoQ"
+        }
+    },
+    "CreateContractRecord": {
+        "CreateNewContract": {
+            "mainOrder": "Main Order",
+            "description": "CreateContract",
+            "customer": "D00028",
+            "contract": "Create Contract"
+        }
+    },
+    "CreateNewWIPRecord": {
+        "CreateWIP": {
+            "createWIP": "Create WIP",
+            "description": "CreateWIP",
+            "changeStatus": "Change WIP Status",
+            "status": "Approved",
+            "quantity": "60",
+            "quantity2": "20",
+            "quantity3": "30"
+        }
+    },
+    "CreateBillRecord": {
+        "CreateNewBill": {
+            "RecordOption": "Create Bill",
+            "descInfo": "CreateBill",
+            "labelName": "Type",
+            "bill": "Create Bill",
+            "type": "Progress Invoice",
+            "description": "CreateBill",
+            "description2": "CreateBillSecond",
+            "code": "01",
+            "code2": "02"
+        }
+    },
+    "GenaratePaymentInContract": {
+        "ScheduleInContractInput": {
+            "contractSales": "Contract Sales(1)",
+            "paymentSchedule": "Generate Payment Schedule",
+            "startDate": "04/04/2023",
+            "endDate": "10/04/2023",
+            "scheduleTarget": "Update payment schedule target",
+            "radioButton": "User Frequence",
+            "code": "01"
+        }
+    },
+    "GenerateBudget": {
+        "BudgetInputs": {
+            "wizard1": "Wizard",
+            "wizard2": "wizard",
+            "GenerateBudget": "Generate Budget from DJC",
+            "XFactor": "5"
+        }
+    },
+    "columns_Boqheader": {
+        "column_Boqsheaders": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    },
+    "columns_Boqstructure": {
+        "column_Boqstructure": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)",
+            "basuomfk": "UoM",
+            "finalprice": "Final Price (EUR)"
+        }
+    },
+    "columns": {
+        "column_headers": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        }
+    },
+    "Column_EstLineItems": {
+        "column_LineItemsheaders": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "Column_ResLineItems": {
+        "Column_ResItems": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "code",
+            "quantity": "Quantity"
+        }
+    },
+    "columns_Bidboqstructure": {
+        "column_Boqstructure": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "finalprice": "Final Price (EUR)"
+        }
+    },
+    "columns_contractboqstructure": {
+        "column_contractstructure": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "finalprice": "Final Price (EUR)"
+        }
+    },
+    "columns_wipstructure": {
+        "column_wipBoqstructure": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)",
+            "basuomfk": "UoM",
+            "finalprice": "Final Price (EUR)"
+        }
+    },
+    "columns_billheaer": {
+        "column_billHesdstructure": {
+            "amountnet": "Net Amount",
+            "amountnetoc": "Amount (Net OC)"
+        }
+    },
+    "columns_billstructure": {
+        "column_billBoqstructure": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)",
+            "basuomfk": "UoM",
+            "finalprice": "Final Price (EUR)"
+        }
+    },
+    "columns_paymentstructure": {
+        "column_wippaymentstructure": {
+            "amountnet": "Net Amount",
+            "bilheaderfk": "Bill No."
+        }
+    }
+}

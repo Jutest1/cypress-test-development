@@ -1,0 +1,53 @@
+{
+    "CONTAINERS": {
+
+        "COMPANY": {
+            "RIB":"999"
+           },
+
+        "SHIFT_MODELS":{
+            "CALENDAR": "DE"
+        }, 
+       
+       "EMPLOYEES": {
+            "START_DATE":"current",
+            "CHECKBOX":"check",
+            "TIMEKEEPING":"TKG_BASE",
+            "FIRST_NAME": "PM",
+            "FAMILY_NAME":"JOY"
+        }
+       
+    },
+
+    "CONTAINER_COLUMNS": {
+        
+        "PAYMENT_GROUPS_LIST":{
+            "descriptioninfo":"Description",
+            "code": "Code"
+        },
+
+        "TIMEKEEPING_GROUPS": {
+            "code":"Code",
+            "descriptioninfo":"Description"
+        },
+
+        "SHIFT_MODELS":{
+            "descriptioninfo":"Description",
+            "calendarfk": "Calendar"
+        },
+       
+        "EMPLOYEES": {
+            "code":"Code",
+            "startdate":"Start",
+            "shiftfk":"Shift",
+            "timekeepinggroupfk":"Timekeeping Group",
+            "paymentgroupfk":"Payment Group",
+            "descriptioninfo":"Description",
+            "generaterecording":"Generate Recording",
+            "iscrewleader":"Is Crew Leader",
+            "firstname":"First Name",
+            "familyname":"Family Name"
+        }
+       
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "CONTAINERS": {
+      "CUSTOMIZING": {
+        "DATA_TYPE":"Progress Report Method",
+        "DESCRIPTION":"by Line Item Quantity",
+        "CHECKBOX":"check"
+      },
+      "ACTIVITY_STRUCTURE": {
+        "QUANTITY": "100.000",
+        "UOM":"Days"
+      },
+      "ESTIMATE": {
+        "RUBRIC_CATEGORY": "Planning",
+        "ESTIMATE_TYPE": "Bid Estimate"
+      },
+      "LINE_ITEM": {
+        "EXTERNAL_CODE": "external code 2"
+      },
+      "PERFORMANCE_ACTIVITY_STRUCTURE": {
+        "REPORT_METHOD":"by Line Item Quantity",
+        "PERCENTAGE_COMPLETION":"100"
+      }
+    },
+    "CONTAINER_COLUMNS": {
+        "SCHEDULES": {
+          "code":"Code",
+          "descriptioninfo":"Description"
+        },
+        "ACTIVITY_STRUCTURE": {
+          "description":"Description",
+          "quantity":"Quantity",
+          "quantityuomfk":"UoM"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+          "descriptioninfo": "Description",
+          "externalcode": "External Code"
+      },
+      "PERFORMANCE_ACTIVITY_STRUCTURE": {
+        "progressreportmethodfk":"Report Method",
+        "percentagecompletion":"Perf. %"
+      },
+      "LINE_ITEM_PROGRESS": {
+        "externalcode":"External Code",
+        "activitydescription":"Description"
+      }
+    }
+  }

@@ -1,0 +1,67 @@
+{
+    "CONTAINERS": {
+        "COST_CODES": {
+            "CO2_PROJECT_VALUE": "200.000",
+            "COST_CODE": "Lohn",
+            "MARKET_RATE": "660",
+            "DAY_RATE": "650",
+            "CURRENCY": "EUR"
+            
+        },
+        "DATA_TYPES":{
+            "PRICE_LIST":"Price List",
+            "DB_TABLE_NAME":"Masterdata"
+        },
+        "DATA_RECORDS":{
+            "CONTEXT":"RIB_DEMO_Stamm",
+            "CURRENCY":"Euro"
+        },
+        "PRICE_VERSION":{
+            "MARKET_RATE":"600",
+            "DAY_RATE":"690",
+            "CO2_PROJECT_VALUE":"250",
+            "CURRENCY":"EUR"
+        },
+        "PRICELIST":{
+            "MARKET_RATE":"600",
+            "DAY_RATE":"690",
+            "CO2_PROJECT_VALUE":"250",
+            "CURRENCY":"EUR"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "COST_CODES": {
+            "tree": "Structure",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "currencyfk": "Currency",
+            "isbudget": "Budget",
+            "iscost": "Cost",
+            "israte": "Fixed Unit Rate",
+            "islabour": "Labour Cost Code",
+            "rate": "Market Rate",
+            "dayworkrate": "DW/T",
+            "co2project": "CO2/kg (Project)"
+        },
+        "DATA_TYPES":{
+            "name":"Data Type"
+        },
+        "DATA_RECORDS":{
+            "descriptioninfo":"Description",
+            "contextfk":"Context",
+            "currencyfk":"Currency"
+        },
+        "PRICE_VERSION":{
+            "descriptioninfo":"Description",
+            "pricelistfk":"Price List"
+        },
+        "PRICELIST":{
+            "costcodepriceverfk":"Price Version Description",
+            "CostcodePriceVerFkPriceListDescription":"Price List Description",
+            "rate":"Rate",
+            "salesprice":"DW/T",
+            "currencyfk":"Currency",
+            "co2project":"CO2/kg (Project)"
+        }
+    }
+}

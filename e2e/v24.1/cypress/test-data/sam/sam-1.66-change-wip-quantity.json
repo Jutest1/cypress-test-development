@@ -1,0 +1,72 @@
+{
+    "CONTAINERS": {
+        "PROJECT":{
+            "CLERK_NAME":"HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "100.000",           
+            "UOM": "BAGS",
+            "UNITRATE":"50.000",            
+            "FINAL_PRICE":"finalPrice",
+            "FINAL_PRICE1":"finalPrice1",
+            "BOQ_LINE_TYPE":"Root"
+        },
+        "BID":{
+            "BUSINESS_PARTNER":"Adolf Koch"            
+        },
+        "WIP":{
+            "PERCENTAGE_QTY":"50",
+            "CUMMULATIVE_PERCENTAGE":"25"
+        },
+        "QUANTITY_TAKEOFF":{
+            "VALUE1":"300",
+            "UPDATE_QTY":"210.000",
+            "QTO_PURPOSE":"Sales / WIP&Bill"
+        }
+            
+
+    },    
+    "CONTAINER_COLUMNS": {
+        "BOQ":{
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross":"Final Price (Gross)",
+            "price":"Unit Rate (EUR)"
+            
+        },
+        "BID":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet" 
+        },        
+        "CONTRACT_SALES":{           
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "WIP_BOQ_STRUCTURE":{
+            "boqlinetypefk":"BoQ Line Type",
+            "briefinfo":"Outline Specification",
+            "ordquantity":"Contract Quantity",
+            "percentagequantity":"Percentage Quantity",
+            "quantity":"Quantity",
+            "cumulativepercentage":"Cumulative Percentage"
+        },
+        "QUANTITY_TAKEOFF":{
+            "value1detail": "Value 1",
+            "isreadonly":"Read-Only"
+        },
+        "BILL_OF_QUANTITY":{
+            "briefinfo": "Outline Specification",
+            "installedquantity":"IQ Quantity"
+        }     
+
+    } 
+    
+    
+}

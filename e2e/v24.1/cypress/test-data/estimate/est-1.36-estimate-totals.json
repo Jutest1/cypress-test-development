@@ -1,0 +1,109 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "QUANTITY1": "450",
+      "QUANTITY2": "550",
+      "UOM": "10M3",
+      "PROCUREMENT_STRUCTURE": "1",
+      "ASSEMBLY_TEMPLATE": "000020.000020"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": [
+        "C",
+        "S"
+      ],
+      "CODE": [
+        "1",
+        "2"
+      ],
+      "QUANTITY": "50",
+      "UPDATED_QUANTITY": "100"
+    },
+    "ESTIMATE_ALLOWANCE": {
+      "CONTEXT": "RIB_DEMO_Stamm",
+      "GA": "3",
+      "AM": "2",
+      "RP": "2"
+    },
+    "ESTIMATE_ALLOWANCE_ASSIGNMENT": {
+      "CONTEXT": "RIB_DEMO_Stamm"
+    },
+    "STANDARD_ALLOWANCE": {
+      "QUANTITY_TYPE": "WQ"
+    },
+    "ESTIMATE_CONFIGURATION": {
+      "DEFAULT_WIC": "001",
+      "TOTAL_LABEL2": "Grand Total",
+      "BUDGET": "Budget",
+      "ADDITIONAL_MARKUP": "Additional Markup",
+      "RISK_AND_PROFIT": "Risk and Profit",
+      "GENERALS_ADMINISTARTION": "Generals & Administration cost/markup"
+    }
+  },
+  "MODAL": {
+    "GENERATE_BUDGET": {
+      "X_FACTOR": "2.000",
+      "ESTIMATE_SCOPE": "Entire Estimate",
+      "BUDGET_FROM": "Grand Total",
+      "ESTIMATE_SCOPE_INDEX": 0,
+      "BUDGET_FROM_INDEX": 0
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "estassemblyfk": "Assembly Template",
+      "costtotal": "Cost Total"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "quantity": "Quantity",
+      "descriptioninfo": "Description",
+      "costtotal": "Cost Total"
+    },
+    "TOTALS": {
+      "quantity": "Quantity",
+      "description": "Description",
+      "total": "Total",
+      "currency": "Currency",
+      "fromdjc": "% from DJC",
+      "fromtjc": "% from TJC",
+      "aqbudget": "Budget(AQ)",
+      "wqbudget": "Budget(WQ)"
+    },
+    "ESTIMATE_ALLOWANCE": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "mastercontextfk": "Master Data Context",
+      "AllowanceSetting": "Action"
+    },
+    "ESTIMATE_ALLOWANCE_ASSIGNMENT": {
+      "masterdatacontextfk": "Context",
+      "descriptioninfo": "Description",
+      "EstimateAllowanceSetting": "Check Config"
+    },
+    "STANDARD_ALLOWANCE": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "isactive": "Is Active",
+      "mdcallowancetypefk": "Allowance Type",
+      "markupga": "G&A[%]",
+      "markuprp": "R&P[%]",
+      "markupam": "AM[%]",
+      "quantitytypefk": "Quantity Type"
+    }
+  }
+}

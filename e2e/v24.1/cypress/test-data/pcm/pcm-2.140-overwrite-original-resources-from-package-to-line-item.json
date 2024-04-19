@@ -1,0 +1,106 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "1",
+            "QUANTITY1": "1"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "MG2FM"
+        },
+        "RFQ": {
+          "BP": "Adolf Koch"
+        },
+        "PACKAGE":{
+            "SCOPE" : "Selected Line Item",
+            "COST_TOTAL":"Cost Total",
+            "XFACTOR":"1",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 3,
+            "CODE2":"Tankstelle",
+            "CODE3":"Artikelkatalog"
+        },
+        "MATERIAL":{
+            "UOM": "BAGS",
+            "LIST_PRICE":"20",
+            "RETAIL_PRICE":"30",
+            "BP":"Adolf Koch"
+        },
+        "UPDATE_ITEM_PRICE":{
+            "LABEL1":"All item under current selected lead record",
+            "MATERIAL_NO":["DÜB08PVC","DÜB06PVC"],
+            "CHECKBOX":["Material Catalog Price Version","Quotation","Contract","Include Neutral Material"],
+            "PRICE_VERSION":"Latest Price version",
+            "MATERIAL_RECORD_UOM1":"Centimeter",
+            "MATERIAL_RECORD_UOM":"Meter",
+            "DISCOUNT":"0"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "prcstructurefk":"Procurement Structure"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey":"Short Key", 
+            "code":"code",
+            "quantity": "Quantity"
+        },
+        "PACKAGE":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+        },
+        "PACKAGE_ITEM":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "price":"Price"
+        },
+        "PROCUREMENT_STRUCTURE":{
+            "code":"Code",
+            "prcstructuretypefk":"Type",
+            "descriptioninfo":"Description"
+        },
+        "PROCUREMENT_STRUCTURE_ROLES": {
+            "companyfk":"Company",
+            "clerkfk":"Clerk",
+            "clerkrolefk":"Clerk Role"
+        },
+        "QUOTE":{
+            "statusfk": "Status",
+            "code": "Code",
+            "packagenumber": "Package Number",
+            "rfqheaderfk": "RfQ Header",
+            "projectfk": "Project No."
+        },
+
+        "REQUISITION":{
+            "code": "Code",
+            "id": "Id",
+            "reqstatusfk": "Status",
+            "packagefk": "Package"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isdefault":"Is Default"
+        }
+    }
+  }

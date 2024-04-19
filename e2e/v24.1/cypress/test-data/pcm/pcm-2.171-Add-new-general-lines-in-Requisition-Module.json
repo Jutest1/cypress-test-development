@@ -1,0 +1,40 @@
+{
+    "CONTAINERS": {
+        "DATA_TYPES": {
+            "GENERAL_TYPE": "General Type"
+        },
+        "DATA_RECORDS": {
+            "LEDGER_CONTEXT": "RIB_DEMO_Kontenrahmen"
+        },
+        "GENERALS": {
+            "VALUES": [
+                "10",
+                "20"
+            ],
+            "COST_VALUE_TYPE": [
+                "Amount",
+                "Percent"
+            ],
+            "TAX_CODE": [
+                "00"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION": {
+            "code": "Code",
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name",
+            "businesspartnerfk": "Business Partner",
+            "description": "Requisition Name"
+        },
+        "GENERALS": {
+            "prcgeneralstypefk": "Type",
+            "valuetype": "Value Type",
+            "value": "Value",
+            "mdccontrollingunitfk": "Controlling Unit Code",
+            "mdctaxcodefk": "Tax Code"
+        }
+    }
+}

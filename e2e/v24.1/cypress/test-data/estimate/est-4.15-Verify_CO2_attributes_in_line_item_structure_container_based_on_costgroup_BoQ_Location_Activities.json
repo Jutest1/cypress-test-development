@@ -1,0 +1,313 @@
+{
+  "CONTAINERS": {
+    "COST_CODES": {
+      "COST_CODE": [
+        "A0",
+        "M0"
+      ],
+      "COST_CODE_CO2_VALUE": ["300"]
+    },
+    "MATERIAL_CATALOG_FILTER": {
+      "materialCode": "Artikelkatalog"
+    },
+    "MATERIAL_RECORDS": {
+      "MATERIAL_DESCRIPTION": [
+        "Silo- Portlandzement"
+      ],
+      "CO2_PROJECT_VALUE": "300"
+    },
+    "PROJECT": {
+      "CLERK_NAME": "HS"
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY_1": "100.000",
+      "UNIT_RATE_1": "25",
+      "UOM": "BAG"
+    },
+    "LOCATION": {
+      "QUANTITY_FACTOR": [
+        "55.000"
+      ]
+    },
+    "COST_GROUP": {
+      "QUANTITY": [
+        "40"
+      ],
+      "UOM": [
+        "BAG"
+      ]
+    },
+    "ACTIVITY_STRUCTURE": {
+      "QUANTITY": [
+        "100"
+      ],
+      "UOM": [
+        "10M3"
+      ]
+    },
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": [
+        "C",
+        "M"
+      ],
+      "COST_CODE": [
+        "A0",
+        "M0"
+      ],
+      "MATERIAL": [
+        "Silo- Portlandzement"
+      ]
+    }
+  },
+
+  "MODAL": {
+    "PROJECT_CATALOG_CONFIGURATION": {
+      "CATALOG_TYPE": [
+        "Project Catalog",
+        "Enterprise Catalog"
+      ],
+      "SEARCH_RECORD": "MDC_LINEITEMCONTEXT RIB_DEMO"
+    }
+  },
+  
+  "CONTAINER_COLUMNS": {
+    "COST_CODES": {
+      "descriptioninfo": "Description",
+      "co2project": "CO2/kg (Project)"
+    },
+    "MATERIAL_CATALOG_FILTER": {
+      "descriptioninfo": "Description"
+    },
+    "MATERIAL_RECORDS": {
+      "descriptioninfo1":"Description",
+      "co2project": "CO2/kg (Project)"
+    },
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification",
+      "boqrootitem.reference": "Reference No."
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type",
+      "finalgross": "Final Price (Gross)"
+    },
+    "LOCATION": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity Factor"
+    },
+    "COST_GROUP_CATALOG": {
+      "code": "Code",
+      "descriptioninfo": "Description"
+    },
+    "COST_GROUP": {
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "uomfk": "UoM"
+    },
+    "SCHEDULE": {
+      "descriptioninfo": "Description"
+    },
+    "ACTIVITY_STRUCTURE": {
+      "code": "Code",
+      "description": "Description",
+      "quantity": "Quantity",
+      "quantityuomfk": "UoM"
+    },
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "estassemblyfk": "Assembly Template",
+      "descriptioninfo": "Description",
+      "code": "Code",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total",
+      "quantitytotal": "Quantity Total",
+      "costunit": "Cost/Unit",
+      "co2projecttotal": "CO2 (Project) Total",
+      "co2sourcetotal": "CO2 (Source) Total",
+      "co2totalvariance": "CO2 Total Variance"
+    },
+    "RESOURCES": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "costtotal": "Cost Total",
+      "quantity": "Quantity",
+      "co2project": "CO2/kg (Project)",
+      "co2source": "CO2/kg (Source)",
+      "co2projecttotal": "CO2 (Project) Total",
+      "co2sourcetotal": "CO2 (Source) Total"
+    },
+    "LINE_ITEMS_STRUCTURE":{
+      "tree":"Structure",
+      "co2projecttotal":"CO2 (Project) Total"
+    }
+  },
+
+  "Prerequisites": {
+    "SidebarInputs": {
+      "searchType": "standard",
+      "Search": "Search",
+      "projectName": "TC-PJ-SCHEDULE05",
+      "Wizard": "wizard",
+      "searchby": "Quick Start",
+      "Quickstart": "quickstart",
+      "ModuleName": "Project",
+      "customizing": "Customizing",
+      "costCode": "Cost Codes",
+      "material": "Material"
+    }
+  },
+  "CreateNewBoq": {
+    "CreateBoQ": {
+      "newCode": "BoQ_001"
+    }
+  },
+  "CreateNewBoQStructure": {
+    "BoQStructureInputs": {
+      "description": "BoQ_Sctructure",
+      "quantity": "500",
+      "unitRate": "1",
+      "uom": "%"
+    },
+    "ColumnHeaders": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "price": "Unit Rate (EUR)",
+      "basuomfk": "UoM",
+      "boqlinetypefk": "BoQ Line Type"
+    }
+  },
+  "EstimatePageInputs": {
+    "CreateEstimate": {
+      "newCode": "CodeEstimate123",
+      "description": "TestEstimate",
+      "rubicCategory": "Planning",
+      "estimateType": "Bid Estimate"
+    },
+    "ColumnHeaders": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.rubriccategoryfk": "Rubric Category",
+      "estheader.esttypefk": "Estimate Type"
+    }
+  },
+  "GenrateLineItemFromBoQ": {
+    "sidebarInputs": {
+      "searchBy": "Wizard",
+      "Wizard": "wizard",
+      "genarateLineItems": "Generate Line Items"
+    }
+  },
+  "CreateLocation": {
+    "LocationInputs": {
+      "description1": "Pune",
+      "description2": "Nashik",
+      "code": "0",
+      "quanityFactor1": "55.000"
+    }
+  },
+  "CreateCostGroup": {
+    "CostGroupInputs": {
+      "description1": "Costgrp",
+      "code": "0",
+      "quantity": "40.000",
+      "uom": "BAGS",
+      "searchEntity": "Enterprise Catalog Configuration"
+    }
+  },
+  "costGroup_Configurations": {
+    "costGroupConfig_Inputs": {
+      "dataRecordSearch": "MDC_LINEITEMCONTEXT RIB_DEMO",
+      "Code": "CG117",
+      "Description": "COSTGROUP117"
+    }
+  },
+  "leadingstructureoption": {
+    "structureInput": {
+      "searchType": "Location",
+      "structureType": "No relation"
+    }
+  },
+  "ResourcePageInputs": {
+    "createResource": {
+      "shortKey1": "M",
+      "shortKey2": "C",
+      "Material": "Silo- Portlandzement",
+      "costcode1": "A0",
+      "costcode2": "M0"
+    },
+    "ResourceColumn_header": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "co2project": "CO2/kg (Project)"
+    }
+  },
+  "CreateActivityStructure": {
+    "ActivityStructureInputs": {
+      "description": "Activitydescription",
+      "quantity": "10.000",
+      "uom": "10M3",
+      "ActVal": "ActVal"
+    }
+  },
+  "CreateSchedules": {
+    "ScheduleColumnHeaders": {
+      "descriptioninfo": "Description"
+    },
+    "ActivityStructureColumnHeaders": {
+      "quantity": "Quantity",
+      "quantityuomfk": "UoM"
+    },
+    "SchedulesInputs": {
+      "ScheduleDesc": "ScheduleDesc"
+    }
+  },
+  "CreateLineItemStructure": {
+    "Column_Header": {
+      "co2projecttotal": "CO2 (Project) Total"
+    }
+  },
+  "MaterialInputs": {
+    "material_Input": {
+      "co2projectvalue": "300.000",
+      "updatedco2projectvalue2": "100.000",
+      "chkStatus": "check",
+      "lookup1": "grid",
+      "uom": "BAGS",
+      "materialRecordCode": "Silo- Portlandzement"
+    },
+    "material_Columnheader": {
+      "co2project": "CO2/kg (Project)",
+      "co2source": "CO2/kg (Source)",
+      "basco2sourcefk": "CO2/kg (Source Name)"
+    }
+  },
+  "CostCodesInputs": {
+    "CostCodes_Input": {
+      "co2projectvalue": "300.000",
+      "updatedco2projectvalue2": "100.000",
+      "costcode1": "A0",
+      "costcode2": "M0"
+    },
+    "CostCodes_Columnheader": {
+      "co2project": "CO2/kg (Project)"
+    }
+  }
+}

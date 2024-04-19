@@ -1,0 +1,152 @@
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "BIDS": {
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "BID_BOQSTRUCTURE": {
+            "COPY_SOURCE_FROM": "Project BoQ",
+            "ROOT": "Root",
+            "POSTION": "Position",
+            "LEVEL_1": "Level 1"
+        },
+        "CONTRACTS": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "QUANTITY_TAKEOFF_HEADER": {
+            "QUANTITY": "10.000",
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "ITEM": "Sales / WIP&Bill"
+        },
+        "BILL_OF_QUANTITY_LOOKUP": {
+            "QUANTITY": "250.000",
+            "VALUE_1": "50 =",
+            "VALUE_2": "30 = "
+        },
+        "BILL":{
+            "MODULE": "WIP",
+            "TYPE": "Progress Invoice",
+            "TYPE_2": "Final Invoice",
+            "LABEL-NAME": "Type",
+            "QUANTITY": "200",
+            "BILL_BOQ_QUANTITY": "300.000",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BOQ_SOURCE": "Bid BoQ",
+            "BOQ_TYPE": "Contract BoQ"
+     }
+    },
+    "MODALS": {
+        "REB_Export": {
+            "RADIO_LABLE_NAME": "Entire Quantity takeoff",
+            "INDEX": "2",
+            "REB_VERSION": "DA11"
+        },
+        "CREATE_BID": {
+            "MAIN_BID":"Main Bid",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BIDS": {
+            "descriptioninfo": "Description",
+            "amountnet": "amountnet",
+            "amountgross": "Amount (Gross)",
+            "currencyfk": "Currency"
+        },
+        "CONTRACTS": {
+            "descriptioninfo": "Description",
+            "amountnet": "amountnet",
+            "amountgross": "Amount (Gross)"
+        },
+        "QUANTITY_TAKEOFF_HEADER": {
+            "qtotypefk": "QTO Type",
+            "qtotargettype": "QTO Purpose",
+            "code": "Code",
+            "performedto":"Performed To",
+            "performedfrom":"Performed From"
+        },
+        "BILL_OF_QUANTITY_LOOKUP": {
+            "installedquantity": "IQ Quantity",
+            "price": "Unit Rate (EUR)",
+            "tree": "Structure"
+        },
+        "QUANTITY_TAKEOFF_DETAIL": {
+            "qtoformulafk": "QTO Formula",
+            "value1detail": "Value 1",
+            "result": "Result"
+        },
+        "WIP": {
+            "amountnetoc": "Amount (Net OC)",
+            "amountnet": "Net Amount",
+            "performedto":"Performed To",
+            "performedfrom":"Performed From"
+        },
+        "BILL":{
+            "descriptioninfo":"Description",
+            "performedto":"Performed To",
+            "performedfrom":"Performed From"
+
+        }
+
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": "10"
+        },
+        "RESOURCE": {
+            "SHORTKEY": "M",
+            "CODE": "221001",
+            "QUANTITY": "110"
+        },
+        "PACKAGE": {
+            "MATERIAL_AND_COSTCODE": "Material & Cost Code"
+        },
+        "QUOTE": {
+            "BUSINESS_PARTNER_1": "Adolf Koch",
+            "BUSINESS_PARTNER_2": "AGO Baumaschinen GmbH",
+            "PRICE_1": "20",
+            "PRICE_2": "10"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEMS": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity"
+        },
+        "QUOTES": {
+            "statusfk": "Status",
+            "packagenumber": "Package Number",
+            "supplierfk": "Supplier No.",
+            "businesspartnerfk": "Business Partner",
+            "subsidiaryfk": "Branch"
+        },
+        "QUOTES_ITEM": {
+            "price": "Price",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "CONTRACT": {
+            "codequotation": "Quotation Code",
+            "packagefk": "Package Code",
+            "supplierfk": "Supplier No.",
+            "businesspartnerfk": "Business Partner",
+            "subsidiaryfk": "Branch"
+        }
+    }
+}

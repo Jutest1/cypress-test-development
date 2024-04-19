@@ -1,0 +1,42 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "BUSINESS_PARTNER":{
+            "PARTNERNAME": "Adolf Koch",
+            "NAME":"Brings"
+        },
+        "ORDER_ITEM":{
+            "MATERIAL_NO": "DÜB08MESS",
+            "QUANTITY": "100"
+        },
+        "CONTRACT_DATA":{
+            "PROCUREMENT_STRUCTURE_CODE":"M"
+        }     
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "CONTRACT": {
+            "businesspartnerfk":"Business Partner",
+            "controllingunitfk":"Controlling Unit Code"
+        },
+        "DATA_TYPE":{
+            "name":"Data Type"
+        },
+        "ORDER_ITEM": {            
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity"
+        }
+    }
+ }

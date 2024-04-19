@@ -1,0 +1,98 @@
+
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE":{
+          "QUANTITY":"100.000",
+          "UOM":"10M3",
+          "UNIT_RATE": "9"
+        },
+        "BIDS":{
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "BID_BOQSTRUCTURE":{
+            "COPY_SOURCE_FROM":"Project BoQ",
+            "ROOT":"Root",
+            "POSTION":"Position",
+            "LEVEL_1":"Level 1"
+        },
+        "CONTRACTS":{
+
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "QUANTITY_TAKEOFF_HEADER":{
+            "QUANTITY": "10.000",
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ",
+            "EUR":"EUR",
+            "USD":"USD",
+            "CONVERSION_RATE":"50.00",
+            "FOREIGN_CURRENCY":"Foreign Currency",
+            "RATE":"1",
+            "ITEM": "Sales / WIP&Bill",
+            "DESCRIPTION": "QTO002",
+            "CONTRACT": "C1"
+        },
+        "BILL_OF_QUANTITY_LOOKUP":{
+            "QUANTITY":"250.000"
+        },
+        "BILL":{
+            "CONTRACT_TYPE": "Lump Sum Contract",
+            "CATEGORY": "Bill Progress Application",
+            "PERFORM_DATE_FROM": "30/10/2023",
+            "PERFORM_DATE_TO": "30/12/2023"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk":"BoQ Line Type",
+            "finalprice":"Final Price"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BIDS":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet",
+            "amountgross":"Amount (Gross)",
+            "currencyfk":"Currency"
+        },
+        "CONTRACTS":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet",
+            "amountgross":"Amount (Gross)"
+        },
+        "QUANTITY_TAKEOFF_HEADER": {
+            "qtotypefk":"QTO Type",
+            "qtotargettype":"QTO Purpose",
+            "code":"Code"       
+         },
+        "BILL_OF_QUANTITY_LOOKUP":{
+            "installedquantity":"IQ Quantity",
+            "price":"Unit Rate (EUR)",
+            "tree":"Structure"
+        },
+        "QUANTITY_TAKEOFF_DETAIL":{
+            "qtoformulafk":"QTO Formula",
+            "value1detail":"Value 1",
+            "result":"Result"
+        },
+        "BILL_BOQS":{
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo":"Outline Specification",
+            "boqrootitem.finalprice":"Final Price"
+        }
+    }
+}

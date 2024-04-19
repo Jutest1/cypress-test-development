@@ -1,0 +1,25 @@
+{
+"CONTAINERS": {
+        
+    "CONTRACT":{
+              "CONFIGURATION":"Material PO",
+              "BUSINESSPARTNER":"Adolf Koch"
+        },
+    "ITEM":{
+              "ITEM_NO":"10",
+              "MATERIAL_NO":"DÜB06PVC"
+        },
+    "OVERVIEW":{
+                "DOCUMENT":"Document",
+                "CERTIFICATES":"Certificates",
+                "GENERALS":"Generals"
+    }
+        },
+"CONTAINER_COLUMNS": {
+    "ITEM":{
+              "itemno":"Item Number",
+              "mdcmaterialfk":"Material No."
+        }
+        }
+    
+}

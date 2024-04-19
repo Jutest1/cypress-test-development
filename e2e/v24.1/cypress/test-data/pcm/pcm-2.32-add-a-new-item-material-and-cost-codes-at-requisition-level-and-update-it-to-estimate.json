@@ -1,0 +1,85 @@
+{
+    "CONTAINERS": {
+        "RESOURCE": {
+            "SHORT_KEY": "M",
+            "CODE": "DÜB06PVC"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "270",
+            "UOM": "BAGS"
+        },
+        "REQUISITION_ITEMS": {
+            "CODE": "DÜB08PVC",
+            "QUANTITY": "345",
+            "IS_FREE_QUANTITY": "check"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "SmiJ"
+        },
+        "CREATE_UPDATE_MATERIAL_PACKAGE": {
+            "MATERIAL_AND_COST_CODE": "Material & Cost Code",
+            "PROCUREMENT_STRUCTURE": "M",
+            "CONFIGURATION": "Material",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "UPDATE_ESTIMATE_WIZARD": [
+            {
+                "LabelName": "Linked Material Item",
+                "IndexValue": "0",
+                "CheckBoxValue": "checked"
+            },
+            {
+                "LabelName": "Overwrite original Resources",
+                "IndexValue": "0",
+                "CheckBoxValue": "unchecked"
+            },
+            {
+                "LabelName": "Create new Line Item for new Material Item",
+                "IndexValue": "0",
+                "CheckBoxValue": "checked"
+            }
+        ]
+    },
+    "CONTAINER_COLUMNS": {
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity"
+        },
+        "PACKAGE": {
+            "code": "Code",
+            "configurationfk": "Configuration"
+        },
+        "Column_Totals": {
+            "valuenet": "Net Value"
+        },
+        "REQUISITION": {
+            "configuration": "Configuration",
+            "code": "Code"
+        },
+        "REQUISITION_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "isfreequantity": "Is Free Quantity"
+        }
+    }
+}

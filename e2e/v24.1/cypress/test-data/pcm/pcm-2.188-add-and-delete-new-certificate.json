@@ -1,0 +1,30 @@
+{
+    "CONTAINERS": {
+        "CONTRACT": {
+            "CONFIGURATION": "Material PO",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "VALUE_TYPE": "CIS Certificate (en)"
+        },
+        "CUSTOMIZING": {
+            "ENTITY_TYPE": "Certificate Type",
+            "DATATYPE": "CIS Certificate (en)",
+            "check": "check",
+            "uncheck": "uncheck"
+        },
+        "CERTIFICATE":{
+            "CERTIFICATE_TYPE_VALIDATION_MSG":"The certificate type should be unique"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "code": "Code",
+            "structureCode": "Procurement Structure"
+        },
+        "CONTRACT_CERTIFICATE": {
+            "bpdcertificatetypefk": "Type",
+            "isrequired": "Is Required",
+            "ismandatory": "Is Mandatory",
+            "requiredamount": "Required Amount"
+        }
+    }
+}

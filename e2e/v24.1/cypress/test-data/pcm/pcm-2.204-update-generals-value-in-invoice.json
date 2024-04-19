@@ -1,0 +1,52 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": [
+                "0"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "INVOICE": {
+            "BP": "Adolf Koch",
+            "AMOUNT_NET": [
+                "1000"
+            ]
+        },
+        "GENERALS_INVOICE": {
+            "BP": "Adolf Koch",
+            "TOTAL": "TOTAL",
+            "NACHLESS": "Nachlass %",
+            "VALUE": [
+                "60",
+                "40",
+                "0.00"
+            ],
+            "TYPE_NACHLESS": "TYPE_Nachlass",
+            "BAUSTROM": "Baustrom %",
+            "TYPE_Baustrom": "TYPE_Baustrom"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "INVOICE": {
+            "invstatusfk": "Status",
+            "reference": "Invoice No.",
+            "projectfk": "Project No.",
+            "amountnet": "Amount (Net)"
+        }
+    }
+}

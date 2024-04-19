@@ -1,0 +1,30 @@
+{
+    "CONTAINERS": {
+        "BIDDER": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BUSINESS_PARTNER1": "Anton Waliser",
+            "REMARK": "Test Remark"
+        },
+        "RFQ": {
+            "RFQ1": "RfQ(1)"
+        }
+    },
+    "MODAL": {
+        "CREATE_QUOTE": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch",
+                "Anton Waliser"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "RFQ": {
+            "description": "RfQ Description",
+            "daterequested": "Requested"
+        },
+        "BIDDER": {
+            "businesspartnerfk": "Business Partner",
+            "daterequested": "Requested"
+        }
+    }
+}

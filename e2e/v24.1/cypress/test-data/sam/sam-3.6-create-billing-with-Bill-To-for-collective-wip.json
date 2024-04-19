@@ -1,0 +1,127 @@
+{
+    "CONTAINERS": {
+        "PROJECT":{
+            "CLERK_NAME":"HS"
+        },
+        "BILL_TO":{            
+                "BUSINESS_PARTNER1":"AGO Baumaschinen GmbH",
+                "BUSINESS_PARTNER2":"Anton Waliser",
+                "QUANTITY_PORTION1":"60.00",
+                "QUANTITY_PORTION2":"40.00",
+                "poptype":"grid"
+        },
+        "BOQ_STRUCTURE": {
+            "BOQLINETYPE":"Position",
+            "QUANTITY": "500.000",           
+            "UOM": "BAGS",
+            "UNITRATE":"50.00"         
+            
+        },
+        "BID":{
+            "BUSINESS_PARTNER":"Adolf Koch"            
+        },
+        "CONTRACT_SALES":{
+            "ENV_CONTRACT_DESC":"contractDesc"
+        },
+        "WIP":{            
+            "COLLECTIVE_WIP":"CollectiveWIP",
+            "DESCRIPTION":"Description",
+            "BOQLINETYPE":"Position",
+            "INSTALLED_QUANTITY":"300.00"            
+        }, 
+        "BILL":{           
+            "DESCRIPTION":"Description",
+            "BILL_TO":"Bill To",
+            "POPTYPE":"grid",
+            "BOQLINETYPE":"Position"
+            
+        }    
+        
+
+    },    
+    "CONTAINER_COLUMNS": {
+        "BOQ":{
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross":"Final Price (Gross)",
+            "price":"Unit Rate (EUR)"
+            
+        },
+        "BID":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet" ,
+            "bidstatusfk": "Bid Status", 
+            "code": "Code"
+            
+        },
+        "BID_BOQ":{
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo":"Outline Specification"
+        },
+        "BID_BOQ_STRUCTURE":{
+            "boqlinetypefk":"BoQ Line Type",
+            "briefinfo":"Outline Specification",
+            "quantity":"Quantity",
+            "price":"Unit Rate"
+        },        
+        "CONTRACT_SALES":{ 
+            "ordstatusfk": "Contract Status",          
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACT_SALES_BOQ":{
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "CONTRACT_SALES_BOQ_STRUCTURE":{
+            "boqlinetypefk": "BoQ Line Type", 
+            "briefinfo": "Outline Specification", 
+            "quantity": "Quantity", 
+            "basuomfk": "UoM",
+            "price":"Unit Rate (EUR)"
+        },
+        "BILL_TO":{
+            "code":"Code",
+            "description":"Description",
+            "businesspartnerfk":"Business Partner",
+            "quantityportion":"Quantity Portion (in %)'"
+        },
+        "WIP":{
+            "wipstatusfk":"Wip Status",
+            "code":"Code",
+            "descriptioninfo":"Description" 
+        },
+        "WIP_BOQ":{
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo":"Outline Specification"
+        },
+        "WIP_BOQ_STRUCTURE":{
+            "boqlinetypefk":"BoQ Line Type",
+            "briefinfo":"Outline Specification",
+            "quantity":"Quantity",
+            "remquantity":"Remaining Quantity"
+        },
+        "BILL_BOQ":{
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo":"Outline Specification"
+        },
+        "BILL_BOQ_STRUCTURE":{
+            "boqlinetypefk":"BoQ Line Type",
+            "briefinfo":"Outline Specification",
+            "quantity":"Quantity"
+        }
+
+    }   
+    
+       
+    
+       
+    
+}

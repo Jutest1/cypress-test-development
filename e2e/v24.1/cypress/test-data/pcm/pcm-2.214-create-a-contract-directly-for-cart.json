@@ -1,0 +1,35 @@
+{
+    "CONTAINERS": {
+        "COMPANIES": {
+            "CODE": "999",
+            "COMPANY_NAME": "RIB Demo"
+        },
+        "CONTROLLING_UNIT": {
+            "UOM": "10M3",
+            "QUANTITY": "1"
+        },
+        "MATERIAL": {
+            "MATERIAL_CODE": "I110",
+            "MATERIAL_QUANTITY": "2"
+        },
+        "VARIABLES": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "Go_To_Contract": "Go To Contract",
+            "Net_Total": "Net Total"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "COMPANIES": {
+            "companyname": "Company Name"
+        },
+        "CLERK": {
+            "code": "Code",
+            "userfk": "User"
+        }
+    }
+}

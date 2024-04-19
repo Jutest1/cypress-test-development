@@ -1,0 +1,74 @@
+{
+    "CONTAINERS": {
+        "PLANT_TYPES":{
+            "PLANT_TYPE":"Plant Type",
+            "RENTAL": "Rental",
+            "BULK":"Bulk",
+            "BAL":"Bal",
+            "PERFORMANCE":"Performance",
+            "FIRMLY_MOUNTED":"Firmly Mounted" 
+        },
+        "CONTROLLING_UNIT": {
+            "UOM":"%",
+            "QUANTITY":"250"
+        },
+        "PLANT": {
+            "PLANT_TYPE": "Bulk",
+            "PLANT": "ETM_0004",
+            "PLANT_GROUP": "GROUP 01",
+            "PLANT_KIND": "External Rental",
+            "UPDATE_PLANT": "No",
+            "INDEX_PLANT": 1
+        },
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "CONTRACT_STATUS": "Approved",
+            "CONFIGURATION": "Material PO"
+        },
+        "ITEM": {
+            "PROCUREMENT_STRUCTURE": "Equipment",
+            "QUANTITY1": "2.000",
+            "QUANTITY2": "5.000",
+            "UOM1": "LE",
+            "UOM2": "ST",
+            "PRICE1": "500.00",
+            "PRICE2": "200.00"
+        }
+
+    },
+    "CONTAINER_COLUMNS": {
+        "PLANT_TYPES":{
+            "planttypefk":"Plant Type",
+            "istimekeepingdefault":"Is Timekeeping Default" 
+        },
+        "PLANT": {
+            "planttypefk": "Plant Type",
+            "descriptioninfo": "Description",
+            "plantkindfk": "Plant Kind"
+        },
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description",
+            "isplantmanagement": "Is Plantmanagement",
+            "isassetmanagement": "Asset Management"
+        },
+        "ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity",
+            "total": "Total",
+            "basuomfk": "UoM",
+            "price": "Price",
+            "prcstructurefk": "Structure",
+            "description1": "Description 1"
+        },
+        "CONTRACT": {
+            "reqheaderfk": "Requisition"
+        }   
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    }
+}

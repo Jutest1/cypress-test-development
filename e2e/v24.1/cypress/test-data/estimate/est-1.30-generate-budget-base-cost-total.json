@@ -1,0 +1,82 @@
+{
+  "CONTAINERS": {
+    "ESTIMATE": {
+      "RUBRIC_CATEGORY": "Planning",
+      "ESTIMATE_TYPE": "Bid Estimate"
+    },
+    "LINE_ITEM": {
+      "QUANTITY": "100",
+      "UOM": "10M3"
+    },
+    "RESOURCE": {
+      "SHORT_KEY": ["C","S"],
+      "CODE": ["1","2"],
+        "QUANTITY":"50"
+    },
+    "BOQ_STRUCTURE": {
+      "QUANTITY": "100",
+      "UNIT_RATE": "25",
+      "UOM": "CM3"
+    }
+  },
+  "MODAL": {
+    "GENERATE_BUDGET": {
+      "X_FACTOR": "5",
+      "ESTIMATE_SCOPE_INDEX": 0,
+      "BUDGET_FROM_INDEX": 0,
+      "BUDGET_FROM": "Grand Total",
+      "ESTIMATE_SCOPE": "Highlighted Line Item"
+    },
+    "CREATE_BID": {
+      "BUSINESS_PARTNER": "Adolf Koch",
+      "STRUCTURE_TYPE": "BoQ",
+      "MAIN_BID":"Main Bid"
+    },
+    "GENERATE_UPDATE_BASE_COST": {
+      "SELECT_ESTIMATE_SCOPE": "Entire Estimate",
+      "GENERATE_UPDATE_BASE_COST": "Generate Base Cost",
+      "INDEX": "0",
+      "RADIO_INDEX": "0"
+    },
+    "UPDATE_REVENUE": {
+      "UPDATE_REVENUE": "Selected LineItems(All concerned Line Items)",
+      "DISTRIBUTE_BY": "Budget",
+      "INDEX": "1",
+      "RADIO_INDEX": "1"
+    }
+  },
+  "CONTAINER_COLUMNS": {
+    "ESTIMATE": {
+      "estheader.code": "Code",
+      "estheader.descriptioninfo": "Description",
+      "estheader.esttypefk": "Estimate Type",
+      "estheader.rubriccategoryfk": "Category"
+    },
+    "LINE_ITEM": {
+      "descriptioninfo": "Description",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "grandtotal":"Grand Total",
+      "budget":"Budget",
+      "revenue":"Revenue"
+    },
+    "RESOURCE": {
+      "estresourcetypeshortkey": "Short Key",
+      "code": "Code",
+      "quantity": "Quantity",
+      "descriptioninfo": "Description",
+      "basuomfk": "UoM",
+      "costtotal": "Cost Total"
+    },
+    "BOQ": {
+      "boqrootitem.briefinfo": "Outline Specification"
+    },
+    "BOQ_STRUCTURE": {
+      "briefinfo": "Outline Specification",
+      "quantity": "Quantity",
+      "basuomfk": "UoM",
+      "price": "Unit Rate (EUR)",
+      "boqlinetypefk": "BoQ Line Type"
+    }
+  }
+}

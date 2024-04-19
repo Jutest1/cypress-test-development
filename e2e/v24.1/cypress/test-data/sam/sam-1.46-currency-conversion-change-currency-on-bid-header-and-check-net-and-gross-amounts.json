@@ -1,0 +1,61 @@
+
+{
+    "CONTAINERS": {
+        "BOQS": {
+            "QUANTITY": "100",
+            "UoM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE":{
+          "QUANTITY":"100.00",
+          "UoM":"10M3",
+          "UNIT_RATE": "9"
+        },
+        "BIDS":{
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ",
+            "description":"BID",
+            "EUR":"EUR",
+            "USD":"USD",
+            "CONVERSION_RATE":"50.00",
+            "FOREIGN_CURRENCY":"Foreign Currency",
+            "RATE":"1"
+        },
+        "BID_BOQSTRUCTURE":{
+            "COPY_SOURCE_FROM":"Project BoQ",
+            "ROOT":"Root",
+            "POSTION":"Position",
+            "LEVEL_1":"Level 1"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk":"BoQ Line Type"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "SOURCEBOQ":{
+            "briefinfo": "Outline Specification",
+            "boqlinetypefk":"BoQ Line Type" ,
+            "quantity":"Quantity"
+
+        },
+        "BIDS":{
+            "descriptioninfo":"Description",
+            "amountnet":"amountnet",
+            "amountgross":"Amount (Gross)",
+            "currencyfk":"Currency"
+        },
+        "CURRENCY_CONVERSION": {
+            "currencyforeignfk": "Foreign Currency",
+            "currencyforeignfkdescription": "Foreign Currency-Description"
+        }
+    }
+}
+

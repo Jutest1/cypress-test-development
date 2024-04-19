@@ -1,0 +1,65 @@
+{
+    "CONTAINERS": {
+      "ACTIVITY_STRUCTURE": {
+        "QUANTITY": "100.000",
+        "PLANNED_START":"current",
+        "PLANNED_FINISH":"incremented",
+        "PLANNED_DURATION":"extraDayBetweenDates",
+        "DAYS_BETWEEN":"DayBetweenDates",
+        "UOM": "BAGS"
+        },
+        "CALENDAR": {
+          "TYPE":"Hour",
+          "TYPE1":"Day",
+          "CALENDAR":"Calendar"
+      },
+      "UNIT": {
+        "TYPE":"Week",
+        "TYPE1":"Year"
+      },
+      "PERFORMANCE_RULES": {
+          "PRODUCTIVITY_VALUE":"50.000000",
+          "UOM1" :"10M3",
+          "UOM2":"BAG",
+          "QUANTITY":"50",
+          "COUNTRY":"Germany"
+      },
+      "UPDATE_PERFORMANCE_RULES": {
+        "PRODUCTIVITY_VALUE":"150.000000",
+        "UOM1" :"m3",
+        "UOM2":"BAG",
+        "QUANTITY":"150",
+        "COUNTRY":"Germany",
+        "SCHEDULES_QUANTITY":"100"
+    }
+        
+    },
+    "CONTAINER_COLUMNS": {
+        "SCHEDULES": {
+          "code":"Code",
+          "descriptioninfo":"Description"
+        },
+        "ACTIVITY_STRUCTURE": {
+          "description":"Description",
+          "locationfk":"Location",
+          "plannedstart":"Planned Start",
+          "plannedfinish":"Planned Finish",
+          "plannedduration":"Planned Duration",
+          "quantityuomfk":"UoM",
+          "performancefactor":"Productivity"
+        },
+        "PERFORMANCE_RULES": {
+          "quantity":"Quantity",
+          "uomfk1":"UoM 1",
+          "uomfk2":"UoM 2",
+          "performancesheetfk":"Performance Sheet"
+        },
+        "CALENDAR": {
+          "code":"Code",
+          "descriptioninfo":"Description",
+          "basuomhourfk":"UoM of Hour",
+          "basuomdayfk":"UoM of Day"
+        }
+      }
+     
+    }

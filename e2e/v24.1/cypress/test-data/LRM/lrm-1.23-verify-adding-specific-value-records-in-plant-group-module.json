@@ -1,0 +1,35 @@
+{
+    "CONTAINERS_COLUMNS": {
+        "PLANT_GROUP": {
+            "rubriccategoryfk": "Rubric Category",
+            "descriptioninfo": "Description",
+            "islive": "Active",
+            "code": "Code"
+        },
+        "SPECIFIC_VALUE": {
+            "descriptioninfo": "Description",
+            "specificvaluetypefk": "Specific Value Type",
+            "uomfk": "UoM",
+            "uomfkdescription": "UoM-Description",
+            "costcodefk": "Cost Code",
+            "costcodefkdescription": "Cost Code-Description",
+            "isinherited": "Is Inherited",
+            "value": "Value",
+            "factor": "Factor"
+        }
+    },
+    "CONTAINERS": {
+        "PLANT_GROUP": {
+            "RUBRIC_CATEGORY": "Equipment"
+        },
+        "SPECIFIC_VALUE": {
+            "SPECIFIC_VALUE_TYPE": "Estimate Performance",
+            "SPECIFIC_VALUE_TYPE_1": "Depreciation & Interest",
+            "COST_CODE": "1",
+            "UOM":"M3",
+            "VALUE":"1",
+            "FACTOR":"1"
+            
+        }
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "CONTAINERS": {
+        "CONTROLLING_UNIT": {
+            "UOM": "BAGS",
+            "QUANTITY": "250"
+        },
+        "REQUISITION": {
+            "STRUCTURE": "M",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "MATERIAL_NO": "DÜB06PVC",
+            "PRICE": "100",
+            "QUANTITY": "23"
+        },
+        "REQUISITION_MILESTONE": {
+            "TYPE": "Progress Meeting",
+            "TAX_CODE": "07",
+            "AMOUNT": "999",
+            "DATE": "30/06/2023",
+            "milestone_type":"Progress Meeting",
+            "tax_code":"05",
+            "amount":"999",
+            "milestone_type1":"Contract Milestones",
+            "tax_code1":"07",
+            "amount1":"888",
+            "date1": "20/06/2023",
+            "labelName": "Validation Wizard"
+        },
+        "REQUISITION_CHARACTERISTICS": {
+            "CODE": "205",
+            "VALUE": "Testing"
+            
+        },
+        "REQUISITION_CONTACT": {
+            "ROLE": "Service Personell",
+            "CONTACT": "Maurer"
+        },
+        "REQUISITION_SUB_CONTRACTOR": {
+            "CONTACT": "Brings",
+            "STRUCTURE": "M",
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "REQUISITION_CERTIFICATE": {
+            "TYPE": "CIS Certificate (en)",
+            "COST": "187"
+        },
+        "REQUISITION_GENERALS": {
+            "TYPE": "Nachlass %",
+            "TAX_CODE": "NSTB",
+            "VALUE": "500.00"
+        },
+        "REQUISITION_ITEMS":{
+            "material": "Material Search",
+            "materialCode":"DÜB08PVC",
+            "materialDesc":"DÜB08PVC / PVC Spreizdübel 8",
+            "quantity":"100"
+        },
+        "LANGUAGE": {
+            "language": "Language",
+            "ui_language":"UI Language",
+            "userdata_language":"User Data Language",
+            "uilanguage":"German (de)",
+            "userdatalanguage":"Deutsch",
+            "quickStart_German": "Schnellstart",
+            "quickStart1": "quickstart",
+            "anforderung":"Anforderung",
+            "bedarfsanforderungen":"Bedarfsanforderungen"
+
+        }   
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTROLLING_UNIT": {
+            "quantity": "Quantity",
+            "uomfk": "UoM",
+            "descriptioninfo": "Description"
+        },
+        "REQUISITION": {
+            "projectfk": "Project No.",
+            "businesspartnerfk": "Business Partner",
+            "structure": "Structure Code",
+            "code": "Code"
+        },
+        "REQUISITION_MILESTONE": {
+            "prcmilestonetypefk": "Type",
+            "mdctaxcodefk": "Tax Code",
+            "amount": "Amount",
+            "milestone": "Date"
+        },
+        "REQUISITION_CONTACT": {
+            "bpdcontactrolefk": "Role",
+            "bpdcontactfk": "Contact",
+            "BpdContactFirstName": "First Name"
+        },
+        "REQUISITION_SUB_CONTRACTOR": {
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "bpdcontactfk": "Contact"
+        },
+        "REQUISITION_CERTIFICATE": {
+            "bpdcertificatetypefk": "Type",
+            "guaranteecost": "Guarantee Cost",
+            "validto": "Valid To",
+            "validfrom": "Valid From"
+        },
+        "REQUISITION_GENERALS": {
+            "prcgeneralstypefk": "Type",
+            "mdccontrollingunitfk": "Controlling Unit Code",
+            "mdctaxcodefk": "Tax Code",
+            "value": "Value"
+        },
+        "REQUISITION_DOCUMENT": {
+            "description": "Description"
+        },
+        "CONTRACTS": {
+            "code": "Code",
+            "reqheaderfk": "Requisition",
+            "projectfk": "Project No.",
+            "structureCode": "Procurement structure",
+            "businesspartnerfk": "Business Partner"
+        },
+        "CONTRACTS_MILESTONE": {
+            "prcmilestonetypefk": "Type",
+            "mdctaxcodefk": "Tax Code",
+            "amount": "Amount",
+            "milestone": "Date"
+        },
+        "CONTRACTS_CONTACT": {
+            "bpdcontactrolefk": "Role",
+            "bpdcontactfk": "Contact",
+            "BpdContactFirstName": "First Name"
+        },
+        "CONTRACTS_SUB_CONTRACTOR": {
+            "prcstructurefk": "Structure",
+            "bpdbusinesspartnerfk": "Business Partner",
+            "bpdcontactfk": "Contact"
+        },
+        "CONTRACTS_CERTIFICATE": {
+            "bpdcertificatetypefk": "Type",
+            "guaranteecost": "Guarantee Cost",
+            "validto": "Valid To",
+            "validfrom": "Valid From"
+        },
+        "CONTRACTS_GENERALS": {
+            "prcgeneralstypefk": "Type",
+            "mdccontrollingunitfk": "Controlling Unit Code",
+            "mdctaxcodefk": "Tax Code",
+            "value": "Value"
+        },
+        "CONTRACTS_DOCUMENT": {
+            "description": "Description"
+        },
+        "REQUISITION_ITEMS": {
+            "mdcmaterialfk": "Material No.",
+            "price": "Price",
+            "quantity": "Quantity"
+        },
+        "REQUISITION_TOTALS": {
+            "valuenet": "Net Value",
+            "valuetax": "VAT",
+            "gross": "Gross"
+        },
+        "CONTRACT_TOTALS": {
+            "valuenet": "Net Value",
+            "valuetax": "VAT",
+            "gross": "Gross"
+        },
+        "REQUISITION_CHARACTERISTICS":{
+            "description": "Description",
+            "valuetext":"Value"
+        },
+        "REQUISITION_OVERVIEW":{
+            "tree": "Structure",
+            "description": "Title",
+            "count": "Status"
+        },
+        "SUGGESTED_BIDDERS":{
+                "bpname1": "Business Partner"
+             
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "CONTAINERS": {
+        "CHARATERISTICS": {
+            "CODE": "200",
+            "CODE2":"100",
+            "ROOT":"Root"
+        },
+        "PROCUREMENT_STRUCTURE":{
+            "PROCUREMENT_STRUCTURE": "Service",
+            "CHECK": "check",
+            "SEARCH_RESULT":"D"
+        },
+        "BUSINESS_PARTNERS":{
+            "STREET":"Ghandhi Road",
+            "ZIPCODE":"100",
+            "CITY":"NAshik",
+            "COUNTRY":"India"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BUSINESS_PARTNERS": {
+            "code": "Code",
+            "businesspartnername1":"Business Partner Name"
+        },
+        "CHARATERISTICS": {
+            "characteristicfk":"Code",
+            "valuetext":"Value"
+        }
+    }
+}

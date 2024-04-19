@@ -1,0 +1,78 @@
+{
+    "CONTAINERS": {
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY_1": "100.000",
+            "UNIT_RATE": "50",
+            "UOM": "BAGS",
+            "QUANTITY_2": "250.000"
+        },
+        "BOQS_ESTIMATE": {
+            "SELECT_RADIO": "selectRadioButton",
+            "DESELECT_RADIO": "deSelectRadioButton"
+        },
+        "COST_GROUP": {
+            "SELECT_RADIO": "selectRadioButton",
+            "COST_GROUP_TYPE": "DIN276_2018-12",
+            "COST_GROUP_DESCRIPTION": "Grundstückswert"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total",
+            "costunit": "Cost/Unit",
+            "costgroup_lic_din276_2018-12_Desc":"DIN276_2018-12-Description"
+        },
+        "BOQS_ESTIMATE": {
+            "marker": "Filter",
+            "tree": "Structure",
+            "briefinfo": "Outline Specification"
+        },
+        "COST_GROUP": {
+            "marker": "Filter",
+            "tree": "Structure",
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification",
+            "boqrootitem.reference": "Reference No."
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalgross": "Final Price (Gross)"
+        }
+    }
+}

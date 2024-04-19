@@ -1,0 +1,79 @@
+{ "CONTAINERS": {
+          "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+          },
+          "BID":{
+            "BPNAME":"AGO Baumaschinen GmbH",
+            "STRUCTRETYPE":"BoQ"   
+          },
+          "SOURCE_BOQ":{
+            "CopyFrom":"WIC BoQ",
+            "WICGroup":"002",
+            "BoQSelection":"1",
+            "SourceOutlineSpec":"Wurzelstock roden d 15-30cm",
+            "BoQStructureLineType":"Level 2"
+          },
+          "BOQ_STRUCTURE":{
+           
+            "QUANTITY": "100.000",
+            "UNIT_RATE": "25",
+            "UOM": "BAG",
+            "QUANTITY1": "40.000",
+            "QUANTITY2": "60.000"
+          },
+          "ASSEMBLY_ASSIGNMENT":{
+            "QTY":"10",
+            "TakeOverMode":"Suggest Line Items",
+            "AssemblyCode":"000020.000020"
+          }
+    
+      },
+      
+      "CONTAINER_COLUMNS": {
+          "ESTIMATE": {
+            "estheader.code":"Code",
+            "estheader.descriptioninfo":"Description",
+            "estheader.rubriccategoryfk":"Rubric Category",
+            "estheader.esttypefk":"Estimate Type"
+          },
+          "LINE_ITEM":{
+            "descriptioninfo": "Description",
+            "code":"Code",
+            "quantity":"Quantity",
+            "basuomfk":"UoM",
+            "estassemblyfk":"Assembly Template"
+          },
+          "RESOURCE":{
+            "estresourcetypeshortkey":"Short Key",
+            "code":"Code",
+            "costtotal":"Cost Total"
+          },
+          "BOQ":{
+            "boqrootitem.briefinfo": "Outline Specification" 
+          },
+          "SOURCE_BOQ":{
+            "briefinfo": "Outline Specification"
+          },
+          "BOQ_STRUCTURE":{
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity", 
+            "basuomfk": "UoM",
+            "price": "Unit Rate", 
+            "quantityadj": "AQ Quantity", 
+            "pricegross": "Corrected UR .Gross",
+            "boqlinetypefk":"BoQ Line Type"
+          },
+          "BOQS":{
+            "marker":"Filter",
+            "briefinfo":"Outline Specification",
+            "tree":"Structure"
+          },
+          "ASSEMBLY_ASSIGNMENT":{
+            "wicestassembly2wicflagfk":"Takeover Mode",
+            "estlineitemfk":"Assembly Code",
+            "wic2assemblyquantity":"Takeover Quantity"
+          }
+      }
+      
+}

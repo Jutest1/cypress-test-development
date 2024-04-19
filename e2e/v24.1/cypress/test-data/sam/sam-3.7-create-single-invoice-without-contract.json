@@ -1,0 +1,134 @@
+
+{
+    "CONTAINERS": {
+        "DATA_TYPE": {
+            "boQConfigType": "Boq Rounding Configuration Type"
+        },
+        "DATA_RECORD": {
+            "BILL_TYPE": "Bill Type",
+            "SINGLE_INVOICE": "Single Invoice",
+            "Bulk": "Bulk",
+            "Bal": "Bal",
+            "Performance": "Performance",
+            "FirmlyMounted": "Firmly Mounted"
+        },
+        "BOQS": {
+            "QUANTITY": "100",
+            "UOM": "10M3",
+            "UNIT_RATE": "9"
+        },
+        "BOQSTRUCTURE":{
+          "QUANTITY":"100.000",
+          "UOM":"10M3",
+          "UNIT_RATE": "9"
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100.000",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": "C",
+            "CODE": "1"
+        },
+        "BIDS":{
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "BID_BOQSTRUCTURE":{
+            "COPY_SOURCE_FROM":"Project BoQ",
+            "ROOT":"Root",
+            "POSTION":"Position",
+            "LEVEL_1":"Level 1"
+        },
+        "BILL":{
+            "BILL_TYPE":"Single Invoice",
+            "LABEL-NAME":"Type",
+            "QUANTITY":"200",
+            "BILL_BOQ_QUANTITY": "300.000",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "BOQ_SOURCE": "Bid BoQ"
+        }
+    }, "MODALS": {
+        "CREATE_BID": {
+            "MAIN_BID":"Main Bid",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "GENERATE_BUDGET": {
+            "X_FACTOR": "5",
+            "ESTIMATE_SCOPE_INDEX": 0,
+            "BUDGET_FROM_INDEX": 0,
+            "BUDGET_FROM":"Grand Total",
+            "ESTIMATE_SCOPE":"Highlighted Line Item"
+        }
+    },
+
+    "CONTAINER_COLUMNS": {
+        "DATA_TYPE": {
+            "name": "Data Type",
+            "type": "Type",
+            "modulename": "Module"
+    },
+        "DATA_RECORD": {
+            "BoqRoundingConfiguration": "Check Config",
+            "boqroundingconfigfk": "Boq Rounding Configuration",
+            "descriptioninfo": "Description",
+            "lineitemcontextfk": "Line Item Context",
+            "islive": "Live"
+        },
+        "BOQSTRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk":"BoQ Line Type",
+            "finalprice":"Final Price"
+        },
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue",
+            "costtotal": "Cost Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BIDS":{
+            "descriptioninfo":"Description",
+            "amountnet":"Net Amount",
+            "amountgross":"Amount (Gross)",
+            "currencyfk":"Currency"
+        },
+        "BILL_BOQS":{
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo":"Outline Specification",
+            "boqrootitem.finalprice":"Final Price"
+        },
+        "BILLS": {
+            "amountnetoc": "Amount (Net OC)",
+            "amountnet":"Net Amount"
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "CONTROLLING_UNITS": {
+            "QUANTITY": [
+                "0"
+            ],
+            "UOM": [
+                "10M3"
+            ]
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "100"
+            ],
+            "UOM": [
+                "%"
+            ],
+            "UNIT_RATE": [
+                "50"
+            ]
+        },
+        "ESTIMATE": {
+            "rubicCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        },
+        "LINE_ITEMS": {
+            "QUANTITY": [
+                "1"
+            ],
+            "UOM": [
+                "%"
+            ]
+        },
+        "RESOURCES": {
+            "SHORT_KEY": [
+                "C"
+            ],
+            "COST_CODE": [
+                "1",
+                "2"
+            ]
+        },
+        "PACKAGE": {},
+        "CONTRACT": {
+            "RESPONSIBLE": "HS",
+            "GET_TEXT_FROM": [
+                "projectfk",
+                "packagefk",
+                "controllingunitfk",
+                "businesspartnerfk",
+                "bpdvatgroupfk",
+                "clerkprcfk",
+                "clerkreqfk",
+                "currencyfk"
+            ]
+        },
+        "PES": {
+            "QUANTITY": "100",
+            "RESPONSIBLE": "HS",
+            "PROCUREMENT_STRUCTURE": "D",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "POPUP_MSG": "Validation Wizard",
+            "BILLING_SCHEMA": "Standard Cumulative",
+            "GET_TEXT_FROM": {
+                "projectfk": "Project No.",
+                "packagefk": "Package",
+                "controllingunitfk": "Controlling Unit Code",
+                "businesspartnerfk": "Business Partner",
+                "bpdvatgroupfk": "VAT Group",
+                "clerkprcfk": "Responsible",
+                "clerkreqfk": "Requisition Owner",
+                "currencyfk": "Currency",
+                "prcstructurefk": "Structure Code",
+                "prcconfigurationfk": "Configuration",
+                "conheaderfk": "Contract",
+                "exchangerate": "Rate",
+                "pesvat": "VAT",
+                "pesvalue": "Total",
+                "TotalGross": "Total (Gross)",
+                "billingschemafk": "Billing Schema"
+            }
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "PROCUREMENT_STRUCTURE": [
+                "D"
+            ],
+            "TRANSFER_FROM": [
+                "BoQ Quantity"
+            ],
+            "GROUPING": "LineItemWithResource",
+            "CASE": [
+                "Update Package with only grouping structure"
+            ],
+            "Scope": "Highlighted Line Item",
+            "groupingstructure": "Project BoQ",
+            "UPDATE_EXISTING_PACKAGE": "Update to Existed Package"
+        },
+        "CREATE_CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "PROJECT": {
+            "projectno": "Project Number",
+            "projectname": "Name"
+        },
+        "CONTROLLING_UNITS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "uomfk": "UoM",
+            "quantity": "Quantity"
+        },
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "quantityadj": "AQ Quantity",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price",
+            "mdccontrollingunitfk": "Controlling Units"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        },
+        "LINE_ITEMS": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "quantitytotal": "Quantity Total"
+        },
+        "RESOURCES": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description",
+            "structurefk": "Procurement structure"
+        },
+        "REQUISITION": {
+            "reqstatusfk": "Status",
+            "structure": "Structure Code",
+            "code": "Code",
+            "configuration": "Configuration"
+        },
+        "CONTRACT": {
+            "code": "Code",
+            "projectfk": "Project No.",
+            "packagefk": "Package",
+            "controllingunitfk": "Controlling Unit Code",
+            "businesspartnerfk": "Business Partner",
+            "bpdvatgroupfk": "VAT Group",
+            "clerkprcfk": "Responsible",
+            "clerkreqfk": "Requisition Owner",
+            "bascurrencyfk": "Currency",
+            "structureCode": "Procurement structure",
+            "billingschemafk": "Billing Schema",
+            "exchangerate": "Rate"
+        },
+        "PES": {
+            "projectfk": "Project No.",
+            "packagefk": "Package",
+            "controllingunitfk": "Controlling Unit Code",
+            "businesspartnerfk": "Business Partner",
+            "bpdvatgroupfk": "VAT Group",
+            "clerkprcfk": "Responsible",
+            "clerkreqfk": "Requisition Owner",
+            "currencyfk": "Currency",
+            "prcstructurefk": "Structure Code",
+            "prcconfigurationfk": "Configuration",
+            "conheaderfk": "Contract",
+            "exchangerate": "Rate",
+            "pesvat": "VAT",
+            "pesvalue": "Total",
+            "TotalGross": "Total (Gross)",
+            "billingschemafk": "Billing Schema"
+        },
+        "ITEMS": {
+            "conheaderfk": "Contract",
+            "prcitemfk": "Contract Item",
+            "quantity": "Quantity",
+            "mdcmaterialfk": "Material No."
+        },
+        "BILLING_SCHEMA": {
+            "description": "Description",
+            "result": "Result"
+        }
+    }
+}

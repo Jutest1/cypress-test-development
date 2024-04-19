@@ -1,0 +1,26 @@
+{
+    "CONTAINERS": {
+        "REQUISITION_INPUTS": {
+            "STRUCTURE_CODE": "D",
+            "CONFIGURATION": "Service REQ"
+        },
+        "GENERAL_INPUTS":{
+            "TYPE1":"Nachlass %",
+            "TYPE2":"Baustrom %",
+            "CU1":"Ausbau",
+            "CU2":"Rohbau"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "REQUISITION_COLUMN": {
+            "structure": "Structure Code",
+            "projectfk": "Project No.",
+            "ProjectFkProjectName": "Project Name"
+
+        },
+        "GENERAL_COLUMN": {
+            "prcgeneralstypefk": "Type",
+            "mdccontrollingunitfk": "Controlling Unit Code"
+        }
+    }
+}

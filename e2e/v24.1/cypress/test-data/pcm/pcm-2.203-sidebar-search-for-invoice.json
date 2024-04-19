@@ -1,0 +1,25 @@
+{
+    "CONTAINERS": {
+        "INVOICE": {
+            "BusinessPartner":"Adolf Koch",
+            "BusinessPartner2":"Bremer Betonwerk Friedrich Thielen",            
+            "parentElement":"Business Partner",
+            "item":"Name",
+            "dateposted":"Date Posted",
+            "label":"Today",
+            "date":"22/08/2023"           
+        }    
+    },
+
+    "CONTAINER_COLUMNS": {
+        "INVOICE":{
+            "reference": "Invoice No.",        
+            "businesspartnerfk": "Business Partner",
+            "prcstructurefk": "Structure Code",
+            "projectfk": "Project No.",
+            "dateposted":"Posting Date"
+        }
+
+    }
+
+}

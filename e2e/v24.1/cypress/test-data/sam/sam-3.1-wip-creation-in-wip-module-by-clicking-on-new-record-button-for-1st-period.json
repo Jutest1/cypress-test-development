@@ -1,0 +1,61 @@
+{
+    "CONTAINERS": {
+        "BOQ_STRUCTURE": {
+            "QUANTITY": "50.000",
+            "UNIT_RATE": "20",
+            "UOM": "BAGS"   
+        },
+        "BID": {
+            "BUSINESS_PARTNER": "Adolf Koch"
+        },
+        "WIP":{
+            "CREATE_WIP":"Create WIP",
+            "PERCENTAGE_QTY":"50",
+            "CUMULATIVE_PERCENTAGE":"25",
+            "DESCRIPTION":"WIPSAM3.1"
+        },    
+        "CONTRACT": {
+            "CONTRACT_DESCRIPTION": "Contract2",
+            "CONTRACT_BOQ":"Contract BoQ",
+            "BUSINESS_PARTNER": "Adolf Koch" 
+        }
+    },
+    "MODAL": {
+        "PROJECTS":{
+            "CLERK":"HS"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "ordstatusfk": "Contract Status", 
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount",
+            "businesspartnerfk": "Business Partner"
+        },
+        "BOQ": {
+            "boqrootitem.reference":"Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURES": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price":"Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price (EUR)"   
+        },
+        "BID": {
+            "amountnet": "Net Amount",
+            "descriptioninfo": "Description"
+        },
+        "WIP":{
+            "boqlinetypefk":"BoQ Line Type",
+            "briefinfo":"Outline Specification",
+            "ordquantity":"Contract Quantity",
+            "percentagequantity":"Percentage Quantity",
+            "quantity":"Quantity",
+            "cumulativepercentage":"Cumulative Percentage"
+        }
+    }
+}

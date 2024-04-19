@@ -1,0 +1,72 @@
+
+
+
+    {
+        "CONTAINERS": {
+            "COST_CODES": {
+                "COST_CODE1":"A0",
+                "COST_CODE2":"M0",
+                "CO2_PROJECT_VALUE": "300.000",
+                "CO2_PROJECT_TOTAL": "600.000",
+                "COST_CODE": "Mauerer-Stunden",
+                "UPDATED_CO2_PROJECT_VALUE1": "100.000",
+                "UPDATED_CO2_PROJECT_VALUE2": "400.000"
+            },
+            "MATERIAL_RECORDS": {
+                "CO2_PROJECT_VALUE": "300.000",
+                "MATERIAL_CODE": "Artikelkatalog",
+                "MATERIAL_RECORD_DESCRIPTION": "Silo- Portlandzement"
+            },
+            "ESTIMATE": {
+                "RUBRIC_CATEGORY": "Planning",
+                "ESTIMATE_TYPE": "Bid Estimate"
+            },
+            "LINE_ITEM": {
+                "UOM": "10M3"
+            },
+            "RESOURCE": {
+                "SHORT_KEY_C": "C",
+                "CODE_1": "1",
+                "SHORT_KEY_S": "S",
+                "SHORT_KEY_M": "M",
+                "CODE_2": "Silo- Portlandzement",
+                "UPDATED_CO2_PROJECT_VALUE2":"500.000"
+
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            "COST_CODES": {
+                "descriptioninfo": "Description",
+                "co2project": "CO2/kg (Project)",
+                "co2source": "CO2/kg (Source)",
+                "co2sourcefk": "CO2/kg (Source Name)"
+            },
+            "MATERIAL_RECORDS": {
+                "co2project": "CO2/kg (Project)",
+                "co2source": "CO2/kg (Source)",
+                "basco2sourcefk": "CO2/kg (Source Name)"
+            },
+            "ESTIMATE": {
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Category"
+            },
+            "LINE_ITEM": {
+                "descriptioninfo": "Description",
+                "quantity": "Quantity",
+                "basuomfk": "UoM",
+                "quantitytarget": "AQ Quantity Item",
+                "co2totalvariance": "CO2 Total Variance",
+                "co2sourcetotal": "CO2 (Source) Total",
+                "co2projecttotal": "CO2 (Project) Total"
+            },
+            "RESOURCES": {
+                "estresourcetypeshortkey": "Short Key",
+                "code": "Code",
+                "basuomfk": "UoM",
+                "co2source": "CO2/kg (Source)",
+                "co2project": "CO2/kg (Project)"
+            }
+        }
+    }

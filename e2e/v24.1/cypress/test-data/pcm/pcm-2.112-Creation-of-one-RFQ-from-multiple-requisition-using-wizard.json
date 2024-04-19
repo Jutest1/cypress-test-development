@@ -1,0 +1,117 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK": "HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "100.000"
+            ],
+            "UNIT_RATE": [
+                "25"
+            ],
+            "UOM": [
+                "BAG"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "100",
+            "UOM": "10M3"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "M"
+            ],
+            "MATERIAL": [
+                "DÜB08PVC"
+            ],
+            "QUANTITY": [
+                "10"
+            ]
+        },
+        "REQUISITION": {
+            "NAVIGATE_RFQ": "RfQ(1)",
+            "NAVIGATE_REQUISITION": "Requisition(1)"
+        },
+        "ITEMS": {
+            "MATERIAL": [
+                "DÜB08PVC"
+            ],
+            "QUANTITY": [
+                "20",
+                "30"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_RFQ": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQ": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate",
+            "quantityadj": "AQ Quantity",
+            "boqlinetypefk": "BoQ Line Type",
+            "finalprice": "Final Price"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "TOTALS": {
+            "description": "Description",
+            "total": "Total"
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "costtotal": "Cost Total"
+        },
+        "PACKAGE": {
+            "packagestatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "REQUISITION": {
+            "reqstatusfk": "Status",
+            "id": "Id",
+            "packagefk": "Package",
+            "code": "Code"
+        },
+        "RFQ": {
+            "rfqstatusfk": "Status",
+            "code": "Code",
+            "description": "Description"
+        },
+        "ITEMS": {
+            "itemno": "Item Number",
+            "prcitemstatusfk": "Status",
+            "mdcmaterialfk": "Material No.",
+            "quantity": "Quantity"
+        }
+    }
+}

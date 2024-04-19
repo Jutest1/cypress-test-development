@@ -1,0 +1,44 @@
+{
+    "CONTAINERS": {
+        "ACTIVITY_STRUCTURE": {
+            "QUANTITY": "100",
+            "UoM": "BAGS"
+        },
+        "PREDECESSORS": {
+            "PARENT": "20",
+            "KIND": "Finish - Start"
+        },
+        "SUCCESORS": {
+            "SUCCESOR": "30",
+            "KIND": "Finish - Start"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": "HS"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "SCHEDULES": {
+            "code": "Code",
+            "descriptioninfo": "Description"
+        },
+        "ACTIVITY_STRUCTURE": {
+            "description": "Description"
+        },
+        "PREDECESSORS": {
+            "relationkindfk": "Kind",
+            "parentactivityfk": "Parent",
+            "childactivityfk": "Successor",
+            "successordesc": "Successor-Description",
+            "predecessordesc": "Predecessor-Description"
+        },
+        "SUCCESORS": {
+            "relationkindfk": "Kind",
+            "parentactivityfk": "Parent",
+            "childactivityfk": "Successor",
+            "predecessordesc": "Predecessor-Description",
+            "successordesc": "Successor-Description"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{    
+        "CONTAINERS": {
+            "GENERALS":{
+                "TYPE1":"Nachlass %",
+                "TYPE2":"Baustrom %",
+                "VALUE":"200.00",
+                "TAXCODE":"00" 
+            },
+            "CONTRACT":{
+                "CONFIGURATION": "Material PO",
+                "BP1": "Adolf Koch",
+                "BP2": "Anton Waliser",
+                "PROCUREMENTSTRUCTURE": "D",
+                "UOM": "BAG"
+            }
+        },
+        "CONTAINER_COLUMNS": {
+            
+            "CONTRACT":{
+                "businesspartnerfk": "Business Partner",
+                "description":"Reference Name",
+                "code":"Code",
+                "controllingunitfk":"Controlling Unit Code"
+            },
+            "GENERALS_CONTRACT":{
+                "prcgeneralstypefk":"Type",
+                "mdctaxcodefk":"Tax Code",
+                "value":"Value"
+            }
+        }
+    
+  }
+  

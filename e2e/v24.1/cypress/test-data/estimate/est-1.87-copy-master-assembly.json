@@ -1,0 +1,117 @@
+{
+    "CONTAINERS": {
+        "ASSEMBLIES": {
+            "ASSEMBLY_TYPE": [
+                "CA",
+                "SA",
+                "MA"
+            ],
+            "QUANTITY": [
+                "12",
+                "15",
+                "20",
+                "30",
+                "100",
+                "10"
+            ],
+            "CODE": [
+                "1",
+                "A0"
+            ],
+            "SHORT_KEY": [
+                "C",
+                "M"
+            ],
+            "EXISTING_ASSEMBLY_CATEGORY": "MAUERARBEITEN",
+            "EXISTING_ASSEMBLIES": "000030.000030",
+            "MATERIAL": "MG2FM",
+            "ASSEMBLY_CATEGORY_CODE": "000030",
+            "RATE": [
+                "60",
+                "75"
+            ]
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "C",
+                "A"
+            ],
+            "CODE": [
+                "S1",
+                "S2",
+                "S31",
+                "S4",
+                "000030"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "QUANTITY": "50",
+            "UOM": "10M3"
+        }
+    },
+    "MODAL": {
+        "PROJECTS": {
+            "CLERK": [
+                "SmiJ",
+                "FI"
+            ]
+        },
+        "RECALCULATE_ASSEMBLIES": {
+            "SELECT_UPDATE_SCOPE": "Entire Assemblies"
+        },
+        "UPDATE_SETTING": {
+            "Update Cost Codes": "check",
+            "Update Materials":"check",
+            "Update Assembly Resources":"check"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "iscost": "Is Cost",
+            "costunit": "Cost/Unit"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.rubriccategoryfk": "Rubric Category",
+            "estheader.esttypefk": "Estimate Type"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "estassemblyfk": "Assembly Template"
+        },
+        "ASSEMBLY_RESOURCE": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "estresourcetypeshortkey": "Short Key",
+            "costunit": "Cost/Unit",
+            "iscost": "Is Cost"
+        },
+        "ASSEMBLY_CATAGORY": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "estassemblytypefk": "Assembly Type",
+            "marker": "Filter"
+        },
+        "ASSEMBLIES": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "estassemblycatfk": "Assembly Category",
+            "mdccostcodefk": "Cost Code",
+            "mdcmaterialfk": "Material"
+        }
+    }
+}

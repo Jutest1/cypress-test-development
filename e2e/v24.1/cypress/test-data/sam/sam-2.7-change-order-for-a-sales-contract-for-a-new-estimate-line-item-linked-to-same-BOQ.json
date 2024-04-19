@@ -1,0 +1,350 @@
+{
+    "CONTAINERS": {
+        "PROJECT": {
+            "CLERK_NAME": "HS"
+        },
+        "BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "30",
+                "50"
+            ],
+            "UOM": [
+                "10M3"
+            ],
+            "UNIT_RATE": [
+                "50",
+                "60"
+            ]
+        },
+        "ESTIMATE": {
+            "RUBRIC_CATEGORY": "Planning",
+            "ESTIMATE_TYPE": "Bid Estimate"
+        },
+        "LINE_ITEM": {
+            "CHANGE_QUANTITY": [
+                "10"
+            ],
+            "UOM": "BAG"
+        },
+        "RESOURCE": {
+            "SHORT_KEY": [
+                "C",
+                "M"
+            ],
+            "COST_CODE": [
+                "1"
+            ],
+            "MATERIAL": [
+                "MG3FM"
+            ]
+        },
+        "BIDS": {
+            "RUBRIC_CATEGORY": "Main Quote",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        },
+        "BID_BOQSTRUCTURE": {
+            "COPY_SOURCE_FROM": "Project BoQ",
+            "ROOT": "Root",
+            "POSTION": "Position",
+            "LEVEL_1": "Level 1"
+        },
+        "WIP_BOQ_STRUCTURE": {
+            "QUANTITY": [
+                "20",
+                "30"
+            ]
+        }
+    },
+    "MODAL": {
+        "CREATE_UPDATE_BOQ_PACKAGE": {
+            "CASE": [
+                "BoQ"
+            ],
+            "PROCUREMENT_STRUCTURE": [
+                "D"
+            ]
+        },
+        "CREATE_CONTRACT": {
+            "BUSINESS_PARTNER": [
+                "Adolf Koch"
+            ]
+        },
+        "CREATE_BID": {
+            "MAIN_BID": "Main Bid",
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "STRUCTURE_TYPE": "BoQ"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "BOQ_STRUCTURE": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        },
+        "ESTIMATE": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Category"
+        },
+        "LINE_ITEM": {
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "grandtotal": "Grand Total",
+            "budget": "Budget",
+            "revenue": "Revenue",
+            "costtotal": "Cost Total",
+            "estqtytelaotfk": "AOT. Qty Relation",
+            "estqtyrelboqfk": "Boq Qty Relation",
+            "estqtyrelactfk": "Act Qty Relation",
+            "prjchangefk": "Project Change",
+            "boqitemfk": "BoQ Item Ref. No."
+        },
+        "RESOURCE": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "costtotal": "Cost Total"
+        },
+        "BIDS": {
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount"
+        },
+        "SALES_CONTRACT": {
+            "code": "Code"
+        },
+        "SALES_CONTRACT_BOQS": {
+            "boqrootitem.briefinfo": "Outline Specification"
+        },
+        "SALES_CONTRACT_BOQ_STRUCTURE":{
+            "boqlinetypefk": "BoQ Line Type",
+            "reference": "Reference No.",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "quantityadj": "AQ Quantity",
+            "price": "Unit Rate",
+            "finalprice": "Final Price"
+        },
+        "QUANTITY_TAKEOFF_HEADER": {
+            "qtotargettype": "QTO Purpose",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "ordheaderfk": "Contract"
+        },
+        "BILL_OF_QUANTITY": {
+            "briefinfo": "Outline Specification",
+            "price": "Unit Rate (EUR)",
+            "ordquantity": "Contract Quantity",
+            "basuomfk": "UoM"
+        },
+        "WIP": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "amountnet": "Net Amount"
+        },
+        "WIP_BOQS": {},
+        "WIP_BOQ_STRUCTURE": {
+            "boqlinetypefk": "BoQ Line Type",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)",
+            "basuomfk": "UoM",
+            "finalprice": "Final Price (EUR)"
+        },
+        "BILLS": {
+            "typefk": "Type",
+            "rubriccategoryfk": "Rubric Category",
+            "billno": "Bill No.",
+            "amountnet": "Net Amount",
+            "descriptioninfo": "Description"
+        }
+    },
+    "Prerequisites": {
+        "SidebarInputs": {
+            "search": "Search",
+            "searchType": "standard",
+            "inWizard": "Wizard",
+            "wizard": "wizard",
+            "inQuickstart": "Quick Start",
+            "quickstart": "quickstart"
+        },
+        "Wizards": {
+            "generateLineItems": "Generate Line Items",
+            "changeBidStatus": "Change Bid Status",
+            "createBid": "Create Bid",
+            "createContract": "Create Contract",
+            "changeContractStatus": "Change Contract Status",
+            "createWIP": "Create WIP",
+            "changeWIPStatus": "Change WIP Status",
+            "createBill": "Create Bill",
+            "changeBillStatus": "Change Bill Status"
+        },
+        "Modules": {
+            "project": "Project",
+            "wip": "WIP",
+            "qto": "QTO",
+            "contractSales": "Contract Sales"
+        },
+        "Status": {
+            "submitted": "Submitted",
+            "contracted": "Contracted",
+            "approved": "Approved",
+            "BPAbilled": "BPA Billed"
+        }
+    },
+    "BOQ": {
+        "Column_Header": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    },
+    "BOQ_Structure": {
+        "Inputs": {
+            "quantity": "30",
+            "unitRate": "50",
+            "uom": "BAG",
+            "quantity2": "50",
+            "unitRate2": "60"
+        },
+        "Column_Header": {
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "basuomfk": "UoM",
+            "price": "Unit Rate (EUR)",
+            "boqlinetypefk": "BoQ Line Type"
+        }
+    },
+    "Estimate": {
+        "Inputs": {
+            "rubicCategory": "Planning",
+            "estimateType": "Bid Estimate"
+        },
+        "Column_Header": {
+            "estheader.code": "Code",
+            "estheader.descriptioninfo": "Description",
+            "estheader.esttypefk": "Estimate Type",
+            "estheader.rubriccategoryfk": "Rubric Category"
+        }
+    },
+    "Line_Items": {
+        "Change_Inputs": {
+            "quantity": "10",
+            "uom": "BAG",
+            "boqRelation": "From Structure",
+            "AOTRelation": "From Structure",
+            "description": "Change Project",
+            "projectName": "TEST 6.2"
+        },
+        "Column_Header": {
+            "descriptioninfo": "Description",
+            "basuomfk": "UoM",
+            "quantitytarget": "AQ Quantity Item",
+            "quantity": "Quantity",
+            "estqtytelaotfk": "AOT. Qty Relation",
+            "estqtyrelboqfk": "Boq Qty Relation",
+            "estqtyrelactfk": "Act Qty Relation",
+            "prjchangefk": "Project Change",
+            "boqitemfk": "BoQ Item Ref. No."
+        }
+    },
+    "Resources": {
+        "Inputs": {
+            "costCodeShortKey": "C",
+            "costCodeCode": "1",
+            "materialShortKey": "M",
+            "materialCode": "MG3FM"
+        },
+        "Column_Header": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "costunit": "Cost/Unit"
+        }
+    },
+    "Bid": {
+        "Inputs": {
+            "bidType": "Main Bid",
+            "businessPartner": "Adolf Koch",
+            "structureType": "BoQ"
+        },
+        "ChangeBid_Input": {
+            "changeBidType": "Change Bid",
+            "businessPartner": "Adolf Koch",
+            "structureType": "BoQ"
+        },
+        "Column_Header": {
+            "bidstatusfk": "Bid Status",
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "projectfk": "Project No.",
+            "businesspartnerfk": "Businesspartner"
+        }
+    },
+    "Contract": {
+        "Inputs": {
+            "contractType": "Main Order",
+            "customer": "D00028"
+        },
+        "ChangeContract_Input": {
+            "changeContractType": "Change Order",
+            "customer": "D00028"
+        },
+        "Column_Headers": {
+            "code": "Code",
+            "projectfk": "Project No.",
+            "businesspartnerfk": "Business Partner",
+            "configurationfk": "Configuration"
+        }
+    },
+    "Contract_BoQStructure": {
+        "Column_Headers": {
+            "boqlinetypefk": "BoQ Line Type",
+            "reference": "Reference No.",
+            "briefinfo": "Outline Specification",
+            "quantity": "Quantity",
+            "quantityadj": "AQ Quantity",
+            "price": "Unit Rate",
+            "finalprice": "Final Price"
+        }
+    },
+    "QTO": {
+        "Input": {
+            "purpose": "Sales / WIP&Bill"
+        },
+        "Column_Headers": {
+            "reference": "Reference No.",
+            "briefinfo": "Outline Specification",
+            "ordquantity": "Contract Quantity"
+        }
+    },
+    "WIP_BoQ": {
+        "Column_Headers": {
+            "boqrootitem.reference": "Reference No.",
+            "boqrootitem.briefinfo": "Outline Specification"
+        }
+    },
+    "WIP_BoQStructure": {
+        "Column_Headers": {
+            "boqlinetypefk": "BoQ Line Type",
+            "reference": "Reference No.",
+            "briefinfo": "Outline Specification",
+            "ordquantity": "Contract Quantity",
+            "quantity": "Quantity",
+            "price": "Unit Rate (EUR)"
+        }
+    },
+    "Bill": {
+        "Inputs": {
+            "type": "Progress Invoice"
+        }
+    }
+}

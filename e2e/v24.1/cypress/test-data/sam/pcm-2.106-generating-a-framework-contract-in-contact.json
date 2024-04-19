@@ -1,0 +1,120 @@
+{
+    "TC1": {
+        "SidebarInputes": {
+            "searchType": "standard"
+            
+        },
+        "EstimatePageInputes": {
+            "CreateEstimate": {
+                "newCode": "02",
+                "rubicCategory": "Planning",
+                "estimateType": "Bid Estimate"
+            },
+            "Column_header": {
+                "estheader.code": "Code",
+                "estheader.descriptioninfo": "Description",
+                "estheader.esttypefk": "Estimate Type",
+                "estheader.rubriccategoryfk": "Rubric Category"
+            }
+        }
+    },
+    "LineItem": {
+        "Inputs": {
+            "description": "test line item",
+            "quantity": "1",
+            "uom": "BAG"
+        },
+        "LIColumn_header": {
+            "code": "Code",
+            "descriptioninfo": "Description",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "ResourceInput": {
+        "Inputs": {
+            "shortKey": "M",
+            "code": "MG2FM",
+            "quantity": "200"
+        },
+        "resource_header": {
+            "estresourcetypeshortkey": "Short Key",
+            "code": "Code",
+            "quantity": "Quantity",
+            "basuomfk": "UoM"
+        }
+    },
+    "packageInput": {
+        "sidebarInputs": {
+            "wizard": "Wizard",
+            "wizard1": "wizard",
+            "searchValue": "Create/Update Material Package",
+            "Criteria": "Material & Cost Code",
+            "value": "MG2FM",
+            "quantity": "200.000",
+            "config":"Material"           
+        },
+        "Column_header":{
+            "packagestatusfk":"Status",
+            "code":"Code",
+            "description":"Description"
+           
+        },
+        "ItemColumn_header":{
+            "mdcmaterialfk":"Material No.",
+            "quantity":"Quantity",
+            "price":"Price"
+        }
+    },
+    "Contract":{
+        "contractInput":{
+            "wizard":"Wizard",
+            "wizard1":"wizard",
+            "createContract":"Create Contract",
+            "bpName":"Adolf Koch",
+            "changeStatus":"Change Contract Status",
+            "status":"Approved",
+            "item":"MG3FM",
+            "Quantity":"100",
+            "wizardOption":"Create/Update Framework Material Catalog",
+            "newCatalog":"New Catalog",
+            "catalogType":"framework agreements",
+            "rubricCategory":"Supplier Catalogs",
+            "validTo":"1/06/2023",
+            "validFrom":"31/08/2023",
+            "quickstart":"Quick Start",
+            "quickstart1":"quickstart",
+            "module":"Material",
+            "module1":"Contract",
+            "purchaseOrder":"Framework Contract",
+            "Check":"check"
+        },
+        "Column_header":{
+            "code":"Code",            
+            "clerkprcfk": "Responsible",
+            "purchaseorders":"Purchase Orders",
+            "isframework":"Is Framework",
+            "materialcatalogfk":"Framework Material Catalog"
+        },
+        "ItemColumn_header":{
+            "mdcmaterialfk":"Material No.",
+            "price":"Price",
+            "quantity":"Quantity"
+        }
+
+    },
+    "Material":{
+        "MaterialColumn":{
+            "code":"Code",
+            "descriptioninfo":"Description",
+            "businesspartnerfk":"Business Partner",
+            "basrubriccategoryfk":"Rubric Category",
+            "validfrom":"Valid From",
+            "validto":"Valid To",
+            "materialcatalogtypefk":"Type",
+            "conheaderfk":"Contract"
+
+        }
+    }
+   
+}

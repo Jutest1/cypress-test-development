@@ -1,0 +1,17 @@
+{
+    "CONTAINERS": {
+        "CONTRACT": {
+            "BUSINESS_PARTNER": "Adolf Koch",
+            "REPORTED_DATE_1": "20/09/2023",
+            "REPORTED_DATE_2": "23/09/2023",
+            "REPORTED_DATE_3": "24/09/2023"
+        }
+    },
+    "CONTAINER_COLUMNS": {
+        "CONTRACT": {
+            "description": "Reference Name",
+            "code": "Code",
+            "datereported": "Date Reported"
+        }
+    }
+}
