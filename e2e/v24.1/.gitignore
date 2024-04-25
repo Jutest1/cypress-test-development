@@ -10,7 +10,6 @@ cypress/videos/
 cypress/reports/
 allure-results/
 cypress/screenshots/
-package.json
 node_modules.7z
 package-lock.json
 
