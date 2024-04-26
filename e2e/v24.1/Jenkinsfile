@@ -1,0 +1,21 @@
+
+pipeline {
+    agent any
+
+    stages {
+        stage('cypress_auto_test') {
+
+            steps {
+                bat '''cd /d "D:\\Software Install\\Jenkins-work\\workspace\\test-cypress-project\\e2e\\v24.1"
+                       npx cypress run --spec cypress/scenarios/regression/qto/*'''
+            }
+			
+        }
+    }
+	
+	post{
+	
+	}
+	
+	
+}
